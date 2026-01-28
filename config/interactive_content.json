@@ -1,0 +1,306 @@
+{
+  "description": "Interactive content templates for polls, quizzes, and engagement prompts",
+  "version": "1.0",
+  "polls": [
+    {
+      "id": 1,
+      "category": "challenges",
+      "question": "What's your biggest caregiving challenge this week?",
+      "options": [
+        "Finding time for myself",
+        "Managing medications",
+        "Coordinating with family",
+        "Emotional exhaustion"
+      ],
+      "followup": "Share in comments 💙 You're not alone."
+    },
+    {
+      "id": 2,
+      "category": "self_care",
+      "question": "How much sleep did you get last night?",
+      "options": [
+        "Less than 4 hours 😴",
+        "4-6 hours",
+        "6-8 hours",
+        "8+ hours (teach us your ways!)"
+      ],
+      "followup": "Sleep matters. Save this reminder to rest 🌙"
+    },
+    {
+      "id": 3,
+      "category": "community",
+      "question": "How long have you been a caregiver?",
+      "options": [
+        "Just started (0-6 months)",
+        "Learning (6 months - 2 years)",
+        "Experienced (2-5 years)",
+        "Veteran (5+ years)"
+      ],
+      "followup": "Every journey matters. Welcome to the community 💜"
+    },
+    {
+      "id": 4,
+      "category": "emotions",
+      "question": "How are you REALLY feeling today?",
+      "options": [
+        "Holding it together",
+        "Running on empty",
+        "Having a good day!",
+        "Need to vent"
+      ],
+      "followup": "Whatever you're feeling is valid. We see you."
+    },
+    {
+      "id": 5,
+      "category": "support",
+      "question": "Who do you turn to for support?",
+      "options": [
+        "Family",
+        "Friends",
+        "Support groups",
+        "Honestly? No one"
+      ],
+      "followup": "If you picked 'no one' - comment below. We're here."
+    },
+    {
+      "id": 6,
+      "category": "practical",
+      "question": "What would help you most right now?",
+      "options": [
+        "Someone to talk to",
+        "Practical care tips",
+        "Respite time",
+        "Financial resources"
+      ],
+      "followup": "Save this - we cover all of these. You're not alone."
+    },
+    {
+      "id": 7,
+      "category": "coordination",
+      "question": "How does your family coordinate care?",
+      "options": [
+        "Group text chaos",
+        "Shared calendar",
+        "One person does everything",
+        "We don't coordinate well"
+      ],
+      "followup": "Coordination is hard. That's why we built Kiin."
+    },
+    {
+      "id": 8,
+      "category": "wins",
+      "question": "What's one small win from this week?",
+      "options": [
+        "They smiled at me",
+        "Got a break",
+        "Family helped out",
+        "I didn't lose it"
+      ],
+      "followup": "Every win counts. Share yours below! 🎉"
+    }
+  ],
+  "this_or_that": [
+    {
+      "id": 1,
+      "category": "self_care",
+      "option_a": "Morning meditation 🧘",
+      "option_b": "Evening journaling 📔",
+      "caption": "Pick your recharge style ✨"
+    },
+    {
+      "id": 2,
+      "category": "self_care",
+      "option_a": "Quick walk outside 🚶",
+      "option_b": "5 mins of silence 🤫",
+      "caption": "Both are valid self-care 💙"
+    },
+    {
+      "id": 3,
+      "category": "communication",
+      "option_a": "Schedule family meetings 📅",
+      "option_b": "Go with the flow 🌊",
+      "caption": "How does your family coordinate?"
+    },
+    {
+      "id": 4,
+      "category": "humor",
+      "option_a": "Coffee to survive ☕",
+      "option_b": "Wine to unwind 🍷",
+      "caption": "No judgment zone 😂"
+    },
+    {
+      "id": 5,
+      "category": "preferences",
+      "option_a": "Early morning quiet 🌅",
+      "option_b": "Late night peace 🌙",
+      "caption": "When do you find your calm?"
+    },
+    {
+      "id": 6,
+      "category": "support",
+      "option_a": "In-person support group 👥",
+      "option_b": "Online community 💻",
+      "caption": "Both are real support 💜"
+    },
+    {
+      "id": 7,
+      "category": "coping",
+      "option_a": "Cry it out 😢",
+      "option_b": "Keep busy 💪",
+      "caption": "Both are valid coping strategies"
+    },
+    {
+      "id": 8,
+      "category": "respite",
+      "option_a": "Staycation at home 🏠",
+      "option_b": "Actually leave the house 🚗",
+      "caption": "What does respite look like for you?"
+    }
+  ],
+  "story_prompts": [
+    {
+      "id": 1,
+      "category": "wisdom",
+      "prompt": "One thing I wish I knew when I started caregiving:",
+      "format": "text_response",
+      "cta": "Share your wisdom in comments 💡"
+    },
+    {
+      "id": 2,
+      "category": "gratitude",
+      "prompt": "Today I'm grateful for:",
+      "format": "text_response",
+      "cta": "Small moments matter most 💙"
+    },
+    {
+      "id": 3,
+      "category": "advice",
+      "prompt": "My best caregiving tip:",
+      "format": "text_response",
+      "cta": "Help a fellow caregiver below 👇"
+    },
+    {
+      "id": 4,
+      "category": "connection",
+      "prompt": "The moment that made it all worth it:",
+      "format": "text_response",
+      "cta": "Share your moment 💕"
+    },
+    {
+      "id": 5,
+      "category": "honesty",
+      "prompt": "The hardest part no one talks about:",
+      "format": "text_response",
+      "cta": "You're safe here. Share below."
+    },
+    {
+      "id": 6,
+      "category": "humor",
+      "prompt": "The most ridiculous thing that happened this week:",
+      "format": "text_response",
+      "cta": "Sometimes you just have to laugh 😂"
+    },
+    {
+      "id": 7,
+      "category": "self_care",
+      "prompt": "How I sneak in self-care:",
+      "format": "text_response",
+      "cta": "Drop your secrets below 👀"
+    },
+    {
+      "id": 8,
+      "category": "support",
+      "prompt": "What I need to hear today:",
+      "format": "text_response",
+      "cta": "We'll say it. Comment below 💜"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "What's Your Caregiver Style?",
+      "questions": [
+        {
+          "q": "When something goes wrong, you:",
+          "a": ["Fix it immediately", "Research solutions", "Ask for help", "Take a deep breath first"]
+        },
+        {
+          "q": "Your ideal break looks like:",
+          "a": ["Complete alone time", "Time with friends", "A hobby or activity", "Just sleeping"]
+        },
+        {
+          "q": "You cope with stress by:",
+          "a": ["Talking it out", "Processing alone", "Staying busy", "Physical activity"]
+        }
+      ],
+      "results": {
+        "mostly_a": "The Problem-Solver 🔧",
+        "mostly_b": "The Researcher 📚",
+        "mostly_c": "The Connector 🤝",
+        "mostly_d": "The Mindful One 🧘"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Caregiver Burnout Check",
+      "questions": [
+        {
+          "q": "In the last week, I've felt overwhelmed:",
+          "a": ["Rarely", "Sometimes", "Often", "Constantly"]
+        },
+        {
+          "q": "I've taken time for myself:",
+          "a": ["Daily", "A few times", "Once", "What's that?"]
+        },
+        {
+          "q": "I've felt supported by others:",
+          "a": ["Very much", "Somewhat", "Not really", "Not at all"]
+        }
+      ],
+      "results": {
+        "low": "You're managing well! Keep it up 💚",
+        "medium": "Watch for signs of burnout 💛",
+        "high": "Please prioritize yourself today 🧡",
+        "critical": "Reach out for support - you matter 💙"
+      }
+    }
+  ],
+  "engagement_prompts": [
+    {
+      "id": 1,
+      "type": "tag",
+      "text": "Tag someone who needs to hear this 💙",
+      "use_after": ["validation", "tips"]
+    },
+    {
+      "id": 2,
+      "type": "save",
+      "text": "Save this for when you need it →",
+      "use_after": ["tips", "validation"]
+    },
+    {
+      "id": 3,
+      "type": "share",
+      "text": "Share with a caregiver who gets it 💜",
+      "use_after": ["confessions", "sandwich"]
+    },
+    {
+      "id": 4,
+      "type": "comment",
+      "text": "Drop a 💙 if you relate",
+      "use_after": ["confessions", "validation"]
+    },
+    {
+      "id": 5,
+      "type": "question",
+      "text": "What would you add? Comment below 👇",
+      "use_after": ["tips", "facts"]
+    },
+    {
+      "id": 6,
+      "type": "follow",
+      "text": "Follow for more caregiver support ✨",
+      "use_after": ["all"]
+    }
+  ]
+}
