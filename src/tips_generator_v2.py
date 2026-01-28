@@ -48,6 +48,7 @@ import numpy as np
 # Import our enhanced modules
 from brand_utils import KiinBrand, get_brand_voice, get_brand_tone
 from voice_manager import VoiceManager
+from effects import KiinEffectsLibrary
 
 # Enhanced Constants
 VIDEO_WIDTH = 1080
@@ -73,6 +74,9 @@ class TipsGeneratorV2:
         # Initialize brand and voice management
         self.brand = KiinBrand()
         self.voice_manager = VoiceManager()
+        
+        # Initialize professional effects library
+        self.effects = KiinEffectsLibrary(VIDEO_WIDTH, VIDEO_HEIGHT, FPS)
         
         # Load enhanced tips data
         with open(self.config_path, 'r') as f:
