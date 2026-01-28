@@ -1,0 +1,136 @@
+{
+  "scenarios": [
+    {
+      "hook": "POV: You're on a call with your mom's doctor while your kid needs homework help",
+      "chaos_moments": [
+        "7:15am - Pack lunches while texting siblings about Dad's appointment",
+        "9:30am - 'Sorry can you repeat that doctor, my son just—'",
+        "12:00pm - Eat lunch standing up checking Mom's medication tracker",
+        "3:45pm - School pickup → straight to Dad's physical therapy",
+        "6:00pm - 'Mom, I'll call you back, dinner's burning'"
+      ],
+      "punchline": "And somehow everyone still asks 'so what do you DO all day?'"
+    },
+    {
+      "hook": "POV: You're the emergency contact for literally everyone",
+      "chaos_moments": [
+        "School nurse: 'Your daughter has a fever'",
+        "Dad's facility: 'He fell, nothing serious but...'",
+        "Your mom: 'The TV isn't working and I'm scared'",
+        "Teenager: 'Mom where are you I NEED you right now'",
+        "Doctor's office: 'Can you come in to discuss test results?'"
+      ],
+      "punchline": "Your phone battery dies and you have a full panic attack"
+    },
+    {
+      "hook": "POV: Sunday family dinner is a military operation",
+      "chaos_moments": [
+        "Cut up Dad's food while helping with science project",
+        "Remind Mom to take her pills between soccer snacks",
+        "Mediate fight between grandpa and teenager",
+        "Explain TikTok to grandma while checking homework",
+        "Clean up while everyone else relaxes"
+      ],
+      "punchline": "Monday feels like a vacation in comparison"
+    },
+    {
+      "hook": "POV: You realize you haven't sat down all day",
+      "chaos_moments": [
+        "6am - Help Dad with his morning routine",
+        "7am - Make breakfast for three generations",
+        "8am - Drive kids to school, parents to appointments", 
+        "11am - Grocery shopping for everyone's dietary restrictions",
+        "2pm - Pick up prescriptions and school supplies"
+      ],
+      "punchline": "Your fitbit congratulates you on 20,000 steps. You haven't left town."
+    },
+    {
+      "hook": "POV: Your search history is absolutely unhinged",
+      "chaos_moments": [
+        "'How to explain death to a 7-year-old'",
+        "'Best grab bars for shower safety'",
+        "'Why won't my teenager talk to me'",
+        "'Memory care vs assisted living'",
+        "'How to not lose your mind sandwich generation'"
+      ],
+      "punchline": "The algorithm is very confused about your life stage"
+    },
+    {
+      "hook": "POV: You're interpreting between generations at dinner",
+      "chaos_moments": [
+        "Kid: 'Grandpa is being sus'",
+        "You: 'She means you're acting suspicious, Dad'",
+        "Grandpa: 'Back in my day we didn't need safe spaces'",
+        "You: 'He's talking about your bedroom, honey'",
+        "Everyone stops eating to stare at you"
+      ],
+      "punchline": "You've become a generational Google Translate"
+    },
+    {
+      "hook": "POV: Your car is a mobile pharmacy/daycare/taxi",
+      "chaos_moments": [
+        "Backseat: juice boxes and pill organizers",
+        "Front seat: permission slips and insurance forms",
+        "Glove box: band-aids and anxiety medication",
+        "Cup holders: coffee from 3 days ago",
+        "Radio: toggling between pop music and talk radio"
+      ],
+      "punchline": "The drive-thru pharmacist knows your voice"
+    },
+    {
+      "hook": "POV: You're trying to have ONE adult conversation",
+      "chaos_moments": [
+        "Mom starts talking about her doctor visit",
+        "Kid interrupts needing help with math",
+        "Dad calls confused about his medication",
+        "Other kid has friendship drama emergency",
+        "Mom forgets what she was saying"
+      ],
+      "punchline": "You give up and just nod at everyone"
+    },
+    {
+      "hook": "POV: Bedtime routines are a multi-generational event",
+      "chaos_moments": [
+        "8pm - Kid's bedtime story while checking Dad's blood sugar",
+        "8:30pm - Tuck in child, help Mom with nighttime pills",
+        "9pm - Read to grandpa, check teenager did homework",
+        "9:30pm - Everyone's finally settled",
+        "10pm - Someone needs water/bathroom/anxiety relief"
+      ],
+      "punchline": "You collapse into bed fully clothed like a cartoon"
+    },
+    {
+      "hook": "POV: Your vacation planning needs a spreadsheet",
+      "chaos_moments": [
+        "Find place with wheelchair accessibility",
+        "Check if they allow service dogs",
+        "Verify nearby urgent care facilities", 
+        "Pack enough medication for small army",
+        "Plan activities for ages 8 to 80"
+      ],
+      "punchline": "A weekend at home sounds more relaxing"
+    },
+    {
+      "hook": "POV: You're googling 'is this normal' for multiple age groups",
+      "chaos_moments": [
+        "'Is it normal for 75-year-olds to forget names?'",
+        "'Is it normal for 13-year-olds to hate everyone?'",
+        "'Is it normal to cry in grocery store parking lots?'",
+        "'Is it normal to feel guilty about everything?'",
+        "'Is it normal to want to run away and join the circus?'"
+      ],
+      "punchline": "The answer to the last one is definitely yes"
+    },
+    {
+      "hook": "POV: You realize you're becoming your mother",
+      "chaos_moments": [
+        "Carrying snacks for everyone in your purse",
+        "Knowing everyone's medical history by heart",
+        "Saying 'because I said so' unironically",
+        "Worrying about everyone constantly",
+        "Making the same facial expressions she does"
+      ],
+      "punchline": "And honestly? She was pretty amazing at this job"
+    }
+  ]
+}

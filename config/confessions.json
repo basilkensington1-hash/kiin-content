@@ -1,0 +1,123 @@
+{
+  "confessions": [
+    {
+      "id": 1,
+      "hook": "The thing I'm afraid to admit as a caregiver...",
+      "confession": "some days I resent the person I'm caring for. And then I feel terrible for feeling that.",
+      "validation": "You're not alone in feeling this way.",
+      "duration_target": 18
+    },
+    {
+      "id": 2,
+      "hook": "Nobody tells you that caring for someone you love",
+      "confession": "sometimes feels like grieving them while they're still here.",
+      "validation": "This pain is part of love.",
+      "duration_target": 16
+    },
+    {
+      "id": 3,
+      "hook": "I love my mom. But some days",
+      "confession": "I fantasize about what my life would be like if I didn't have to do this.",
+      "validation": "Dreaming of freedom doesn't make you selfish.",
+      "duration_target": 20
+    },
+    {
+      "id": 4,
+      "hook": "The hardest part about being a caregiver",
+      "confession": "is watching someone slowly disappear and pretending you're okay with it.",
+      "validation": "Your grief is valid, even while they're still alive.",
+      "duration_target": 22
+    },
+    {
+      "id": 5,
+      "hook": "Nobody talks about how",
+      "confession": "you can love someone deeply and still feel trapped by caring for them.",
+      "validation": "Love and resentment can coexist.",
+      "duration_target": 18
+    },
+    {
+      "id": 6,
+      "hook": "The thing that keeps me up at night:",
+      "confession": "wondering if I'm doing enough, or if I'm secretly hoping it will end soon.",
+      "validation": "These thoughts don't make you a bad person.",
+      "duration_target": 20
+    },
+    {
+      "id": 7,
+      "hook": "I smile and nod when people say",
+      "confession": "'you're so strong' but inside I'm screaming that I never wanted to be this strong.",
+      "validation": "Strength isn't a choice you made.",
+      "duration_target": 24
+    },
+    {
+      "id": 8,
+      "hook": "The guilt hits hardest when",
+      "confession": "I catch myself getting impatient with them for something they can't control.",
+      "validation": "Patience has limits. You're human.",
+      "duration_target": 19
+    },
+    {
+      "id": 9,
+      "hook": "Sometimes I lock myself in the bathroom",
+      "confession": "just to cry for five minutes without anyone needing something from me.",
+      "validation": "Even caregivers need space to fall apart.",
+      "duration_target": 21
+    },
+    {
+      "id": 10,
+      "hook": "The most isolating thing about caregiving",
+      "confession": "is that everyone expects you to be grateful for the 'time together' when it's slowly killing you.",
+      "validation": "Your suffering doesn't negate your love.",
+      "duration_target": 25
+    },
+    {
+      "id": 11,
+      "hook": "I used to be a whole person",
+      "confession": "with dreams and plans. Now I'm just someone who gives medications and changes sheets.",
+      "validation": "You haven't disappeared. You're still there.",
+      "duration_target": 22
+    },
+    {
+      "id": 12,
+      "hook": "The worst part isn't the physical exhaustion",
+      "confession": "it's the emotional numbness that creeps in to protect you from caring too much.",
+      "validation": "Numbness is sometimes survival.",
+      "duration_target": 20
+    },
+    {
+      "id": 13,
+      "hook": "I feel guilty for missing my old life",
+      "confession": "when I know their life has changed so much more than mine has.",
+      "validation": "Both of your losses matter.",
+      "duration_target": 18
+    },
+    {
+      "id": 14,
+      "hook": "Nobody prepared me for",
+      "confession": "how lonely it would feel to watch someone fade away in slow motion.",
+      "validation": "Anticipatory grief is real grief.",
+      "duration_target": 17
+    },
+    {
+      "id": 15,
+      "hook": "The thing I'll never say out loud:",
+      "confession": "sometimes I wonder if they'd be better off if I just... wasn't here to enable their dependence.",
+      "validation": "These dark thoughts don't define you.",
+      "duration_target": 23
+    },
+    {
+      "id": 16,
+      "hook": "I smile when friends talk about their weekend plans",
+      "confession": "but inside I'm remembering what spontaneity used to feel like.",
+      "validation": "Mourning your freedom is natural.",
+      "duration_target": 19
+    },
+    {
+      "id": 17,
+      "hook": "The cruelest irony of caregiving",
+      "confession": "is that the better job you do, the longer your sentence becomes.",
+      "validation": "Loving well shouldn't feel like punishment.",
+      "duration_target": 18
+    }
+  ]
+}

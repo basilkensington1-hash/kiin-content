@@ -1,0 +1,140 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "category": "communication",
+      "hook": "Stop correcting your loved one with dementia when they're confused",
+      "wrong": "Saying 'No Mom, Dad passed away 5 years ago' forces them to relive grief",
+      "right": "Enter their reality. Say 'Tell me about Dad' and let them share memories",
+      "encouragement": "You're not lying. You're being kind. 💙"
+    },
+    {
+      "id": 2,
+      "category": "communication",
+      "hook": "Stop arguing when they repeat the same story over and over",
+      "wrong": "Saying 'You already told me that' makes them feel dismissed",
+      "right": "Listen like it's the first time. Show interest and ask gentle questions",
+      "encouragement": "Your attention is a gift. Give it freely. ✨"
+    },
+    {
+      "id": 3,
+      "category": "communication",
+      "hook": "Stop using complex explanations when they're confused",
+      "wrong": "Long explanations about why something can't happen overwhelm them",
+      "right": "Use simple phrases. 'Let's try this instead' works better than why",
+      "encouragement": "Simple words, big love. That's all they need. 💛"
+    },
+    {
+      "id": 4,
+      "category": "emotional_management",
+      "hook": "Stop taking their anger personally when they lash out",
+      "wrong": "Defending yourself or getting upset escalates the situation",
+      "right": "Remember: it's the disease talking, not them. Stay calm and redirect",
+      "encouragement": "You're stronger than you know. This too shall pass. 🌈"
+    },
+    {
+      "id": 5,
+      "category": "emotional_management",
+      "hook": "Stop trying to reason with them during sundowning episodes",
+      "wrong": "Logic doesn't work when anxiety and confusion peak in the evening",
+      "right": "Create a calm environment. Dim lights, soft music, gentle presence",
+      "encouragement": "You're their safe harbor in the storm. 🌙"
+    },
+    {
+      "id": 6,
+      "category": "self_care",
+      "hook": "Stop sacrificing your own health for perfect caregiving",
+      "wrong": "Skipping meals, sleep, and friends leads to caregiver burnout",
+      "right": "Schedule breaks. Accept help. Your wellbeing matters too",
+      "encouragement": "You can't pour from an empty cup. Fill yours first. ☕"
+    },
+    {
+      "id": 7,
+      "category": "self_care",
+      "hook": "Stop feeling guilty when you need time away from caregiving",
+      "wrong": "Guilt makes you resentful and exhausted, helping no one",
+      "right": "Plan respite care. Take breaks without apology. It's necessary, not selfish",
+      "encouragement": "Rest makes you a better caregiver. You deserve peace. 🕊️"
+    },
+    {
+      "id": 8,
+      "category": "coordination",
+      "hook": "Stop handling all medical appointments alone",
+      "wrong": "Going to every appointment solo is overwhelming and error-prone",
+      "right": "Bring a family member or friend. Two minds remember more than one",
+      "encouragement": "Teamwork makes the dream work. You don't have to do this alone. 🤝"
+    },
+    {
+      "id": 9,
+      "category": "coordination",
+      "hook": "Stop keeping all caregiving information in your head",
+      "wrong": "Mental tracking of meds, appointments, and changes leads to mistakes",
+      "right": "Use a shared calendar and medication tracker app for family access",
+      "encouragement": "Documentation is care. Organization is love. 📝"
+    },
+    {
+      "id": 10,
+      "category": "communication",
+      "hook": "Stop asking 'Do you remember me?' when they seem confused",
+      "wrong": "This question creates anxiety and highlights their memory loss",
+      "right": "Introduce yourself naturally. 'Hi Mom, it's Sarah. I'm here to visit'",
+      "encouragement": "Love doesn't need memory to be real. 💕"
+    },
+    {
+      "id": 11,
+      "category": "emotional_management",
+      "hook": "Stop trying to convince them their fears aren't real",
+      "wrong": "Dismissing their emotional reality makes them feel more alone",
+      "right": "Validate their feelings. 'That sounds scary. You're safe with me now'",
+      "encouragement": "Feelings are always valid, even when facts aren't clear. 🤗"
+    },
+    {
+      "id": 12,
+      "category": "self_care",
+      "hook": "Stop comparing yourself to other caregivers on social media",
+      "wrong": "Comparing your struggles to others' highlight reels breeds inadequacy",
+      "right": "Focus on your unique journey. Every caregiving situation is different",
+      "encouragement": "Your love story is unique and beautiful. Trust your path. 🌺"
+    },
+    {
+      "id": 13,
+      "category": "coordination",
+      "hook": "Stop making all decisions without involving them when possible",
+      "wrong": "Taking away all choices makes them feel powerless and forgotten",
+      "right": "Offer simple choices: 'Would you like tea or coffee?' Give them control",
+      "encouragement": "Dignity lives in choice. Honor their voice when you can. 👑"
+    },
+    {
+      "id": 14,
+      "category": "communication",
+      "hook": "Stop rushing them when they're trying to communicate",
+      "wrong": "Hurrying them or finishing their sentences increases frustration",
+      "right": "Give them time. Be patient. Let them find their words at their pace",
+      "encouragement": "Your patience is their peace. Slow down, breathe together. 🌸"
+    },
+    {
+      "id": 15,
+      "category": "emotional_management",
+      "hook": "Stop hiding your own emotions to appear strong",
+      "wrong": "Pretending you're fine all the time creates distance and stress",
+      "right": "It's okay to show gentle sadness. They can still comfort you too",
+      "encouragement": "Vulnerability is strength. Let them love you back. 💗"
+    },
+    {
+      "id": 16,
+      "category": "self_care",
+      "hook": "Stop researching every symptom and stage obsessively",
+      "wrong": "Endless googling about progression creates anxiety about uncertain futures",
+      "right": "Focus on today's needs. Ask doctors real questions, not Google",
+      "encouragement": "Today's love is enough. Tomorrow will take care of itself. 🌅"
+    },
+    {
+      "id": 17,
+      "category": "coordination",
+      "hook": "Stop doing everything yourself to maintain their routine",
+      "wrong": "Burning yourself out to keep everything exactly the same",
+      "right": "Adapt routines together. Some changes are okay if they reduce stress",
+      "encouragement": "Flexibility is love in action. Bend so you don't break. 🌿"
+    }
+  ]
+}

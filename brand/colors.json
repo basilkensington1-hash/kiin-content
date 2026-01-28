@@ -1,0 +1,50 @@
+{
+  "palette": {
+    "primary": "#4A90B8",
+    "description_primary": "Warm, trustworthy blue - like a clear sky on a caring day",
+    
+    "secondary": "#6BB3A0", 
+    "description_secondary": "Gentle sage green - calming and nurturing",
+    
+    "accent": "#F4A460",
+    "description_accent": "Soft sandy orange - warm and approachable",
+    
+    "background_warm": "#FDF9F5",
+    "description_background_warm": "Cream white - gentle and welcoming",
+    
+    "background_cool": "#F8FAFB", 
+    "description_background_cool": "Soft blue-white - clean but not sterile",
+    
+    "text_light": "#FFFFFF",
+    "description_text_light": "Pure white for dark backgrounds",
+    
+    "text_dark": "#2C3E50",
+    "description_text_dark": "Deep blue-grey - readable but softer than black",
+    
+    "supporting_colors": {
+      "success": "#81C784",
+      "warning": "#FFB74D", 
+      "error": "#E57373",
+      "info": "#64B5F6"
+    }
+  },
+  
+  "usage_guidelines": {
+    "primary": "Main brand color - use for headers, CTAs, and key elements",
+    "secondary": "Supporting color - use for accents and highlights", 
+    "accent": "Sparingly for warmth - buttons, links, small highlights",
+    "backgrounds": "Alternate warm/cool based on content mood",
+    "text": "Dark text on light backgrounds, light text on dark backgrounds",
+    "accessibility": "All color combinations meet WCAG AA contrast requirements"
+  },
+  
+  "hex_values": {
+    "primary": "#4A90B8",
+    "secondary": "#6BB3A0",
+    "accent": "#F4A460", 
+    "background_warm": "#FDF9F5",
+    "background_cool": "#F8FAFB",
+    "text_light": "#FFFFFF",
+    "text_dark": "#2C3E50"
+  }
+}

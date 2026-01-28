@@ -1,0 +1,202 @@
+{
+  "scenarios": [
+    {
+      "id": "medication_double_dose",
+      "hook": "My dad took his blood pressure medication TWICE yesterday",
+      "chaos": [
+        "Mom gave it to him at 8am",
+        "I didn't know, so I gave it again at noon", 
+        "Nobody was tracking who did what",
+        "We ended up in the ER"
+      ],
+      "turning_point": "That was the wake-up call we needed",
+      "calm": [
+        "Now everyone sees the same medication schedule",
+        "We check off when doses are given",
+        "No more dangerous double-dosing",
+        "Peace of mind for the whole family"
+      ],
+      "cta": "Care coordination isn't optional. It's essential. 💙"
+    },
+    {
+      "id": "appointment_conflict",
+      "hook": "Three different doctors appointments scheduled at the same time",
+      "chaos": [
+        "I booked cardiology for Tuesday at 2pm",
+        "Sister scheduled physical therapy same time",
+        "Mom added dermatology without checking",
+        "Chaos at the clinic, missed appointments"
+      ],
+      "turning_point": "We realized we needed one shared calendar",
+      "calm": [
+        "One family calendar everyone can see",
+        "Real-time updates when appointments change",
+        "No more double-booking disasters",
+        "Smooth coordination, less stress"
+      ],
+      "cta": "One calendar. One family. Peace of mind. 💙"
+    },
+    {
+      "id": "diet_confusion",
+      "hook": "Mom's on three different diets according to three different kids",
+      "chaos": [
+        "Brother says 'no salt, doctor's orders'",
+        "Sister insists 'low carb, nutritionist said so'",
+        "I'm pushing high fiber for digestion",
+        "Mom's confused and not eating much"
+      ],
+      "turning_point": "We needed to get on the same page",
+      "calm": [
+        "All dietary requirements in one place",
+        "Everyone knows the real restrictions",
+        "Meal planning that actually works",
+        "Mom feels confident about her choices"
+      ],
+      "cta": "Clear communication leads to better care. 💙"
+    },
+    {
+      "id": "emergency_contact_chaos",
+      "hook": "Dad fell and we couldn't find each other for 4 hours",
+      "chaos": [
+        "Hospital called my old number first",
+        "Mom's phone was dead at work",
+        "Brother was traveling, no response",
+        "I'm panicking, driving to three hospitals"
+      ],
+      "turning_point": "This emergency taught us everything",
+      "calm": [
+        "Updated emergency contacts for everyone",
+        "Backup contacts always available",
+        "Location sharing during emergencies",
+        "Never alone in a crisis again"
+      ],
+      "cta": "Being prepared isn't paranoia. It's love. 💙"
+    },
+    {
+      "id": "insurance_nightmare",
+      "hook": "Insurance denied Dad's surgery because of 'conflicting information'",
+      "chaos": [
+        "Doctor A said one thing to insurance",
+        "Doctor B submitted different paperwork",
+        "Prior authorization expired yesterday",
+        "Surgery postponed, family stressed"
+      ],
+      "turning_point": "We learned to coordinate all medical records",
+      "calm": [
+        "All doctors have the same information",
+        "Medical records updated in real-time",
+        "Insurance claims processed smoothly",
+        "Surgery scheduled without delays"
+      ],
+      "cta": "Coordinated care means faster healing. 💙"
+    },
+    {
+      "id": "therapy_overlap",
+      "hook": "Physical therapy and occupational therapy gave opposite instructions",
+      "chaos": [
+        "PT says 'use the walker everywhere'",
+        "OT says 'practice without walker'",
+        "Dad doesn't know which to follow",
+        "Progress stalls, confidence drops"
+      ],
+      "turning_point": "We got both therapists talking to each other",
+      "calm": [
+        "Therapy goals aligned and coordinated",
+        "Clear progression plan everyone follows",
+        "Dad knows exactly what to do when",
+        "Faster recovery, better outcomes"
+      ],
+      "cta": "When everyone's aligned, healing accelerates. 💙"
+    },
+    {
+      "id": "caregiver_burnout",
+      "hook": "Three siblings, three different schedules, one exhausted mom",
+      "chaos": [
+        "I thought sister was visiting Tuesday",
+        "Sister thought brother had Wednesday",
+        "Brother assumed I covered weekends",
+        "Mom got no help for 10 days straight"
+      ],
+      "turning_point": "Mom's breakdown was our wake-up call",
+      "calm": [
+        "Shared caregiver schedule everyone sees",
+        "Automatic reminders for your days",
+        "Easy swapping when life happens",
+        "Mom gets consistent, reliable support"
+      ],
+      "cta": "Shared responsibility. Shared love. Shared relief. 💙"
+    },
+    {
+      "id": "medication_mystery",
+      "hook": "Dad's pills keep disappearing and nobody knows why",
+      "chaos": [
+        "Counted 30 pills on Monday",
+        "Only 20 left by Wednesday",
+        "Did he take extra? Did some fall?",
+        "Pharmacy says refill too early"
+      ],
+      "turning_point": "We started tracking every single dose",
+      "calm": [
+        "Every pill logged when taken",
+        "Photo confirmation of doses",
+        "Real-time pill counts for everyone",
+        "No more medication mysteries"
+      ],
+      "cta": "Transparency brings trust and safety. 💙"
+    },
+    {
+      "id": "doctor_communication",
+      "hook": "Cardiologist and primary care doctor said completely different things",
+      "chaos": [
+        "Heart doctor: 'increase blood pressure meds'",
+        "Primary care: 'those levels look fine'",
+        "Mom caught in the middle, confused",
+        "Taking wrong doses for two weeks"
+      ],
+      "turning_point": "We became the bridge between doctors",
+      "calm": [
+        "All doctors see the same health data",
+        "Medication changes coordinated",
+        "No more conflicting instructions",
+        "Mom follows one clear plan"
+      ],
+      "cta": "Better coordination. Better outcomes. 💙"
+    },
+    {
+      "id": "social_isolation",
+      "hook": "Dad feels like a burden because nobody communicates about his care",
+      "chaos": [
+        "Everyone's helping but no one talks",
+        "Dad thinks we're all overwhelmed",
+        "Feels guilty asking for anything",
+        "Withdraws, depression sets in"
+      ],
+      "turning_point": "We opened up the care conversation",
+      "calm": [
+        "Dad sees how much we want to help",
+        "Transparent about who's doing what",
+        "He feels included, not burdensome",
+        "Family bonds stronger through care"
+      ],
+      "cta": "Open hearts. Open communication. Open healing. 💙"
+    },
+    {
+      "id": "hospital_discharge",
+      "hook": "Hospital discharge at 2pm, nobody prepared for what comes next", 
+      "chaos": [
+        "Discharge nurse: 'someone will call about follow-up'",
+        "Family: 'wait, what medications changed?'",
+        "No clear instructions, rushed out",
+        "First night home full of anxiety"
+      ],
+      "turning_point": "We learned to plan the transition home",
+      "calm": [
+        "Discharge plan shared with whole family",
+        "Medication changes clearly documented",
+        "Follow-up appointments already scheduled",
+        "Smooth transition from hospital to home"
+      ],
+      "cta": "Preparation today prevents panic tomorrow. 💙"
+    }
+  ]
+}
