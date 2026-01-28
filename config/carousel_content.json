@@ -1,0 +1,366 @@
+{
+  "templates": {
+    "tips": {
+      "cover_format": "5 Tips for {topic}",
+      "slide_format": "TIP {number}",
+      "cta_message": "Save this post & follow for more caregiver tips!"
+    },
+    "signs": {
+      "cover_format": "5 Signs You Might Be {topic}",
+      "slide_format": "SIGN {number}",
+      "cta_message": "Do any of these resonate? Share your experience below!"
+    },
+    "communication": {
+      "cover_format": "What to Say Instead of {topic}",
+      "slide_format": "INSTEAD OF SAYING...",
+      "cta_message": "Which phrase will you try first? Let us know!"
+    },
+    "truth": {
+      "cover_format": "The Truth About {topic}",
+      "slide_format": "MYTH vs REALITY",
+      "cta_message": "Spread awareness by sharing this post!"
+    },
+    "story": {
+      "cover_format": "{topic}: A Caregiver's Journey",
+      "slide_format": "CHAPTER {number}",
+      "cta_message": "Your story matters too. Share it with our community!"
+    }
+  },
+  "topics": {
+    "communication_tips": {
+      "template": "tips",
+      "title": "Better Communication with Your Loved One",
+      "hook": "Transform difficult conversations into meaningful connections",
+      "slides": [
+        {
+          "title": "Use Simple, Clear Language",
+          "content": "Speak slowly and use familiar words. Avoid complex explanations that might cause confusion or frustration.",
+          "visual_hint": "💬"
+        },
+        {
+          "title": "Listen with Your Whole Body",
+          "content": "Make eye contact, lean in, and show you're engaged. Non-verbal cues speak louder than words.",
+          "visual_hint": "👂"
+        },
+        {
+          "title": "Validate Their Feelings",
+          "content": "Say 'I understand this is hard' instead of 'Don't worry about it.' Acknowledge their emotions.",
+          "visual_hint": "❤️"
+        },
+        {
+          "title": "Ask Open-Ended Questions",
+          "content": "Instead of 'Are you okay?' try 'How are you feeling right now?' Give them space to express themselves.",
+          "visual_hint": "❓"
+        },
+        {
+          "title": "Be Patient with Silence",
+          "content": "Don't rush to fill quiet moments. Sometimes people need time to process and respond.",
+          "visual_hint": "⏰"
+        }
+      ]
+    },
+    "burnout_signs": {
+      "template": "signs",
+      "title": "Experiencing Caregiver Burnout",
+      "hook": "Recognizing the warning signs could save your wellbeing",
+      "slides": [
+        {
+          "title": "You Feel Emotionally Drained",
+          "content": "Even simple tasks feel overwhelming. You're running on empty and struggling to find motivation.",
+          "visual_hint": "🔋"
+        },
+        {
+          "title": "You're Isolating from Friends",
+          "content": "You've stopped reaching out to your support network. Social connections feel like too much effort.",
+          "visual_hint": "🏠"
+        },
+        {
+          "title": "You're Neglecting Self-Care",
+          "content": "When did you last do something just for you? Basic needs like eating well or sleeping become secondary.",
+          "visual_hint": "🛁"
+        },
+        {
+          "title": "You Feel Resentful",
+          "content": "Guilt-inducing thoughts like 'Why me?' or anger toward your loved one are becoming frequent.",
+          "visual_hint": "😤"
+        },
+        {
+          "title": "Your Health is Suffering",
+          "content": "Headaches, stomach issues, or getting sick more often. Your body is telling you to slow down.",
+          "visual_hint": "🤒"
+        }
+      ]
+    },
+    "guilt_phrases": {
+      "template": "communication",
+      "title": "Guilt-Inducing Phrases",
+      "hook": "Words have power - choose ones that heal, not harm",
+      "slides": [
+        {
+          "instead_of": "\"You're being difficult\"",
+          "say_this": "\"I can see you're struggling. How can I help?\"",
+          "why": "Acknowledges their experience without blame"
+        },
+        {
+          "instead_of": "\"Calm down\"",
+          "say_this": "\"Your feelings are valid. Let's work through this together.\"",
+          "why": "Validates emotions instead of dismissing them"
+        },
+        {
+          "instead_of": "\"You should be grateful\"",
+          "say_this": "\"I appreciate everything you're going through.\"",
+          "why": "Shows empathy instead of creating shame"
+        },
+        {
+          "instead_of": "\"Everything happens for a reason\"",
+          "say_this": "\"This is really unfair, and I'm here with you.\"",
+          "why": "Provides support without minimizing pain"
+        },
+        {
+          "instead_of": "\"At least you have...\"",
+          "say_this": "\"This is really hard right now.\"",
+          "why": "Acknowledges current pain without comparison"
+        }
+      ]
+    },
+    "dementia_myths": {
+      "template": "truth",
+      "title": "Dementia Care",
+      "hook": "Busting myths that harm families and patients",
+      "slides": [
+        {
+          "myth": "Dementia means the person is 'gone'",
+          "reality": "The person is still there, just experiencing the world differently. Meaningful connections remain possible.",
+          "impact": "This belief leads to social isolation and depression"
+        },
+        {
+          "myth": "Nothing can slow dementia progression",
+          "reality": "Exercise, social engagement, and cognitive activities can significantly impact quality of life and progression.",
+          "impact": "Hopelessness prevents families from seeking beneficial interventions"
+        },
+        {
+          "myth": "Dementia only affects memory",
+          "reality": "It impacts judgment, language, spatial awareness, and personality. Understanding this helps with better care.",
+          "impact": "Misunderstanding leads to unrealistic expectations"
+        },
+        {
+          "myth": "You shouldn't correct someone with dementia",
+          "reality": "Gentle redirection and validation work better than lies or harsh corrections.",
+          "impact": "Poor communication strategies increase agitation"
+        },
+        {
+          "myth": "Dementia care requires 24/7 supervision immediately",
+          "reality": "Care needs vary greatly. Many people live independently with support for years.",
+          "impact": "Premature loss of independence and dignity"
+        }
+      ]
+    },
+    "self_care_journey": {
+      "template": "story",
+      "title": "Finding Balance",
+      "hook": "One caregiver's path from burnout to sustainable care",
+      "slides": [
+        {
+          "title": "The Breaking Point",
+          "content": "Sarah hadn't slept through the night in months. Caring for her mom with Alzheimer's was consuming every moment of her life.",
+          "emotion": "overwhelm"
+        },
+        {
+          "title": "The Wake-Up Call", 
+          "content": "When Sarah collapsed from exhaustion at the grocery store, she realized she couldn't pour from an empty cup.",
+          "emotion": "realization"
+        },
+        {
+          "title": "Asking for Help",
+          "content": "Starting with just 2 hours of respite care per week felt like failure. Actually, it was the first step toward sustainable caregiving.",
+          "emotion": "relief"
+        },
+        {
+          "title": "Building Support",
+          "content": "Joining a caregiver support group connected Sarah with others who understood. She wasn't alone anymore.",
+          "emotion": "connection"
+        },
+        {
+          "title": "The New Normal",
+          "content": "Six months later, Sarah had regular respite care, therapy sessions, and boundaries. Her mom was happier too.",
+          "emotion": "hope"
+        }
+      ]
+    },
+    "medication_tips": {
+      "template": "tips",
+      "title": "Managing Medications Safely",
+      "hook": "Simple systems that prevent dangerous mistakes",
+      "slides": [
+        {
+          "title": "Use a Pill Organizer System",
+          "content": "Weekly pill boxes with AM/PM compartments reduce confusion and missed doses. Label clearly with day and time.",
+          "visual_hint": "💊"
+        },
+        {
+          "title": "Keep an Updated Med List",
+          "content": "Include dosages, prescribing doctors, and what each medication treats. Share copies with all care providers.",
+          "visual_hint": "📋"
+        },
+        {
+          "title": "Set Consistent Timing",
+          "content": "Link medications to daily routines like meals or bedtime. Use phone alarms as backup reminders.",
+          "visual_hint": "⏰"
+        },
+        {
+          "title": "Know Drug Interactions",
+          "content": "Use one pharmacy when possible. They can catch dangerous combinations that multiple providers might miss.",
+          "visual_hint": "⚠️"
+        },
+        {
+          "title": "Monitor Side Effects",
+          "content": "Keep a simple log of changes in mood, appetite, or behavior. Share concerns with doctors promptly.",
+          "visual_hint": "📝"
+        }
+      ]
+    },
+    "respite_care": {
+      "template": "tips",
+      "title": "Finding Quality Respite Care",
+      "hook": "Getting the break you need without the guilt",
+      "slides": [
+        {
+          "title": "Start with Small Steps",
+          "content": "Begin with 2-3 hours of care to test compatibility. Gradual transitions work better than sudden changes.",
+          "visual_hint": "👶"
+        },
+        {
+          "title": "Check References Thoroughly",
+          "content": "Ask for at least 3 recent references. Verify certifications and run background checks through agencies.",
+          "visual_hint": "✅"
+        },
+        {
+          "title": "Create Detailed Care Instructions",
+          "content": "Include routines, preferences, emergency contacts, and behavioral triggers. The more info, the better the care.",
+          "visual_hint": "📚"
+        },
+        {
+          "title": "Observe Interactions",
+          "content": "Watch how the caregiver connects with your loved one. Trust your instincts about the relationship dynamic.",
+          "visual_hint": "👀"
+        },
+        {
+          "title": "Plan Your Respite Time",
+          "content": "Use breaks for rest, errands, or activities that restore you. Don't feel guilty about enjoying yourself.",
+          "visual_hint": "🌸"
+        }
+      ]
+    },
+    "hospital_advocacy": {
+      "template": "tips",
+      "title": "Advocating in Hospital Settings",
+      "hook": "Ensuring your loved one gets the best possible care",
+      "slides": [
+        {
+          "title": "Bring a Complete Medical History",
+          "content": "Include current medications, allergies, recent changes, and baseline functioning. Print multiple copies.",
+          "visual_hint": "📋"
+        },
+        {
+          "title": "Ask for the Charge Nurse",
+          "content": "When concerns aren't addressed, speak with the charge nurse or nurse manager. Document everything.",
+          "visual_hint": "👩‍⚕️"
+        },
+        {
+          "title": "Request a Care Conference",
+          "content": "Get all team members together to discuss treatment plans. Ask questions until you understand everything.",
+          "visual_hint": "🏥"
+        },
+        {
+          "title": "Stay with Your Loved One",
+          "content": "If possible, maintain a presence. Your advocacy and observation can prevent medical errors.",
+          "visual_hint": "🤝"
+        },
+        {
+          "title": "Know Your Rights",
+          "content": "Understand patient rights, discharge planning timelines, and when to request a second opinion.",
+          "visual_hint": "⚖️"
+        }
+      ]
+    },
+    "financial_planning": {
+      "template": "tips",
+      "title": "Financial Planning for Long-Term Care",
+      "hook": "Protecting your family's financial future while providing care",
+      "slides": [
+        {
+          "title": "Understand Insurance Coverage",
+          "content": "Review Medicare, Medicaid eligibility, and long-term care insurance. Know what's covered and what isn't.",
+          "visual_hint": "💳"
+        },
+        {
+          "title": "Organize Important Documents",
+          "content": "Gather Social Security cards, birth certificates, insurance policies, and financial statements in one place.",
+          "visual_hint": "📁"
+        },
+        {
+          "title": "Consider Legal Protections",
+          "content": "Explore power of attorney, living wills, and trusts. Get legal advice before assets need protection.",
+          "visual_hint": "⚖️"
+        },
+        {
+          "title": "Track All Care Expenses",
+          "content": "Keep receipts for medical equipment, modifications, and care services. Many are tax-deductible.",
+          "visual_hint": "🧾"
+        },
+        {
+          "title": "Plan for Future Costs",
+          "content": "Research care facility costs, home health rates, and equipment needs. Budget for increasing care levels.",
+          "visual_hint": "📊"
+        }
+      ]
+    },
+    "depression_signs": {
+      "template": "signs",
+      "title": "Struggling with Caregiver Depression",
+      "hook": "Depression in caregivers is common and treatable",
+      "slides": [
+        {
+          "title": "You've Lost Interest in Things You Enjoyed",
+          "content": "Hobbies, social activities, or simple pleasures no longer bring joy. Everything feels flat and meaningless.",
+          "visual_hint": "🎨"
+        },
+        {
+          "title": "You Feel Hopeless About the Future",
+          "content": "It feels like things will never get better. You can't imagine finding happiness or relief again.",
+          "visual_hint": "🌧️"
+        },
+        {
+          "title": "You're Having Sleep Problems",
+          "content": "Either can't fall asleep, wake up frequently, or sleep too much. Rest doesn't make you feel better.",
+          "visual_hint": "😴"
+        },
+        {
+          "title": "You're Eating Very Differently",
+          "content": "Either no appetite and weight loss, or eating for comfort and gaining weight. Food has lost meaning.",
+          "visual_hint": "🍽️"
+        },
+        {
+          "title": "You Think About Death or Dying",
+          "content": "Whether your own or wishing the situation would just end. These thoughts are a red flag for professional help.",
+          "visual_hint": "💭"
+        }
+      ]
+    }
+  },
+  "brand": {
+    "colors": {
+      "primary": "#2C5F77",
+      "secondary": "#7FB3C8", 
+      "accent": "#F4A460",
+      "background": "#FEFEFE",
+      "text_dark": "#2C3E50",
+      "text_light": "#FFFFFF"
+    },
+    "fonts": {
+      "header": "Arial Black",
+      "body": "Arial",
+      "accent": "Arial"
+    }
+  }
+}

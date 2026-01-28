@@ -1,0 +1,204 @@
+{
+  "quick_wins": [
+    {
+      "id": 1,
+      "category": "organization",
+      "time_to_implement": "2 minute",
+      "tip": "Write emergency contacts on a sticky note and put it on the fridge",
+      "action_step": "Grab a pen and sticky note right now - write down 3 emergency numbers",
+      "why_it_works": "In emergencies, information needs to be instantly visible to anyone helping"
+    },
+    {
+      "id": 2,
+      "category": "medication",
+      "time_to_implement": "30 second",
+      "tip": "Take a photo of all medication bottles together once a week",
+      "action_step": "Open your phone camera and snap a pic of all meds right now",
+      "why_it_works": "Creates instant backup for doctor visits and pharmacy questions"
+    },
+    {
+      "id": 3,
+      "category": "communication",
+      "time_to_implement": "1 minute",
+      "tip": "Send one family member a quick caregiving update text today",
+      "action_step": "Text one person: 'Quick update: Mom had a good day. Ate well, mood was cheerful'",
+      "why_it_works": "Prevents family anxiety and keeps everyone in the loop effortlessly"
+    },
+    {
+      "id": 4,
+      "category": "safety",
+      "time_to_implement": "3 minute",
+      "tip": "Put a small flashlight next to their bed right now",
+      "action_step": "Find any flashlight or use phone flashlight - place it within arm's reach of bed",
+      "why_it_works": "Prevents dangerous nighttime falls when they need the bathroom"
+    },
+    {
+      "id": 5,
+      "category": "self_care",
+      "time_to_implement": "5 minute",
+      "tip": "Set a phone reminder for one thing you enjoy doing this week",
+      "action_step": "Open your phone, set reminder: 'Take 15 min for tea/walk/music' for tomorrow",
+      "why_it_works": "Scheduled self-care becomes non-negotiable and guilt-free"
+    },
+    {
+      "id": 6,
+      "category": "medical",
+      "time_to_implement": "2 minute",
+      "tip": "Write down 3 questions for the next doctor visit",
+      "action_step": "Grab paper, write: 1) How is [their condition] changing? 2) Any new symptoms to watch? 3) [Your specific concern]",
+      "why_it_works": "Prepared questions get better answers and prevent forgotten important topics"
+    },
+    {
+      "id": 7,
+      "category": "nutrition",
+      "time_to_implement": "1 minute",
+      "tip": "Put a water bottle somewhere they sit most often",
+      "action_step": "Fill a water bottle and place it by their favorite chair or TV spot",
+      "why_it_works": "Visible water dramatically increases hydration without nagging"
+    },
+    {
+      "id": 8,
+      "category": "mental_stimulation",
+      "time_to_implement": "30 second",
+      "tip": "Ask them to tell you about one good memory from today",
+      "action_step": "Next time you see them, ask: 'What was the best part of your day?'",
+      "why_it_works": "Positive reminiscing boosts mood and exercises memory naturally"
+    },
+    {
+      "id": 9,
+      "category": "organization",
+      "time_to_implement": "4 minute",
+      "tip": "Create a simple 'important papers' box or folder",
+      "action_step": "Find any box/folder, label it 'Important' and put insurance cards, ID, medical records inside",
+      "why_it_works": "Eliminates frantic searching during medical appointments or emergencies"
+    },
+    {
+      "id": 10,
+      "category": "technology",
+      "time_to_implement": "2 minute",
+      "tip": "Program your number into their phone as 'Emergency [Your Name]'",
+      "action_step": "Take their phone, go to contacts, add new: 'Emergency [Your Name]' with your number",
+      "why_it_works": "Makes it easier for them to find you quickly, and easier for others to reach you"
+    },
+    {
+      "id": 11,
+      "category": "social_connection",
+      "time_to_implement": "1 minute",
+      "tip": "Text or call one friend about your caregiving situation",
+      "action_step": "Message a friend: 'Hey, I'm caring for [person]. Could use a quick chat this week if you're free'",
+      "why_it_works": "Breaks isolation and builds your support network with one simple ask"
+    },
+    {
+      "id": 12,
+      "category": "safety",
+      "time_to_implement": "30 second",
+      "tip": "Remove or secure any throw rugs in high-traffic areas",
+      "action_step": "Walk through their home and remove loose rugs or add non-slip pads underneath",
+      "why_it_works": "Prevents the most common cause of home falls with minimal effort"
+    },
+    {
+      "id": 13,
+      "category": "routine",
+      "time_to_implement": "2 minute",
+      "tip": "Write tomorrow's schedule on a piece of paper they'll see",
+      "action_step": "Write: 'Tuesday: Dr appt 2pm, dinner with family 6pm' - put it where they look often",
+      "why_it_works": "Reduces anxiety about forgetting important events and provides structure"
+    },
+    {
+      "id": 14,
+      "category": "medication",
+      "time_to_implement": "3 minute",
+      "tip": "Set up one week of pills in any container with compartments", 
+      "action_step": "Use pill organizer, ice cube tray, or small containers - sort one week of medications",
+      "why_it_works": "Prevents missed doses and dangerous double-dosing mistakes"
+    },
+    {
+      "id": 15,
+      "category": "comfort",
+      "time_to_implement": "1 minute",
+      "tip": "Put a soft blanket within reach of their favorite sitting spot",
+      "action_step": "Find the softest blanket in the house and drape it over their chair or nearby",
+      "why_it_works": "Instant comfort and warmth improves mood and reduces restlessness"
+    },
+    {
+      "id": 16,
+      "category": "emergency_prep",
+      "time_to_implement": "4 minute",
+      "tip": "Write a one-page 'If I'm not here' instruction sheet",
+      "action_step": "Write: Emergency contacts, medications, doctor info, any special needs - tape to inside of medicine cabinet",
+      "why_it_works": "Helps any substitute caregiver provide proper care in your absence"
+    },
+    {
+      "id": 17,
+      "category": "mental_health",
+      "time_to_implement": "30 second",
+      "tip": "Compliment them on something specific they did today",
+      "action_step": "Say: 'I noticed you [specific thing]. That was really [positive word].'",
+      "why_it_works": "Specific praise maintains self-worth and encourages continued independence"
+    },
+    {
+      "id": 18,
+      "category": "communication",
+      "time_to_implement": "2 minute",
+      "tip": "Create a simple family group chat or email for updates",
+      "action_step": "Start a group text with key family members titled '[Person's Name] Care Updates'",
+      "why_it_works": "Updates everyone at once, prevents repeated explanations and family confusion"
+    },
+    {
+      "id": 19,
+      "category": "physical_comfort",
+      "time_to_implement": "1 minute",
+      "tip": "Adjust one thing in their environment for easier access",
+      "action_step": "Move frequently used items to counter height, lower important things from high shelves",
+      "why_it_works": "Small accessibility improvements maintain independence longer"
+    },
+    {
+      "id": 20,
+      "category": "documentation",
+      "time_to_implement": "3 minute",
+      "tip": "Start a simple care journal - even just on your phone notes",
+      "action_step": "Open phone notes, create note called '[Their name] Care Log', write today's date and one observation",
+      "why_it_works": "Tracks patterns that doctors need to see and validates your observations"
+    },
+    {
+      "id": 21,
+      "category": "respite",
+      "time_to_implement": "5 minute",
+      "tip": "Research one local senior center or day program online",
+      "action_step": "Google '[Your city] senior center' and save one phone number in your contacts",
+      "why_it_works": "Having backup options ready reduces stress when you need them urgently"
+    },
+    {
+      "id": 22,
+      "category": "financial",
+      "time_to_implement": "2 minute",
+      "tip": "Take photos of their insurance cards and ID with your phone",
+      "action_step": "Snap clear pictures of both sides of insurance cards and driver's license/ID",
+      "why_it_works": "Ensures you always have critical information during medical appointments"
+    },
+    {
+      "id": 23,
+      "category": "mood",
+      "time_to_implement": "1 minute",
+      "tip": "Play one song from their favorite decade or artist",
+      "action_step": "Ask what music they loved when they were young, then play it on phone/radio",
+      "why_it_works": "Familiar music instantly improves mood and can trigger positive memories"
+    },
+    {
+      "id": 24,
+      "category": "exercise",
+      "time_to_implement": "30 second",
+      "tip": "Suggest they march in place during TV commercial breaks",
+      "action_step": "Next time ads come on, say: 'Want to march with me until the show comes back?'",
+      "why_it_works": "Gentle movement improves circulation and mood without feeling like exercise"
+    },
+    {
+      "id": 25,
+      "category": "engagement",
+      "time_to_implement": "2 minute",
+      "tip": "Ask them to help you with a simple task they can still do well",
+      "action_step": "Say: 'Could you help me fold these towels/sort these papers/choose what's for dinner?'",
+      "why_it_works": "Maintaining useful roles preserves dignity and sense of purpose"
+    }
+  ]
+}

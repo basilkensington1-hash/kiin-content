@@ -1,0 +1,123 @@
+{
+  "myths": [
+    {
+      "id": 1,
+      "category": "self_care",
+      "myth": "Good caregivers don't need breaks",
+      "reality": "Regular breaks prevent burnout and improve care quality",
+      "explanation": "Studies show that caregivers who take breaks provide better care and are healthier themselves."
+    },
+    {
+      "id": 2,
+      "category": "emotions",
+      "myth": "Feeling overwhelmed means you're not cut out for caregiving", 
+      "reality": "Feeling overwhelmed is normal and shows you care deeply",
+      "explanation": "Even professional caregivers experience stress - it's a sign you're human, not inadequate."
+    },
+    {
+      "id": 3,
+      "category": "family_dynamics",
+      "myth": "One person should handle all the caregiving responsibilities",
+      "reality": "Shared caregiving leads to better outcomes for everyone",
+      "explanation": "Research shows that distributed care reduces stress and provides more comprehensive support."
+    },
+    {
+      "id": 4,
+      "category": "medical",
+      "myth": "Family members can't advocate effectively with doctors",
+      "reality": "Prepared family advocates improve patient outcomes significantly", 
+      "explanation": "Patients with engaged family advocates have fewer medical errors and better care coordination."
+    },
+    {
+      "id": 5,
+      "category": "technology",
+      "myth": "Older adults can't learn to use technology for their care",
+      "reality": "With proper support, most seniors adapt well to helpful technology",
+      "explanation": "Studies show 70% of seniors successfully use health apps when given appropriate training and support."
+    },
+    {
+      "id": 6,
+      "category": "communication",
+      "myth": "You have to correct every confused statement from someone with dementia",
+      "reality": "Entering their reality often works better than correction",
+      "explanation": "Therapeutic validation reduces agitation and maintains dignity while providing emotional comfort."
+    },
+    {
+      "id": 7,
+      "category": "finances",
+      "myth": "Caregiving will bankrupt most families",
+      "reality": "With planning and resources, most families manage caregiving costs effectively",
+      "explanation": "Various programs, insurance benefits, and cost-effective strategies can make caregiving affordable."
+    },
+    {
+      "id": 8,
+      "category": "professional_help",
+      "myth": "Hiring help means you're giving up or failing",
+      "reality": "Professional help enhances family care and extends independence",
+      "explanation": "Combining family and professional care often provides the best outcomes and sustainability."
+    },
+    {
+      "id": 9,
+      "category": "planning",
+      "myth": "You can't plan for unpredictable health changes",
+      "reality": "Flexible planning frameworks help families adapt to any changes",
+      "explanation": "Good care plans include contingencies and decision-making frameworks for unknown situations."
+    },
+    {
+      "id": 10,
+      "category": "gender_roles",
+      "myth": "Men aren't naturally good caregivers",
+      "reality": "Men can be equally effective caregivers with different strengths",
+      "explanation": "Male caregivers often excel at problem-solving, advocacy, and bringing different perspectives to care."
+    },
+    {
+      "id": 11,
+      "category": "distance",
+      "myth": "You can only provide good care if you live nearby",
+      "reality": "Long-distance caregiving can be highly effective with the right strategies",
+      "explanation": "Technology and local networks allow distant caregivers to coordinate excellent care."
+    },
+    {
+      "id": 12,
+      "category": "cognitive_decline",
+      "myth": "People with dementia can't make any decisions for themselves",
+      "reality": "Most people with dementia retain decision-making capacity for many choices",
+      "explanation": "Supporting autonomy in small decisions preserves dignity and can slow cognitive decline."
+    },
+    {
+      "id": 13,
+      "category": "medication_management",
+      "myth": "Medication mistakes are inevitable with complex regimens",
+      "reality": "Simple systems and tools can virtually eliminate medication errors",
+      "explanation": "Pill organizers, apps, and shared tracking reduce medication errors by over 75%."
+    },
+    {
+      "id": 14,
+      "category": "social_isolation", 
+      "myth": "Caregiving means giving up your social life completely",
+      "reality": "Maintaining relationships and activities is essential for sustainable caregiving",
+      "explanation": "Caregivers with strong social connections report less stress and provide better care long-term."
+    },
+    {
+      "id": 15,
+      "category": "end_of_life",
+      "myth": "Talking about death and dying scares people and makes things worse",
+      "reality": "Open conversations about preferences reduce anxiety and improve end-of-life care",
+      "explanation": "Research shows that discussing end-of-life preferences leads to care that better matches patient wishes."
+    },
+    {
+      "id": 16,
+      "category": "nutrition",
+      "myth": "Forcing someone to eat shows you care about their health",
+      "reality": "Mealtime battles often make eating problems worse",
+      "explanation": "Creating pleasant meal experiences and offering choices usually improves nutrition better than pressure."
+    },
+    {
+      "id": 17,
+      "category": "safety",
+      "myth": "The safest place for someone with dementia is always at home",
+      "reality": "Safety depends on individual needs, not location",
+      "explanation": "Some people are safer in specialized care while others thrive at home with proper support."
+    }
+  ]
+}

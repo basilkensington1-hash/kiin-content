@@ -1,0 +1,172 @@
+{
+  "facts": [
+    {
+      "id": 1,
+      "category": "statistics",
+      "fact": "53 million Americans provide unpaid care to family members or friends",
+      "detail": "That's 1 in 5 adults - caregiving is more common than you might think",
+      "source": "National Alliance for Caregiving 2023"
+    },
+    {
+      "id": 2,
+      "category": "health_impact", 
+      "fact": "Caregiver stress increases Alzheimer's risk by 60% in family caregivers",
+      "detail": "Chronic stress physically changes the brain - self-care isn't selfish, it's essential",
+      "source": "Journal of the American Geriatrics Society"
+    },
+    {
+      "id": 3,
+      "category": "economics",
+      "fact": "Family caregivers provide $470 billion worth of unpaid care annually",
+      "detail": "That's more than the entire GDP of countries like Belgium or Israel",
+      "source": "AARP Public Policy Institute 2023"
+    },
+    {
+      "id": 4,
+      "category": "demographics",
+      "fact": "61% of family caregivers are women, but male caregiving is rising fast",
+      "detail": "Male caregivers increased 50% in the past decade - caregiving crosses all boundaries",
+      "source": "Family Caregiver Alliance"
+    },
+    {
+      "id": 5,
+      "category": "employment",
+      "fact": "73% of caregivers work full or part-time while providing care",
+      "detail": "Most are juggling career demands with caregiving - you're not alone in this balance",
+      "source": "National Alliance for Caregiving"
+    },
+    {
+      "id": 6,
+      "category": "health_impact",
+      "fact": "Caregivers are 2.3 times more likely to have chronic conditions than non-caregivers",
+      "detail": "Your health matters too - taking care of yourself helps you care for others",
+      "source": "CDC Healthy Aging Research"
+    },
+    {
+      "id": 7,
+      "category": "time_commitment",
+      "fact": "The average caregiver spends 24 hours per week providing care",
+      "detail": "That's like having a part-time job on top of everything else you do",
+      "source": "AARP 2023 Caregiving Survey"
+    },
+    {
+      "id": 8,
+      "category": "financial_impact",
+      "fact": "Caregivers spend an average of $1,986 of their own money annually on care",
+      "detail": "From gas to groceries to medical supplies - the hidden costs add up quickly",
+      "source": "National Alliance for Caregiving"
+    },
+    {
+      "id": 9,
+      "category": "technology", 
+      "fact": "Only 7% of caregivers use apps or technology to help coordinate care",
+      "detail": "Technology can reduce stress and improve communication - but most haven't tried it yet",
+      "source": "AARP Innovation Study 2023"
+    },
+    {
+      "id": 10,
+      "category": "communication",
+      "fact": "67% of caregivers say family disagreements about care are their biggest stress",
+      "detail": "Clear communication tools and shared plans can prevent most family conflicts",
+      "source": "Family Caregiver Research Institute"
+    },
+    {
+      "id": 11,
+      "category": "medical",
+      "fact": "Patients with coordinated family caregivers have 40% fewer hospital readmissions",
+      "detail": "Your organization and advocacy directly improves their health outcomes",
+      "source": "Journal of the American Medical Association"
+    },
+    {
+      "id": 12,
+      "category": "mental_health",
+      "fact": "40% of caregivers report feeling depressed, compared to 5% of non-caregivers",
+      "detail": "Mental health support isn't a luxury - it's a necessity for sustainable caregiving",
+      "source": "National Institute of Mental Health"
+    },
+    {
+      "id": 13,
+      "category": "distance",
+      "fact": "15% of caregivers live more than an hour away from their loved one",
+      "detail": "Long-distance caregiving requires different strategies but can be just as effective",
+      "source": "Family Caregiver Alliance Survey"
+    },
+    {
+      "id": 14,
+      "category": "duration",
+      "fact": "The average caregiving journey lasts 4.5 years",
+      "detail": "It's a marathon, not a sprint - building sustainable systems from the start matters",
+      "source": "AARP Longitudinal Study"
+    },
+    {
+      "id": 15,
+      "category": "medical_errors",
+      "fact": "Medication errors drop by 78% when families use shared tracking systems",
+      "detail": "Simple organization tools can literally save lives and prevent dangerous mistakes",
+      "source": "Patient Safety Network Study"
+    },
+    {
+      "id": 16,
+      "category": "workplace",
+      "fact": "Employed caregivers miss an average of 6.6 days of work per year for caregiving",
+      "detail": "This doesn't include partial days, early leaves, or being distracted at work",
+      "source": "Harvard Business Review Workplace Study"
+    },
+    {
+      "id": 17,
+      "category": "age_demographics", 
+      "fact": "26% of caregivers are millennials caring for aging parents while raising children",
+      "detail": "The 'sandwich generation' faces unique challenges juggling multiple care responsibilities",
+      "source": "Pew Research Center 2023"
+    },
+    {
+      "id": 18,
+      "category": "support_systems",
+      "fact": "Caregivers with strong support networks report 45% less stress and burnout",
+      "detail": "Building your village isn't optional - it's essential for everyone's wellbeing",
+      "source": "Caregiver Stress Research Institute"
+    },
+    {
+      "id": 19,
+      "category": "planning",
+      "fact": "Only 32% of families have discussed care preferences before a crisis hits",
+      "detail": "Having these conversations early reduces stress and honors their wishes better",
+      "source": "Conversation Project National Survey"
+    },
+    {
+      "id": 20,
+      "category": "positive_outcomes",
+      "fact": "89% of caregivers say the experience brought them closer to their loved one",
+      "detail": "Despite the challenges, caregiving can deepen relationships and create precious memories",
+      "source": "Family Caregiver Research Institute"
+    },
+    {
+      "id": 21,
+      "category": "information_overload",
+      "fact": "Families receive medical information from an average of 8 different sources",
+      "detail": "Centralizing information reduces confusion and helps everyone stay informed",
+      "source": "Health Information Management Study"
+    },
+    {
+      "id": 22,
+      "category": "emergency_preparedness",
+      "fact": "68% of families have no plan for caregiving emergencies or caregiver illness",
+      "detail": "Having backup plans reduces anxiety and ensures continuous care for your loved one",
+      "source": "National Emergency Management Association"
+    },
+    {
+      "id": 23,
+      "category": "cultural_diversity",
+      "fact": "Hispanic and Asian families provide 50% more hours of care than other ethnic groups",
+      "detail": "Cultural values around family care vary widely and all approaches have merit",
+      "source": "Cultural Caregiving Research Institute"
+    },
+    {
+      "id": 24,
+      "category": "cost_effectiveness",
+      "fact": "Home care costs 75% less than nursing home care for equivalent services",
+      "detail": "Family caregiving provides tremendous value while keeping loved ones at home",
+      "source": "Genworth Cost of Care Survey 2023"
+    }
+  ]
+}

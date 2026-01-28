@@ -1,0 +1,314 @@
+{
+  "version": "1.0",
+  "description": "Audio configuration for Kiin content generation",
+  "updated": "2024-01-15",
+  
+  "voice_profiles": {
+    "validation": {
+      "primary_voices": [
+        "en-US-JennyNeural",
+        "en-US-AriaNeural",
+        "en-AU-NatashaNeural"
+      ],
+      "backup_voices": [
+        "en-GB-SoniaNeural",
+        "en-CA-ClaraNeural",
+        "en-US-SaraNeural"
+      ],
+      "characteristics": ["warm", "empathetic", "nurturing", "gentle"],
+      "description": "Warm, nurturing voices for validation content",
+      "speech_settings": {
+        "rate": "0.85",
+        "pitch": "-5%",
+        "volume": "90%",
+        "pause_duration": "300ms"
+      },
+      "recommended_music_mood": "warm"
+    },
+    "confessions": {
+      "primary_voices": [
+        "en-US-SaraNeural",
+        "en-GB-SoniaNeural",
+        "en-CA-ClaraNeural"
+      ],
+      "backup_voices": [
+        "en-US-JennyNeural",
+        "en-AU-NatashaNeural",
+        "en-US-AriaNeural"
+      ],
+      "characteristics": ["intimate", "soft", "understanding", "non-judgmental"],
+      "description": "Intimate, soft voices for confessions and personal stories",
+      "speech_settings": {
+        "rate": "0.90",
+        "pitch": "-3%",
+        "volume": "85%",
+        "pause_duration": "400ms"
+      },
+      "recommended_music_mood": "intimate"
+    },
+    "tips": {
+      "primary_voices": [
+        "en-US-DavisNeural",
+        "en-GB-RyanNeural",
+        "en-US-JasonNeural"
+      ],
+      "backup_voices": [
+        "en-AU-WilliamNeural",
+        "en-CA-LiamNeural",
+        "en-US-AriaNeural"
+      ],
+      "characteristics": ["clear", "authoritative", "confident", "informative"],
+      "description": "Clear, authoritative voices for tips and advice",
+      "speech_settings": {
+        "rate": "1.00",
+        "pitch": "0%",
+        "volume": "95%",
+        "pause_duration": "250ms"
+      },
+      "recommended_music_mood": "professional"
+    },
+    "sandwich_gen": {
+      "primary_voices": [
+        "en-US-AmberNeural",
+        "en-US-AshleyNeural",
+        "en-AU-WilliamNeural"
+      ],
+      "backup_voices": [
+        "en-GB-LibbyNeural",
+        "en-CA-LiamNeural",
+        "en-US-JennyNeural"
+      ],
+      "characteristics": ["energetic", "relatable", "conversational", "friendly"],
+      "description": "Energetic, relatable voices for sandwich generation content",
+      "speech_settings": {
+        "rate": "1.05",
+        "pitch": "+2%",
+        "volume": "100%",
+        "pause_duration": "200ms"
+      },
+      "recommended_music_mood": "energetic"
+    },
+    "general": {
+      "primary_voices": [
+        "en-US-AriaNeural",
+        "en-GB-LibbyNeural",
+        "en-CA-LiamNeural"
+      ],
+      "backup_voices": [
+        "en-US-JennyNeural",
+        "en-AU-NatashaNeural",
+        "en-GB-RyanNeural"
+      ],
+      "characteristics": ["versatile", "pleasant", "clear", "engaging"],
+      "description": "Versatile voices suitable for general content",
+      "speech_settings": {
+        "rate": "0.95",
+        "pitch": "0%",
+        "volume": "90%",
+        "pause_duration": "250ms"
+      },
+      "recommended_music_mood": "calm"
+    }
+  },
+  
+  "music_moods": {
+    "calm": {
+      "description": "Peaceful, relaxing ambient sounds",
+      "volume_level": 0.15,
+      "duck_ratio": 0.30,
+      "fade_in_duration": 3.0,
+      "fade_out_duration": 3.0,
+      "characteristics": ["peaceful", "non-intrusive", "flowing"],
+      "suggested_genres": ["ambient", "soft piano", "nature sounds", "gentle strings", "warm acoustic"],
+      "avoid": ["percussion", "vocals", "sudden volume changes", "high frequencies"]
+    },
+    "warm": {
+      "description": "Warm, nurturing background music",
+      "volume_level": 0.18,
+      "duck_ratio": 0.25,
+      "fade_in_duration": 4.0,
+      "fade_out_duration": 4.0,
+      "characteristics": ["emotional", "supportive", "human"],
+      "suggested_genres": ["acoustic guitar", "emotional piano", "hopeful strings", "caring ambient", "gentle folk"],
+      "avoid": ["cold synths", "aggressive sounds", "minor keys only"]
+    },
+    "intimate": {
+      "description": "Subtle, intimate background for personal content",
+      "volume_level": 0.12,
+      "duck_ratio": 0.20,
+      "fade_in_duration": 5.0,
+      "fade_out_duration": 5.0,
+      "characteristics": ["minimal", "personal", "unobtrusive"],
+      "suggested_genres": ["minimal ambient", "soft solo piano", "subtle strings", "fingerpicking acoustic"],
+      "avoid": ["orchestral", "busy arrangements", "prominent melodies"]
+    },
+    "professional": {
+      "description": "Clean, professional background for tips and advice",
+      "volume_level": 0.16,
+      "duck_ratio": 0.40,
+      "fade_in_duration": 2.0,
+      "fade_out_duration": 2.0,
+      "characteristics": ["clear", "modern", "confident"],
+      "suggested_genres": ["soft corporate", "clean piano", "professional ambient", "modern strings", "clear acoustic"],
+      "avoid": ["overly emotional", "distracting elements", "dated sounds"]
+    },
+    "energetic": {
+      "description": "Energetic but appropriate for family content",
+      "volume_level": 0.22,
+      "duck_ratio": 0.45,
+      "fade_in_duration": 2.0,
+      "fade_out_duration": 3.0,
+      "characteristics": ["rhythmic", "engaging", "balanced"],
+      "suggested_genres": ["rhythmic acoustic", "lively piano", "upbeat folk", "flowing ambient", "dynamic strings"],
+      "avoid": ["overwhelming", "too fast", "aggressive percussion"]
+    },
+    "uplifting": {
+      "description": "Positive, encouraging background music",
+      "volume_level": 0.20,
+      "duck_ratio": 0.35,
+      "fade_in_duration": 3.0,
+      "fade_out_duration": 3.0,
+      "characteristics": ["inspiring", "energetic", "hopeful"],
+      "suggested_genres": ["upbeat acoustic", "inspiring piano", "hopeful strings", "positive folk", "bright ambient"],
+      "avoid": ["melancholy", "slow tempo", "dark tones"]
+    }
+  },
+  
+  "content_type_mappings": {
+    "validation": {
+      "voice_profile": "validation",
+      "music_mood": "warm",
+      "priority_characteristics": ["nurturing", "supportive", "gentle"]
+    },
+    "confessions": {
+      "voice_profile": "confessions", 
+      "music_mood": "intimate",
+      "priority_characteristics": ["intimate", "understanding", "personal"]
+    },
+    "tips": {
+      "voice_profile": "tips",
+      "music_mood": "professional", 
+      "priority_characteristics": ["clear", "authoritative", "informative"]
+    },
+    "sandwich_gen": {
+      "voice_profile": "sandwich_gen",
+      "music_mood": "energetic",
+      "priority_characteristics": ["relatable", "energetic", "friendly"]
+    },
+    "general": {
+      "voice_profile": "general",
+      "music_mood": "calm",
+      "priority_characteristics": ["versatile", "pleasant", "balanced"]
+    }
+  },
+  
+  "quality_presets": {
+    "podcast": {
+      "audio_bitrate": "128k",
+      "sample_rate": "44100",
+      "channels": "stereo",
+      "format": "mp3",
+      "normalize": true,
+      "noise_reduction": "light"
+    },
+    "social_media": {
+      "audio_bitrate": "96k",
+      "sample_rate": "44100", 
+      "channels": "stereo",
+      "format": "aac",
+      "normalize": true,
+      "noise_reduction": "moderate"
+    },
+    "youtube": {
+      "audio_bitrate": "192k",
+      "sample_rate": "48000",
+      "channels": "stereo", 
+      "format": "aac",
+      "normalize": true,
+      "noise_reduction": "light"
+    },
+    "high_quality": {
+      "audio_bitrate": "320k",
+      "sample_rate": "48000",
+      "channels": "stereo",
+      "format": "wav",
+      "normalize": false,
+      "noise_reduction": "none"
+    }
+  },
+  
+  "mixing_parameters": {
+    "speech_levels": {
+      "target_lufs": -16,
+      "peak_limit": -3,
+      "dynamic_range_min": 6
+    },
+    "music_levels": {
+      "max_volume": 0.25,
+      "min_volume": 0.05,
+      "duck_threshold_db": -25,
+      "duck_attack_ms": 50,
+      "duck_release_ms": 200
+    },
+    "crossfade": {
+      "intro_duration": 3.0,
+      "outro_duration": 4.0,
+      "voice_entry_delay": 1.0
+    }
+  },
+  
+  "file_naming": {
+    "voice_previews": "preview_{voice}_{content_type}.mp3",
+    "mixed_videos": "{original_name}_with_{mood}_music.mp4",
+    "audio_only": "{content_type}_{voice}_{timestamp}.mp3"
+  },
+  
+  "free_music_sources": {
+    "youtube_audio_library": {
+      "url": "https://www.youtube.com/audiolibrary/music",
+      "license": "Creative Commons / YouTube License",
+      "quality": "High",
+      "categories": ["Ambient", "Acoustic", "Cinematic"]
+    },
+    "freemusicarchive": {
+      "url": "https://freemusicarchive.org/",
+      "license": "Creative Commons",
+      "quality": "Variable", 
+      "categories": ["Ambient", "Folk", "Instrumental"]
+    },
+    "incompetech": {
+      "url": "https://incompetech.com/",
+      "license": "Creative Commons (attribution)",
+      "quality": "High",
+      "categories": ["Corporate", "Emotional", "Ambient"]
+    },
+    "zapsplat": {
+      "url": "https://www.zapsplat.com/",
+      "license": "Royalty-free (account required)",
+      "quality": "Professional",
+      "categories": ["Ambient", "Corporate", "Emotional", "Minimal"]
+    }
+  },
+  
+  "usage_guidelines": {
+    "voice_selection": [
+      "Test multiple voices from the same profile for variety",
+      "Consider audience demographics when choosing voice gender",
+      "Match voice energy to content mood",
+      "Use backup voices when primary voices are overused"
+    ],
+    "music_mixing": [
+      "Always duck music during speech for clarity",
+      "Keep background music volume under 25% of speech",
+      "Use fade-ins and fade-outs for professional quality",
+      "Match music mood to content emotional tone",
+      "Ensure music doesn't compete with speech frequencies"
+    ],
+    "quality_control": [
+      "Check audio levels before final export",
+      "Listen to full content on different devices", 
+      "Ensure consistent volume throughout",
+      "Test accessibility with various hearing capabilities"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiin Content Factory Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-heart"></i>
+                <span>Kiin Content Factory</span>
+            </div>
+            <div class="header-stats">
+                <div class="stat-item">
+                    <i class="fas fa-video"></i>
+                    <span id="total-videos">Loading...</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <span id="last-updated">Just now</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Dashboard -->
+        <main class="dashboard">
+            <div class="welcome-section">
+                <h1>Good morning! Ready to create amazing caregiver content? ☀️</h1>
+                <p class="subtitle">Your content factory is loaded with stories, tips, and inspiration. Pick a format and let's make something beautiful.</p>
+            </div>
+
+            <!-- Content Types Grid -->
+            <div class="content-grid">
+                {% for key, content in content_types.items() %}
+                <div class="content-card" data-type="{{ key }}" style="border-left-color: {{ content.color }}">
+                    <div class="card-header">
+                        <h3 class="card-title">{{ content.title }}</h3>
+                        <div class="card-meta">
+                            <span class="content-count">{{ content.count }} stories available</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-description">
+                        <p>{{ content.description }}</p>
+                    </div>
+
+                    <div class="card-preview">
+                        {% if content.latest_video %}
+                        <div class="preview-item">
+                            <i class="fas fa-video"></i>
+                            <span class="preview-name">{{ content.latest_video }}</span>
+                        </div>
+                        {% else %}
+                        <div class="preview-placeholder">
+                            <i class="fas fa-plus-circle"></i>
+                            <span>Generate your first video</span>
+                        </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="btn-generate" data-type="{{ key }}">
+                            <i class="fas fa-magic"></i>
+                            Generate Video
+                        </button>
+                    </div>
+
+                    <div class="generating-overlay" id="overlay-{{ key }}">
+                        <div class="spinner"></div>
+                        <p>Creating your video...</p>
+                        <small>This usually takes 30-60 seconds</small>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Recent Activity -->
+            <section class="recent-activity">
+                <h2>Recent Videos</h2>
+                <div class="activity-list" id="recent-videos">
+                    <div class="loading-placeholder">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        Loading recent videos...
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Notifications -->
+        <div class="notification-container" id="notifications"></div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Kiin Content Factory. Made with <i class="fas fa-heart text-red"></i> for caregivers.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Documentation</a>
+                    <a href="#" class="footer-link">Support</a>
+                    <a href="#" class="footer-link">Feedback</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

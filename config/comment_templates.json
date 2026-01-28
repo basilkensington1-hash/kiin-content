@@ -1,0 +1,137 @@
+{
+  "thank_you": [
+    "Thank you so much for sharing this, {name}! ❤️ Your support means everything to our community.",
+    "This is so heartwarming to hear, {name}! Thank you for being part of our journey.",
+    "Your words just made my whole day, {name}! Thank you for the love 💕",
+    "I'm so grateful you took the time to share this, {name}! You're amazing.",
+    "Thank you for this beautiful comment, {name}! Our community is so lucky to have you.",
+    "This means the world to me, {name}! Thank you for being such a bright light ✨",
+    "Your kindness shines through, {name}! Thank you for spreading such positivity.",
+    "I appreciate you so much, {name}! Comments like these keep me going.",
+    "Thank you for being such an incredible part of our family, {name}! 🙏",
+    "Your support touches my heart, {name}! Thank you for always being there.",
+    "This brought tears to my eyes, {name}! Thank you for sharing your heart with us.",
+    "You're such a blessing, {name}! Thank you for this beautiful reminder.",
+    "Your words are pure gold, {name}! Thank you for lifting us all up today."
+  ],
+  
+  "story_response": [
+    "Oh {name}, your strength is absolutely incredible! Thank you for sharing something so personal with us. You're not alone in this journey 💜",
+    "Your story really resonates with me, {name}. It takes such courage to share, and I'm honored you felt safe doing so here 🤗",
+    "Sending you the biggest virtual hug, {name}! Your experience matters and your voice is so important to our community.",
+    "I see you, {name}, and I'm in awe of how you're handling everything. Thank you for trusting us with your story ❤️",
+    "{name}, you're braver than you know! Thank you for opening up - your story will help so many others feel less alone.",
+    "This really moved me, {name}. Thank you for being so vulnerable and real with us. You're making a difference just by sharing 🌟",
+    "Your honesty is a gift to our community, {name}. I'm sending you so much love and support during this time 💕",
+    "Thank you for sharing this piece of your heart with us, {name}. You're stronger than you realize, and we're all rooting for you!",
+    "I felt every word of this, {name}. Your courage in sharing helps create the safe space we all need. Thank you 🙏",
+    "Your story is powerful, {name}, and so are you! Thank you for letting us walk alongside you in this journey.",
+    "This takes so much strength to share, {name}. Thank you for being real with us - it makes all the difference ✨",
+    "I'm holding space for you, {name}. Thank you for trusting our community with something so meaningful.",
+    "Your vulnerability is a superpower, {name}! Thank you for showing others they're not alone in their struggles 💜"
+  ],
+
+  "supportive_general": [
+    "You're doing an incredible job, even when it doesn't feel like it 💜",
+    "Some days are harder than others, and that's completely okay. You're still amazing ✨",
+    "Remember: you can't pour from an empty cup. Take care of yourself too 🤗",
+    "Your feelings are valid, and so are you. Sending love your way ❤️",
+    "Progress isn't always linear, and that's perfectly normal. Keep going! 🌟",
+    "You're not alone in this. Our whole community is here for you 💕",
+    "Be gentle with yourself - you're doing the best you can with what you have 🙏",
+    "Your love and dedication shine through everything you do ✨",
+    "It's okay to have hard days. Tomorrow is a fresh start 🌅",
+    "You matter just as much as the person you're caring for 💜",
+    "Small steps still count as progress. You're doing wonderfully!",
+    "Your strength is inspiring, even when you don't feel strong 💪",
+    "Sending you a warm virtual hug and reminder that you're valued 🤗"
+  ],
+
+  "question_medication": [
+    "Great question about medication tracking! I've found that using a weekly pill organizer plus a phone app works wonders. What system are you currently using?",
+    "Medication management can be so tricky! Have you tried setting multiple alarms or using a medication app? I'd love to hear what works for your situation 💊",
+    "This is such an important topic! I always recommend checking with the pharmacist too - they have amazing tips for organization. What's your biggest challenge right now?",
+    "Medication tracking was a game-changer for us! I use both visual cues and technology. Have you found any methods that work well for your loved one?",
+    "Such a smart question! I've learned that consistency is key. What time of day works best for your medication routine?",
+    "Medication organization is so crucial for safety! Have you considered a smart pill dispenser, or are you looking for simpler solutions?",
+    "This really depends on your specific situation! Can you tell me more about what you're struggling with? Happy to share what's worked for us 💜"
+  ],
+
+  "question_self_care": [
+    "Self-care isn't selfish - it's essential! What's one small thing you could do just for you today? 💜",
+    "I'm so glad you're thinking about this! Even 5 minutes of self-care can make a difference. What brings you joy?",
+    "This question tells me you're a thoughtful caregiver! What used to fill your cup before caregiving? Can we bring any of that back?",
+    "Self-care looks different for everyone! Some days it's a hot shower, other days it's a phone call with a friend. What speaks to you?",
+    "You're wise to ask this! I've learned that self-care isn't luxury - it's survival. What's your biggest barrier right now?",
+    "Such an important question! Remember: you can't be your best for them if you're running on empty. What's one thing you miss doing?",
+    "I love that you're prioritizing this! Even stolen moments count. What makes you feel most like yourself?",
+    "Self-care is different in every season of caregiving. What phase are you in right now, and what feels manageable? 🌟"
+  ],
+
+  "question_resources": [
+    "There are so many resources available! What specific area are you looking for help with? I'd love to point you in the right direction 💜",
+    "Resource navigation can be overwhelming! Are you looking for practical support, emotional support, or financial assistance?",
+    "Great question! I always recommend starting with [local resource]. What's your biggest need right now?",
+    "So many options available! Have you connected with your local Area Agency on Aging? They're usually a great starting point 🌟",
+    "This depends on your location and needs! What state/area are you in, and what kind of support would help most?",
+    "I'm happy to help you find resources! Can you share what you're struggling with most? That'll help me give better suggestions 💕",
+    "Resource hunting is a skill in itself! What have you already tried, and what gaps are you looking to fill?",
+    "There are amazing resources out there once you know where to look! What's your most pressing challenge right now? 🙏"
+  ],
+
+  "engagement_questions": [
+    "What's been your biggest 'aha moment' in your caregiving journey so far? 💡",
+    "If you could give one piece of advice to someone just starting this journey, what would it be? 💜",
+    "What's something that's surprised you (good or challenging) about caregiving? 🤔",
+    "How do you recharge when you're feeling overwhelmed? I'd love to learn from your strategies! ✨",
+    "What's one thing that always makes you smile, even on the tough days? 🌟",
+    "If you had a magic wand to make one thing easier in your caregiving life, what would you change? ✨",
+    "What's the best advice someone has given you on this journey? 💕",
+    "How has this community helped you feel less alone? I love hearing these stories! 🤗",
+    "What would you want other family members to understand about your experience? 💭",
+    "What's your go-to comfort when you need a moment to breathe? 🙏",
+    "How do you stay hopeful on the really hard days? Your wisdom could help someone else 💜",
+    "What's something you wish you'd known earlier in your journey? 🌅",
+    "What small win are you celebrating today? Every victory counts! 🎉"
+  ],
+
+  "encouragement": [
+    "You're stronger than you know and braver than you feel 💪",
+    "Every day you show up is a victory, even when it doesn't feel like it ✨",
+    "Your love is making a difference, even in ways you can't see 💜",
+    "It's okay to take things one moment at a time. You don't have to have it all figured out 🙏",
+    "You're not just surviving - you're creating moments of love and care that matter deeply 💕",
+    "Your dedication speaks volumes about who you are as a person 🌟",
+    "Some days just keeping everyone safe and fed is enough. You're doing enough ❤️",
+    "The fact that you care so much shows what an amazing person you are 🤗",
+    "You're writing a love story in the most challenging circumstances. That's heroic 💜",
+    "Your efforts matter more than you'll ever know ✨",
+    "Every small act of care you provide is changing someone's world 🌍",
+    "You're exactly who your loved one needs, exactly as you are 💕",
+    "Progress isn't always visible, but it's always happening when love is involved 🌱"
+  ],
+
+  "boundaries": [
+    "Setting boundaries isn't mean - it's necessary for everyone's wellbeing 💜",
+    "It's okay to say no to things that drain you. Your energy is precious ✨",
+    "Protecting your peace isn't selfish - it's smart caregiving 🙏",
+    "You can be caring AND have limits. Both things can be true at once 💕",
+    "Boundaries are how we love sustainably. They protect relationships, not harm them 🌟",
+    "It's okay to ask for help. Actually, it's brave to ask for help 🤗",
+    "You don't have to be everything to everyone. Being present is enough ❤️",
+    "Your needs matter too, and honoring them makes you a better caregiver 💜"
+  ],
+
+  "celebration": [
+    "This is such wonderful news! I'm celebrating right along with you! 🎉",
+    "Your joy is contagious! Thank you for sharing this bright spot with us ✨",
+    "What a beautiful moment to hold onto! These are the memories that sustain us 💜",
+    "I'm so happy for you! These victories, big and small, are everything 🌟",
+    "This just made my whole day brighter! Thank you for sharing your happiness with us 😊",
+    "Yes! These are the moments that remind us why we do what we do 💕",
+    "I'm beaming reading this! Your happiness is our happiness 🤗",
+    "What a gift to witness your joy! These moments are precious treasures 💎",
+    "This is absolutely beautiful! Thank you for letting us celebrate with you 🎊",
+    "Your happiness is lighting up our entire community! Keep shining! ⭐"
+  ]
+}

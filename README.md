@@ -1,199 +1,222 @@
-# "You're Not Alone" Validation Series Generator
+# Instagram Carousel Generator for Caregiver Content
 
-A fully automated content pipeline for generating caregiver validation videos with calming visuals and gentle audio.
-
-## Overview
-
-This tool creates short (12-20 second), vertical (9:16) videos that provide emotional validation for caregivers. Each video features calming gradient backgrounds, elegant text animation, and gentle text-to-speech narration of carefully crafted validation messages.
+Professional-quality carousel slides for Instagram that generate 3x more engagement than single posts. Designed specifically for caregivers and support communities.
 
 ## Features
 
-- **FREE tools only**: Uses edge-tts, FFmpeg, and PIL
-- **Professional quality**: 1080x1920 vertical videos optimized for social media
-- **Emotional intelligence**: 24 carefully crafted validation messages across 4 categories
-- **Automated pipeline**: Generate videos with a single command
-- **Customizable**: Use custom messages or select from predefined categories
+- **5 Template Types:** Tips, Signs, Communication, Myth-busting, and Story-based formats
+- **Professional Design:** Clean, modern layouts with consistent branding
+- **Instagram Optimized:** 1080x1080 PNG images ready for direct upload
+- **Progress Indicators:** Dot navigation and swipe hints
+- **10+ Pre-written Topics:** Ready-to-use caregiver content
+- **Easy Customization:** JSON-based content database for quick updates
 
-## Installation
+## Quick Start
 
-1. **Clone and setup**:
+1. **Setup Virtual Environment:**
    ```bash
-   cd /Users/nick/clawd/kiin-content
+   cd kiin-content
    python3 -m venv venv
-   source venv/bin/activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
-2. **Install FFmpeg** (if not already installed):
+2. **Generate Your First Carousel:**
    ```bash
-   # macOS
-   brew install ffmpeg
-   
-   # Ubuntu/Debian
-   sudo apt update && sudo apt install ffmpeg
-   
-   # Windows
-   # Download from https://ffmpeg.org/download.html
+   python src/carousel_generator.py --topic communication_tips
    ```
+
+3. **Upload to Instagram:**
+   - Open Instagram app
+   - Create new post → Select Multiple
+   - Choose all generated slides in order
+   - Add caption and hashtags
+   - Post! 🚀
 
 ## Usage
 
-### Basic Usage
-
-Generate a random validation video:
+### List Available Topics
 ```bash
-source venv/bin/activate
-python src/validation_generator.py --output my_video.mp4
+python src/carousel_generator.py --list
 ```
 
-### Custom Message
-
-Create a video with your own message:
+### Get Topic Information
 ```bash
-python src/validation_generator.py \
-  --message "You're doing better than you think you are. 💙" \
-  --output custom_validation.mp4
+python src/carousel_generator.py --info communication_tips
 ```
 
-### Category-Specific Videos
-
-Generate from specific validation categories:
+### Generate Specific Carousel
 ```bash
-# Permission statements
-python src/validation_generator.py --category permission_statements --output permission.mp4
-
-# Guilt relief
-python src/validation_generator.py --category guilt_relief --output guilt_relief.mp4
-
-# Burnout acknowledgment  
-python src/validation_generator.py --category burnout_acknowledgment --output burnout.mp4
-
-# Caregiver identity
-python src/validation_generator.py --category caregiver_identity --output identity.mp4
+python src/carousel_generator.py --topic communication_tips --output-dir ./my-carousels/
 ```
 
-## Message Categories
+### Available Topics
 
-### Permission Statements
-Messages that give caregivers explicit permission to feel and need things:
-- "You're allowed to feel frustrated..."
-- "It's okay to say no sometimes..."
-- "You're allowed to grieve the life you planned..."
+| Topic | Template | Description |
+|-------|----------|-------------|
+| `communication_tips` | Tips | 5 ways to communicate better with your loved one |
+| `burnout_signs` | Signs | Warning signs of caregiver burnout |
+| `guilt_phrases` | Communication | What to say instead of guilt-inducing phrases |
+| `dementia_myths` | Truth | Common myths about dementia care |
+| `self_care_journey` | Story | A caregiver's path from burnout to balance |
+| `medication_tips` | Tips | Safe medication management strategies |
+| `respite_care` | Tips | Finding and using quality respite care |
+| `hospital_advocacy` | Tips | Advocating effectively in hospital settings |
+| `financial_planning` | Tips | Planning for long-term care costs |
+| `depression_signs` | Signs | Recognizing caregiver depression |
 
-### Guilt Relief  
-Messages that address common caregiver guilt:
-- "That moment when you snapped at them? You're not a monster..."
-- "You're not failing because you had to ask for help..."
-- "Your worst caregiving day doesn't erase all your best ones..."
+## Template Types
 
-### Burnout Acknowledgment
-Messages that validate exhaustion and overwhelm:
-- "If you're running on empty today, that's not weakness..."
-- "Your exhaustion is real. Your overwhelm is valid..."
-- "To the caregiver who feels invisible: I see you..."
+### 🎯 Tips Format
+Perfect for educational "how-to" content:
+- Cover: "5 Tips for [Topic]"
+- Slides: One actionable tip per slide
+- Visual: Clean layout with icons and large text
 
-### Caregiver Identity
-Messages about maintaining personal identity:
-- "You are more than just a caregiver..."
-- "Before you became their caregiver, you were someone too..."
-- "You're not selfish for wanting to remember who you are..."
+### ⚠️ Signs Format  
+Ideal for awareness and recognition:
+- Cover: "5 Signs You Might Be [Topic]"
+- Slides: Warning signs or symptoms
+- Visual: Attention-grabbing orange headers
 
-## Technical Specifications
+### 💬 Communication Format
+Great for conversation guides:
+- Cover: "What to Say Instead of [Topic]"
+- Slides: Split design showing wrong vs right phrases
+- Visual: Red/green color coding
 
-- **Resolution**: 1080x1920 (9:16 vertical)
-- **Frame Rate**: 24 fps (optimized for smooth generation)
-- **Duration**: 12-20 seconds (based on message length)
-- **Audio**: Microsoft edge-tts "en-US-AriaNeural" voice
-- **Visual**: Calming gradient backgrounds with fade-in/stable/fade-out text animation
-- **Format**: MP4 with H.264 video and AAC audio
+### 🔍 Truth Format
+Perfect for myth-busting content:
+- Cover: "The Truth About [Topic]"
+- Slides: Myth vs Reality comparisons
+- Visual: Clear fact-checking layout
+
+### 📖 Story Format
+Engaging narrative progression:
+- Cover: "[Topic]: A Caregiver's Journey" 
+- Slides: Chapter-based storytelling
+- Visual: Emotion-based color themes
+
+## Customization
+
+### Adding New Topics
+
+Edit `config/carousel_content.json`:
+
+```json
+{
+  "topics": {
+    "your_new_topic": {
+      "template": "tips",
+      "title": "Your Topic Title",
+      "hook": "Compelling subtitle that draws people in",
+      "slides": [
+        {
+          "title": "First Tip",
+          "content": "Detailed explanation of the tip...",
+          "visual_hint": "💡"
+        }
+      ]
+    }
+  }
+}
+```
+
+### Brand Colors
+
+Customize the color scheme in the JSON file:
+
+```json
+{
+  "brand": {
+    "colors": {
+      "primary": "#2C5F77",    // Main brand color
+      "secondary": "#7FB3C8",  // Accent color
+      "accent": "#F4A460",     // Highlight color
+      "background": "#FEFEFE", // Background
+      "text_dark": "#2C3E50",  // Dark text
+      "text_light": "#FFFFFF"  // Light text
+    }
+  }
+}
+```
+
+## Instagram Best Practices
+
+### Engagement Tips
+- **Hook in first 3 words:** Start covers with attention-grabbing phrases
+- **One point per slide:** Don't overcrowd content
+- **Include CTAs:** Every carousel ends with clear call-to-action
+- **Use swipe hints:** Help users know there's more content
+
+### Caption Strategy
+```
+🧠 Better communication transforms relationships.
+
+Which tip will you try first? 
+
+Save this post for when you need it →
+
+Follow @youraccount for more caregiver tips
+#caregiver #communication #mentalhealth #support
+```
+
+### Hashtag Strategy
+Mix popular and niche tags:
+- **Popular:** #caregiver #mentalhealth #selfcare
+- **Niche:** #caregiverburnout #dementia #eldercare
+- **Branded:** Your unique hashtags
+
+## Technical Details
+
+- **Image Format:** PNG (high quality, transparent backgrounds)
+- **Dimensions:** 1080x1080 pixels (Instagram square)
+- **Fonts:** System fonts with automatic fallbacks
+- **Dependencies:** Python 3.8+, Pillow (PIL)
 
 ## File Structure
 
 ```
 kiin-content/
 ├── src/
-│   └── validation_generator.py     # Main generator script
+│   └── carousel_generator.py    # Main generator script
 ├── config/
-│   └── validation_messages.json   # Message database
-├── output/
-│   └── validation_example.mp4     # Example output
-├── requirements.txt                # Python dependencies
-└── README.md                      # This file
+│   └── carousel_content.json    # Content database
+├── carousels/                   # Generated output (created automatically)
+├── requirements.txt             # Python dependencies
+└── README.md                   # This file
 ```
-
-## Customization
-
-### Adding New Messages
-
-Edit `config/validation_messages.json` to add new validation messages:
-
-```json
-{
-  "your_category": [
-    {
-      "text": "Your validation message here 💙",
-      "duration": 15
-    }
-  ]
-}
-```
-
-### Modifying Visual Style
-
-The gradient colors can be customized in the `ValidationVideoGenerator` class:
-
-```python
-self.gradient_colors = [
-    [(135, 206, 250), (221, 160, 221)],  # Sky blue to plum
-    # Add your own color combinations here
-]
-```
-
-## Performance Notes
-
-- Frame generation is CPU-intensive; expect 1-2 minutes per video
-- Progress is shown during generation
-- Videos are optimized for social media sharing
-- Generated videos are approximately 100-300KB each
 
 ## Troubleshooting
 
-### Common Issues
+### Font Issues
+If fonts look wrong:
+1. System will automatically fallback to default fonts
+2. For custom fonts, add TTF files to system font directory
+3. Update font paths in the `_load_fonts()` method
 
-1. **FFmpeg not found**: Install FFmpeg and ensure it's in your PATH
-2. **Permission errors**: Ensure output directory is writable
-3. **Slow generation**: This is normal; frame generation is CPU-intensive
-
-### Debug Mode
-
-To test individual components:
-```python
-# Test imports
-python -c "import edge_tts; import PIL; import numpy; print('All imports successful')"
-
-# Test message loading
-python -c "from src.validation_generator import ValidationVideoGenerator; g = ValidationVideoGenerator(); print(g.get_random_message())"
+### Virtual Environment
+Always activate the virtual environment before running:
+```bash
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate     # Windows
 ```
 
-## Example Output
+### Output Directory
+Generator creates output directories automatically. Default is `./carousels/`
 
-The generated `validation_example.mp4` demonstrates the full pipeline with:
-- Elegant gradient background (soft blues and purples)
-- Smooth text fade-in animation
-- Clear, professional typography
-- Gentle female TTS narration
-- Appropriate pacing for emotional content
+## Contributing
 
-## Production Usage
+To add new content:
+1. Edit `config/carousel_content.json`
+2. Test with `--info` command
+3. Generate sample carousel
+4. Verify all slides look professional
 
-This tool is designed for:
-- Social media content creation (Instagram Stories, TikTok, etc.)
-- Caregiver support communities
-- Mental health awareness campaigns
-- Automated content scheduling
+## License
 
-Videos are ready to post without additional editing, though you may add music or branding as needed.
+This tool is designed for creating original caregiver content. Please respect Instagram's community guidelines and ensure all content provides genuine value to your audience.
 
 ---
 
-*Built with ❤️ for the caregiving community*
+**Ready to boost your Instagram engagement?** Start with `python src/carousel_generator.py --list` to see all available topics! 🚀

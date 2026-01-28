@@ -1,0 +1,80 @@
+{
+  "name": "Kiin",
+  "tagline": "Care coordination made easier",
+  "mission": "Supporting those who care for others with warmth, understanding, and practical tools",
+  
+  "colors": {
+    "primary": "#4A90B8",
+    "secondary": "#6BB3A0", 
+    "accent": "#F4A460",
+    "background_warm": "#FDF9F5",
+    "background_cool": "#F8FAFB",
+    "text_light": "#FFFFFF",
+    "text_dark": "#2C3E50"
+  },
+  
+  "fonts": {
+    "heading": "Inter",
+    "body": "Source Sans Pro",
+    "accent": "Poppins"
+  },
+  
+  "voice": {
+    "tts_voice": "en-US-AriaNeural",
+    "tone": "warm, supportive, authentic",
+    "personality_traits": [
+      "Understanding and empathetic",
+      "Practical and helpful", 
+      "Calm and reassuring",
+      "Human, not robotic",
+      "Encouraging without being patronizing"
+    ],
+    "avoid": [
+      "Clinical or medical jargon",
+      "Corporate speak",
+      "Overly cheerful or fake positivity",
+      "Condescending language"
+    ]
+  },
+  
+  "visual_style": {
+    "mood": "warm, caring, approachable",
+    "imagery_style": "real people, authentic moments, soft lighting",
+    "iconography": "rounded, friendly, clear",
+    "spacing": "generous, breathable, uncluttered"
+  },
+  
+  "content_guidelines": {
+    "writing_style": {
+      "voice": "Conversational but knowledgeable",
+      "perspective": "We understand because we care too",
+      "language_level": "Clear and accessible, avoiding complexity",
+      "sentence_structure": "Short to medium sentences, active voice"
+    },
+    "key_messages": [
+      "You're not alone in this journey",
+      "Small steps make a big difference", 
+      "Care for yourself too",
+      "Every family's situation is unique",
+      "Technology should make life easier, not harder"
+    ]
+  },
+  
+  "logo": {
+    "wordmark_file": "logo.png",
+    "watermark_file": "watermark.png",
+    "usage": "Always maintain clear space, never distort proportions"
+  },
+  
+  "applications": {
+    "video_watermark": {
+      "position": "bottom-right",
+      "opacity": 0.6,
+      "size": "5% of video width"
+    },
+    "social_media": {
+      "always_include_tagline": true,
+      "hashtags": ["#CareCoordination", "#CaregiverSupport", "#Kiin"]
+    }
+  }
+}

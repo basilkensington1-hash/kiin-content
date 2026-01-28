@@ -1,0 +1,230 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How do I organize medications safely?",
+      "answer": "Use a weekly pill organizer with clear compartments. Set phone alarms for each dose. Keep a medication list with photos. Always check with the pharmacist about interactions.",
+      "category": "medication",
+      "duration": 25,
+      "keywords": ["medication", "pills", "organize", "safety"]
+    },
+    {
+      "id": 2, 
+      "question": "What should I do if they refuse help?",
+      "answer": "Start small. Offer choices rather than demands. Focus on safety, not perfection. Sometimes backing off and trying again later works better than pushing.",
+      "category": "resistance",
+      "duration": 20,
+      "keywords": ["refuse", "resistance", "stubborn", "won't accept help"]
+    },
+    {
+      "id": 3,
+      "question": "How do I prevent caregiver burnout?",
+      "answer": "Take breaks regularly, even if just 15 minutes. Accept help when offered. Join a support group. Remember: you can't pour from an empty cup.",
+      "category": "self-care",
+      "duration": 18,
+      "keywords": ["burnout", "exhausted", "overwhelmed", "self-care"]
+    },
+    {
+      "id": 4,
+      "question": "When should I consider professional care?",
+      "answer": "When safety becomes an issue, when you're overwhelmed, or when their needs exceed your abilities. It's not giving up - it's getting the right level of care.",
+      "category": "professional-care",
+      "duration": 22,
+      "keywords": ["professional care", "nursing home", "assisted living"]
+    },
+    {
+      "id": 5,
+      "question": "How do I handle aggressive behavior?",
+      "answer": "Stay calm and don't take it personally. Look for triggers like pain, hunger, or confusion. Redirect their attention. Remove yourself if you feel unsafe.",
+      "category": "behavior",
+      "duration": 24,
+      "keywords": ["aggressive", "angry", "violent", "behavior problems"]
+    },
+    {
+      "id": 6,
+      "question": "What legal documents do I need?",
+      "answer": "Power of attorney for finances and healthcare, advance directive, will, and medical information form. Get these done while your loved one can still sign.",
+      "category": "legal",
+      "duration": 26,
+      "keywords": ["legal", "documents", "power of attorney", "will"]
+    },
+    {
+      "id": 7,
+      "question": "How do I make the house safer?",
+      "answer": "Remove trip hazards like rugs. Install grab bars in bathrooms. Improve lighting. Lock up medications and sharp objects. Consider medical alert systems.",
+      "category": "safety",
+      "duration": 23,
+      "keywords": ["home safety", "fall prevention", "modify house"]
+    },
+    {
+      "id": 8,
+      "question": "How do I talk to siblings about sharing care?",
+      "answer": "Have an honest family meeting. Discuss each person's strengths and availability. Be specific about what help you need. Consider that not everyone can help the same way.",
+      "category": "family",
+      "duration": 25,
+      "keywords": ["siblings", "family help", "sharing care", "family meeting"]
+    },
+    {
+      "id": 9,
+      "question": "What do I do if they keep repeating themselves?",
+      "answer": "This is common with dementia. Don't correct them constantly. Go along with their reality when safe. Use distraction and redirection. Answer with patience each time.",
+      "category": "dementia",
+      "duration": 21,
+      "keywords": ["repeating", "dementia", "memory problems", "confusion"]
+    },
+    {
+      "id": 10,
+      "question": "How do I handle doctor appointments effectively?",
+      "answer": "Prepare questions in advance. Bring their medication list and insurance cards. Take notes or bring someone to help listen. Don't be afraid to ask for clarification.",
+      "category": "medical",
+      "duration": 20,
+      "keywords": ["doctor appointments", "medical visits", "prepare for doctor"]
+    },
+    {
+      "id": 11,
+      "question": "What financial assistance is available?",
+      "answer": "Look into Medicaid, VA benefits if they're a veteran, local Area Agency on Aging programs, and nonprofit organizations. Each state has different programs available.",
+      "category": "finances",
+      "duration": 24,
+      "keywords": ["financial help", "medicaid", "assistance programs", "money"]
+    },
+    {
+      "id": 12,
+      "question": "How do I manage their eating problems?",
+      "answer": "Make favorite foods available. Eat together when possible. Try finger foods if utensils are hard. Ensure proper hydration. Consult a doctor about sudden appetite changes.",
+      "category": "nutrition",
+      "duration": 22,
+      "keywords": ["eating", "appetite", "nutrition", "not eating"]
+    },
+    {
+      "id": 13,
+      "question": "What do I do about driving safety?",
+      "answer": "Have an honest conversation about safety. Consider a driving evaluation. Remove keys if necessary. Arrange alternative transportation. This is one of the hardest conversations.",
+      "category": "driving",
+      "duration": 23,
+      "keywords": ["driving", "car safety", "transportation", "taking keys"]
+    },
+    {
+      "id": 14,
+      "question": "How do I handle incontinence with dignity?",
+      "answer": "Use protective bedding and clothing. Establish regular bathroom schedules. Keep supplies handy. Talk to their doctor about possible medical causes. Maintain their dignity always.",
+      "category": "personal-care",
+      "duration": 25,
+      "keywords": ["incontinence", "bathroom accidents", "dignity", "personal care"]
+    },
+    {
+      "id": 15,
+      "question": "What technology can help with caregiving?",
+      "answer": "Medication reminder apps, GPS trackers for wandering, medical alert systems, camera systems for monitoring, and smart home devices for easier control.",
+      "category": "technology",
+      "duration": 21,
+      "keywords": ["technology", "apps", "monitoring", "smart home"]
+    },
+    {
+      "id": 16,
+      "question": "How do I cope with their personality changes?",
+      "answer": "Remember the disease is causing the changes, not them. Grieve the person they used to be. Focus on moments of connection. Get support from others who understand.",
+      "category": "emotional",
+      "duration": 23,
+      "keywords": ["personality changes", "grief", "emotional support", "different person"]
+    },
+    {
+      "id": 17,
+      "question": "What should I pack for emergency situations?",
+      "answer": "Keep a grab bag ready with medications, insurance cards, contact lists, comfort items, and important documents. Include a few days' worth of supplies.",
+      "category": "emergency",
+      "duration": 19,
+      "keywords": ["emergency", "hospital bag", "prepare", "emergency kit"]
+    },
+    {
+      "id": 18,
+      "question": "How do I find quality respite care?",
+      "answer": "Ask for referrals from doctors, local aging services, or other caregivers. Interview caregivers thoroughly. Start with short periods. Trust your instincts about fit.",
+      "category": "respite",
+      "duration": 22,
+      "keywords": ["respite care", "temporary care", "break", "help"]
+    },
+    {
+      "id": 19,
+      "question": "What insurance coverage should I understand?",
+      "answer": "Learn what Medicare covers and doesn't. Understand their supplemental insurance. Know about Medicaid for long-term care. Keep all insurance cards organized.",
+      "category": "insurance",
+      "duration": 24,
+      "keywords": ["insurance", "medicare", "coverage", "benefits"]
+    },
+    {
+      "id": 20,
+      "question": "How do I maintain my own relationships?",
+      "answer": "Be honest with friends about your situation. Schedule regular check-ins even if brief. Accept that some relationships may change. Prioritize the most supportive people.",
+      "category": "relationships",
+      "duration": 21,
+      "keywords": ["friends", "relationships", "social life", "isolation"]
+    },
+    {
+      "id": 21,
+      "question": "When should I call 911?",
+      "answer": "Call for breathing problems, chest pain, severe bleeding, loss of consciousness, signs of stroke, or if you feel unsafe. When in doubt, call - that's what it's for.",
+      "category": "emergency",
+      "duration": 18,
+      "keywords": ["911", "emergency", "when to call", "medical emergency"]
+    },
+    {
+      "id": 22,
+      "question": "How do I deal with sundown syndrome?",
+      "answer": "Keep a consistent routine. Increase lighting in the afternoon. Limit caffeine and naps. Plan easier activities for evening. Create a calming environment.",
+      "category": "dementia",
+      "duration": 20,
+      "keywords": ["sundowning", "evening confusion", "agitation", "routine"]
+    },
+    {
+      "id": 23,
+      "question": "What do I need to know about wheelchairs?",
+      "answer": "Get proper measurements for fit. Learn transfer techniques safely. Maintain the wheelchair regularly. Know how to navigate different terrains. Consider rental before buying.",
+      "category": "mobility",
+      "duration": 22,
+      "keywords": ["wheelchair", "mobility", "transfers", "equipment"]
+    },
+    {
+      "id": 24,
+      "question": "How do I help them stay socially connected?",
+      "answer": "Arrange regular visits with friends. Use video calls for distant relatives. Look into senior center activities. Consider pet therapy or intergenerational programs.",
+      "category": "social",
+      "duration": 21,
+      "keywords": ["social", "lonely", "isolation", "activities", "friends"]
+    },
+    {
+      "id": 25,
+      "question": "What are the signs it's time for memory care?",
+      "answer": "Wandering, getting lost, safety issues, aggressive behavior, inability to recognize danger, or when current care isn't meeting their needs anymore.",
+      "category": "memory-care",
+      "duration": 23,
+      "keywords": ["memory care", "dementia care", "specialized care", "when to move"]
+    }
+  ],
+  
+  "categories": {
+    "medication": "Managing medications safely and effectively",
+    "resistance": "Dealing with refusal and resistance to help",
+    "self-care": "Taking care of yourself as a caregiver", 
+    "professional-care": "When and how to get professional help",
+    "behavior": "Managing challenging behaviors",
+    "legal": "Important legal documents and planning",
+    "safety": "Making the environment safer",
+    "family": "Working with family members",
+    "dementia": "Dementia-specific challenges",
+    "medical": "Healthcare and medical management",
+    "finances": "Financial assistance and planning",
+    "nutrition": "Eating and nutrition issues",
+    "driving": "Transportation and driving safety",
+    "personal-care": "Personal hygiene and care",
+    "technology": "Helpful technology and apps",
+    "emotional": "Emotional challenges and support",
+    "emergency": "Emergency preparedness and response",
+    "respite": "Getting breaks and temporary care",
+    "insurance": "Understanding insurance and benefits",
+    "relationships": "Maintaining personal relationships",
+    "mobility": "Movement and mobility aids",
+    "social": "Social connection and activities",
+    "memory-care": "Specialized memory care decisions"
+  }
+}

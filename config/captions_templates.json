@@ -1,0 +1,340 @@
+{
+  "content_types": {
+    "validation": {
+      "description": "Focus on community, 'you're not alone' messaging",
+      "emotional_triggers": ["recognition", "relief", "belonging"],
+      "caption_templates": [
+        {
+          "format": "personal_story_lead",
+          "template": "Yesterday, {specific_moment}. I used to think I was the only one who {struggle}. But here's what I've learned: {insight}. You're not alone in feeling {emotion}. Who else needs to hear this today? 💙",
+          "variables": ["specific_moment", "struggle", "insight", "emotion"],
+          "example": "Yesterday, I caught myself crying in the pharmacy while picking up Mom's medications. I used to think I was the only one who felt overwhelmed by the simplest caregiving tasks. But here's what I've learned: feeling overwhelmed doesn't mean you're failing. You're not alone in feeling like it's too much sometimes. Who else needs to hear this today? 💙"
+        },
+        {
+          "format": "wisdom_share",
+          "template": "After {time_period} of {situation}, I've learned that {truth}. It's not about {misconception} – it's about {reality}. If you're {feeling}, you're not broken. You're human. 🫂",
+          "variables": ["time_period", "situation", "truth", "misconception", "reality", "feeling"],
+          "example": "After 2 years of caring for my dad with dementia, I've learned that 'good days' and 'bad days' can happen in the same hour. It's not about staying positive – it's about staying present. If you're feeling emotionally whiplashed, you're not broken. You're human. 🫂"
+        },
+        {
+          "format": "reality_check",
+          "template": "People think {common_belief} looks like {dramatic_example}. But most of the time, it's {everyday_reality}. If you're {relatable_feeling}, that's not weakness. That's {reframe}. You belong here. ❤️",
+          "variables": ["common_belief", "dramatic_example", "everyday_reality", "relatable_feeling", "reframe"],
+          "example": "People think caregiver burnout looks like sobbing in hospital hallways. But most of the time, it's standing in the cereal aisle, completely paralyzed by too many choices. If you're feeling overwhelmed by simple decisions, that's not weakness. That's your brain protecting you from overload. You belong here. ❤️"
+        },
+        {
+          "format": "community_question",
+          "template": "{vulnerable_admission}. I'm sharing this because someone needs to know they're not the only one. {question}? Let's normalize {topic} in the comments 💕",
+          "variables": ["vulnerable_admission", "question", "topic"],
+          "example": "I've pretended to be 'fine' so many times that I almost believed it myself. I'm sharing this because someone needs to know they're not the only one. When was the last time you answered 'How are you?' honestly? Let's normalize saying 'I'm struggling' in the comments 💕"
+        },
+        {
+          "format": "permission_giving",
+          "template": "Permission slip for {audience}: You're allowed to {permission1}. You're allowed to {permission2}. You're allowed to {permission3}. Your feelings are valid, full stop. 💙",
+          "variables": ["audience", "permission1", "permission2", "permission3"],
+          "example": "Permission slip for caregivers: You're allowed to feel frustrated with the person you're caring for. You're allowed to grieve the person they used to be. You're allowed to want your old life back sometimes. Your feelings are valid, full stop. 💙"
+        }
+      ],
+      "cta_variations": [
+        "Drop a 💙 if you've been there too – let's remind each other we're not alone",
+        "Tag someone who might need this reminder today",
+        "Share your experience in the comments – someone needs to hear it",
+        "Save this for the days when you need the reminder",
+        "Who else needs to hear that it's okay to not be okay?"
+      ],
+      "hashtags": {
+        "tiktok": [
+          "#caregiver", "#caregiving", "#yourenotalone", "#mentalhealth", "#compassion",
+          "#caregiverlife", "#caregiverjourney", "#eldercare", "#familycare", "#selfcare",
+          "#burnoutprevention", "#mentalhealthawareness", "#support", "#community", "#healing"
+        ],
+        "instagram": [
+          "#caregiverlife", "#caregivers", "#yourenotalone", "#mentalhealth", "#selfcare",
+          "#compassion", "#eldercare", "#familycaregiving", "#caregiverjourney", "#support",
+          "#mentalhealthmatters", "#caregiversupport", "#healing", "#community", "#strength"
+        ],
+        "youtube": [
+          "#caregiverlife", "#mentalhealth", "#selfcare", "#familycare", "#support",
+          "#wellness", "#compassion", "#caregiving", "#community", "#healing"
+        ]
+      }
+    },
+    "confessions": {
+      "description": "Raw, honest, permission-giving language",
+      "emotional_triggers": ["relief", "recognition", "catharsis"],
+      "caption_templates": [
+        {
+          "format": "confession_vulnerability",
+          "template": "Confession: {honest_admission}. I've never said this out loud before, but {deeper_truth}. Maybe you need to hear that {permission}. We're messier than our highlight reels, and that's okay. 💔",
+          "variables": ["honest_admission", "deeper_truth", "permission"],
+          "example": "Confession: I've googled 'how to cope when you don't like your aging parent' more times than I care to admit. I've never said this out loud before, but sometimes I feel more like a prisoner than a caregiver. Maybe you need to hear that loving someone and liking them don't always happen at the same time. We're messier than our highlight reels, and that's okay. 💔"
+        },
+        {
+          "format": "ugly_truth",
+          "template": "The ugly truth about {topic}: {harsh_reality}. Nobody prepared me for {unexpected_aspect}. If this resonates, you're not a bad person. You're just {reframe}. 🫂",
+          "variables": ["topic", "harsh_reality", "unexpected_aspect", "reframe"],
+          "example": "The ugly truth about watching someone you love disappear: some days I grieve who they were more than I celebrate who they are. Nobody prepared me for the guilt that comes with missing someone who's still here. If this resonates, you're not a bad person. You're just human loving someone through an impossible situation. 🫂"
+        },
+        {
+          "format": "shame_release",
+          "template": "I'm done pretending {false_belief}. The truth is {real_experience}. I'm sharing this because shame grows in silence, and {audience} deserve better. {question}? 💕",
+          "variables": ["false_belief", "real_experience", "audience", "question"],
+          "example": "I'm done pretending that self-care looks pretty and peaceful. The truth is my 'self-care' is crying in my car between appointments and eating dinner standing over the sink. I'm sharing this because shame grows in silence, and caregivers deserve better. What does your real self-care look like? 💕"
+        },
+        {
+          "format": "guilt_processing",
+          "template": "Guilt I'm working through: {guilt_source}. My therapist says {professional_insight}. Sharing in case someone else needs to hear {takeaway}. We're all just figuring it out. ❤️",
+          "variables": ["guilt_source", "professional_insight", "takeaway"],
+          "example": "Guilt I'm working through: feeling relieved when respite care starts, even when I miss them. My therapist says it's normal to need breaks from people we love intensely. Sharing in case someone else needs to hear that missing someone and needing space can coexist. We're all just figuring it out. ❤️"
+        },
+        {
+          "format": "rawness_admission",
+          "template": "Raw moment: {vulnerable_situation}. I wanted to {impulse}, but instead I {actual_action}. Some days {struggle} is the best we can do. And that's enough. 💙",
+          "variables": ["vulnerable_situation", "impulse", "actual_action", "struggle"],
+          "example": "Raw moment: Dad asked me the same question 47 times in an hour yesterday. I wanted to scream, but instead I answered all 47 times with as much patience as I could muster. Some days 'trying our best' is the best we can do. And that's enough. 💙"
+        }
+      ],
+      "cta_variations": [
+        "Share your confession in the comments – let's normalize the messy parts",
+        "Save this if you need permission to be human",
+        "Who else is done pretending it's all beautiful?",
+        "Drop a 💔 if you've felt this too",
+        "Let's be real in the comments – what's your confession?"
+      ],
+      "hashtags": {
+        "tiktok": [
+          "#confession", "#rawtruth", "#mentalhealthtiktok", "#caregiverconfessions", "#honesty",
+          "#vulnerable", "#reallife", "#itsokaytonotbeokay", "#guilt", "#shame",
+          "#authenticity", "#messyandreal", "#permission", "#human", "#healing"
+        ],
+        "instagram": [
+          "#confession", "#vulnerability", "#mentalhealthawareness", "#authenticity", "#reallife",
+          "#rawandreal", "#shame", "#guilt", "#human", "#permission",
+          "#messybeautiful", "#honesty", "#mentalhealth", "#healing", "#courage"
+        ],
+        "youtube": [
+          "#confession", "#vulnerability", "#authenticity", "#mentalhealth", "#honesty",
+          "#reallife", "#courage", "#healing", "#selfacceptance", "#permission"
+        ]
+      }
+    },
+    "tips": {
+      "description": "Educational hook + value + soft CTA",
+      "emotional_triggers": ["hope", "empowerment", "relief"],
+      "caption_templates": [
+        {
+          "format": "educational_hook",
+          "template": "Here's what {time_period} of {experience} taught me about {topic}: {tip1}. {tip2}. {tip3}. Save this for {when_needed}. What would you add to this list? 💡",
+          "variables": ["time_period", "experience", "topic", "tip1", "tip2", "tip3", "when_needed"],
+          "example": "Here's what 3 years of caring for someone with dementia taught me about communication: Speak slowly, not loudly. Enter their reality instead of correcting it. Use touch and eye contact more than words. Save this for those frustrating days when nothing seems to work. What would you add to this list? 💡"
+        },
+        {
+          "format": "problem_solution",
+          "template": "If {problem}, try this: {solution_intro}. {step1}. {step2}. {step3}. This won't work for everyone, but it's {qualifier}. Hope it helps someone. 🤗",
+          "variables": ["problem", "solution_intro", "step1", "step2", "step3", "qualifier"],
+          "example": "If you're feeling overwhelmed by medical appointments, try this: Create an appointment binder. Keep all medical info in one place. Bring a friend to take notes. Write questions down beforehand. This won't work for everyone, but it's saved my sanity more times than I can count. Hope it helps someone. 🤗"
+        },
+        {
+          "format": "wisdom_practical",
+          "template": "Thing I wish someone told me: {insight}. Here's how this looks practically: {practical_example}. {actionable_step}. It's a small thing that makes a {impact_description}. 💙",
+          "variables": ["insight", "practical_example", "actionable_step", "impact_description"],
+          "example": "Thing I wish someone told me: You don't have to have answers to every medical question. Here's how this looks practically: 'I don't know, but let's find out together' is a complete sentence. Write down what you don't know and ask later. It's a small thing that makes a huge difference in your stress levels. 💙"
+        },
+        {
+          "format": "gentle_advice",
+          "template": "Gentle reminder for {audience}: {advice1}. {advice2}. {advice3}. These aren't rules, just {description}. Take what serves you, leave the rest. ✨",
+          "variables": ["audience", "advice1", "advice2", "advice3", "description"],
+          "example": "Gentle reminder for new caregivers: You don't have to be perfect to be good at this. It's okay to learn as you go. Ask for help early and often. These aren't rules, just things I wish I'd known sooner. Take what serves you, leave the rest. ✨"
+        },
+        {
+          "format": "resource_share",
+          "template": "Resource that changed my {area}: {resource_name}. {why_helpful}. {how_to_access}. Sharing because {motivation}. What resources have helped you? 📚",
+          "variables": ["area", "resource_name", "why_helpful", "how_to_access", "motivation"],
+          "example": "Resource that changed my caregiving: Local Area Agency on Aging. They connected me with respite care, support groups, and financial assistance I didn't know existed. Most areas have one - just Google your county + 'Area Agency on Aging'. Sharing because I spent months struggling alone before I found them. What resources have helped you? 📚"
+        }
+      ],
+      "cta_variations": [
+        "Save this for when you need it",
+        "Share with someone who could use this tip",
+        "What tips would you add to this list?",
+        "Bookmark this for later reference",
+        "Drop your best tip in the comments"
+      ],
+      "hashtags": {
+        "tiktok": [
+          "#caregivertips", "#caregivingtips", "#eldercaretips", "#dementiacare", "#familycaretips",
+          "#caregiverhacks", "#practicaladvice", "#helpfultips", "#caregivinglife", "#seniorcare",
+          "#advocacy", "#resources", "#support", "#education", "#wisdom"
+        ],
+        "instagram": [
+          "#caregivertips", "#caregivingtips", "#eldercare", "#practicaladvice", "#helpfultips",
+          "#familycare", "#caregiverhacks", "#resources", "#education", "#support",
+          "#advocacy", "#wisdom", "#seniorcare", "#dementiacare", "#caregivingjourney"
+        ],
+        "youtube": [
+          "#caregivertips", "#eldercare", "#dementiacare", "#practicaladvice", "#helpfultips",
+          "#education", "#resources", "#support", "#advocacy", "#familycare"
+        ]
+      }
+    },
+    "sandwich": {
+      "description": "Relatable humor + solidarity",
+      "emotional_triggers": ["amusement", "recognition", "relief"],
+      "caption_templates": [
+        {
+          "format": "humor_sandwich",
+          "template": "Me: {setup}. Also me: {contradiction}. {relatable_observation}. Anyone else living this beautiful contradiction? 😅",
+          "variables": ["setup", "contradiction", "relatable_observation"],
+          "example": "Me: 'I need more help with Mom.' Also me: Proceeds to micromanage every person who offers help. Apparently I want support but also want to control exactly how that support happens. Anyone else living this beautiful contradiction? 😅"
+        },
+        {
+          "format": "expectation_reality",
+          "template": "What I thought {scenario} would be: {expectation}. What it actually is: {reality}. {humor_conclusion}. We're all just making it up as we go, right? 😂",
+          "variables": ["scenario", "expectation", "reality", "humor_conclusion"],
+          "example": "What I thought 'asking for help' would be: A mature conversation where I calmly delegate tasks. What it actually is: Me crying while explaining where we keep the bandaids. Turns out vulnerability doesn't come with a instruction manual. We're all just making it up as we go, right? 😂"
+        },
+        {
+          "format": "self_deprecating",
+          "template": "Today's caregiving mood: {mood_description}. {humorous_example}. Tomorrow I'll probably {prediction}. {solidarity_statement}. 🤷‍♀️",
+          "variables": ["mood_description", "humorous_example", "prediction", "solidarity_statement"],
+          "example": "Today's caregiving mood: Confident and organized! I made color-coded schedules and meal prepped like a champion. Tomorrow I'll probably eat cereal for dinner and forget what day it is. But hey, that's the caregiving rollercoaster for you. 🤷‍♀️"
+        },
+        {
+          "format": "gentle_roast",
+          "template": "Shoutout to {target_group} who {gentle_criticism}. We see you. We are you. {affectionate_conclusion}. ❤️",
+          "variables": ["target_group", "gentle_criticism", "affectionate_conclusion"],
+          "example": "Shoutout to caregivers who research medical conditions at 2 AM and then try to diagnose everything based on WebMD. We see you. We are you. May your search history forever remain between you and your anxiety. ❤️"
+        },
+        {
+          "format": "solidarity_humor",
+          "template": "Things nobody tells you about {experience}: {funny_truth1}. {funny_truth2}. {funny_truth3}. {warm_conclusion}. 😊",
+          "variables": ["experience", "funny_truth1", "funny_truth2", "funny_truth3", "warm_conclusion"],
+          "example": "Things nobody tells you about being a caregiver: You'll become an expert at opening child-proof medicine bottles. You'll know more about Medicare than most insurance agents. You'll cry at commercials about family. But you'll also discover strength you didn't know you had. 😊"
+        }
+      ],
+      "cta_variations": [
+        "Please tell me I'm not the only one 😅",
+        "Drop a 😂 if you can relate",
+        "Share your own funny/relatable moment below",
+        "Tag someone who would laugh at this with you",
+        "What would you add to this list?"
+      ],
+      "hashtags": {
+        "tiktok": [
+          "#caregiverhumor", "#relatablecaregiver", "#caregivingmemes", "#familyhumor", "#reallifehumor",
+          "#caregiverlife", "#parentingparents", "#eldercare", "#solidarity", "#caregiversunite",
+          "#honesthumor", "#lifeishard", "#butalsofunny", "#humanity", "#grace"
+        ],
+        "instagram": [
+          "#caregiverhumor", "#relatablecaregiver", "#honesthumor", "#caregiverlife", "#familyhumor",
+          "#solidarity", "#reallife", "#humanmoments", "#grace", "#caregiving",
+          "#eldercare", "#parentingparents", "#lifeishard", "#community", "#support"
+        ],
+        "youtube": [
+          "#caregiverhumor", "#relatablecaregiver", "#familyhumor", "#reallife", "#caregiving",
+          "#solidarity", "#community", "#honesthumor", "#support", "#eldercare"
+        ]
+      }
+    },
+    "chaos": {
+      "description": "Problem → solution narrative + hope",
+      "emotional_triggers": ["hope", "determination", "relief"],
+      "caption_templates": [
+        {
+          "format": "chaos_to_calm",
+          "template": "The chaos: {problem_description}. What felt impossible: {overwhelming_aspect}. What changed everything: {turning_point}. Now: {current_state}. If you're in the chaos right now, {hope_message}. 🌟",
+          "variables": ["problem_description", "overwhelming_aspect", "turning_point", "current_state", "hope_message"],
+          "example": "The chaos: Mom's dementia meant she was calling 911 multiple times a day, convinced strangers were in her house. What felt impossible: keeping her safe while preserving her dignity. What changed everything: finding a day program where she felt purposeful and connected. Now: still challenging days, but more peace than panic. If you're in the chaos right now, solutions exist even when you can't see them yet. 🌟"
+        },
+        {
+          "format": "rock_bottom_rise",
+          "template": "Rock bottom looked like: {lowest_point}. I thought {fear}. But here's what I learned: {insight}. The way through was {solution}. {current_perspective}. 💪",
+          "variables": ["lowest_point", "fear", "insight", "solution", "current_perspective"],
+          "example": "Rock bottom looked like: sobbing on my kitchen floor at 3 AM because I couldn't handle one more crisis. I thought I was failing everyone, including myself. But here's what I learned: breakdown and breakthrough can happen simultaneously. The way through was accepting help, even when it felt like giving up control. Now I know that asking for support isn't surrender - it's strategy. 💪"
+        },
+        {
+          "format": "before_after_hope",
+          "template": "Before: {before_state}. The shift: {what_changed}. After: {after_state}. It's not perfect, but it's {improvement}. For anyone in the 'before': {encouragement}. ✨",
+          "variables": ["before_state", "what_changed", "after_state", "improvement", "encouragement"],
+          "example": "Before: Every day felt like surviving disaster after disaster with no plan and no support. The shift: I stopped trying to control everything and started building systems for the chaos. After: Still unpredictable, but I have tools and people in place. It's not perfect, but it's sustainable. For anyone in the 'before': small changes create big shifts over time. ✨"
+        },
+        {
+          "format": "crisis_wisdom",
+          "template": "Crisis taught me: {lesson}. When {trigger_situation}, instead of {old_response}, I now {new_response}. {result}. Sharing because {motivation}. 🌱",
+          "variables": ["lesson", "trigger_situation", "old_response", "new_response", "result", "motivation"],
+          "example": "Crisis taught me: Not every emergency is actually an emergency. When Dad gets agitated about 'missing' appointments that don't exist, instead of frantically trying to prove reality, I now validate his feelings and redirect gently. He calms down, I stay calm, everyone wins. Sharing because this took me too long to figure out. 🌱"
+        },
+        {
+          "format": "transformation_story",
+          "template": "Six months ago: {past_situation}. Today: {present_situation}. What made the difference: {key_factors}. {realistic_conclusion}. Change is possible, even when it feels impossible. 🦋",
+          "variables": ["past_situation", "present_situation", "key_factors", "realistic_conclusion"],
+          "example": "Six months ago: I was doing everything alone and burning out fast, convinced I was the only one who could care for Mom properly. Today: I have a care team, support systems, and Mom is actually happier with more people in her life. What made the difference: swallowing my pride and accepting that love sometimes means delegating. It's still hard, but it's no longer crushing. Change is possible, even when it feels impossible. 🦋"
+        }
+      ],
+      "cta_variations": [
+        "If you're in the chaos, hang on - it gets more manageable",
+        "Share your story of making it through - someone needs hope",
+        "What helped you find calm in your chaos?",
+        "Save this for when you need a reminder that things can change",
+        "Drop a 🌟 if you've found your way through something hard"
+      ],
+      "hashtags": {
+        "tiktok": [
+          "#hope", "#transformation", "#breakthrough", "#resilience", "#recovery",
+          "#caregiverjourney", "#growth", "#healing", "#strength", "#possibility",
+          "#mentalhealth", "#progress", "#change", "#survivor", "#thriver"
+        ],
+        "instagram": [
+          "#hope", "#transformation", "#resilience", "#healing", "#growth",
+          "#breakthrough", "#recovery", "#strength", "#caregiverjourney", "#progress",
+          "#possibility", "#change", "#mentalhealth", "#survivor", "#courage"
+        ],
+        "youtube": [
+          "#hope", "#transformation", "#resilience", "#recovery", "#healing",
+          "#breakthrough", "#growth", "#strength", "#change", "#possibility"
+        ]
+      }
+    }
+  },
+  "platform_optimizations": {
+    "tiktok": {
+      "caption_length": "100-300 characters ideal",
+      "hashtag_strategy": "3-5 trending + 3-5 niche hashtags",
+      "hook_timing": "First 3 seconds critical",
+      "engagement_focus": "Comments and shares over likes",
+      "content_notes": "Vertical video, trending sounds, fast-paced"
+    },
+    "instagram": {
+      "caption_length": "125-300 words optimal",
+      "hashtag_strategy": "20-30 hashtags mix of popular and niche",
+      "hook_timing": "First line crucial for feed",
+      "engagement_focus": "Saves and shares for reach",
+      "content_notes": "Square/vertical formats, carousel posts perform well"
+    },
+    "youtube": {
+      "caption_length": "150-500 words acceptable",
+      "hashtag_strategy": "8-15 hashtags in description",
+      "hook_timing": "First 15 seconds for retention",
+      "engagement_focus": "Watch time and comments",
+      "content_notes": "Longer form content, storytelling focus"
+    }
+  },
+  "emotional_safety": {
+    "guidelines": [
+      "Always include hope alongside struggle",
+      "Avoid trauma dumping without resolution",
+      "Provide resources when discussing serious issues",
+      "Use 'and' instead of 'but' in difficult situations",
+      "Include disclaimers for medical/professional advice",
+      "Respect privacy - use general examples, not specific details"
+    ],
+    "crisis_resources": {
+      "note": "Include these when content discusses serious mental health topics",
+      "resources": [
+        "Crisis Text Line: Text HOME to 741741",
+        "National Suicide Prevention Lifeline: 988",
+        "SAMHSA Helpline: 1-800-662-4357"
+      ]
+    }
+  }
+}
