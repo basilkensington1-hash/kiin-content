@@ -1,0 +1,275 @@
+{
+  "educational_guides": [
+    {
+      "title": "The Complete Guide to Medication Management for Elderly Parents",
+      "keywords": ["medication management", "elderly care", "pill organizers", "drug interactions"],
+      "tone": "educational",
+      "estimated_words": 2500,
+      "target_audience": "adult children caregivers",
+      "difficulty": "intermediate"
+    },
+    {
+      "title": "Creating a Safe Home Environment: Room-by-Room Safety Checklist",
+      "keywords": ["home safety", "fall prevention", "elder care", "home modifications"],
+      "tone": "supportive",
+      "estimated_words": 3000,
+      "target_audience": "family caregivers",
+      "difficulty": "beginner"
+    },
+    {
+      "title": "Understanding Dementia Stages: What to Expect and How to Adapt",
+      "keywords": ["dementia care", "Alzheimer's stages", "cognitive decline", "family support"],
+      "tone": "compassionate",
+      "estimated_words": 3500,
+      "target_audience": "dementia caregivers",
+      "difficulty": "intermediate"
+    },
+    {
+      "title": "Nutrition for Aging: How to Encourage Healthy Eating When They Won't Cooperate",
+      "keywords": ["elderly nutrition", "eating difficulties", "meal planning", "appetite issues"],
+      "tone": "practical",
+      "estimated_words": 2800,
+      "target_audience": "family caregivers",
+      "difficulty": "intermediate"
+    },
+    {
+      "title": "Managing Caregiver Burnout: Recognizing Signs and Taking Action",
+      "keywords": ["caregiver burnout", "self-care", "caregiver stress", "mental health"],
+      "tone": "empathetic",
+      "estimated_words": 2200,
+      "target_audience": "all caregivers",
+      "difficulty": "beginner"
+    },
+    {
+      "title": "Hospital Discharge Planning: Your Complete Advocacy Toolkit",
+      "keywords": ["hospital discharge", "care transitions", "patient advocacy", "medical coordination"],
+      "tone": "empowering",
+      "estimated_words": 2700,
+      "target_audience": "adult children caregivers",
+      "difficulty": "advanced"
+    },
+    {
+      "title": "The Art of Difficult Conversations: Talking to Your Parents About Care Needs",
+      "keywords": ["family conversations", "care planning", "aging parents", "communication"],
+      "tone": "gentle",
+      "estimated_words": 2400,
+      "target_audience": "adult children",
+      "difficulty": "intermediate"
+    },
+    {
+      "title": "Technology Solutions for Aging in Place: What Actually Works",
+      "keywords": ["aging in place", "assistive technology", "smart home", "emergency systems"],
+      "tone": "practical",
+      "estimated_words": 3200,
+      "target_audience": "tech-curious caregivers",
+      "difficulty": "intermediate"
+    },
+    {
+      "title": "Legal Documents Every Family Caregiver Should Understand",
+      "keywords": ["legal planning", "power of attorney", "advance directives", "estate planning"],
+      "tone": "informative",
+      "estimated_words": 2900,
+      "target_audience": "family caregivers",
+      "difficulty": "advanced"
+    },
+    {
+      "title": "Working While Caregiving: Strategies for Balance and Boundaries",
+      "keywords": ["working caregiver", "work-life balance", "FMLA", "caregiver support"],
+      "tone": "supportive",
+      "estimated_words": 2600,
+      "target_audience": "working caregivers",
+      "difficulty": "intermediate"
+    }
+  ],
+  "personal_stories": [
+    {
+      "title": "The Day I Realized My Mom Needed Help: A Caregiver's Awakening",
+      "keywords": ["caregiver journey", "family dynamics", "aging parents", "acceptance"],
+      "tone": "personal",
+      "estimated_words": 1800,
+      "target_audience": "new caregivers",
+      "story_arc": "realization"
+    },
+    {
+      "title": "From Guilt to Grace: Learning to Set Boundaries with a Demanding Parent",
+      "keywords": ["caregiver boundaries", "guilt", "self-care", "family relationships"],
+      "tone": "honest",
+      "estimated_words": 2100,
+      "target_audience": "struggling caregivers",
+      "story_arc": "transformation"
+    },
+    {
+      "title": "The Sandwich Generation Reality: Caring for Kids and Parents Simultaneously",
+      "keywords": ["sandwich generation", "multiple caregiving", "time management", "stress"],
+      "tone": "relatable",
+      "estimated_words": 2000,
+      "target_audience": "sandwich generation",
+      "story_arc": "struggle_and_solutions"
+    },
+    {
+      "title": "When Siblings Don't Share the Care: Navigating Family Conflict",
+      "keywords": ["sibling dynamics", "family conflict", "care coordination", "resentment"],
+      "tone": "balanced",
+      "estimated_words": 1900,
+      "target_audience": "family caregivers",
+      "story_arc": "conflict_resolution"
+    },
+    {
+      "title": "The Unexpected Gift: What Caregiving Taught Me About Love",
+      "keywords": ["caregiver growth", "life lessons", "gratitude", "family bonds"],
+      "tone": "reflective",
+      "estimated_words": 1600,
+      "target_audience": "all caregivers",
+      "story_arc": "wisdom_gained"
+    }
+  ],
+  "resource_lists": [
+    {
+      "title": "15 Essential Apps Every Family Caregiver Should Download",
+      "keywords": ["caregiver apps", "technology tools", "mobile apps", "caregiving resources"],
+      "tone": "practical",
+      "estimated_words": 2000,
+      "format": "numbered_list"
+    },
+    {
+      "title": "Free Resources for Dementia Caregivers: A Complete Directory",
+      "keywords": ["dementia resources", "free support", "caregiver help", "Alzheimer's assistance"],
+      "tone": "helpful",
+      "estimated_words": 2500,
+      "format": "categorized_list"
+    },
+    {
+      "title": "Emergency Kit Checklist: What to Keep on Hand for Care Crises",
+      "keywords": ["emergency preparedness", "care crisis", "emergency planning", "caregiver readiness"],
+      "tone": "urgent",
+      "estimated_words": 1800,
+      "format": "checklist"
+    },
+    {
+      "title": "Books That Changed My Caregiving Journey: A Reading List",
+      "keywords": ["caregiver books", "reading list", "caregiving education", "recommended reading"],
+      "tone": "personal",
+      "estimated_words": 1500,
+      "format": "annotated_list"
+    }
+  ],
+  "how_to_guides": [
+    {
+      "title": "How to Research Memory Care Facilities: A Step-by-Step Guide",
+      "keywords": ["memory care", "facility selection", "dementia care", "care facility research"],
+      "tone": "systematic",
+      "estimated_words": 3000,
+      "steps": 8,
+      "difficulty": "intermediate"
+    },
+    {
+      "title": "How to Organize Medical Records for Seamless Healthcare",
+      "keywords": ["medical records", "healthcare organization", "care coordination", "medical management"],
+      "tone": "methodical",
+      "estimated_words": 2200,
+      "steps": 6,
+      "difficulty": "beginner"
+    },
+    {
+      "title": "How to Handle Insurance Denials: Your Action Plan",
+      "keywords": ["insurance appeals", "healthcare advocacy", "insurance denials", "medical billing"],
+      "tone": "empowering",
+      "estimated_words": 2800,
+      "steps": 10,
+      "difficulty": "advanced"
+    },
+    {
+      "title": "How to Create a Care Team: Building Your Support Network",
+      "keywords": ["care team", "support network", "caregiver coordination", "family communication"],
+      "tone": "collaborative",
+      "estimated_words": 2400,
+      "steps": 7,
+      "difficulty": "intermediate"
+    }
+  ],
+  "myth_busting": [
+    {
+      "title": "Debunking 10 Dangerous Myths About Aging and Independence",
+      "keywords": ["aging myths", "independence", "elder stereotypes", "ageism"],
+      "tone": "authoritative",
+      "estimated_words": 2600,
+      "myths_covered": 10
+    },
+    {
+      "title": "The Truth About Memory Care: Separating Fact from Fear",
+      "keywords": ["memory care myths", "dementia facts", "facility care", "family concerns"],
+      "tone": "reassuring",
+      "estimated_words": 2300,
+      "myths_covered": 8
+    },
+    {
+      "title": "Medicare Myths That Cost Families Thousands: What You Really Need to Know",
+      "keywords": ["Medicare myths", "healthcare costs", "insurance facts", "senior benefits"],
+      "tone": "financial",
+      "estimated_words": 2700,
+      "myths_covered": 12
+    }
+  ],
+  "research_summaries": [
+    {
+      "title": "New Research on Caregiver Health: What Studies Reveal About Our Wellbeing",
+      "keywords": ["caregiver health research", "caregiver studies", "health impacts", "research findings"],
+      "tone": "scientific",
+      "estimated_words": 2100,
+      "studies_referenced": 5
+    },
+    {
+      "title": "Breakthrough Alzheimer's Research: Hope on the Horizon for Families",
+      "keywords": ["Alzheimer's research", "dementia breakthroughs", "medical advances", "treatment options"],
+      "tone": "hopeful",
+      "estimated_words": 2400,
+      "studies_referenced": 8
+    }
+  ],
+  "seasonal_content": [
+    {
+      "title": "Holiday Caregiving: Managing Expectations and Creating New Traditions",
+      "keywords": ["holiday caregiving", "family gatherings", "tradition adaptation", "seasonal stress"],
+      "tone": "warm",
+      "estimated_words": 2200,
+      "season": "winter_holidays"
+    },
+    {
+      "title": "Summer Safety for Seniors: Heat, Hydration, and Happy Memories",
+      "keywords": ["summer safety", "heat protection", "senior activities", "hydration"],
+      "tone": "protective",
+      "estimated_words": 1900,
+      "season": "summer"
+    },
+    {
+      "title": "Back-to-School Season as a Caregiver: Managing Multiple Schedules",
+      "keywords": ["school season", "schedule management", "working caregiver", "time management"],
+      "tone": "practical",
+      "estimated_words": 2000,
+      "season": "fall"
+    }
+  ],
+  "trending_topics": [
+    {
+      "title": "AI and Caregiving: How Technology is Revolutionizing Elder Care",
+      "keywords": ["AI caregiving", "technology trends", "digital health", "innovation"],
+      "tone": "forward-thinking",
+      "estimated_words": 2800,
+      "trend_factor": "high"
+    },
+    {
+      "title": "The Great Resignation and Caregiving: Why People Are Leaving Jobs for Family",
+      "keywords": ["great resignation", "family caregiving", "career changes", "work trends"],
+      "tone": "analytical",
+      "estimated_words": 2300,
+      "trend_factor": "high"
+    },
+    {
+      "title": "Telehealth for Seniors: Making Virtual Care Work for Your Loved One",
+      "keywords": ["telehealth seniors", "virtual care", "remote healthcare", "technology adoption"],
+      "tone": "adaptive",
+      "estimated_words": 2500,
+      "trend_factor": "medium"
+    }
+  ]
+}

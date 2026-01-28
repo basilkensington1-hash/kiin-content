@@ -1,0 +1,690 @@
+{
+  "scenarios": [
+    {
+      "id": "emergency_contact",
+      "hook": "POV: You're the emergency contact for literally everyone",
+      "mood": "overwhelming",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "notification",
+          "text": "School nurse: 'Your daughter has a fever \ud83e\udd12'",
+          "stress_level": 3
+        },
+        {
+          "type": "phone_call",
+          "text": "Dad's facility: 'He fell, nothing serious but...'",
+          "stress_level": 8
+        },
+        {
+          "type": "text_spam",
+          "text": "Mom: 'TV broken. Very scared. Call me.'",
+          "stress_level": 5
+        },
+        {
+          "type": "urgent",
+          "text": "Teen: 'MOM WHERE ARE YOU I NEED YOU RIGHT NOW'",
+          "stress_level": 7
+        },
+        {
+          "type": "split_screen",
+          "left": "Dr office calling",
+          "right": "Kid texting 'pick me up'",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Why am I everyone's person? When did this happen?",
+      "punchline": "Your phone battery dies and you have a full panic attack",
+      "relief_moment": "Everyone turns out fine. You're not.",
+      "cta": "Tag someone who's everyone's emergency contact \ud83d\udcf1",
+      "supportive_ending": "Being needed means being loved. You're doing great. \ud83d\udc95"
+    },
+    {
+      "id": "sunday_military_op",
+      "hook": "POV: Sunday family dinner requires military-level logistics",
+      "mood": "chaotic_love",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "multi_task",
+          "text": "Cut Dad's food + help with science project",
+          "stress_level": 4
+        },
+        {
+          "type": "reminder",
+          "text": "Pills for Mom between making soccer snacks",
+          "stress_level": 3
+        },
+        {
+          "type": "mediation",
+          "text": "Referee: Grandpa vs Teenager political debate",
+          "stress_level": 6
+        },
+        {
+          "type": "translation",
+          "text": "Explain TikTok to Grandma mid-homework check",
+          "stress_level": 5
+        },
+        {
+          "type": "solo",
+          "text": "Clean everything while everyone relaxes",
+          "stress_level": 8
+        }
+      ],
+      "inner_monologue": "I love my family. I love my family. I LOVE my family.",
+      "punchline": "Monday feels like a spa day in comparison",
+      "relief_moment": "Everyone says 'thanks for dinner' at once \ud83e\udd70",
+      "cta": "Who else is the family dinner MVP? \ud83c\udf7d\ufe0f",
+      "supportive_ending": "These moments become the memories they treasure most. \u2728"
+    },
+    {
+      "id": "wfh_chaos",
+      "hook": "POV: Working from home in the sandwich generation",
+      "mood": "frazzled_professional",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "zoom_bomb",
+          "text": "Kid barges in during client meeting",
+          "stress_level": 7
+        },
+        {
+          "type": "split_screen",
+          "left": "Presenting slides",
+          "right": "Mom calling 5 times",
+          "stress_level": 8
+        },
+        {
+          "type": "notification",
+          "text": "School: 'Pick up your sick child'",
+          "stress_level": 9
+        },
+        {
+          "type": "multi_task",
+          "text": "Type emails while making lunch",
+          "stress_level": 5
+        },
+        {
+          "type": "meltdown",
+          "text": "Explain to boss why you're 'having technical difficulties'",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Professional on top, chaos underneath. Story of my life.",
+      "punchline": "'Sorry, my cat stepped on the keyboard' (it was your life)",
+      "relief_moment": "Somehow you didn't get fired today \ud83d\ude4f",
+      "cta": "WFH sandwich parents unite! \ud83d\udcbb",
+      "supportive_ending": "You're pioneering a new way to balance it all. You're amazing. \ud83c\udf1f"
+    },
+    {
+      "id": "christmas_exhaustion",
+      "hook": "POV: Christmas morning with three generations",
+      "mood": "festive_overwhelm",
+      "season": "winter",
+      "chaos_moments": [
+        {
+          "type": "early_morning",
+          "text": "5:30am: Kids wake you. Coffee not ready.",
+          "stress_level": 4
+        },
+        {
+          "type": "gift_chaos",
+          "text": "Help kids, assist grandparents, track batteries",
+          "stress_level": 6
+        },
+        {
+          "type": "kitchen_madness",
+          "text": "Turkey + sides while managing gift disputes",
+          "stress_level": 8
+        },
+        {
+          "type": "nap_logistics",
+          "text": "Coordinate who naps where and when",
+          "stress_level": 5
+        },
+        {
+          "type": "bedtime_collapse",
+          "text": "Everyone's sugar-crashed and overstimulated",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "This is magical. This is magical. This is... a lot.",
+      "punchline": "You fall asleep in a chair wearing elf ears at 7pm",
+      "relief_moment": "Grandpa says 'best Christmas ever' \ud83c\udf84",
+      "cta": "Who else survives holiday hosting? \ud83c\udf85",
+      "supportive_ending": "You create the magic that brings everyone together. \u2728"
+    },
+    {
+      "id": "search_history_chaos",
+      "hook": "POV: Your Google search history is absolutely unhinged",
+      "mood": "digital_detective",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "search",
+          "text": "'How to explain death to a 7-year-old'",
+          "stress_level": 8
+        },
+        {
+          "type": "search",
+          "text": "'Best shower grab bars for elderly'",
+          "stress_level": 4
+        },
+        {
+          "type": "search",
+          "text": "'Why won't my teenager talk to me'",
+          "stress_level": 6
+        },
+        {
+          "type": "search",
+          "text": "'Memory care vs assisted living costs'",
+          "stress_level": 9
+        },
+        {
+          "type": "search",
+          "text": "'How to not lose mind sandwich generation'",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "The FBI agent watching my searches needs therapy.",
+      "punchline": "The algorithm thinks you're having an identity crisis",
+      "relief_moment": "You're not alone - millions search the same things \ud83d\udc99",
+      "cta": "Share your wildest sandwich generation search! \ud83d\udd0d",
+      "supportive_ending": "Seeking answers means you care deeply. That's beautiful. \ud83d\udc95"
+    },
+    {
+      "id": "generational_translator",
+      "hook": "POV: You're a real-time translator between generations",
+      "mood": "linguistic_juggling",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "translation",
+          "text": "Teen: 'Grandpa's being sus' \u2192 'Acting suspicious, Dad'",
+          "stress_level": 3
+        },
+        {
+          "type": "explanation",
+          "text": "Grandpa: 'Safe spaces' \u2192 'Your bedroom, honey'",
+          "stress_level": 4
+        },
+        {
+          "type": "tech_support",
+          "text": "'How do I make the pictures move?' (TikTok)",
+          "stress_level": 5
+        },
+        {
+          "type": "slang_decode",
+          "text": "'No cap bussin frfr' requires full translation",
+          "stress_level": 7
+        },
+        {
+          "type": "awkward_silence",
+          "text": "Everyone stares when you know both languages",
+          "stress_level": 6
+        }
+      ],
+      "inner_monologue": "I'm basically Google Translate for my family.",
+      "punchline": "Your brain runs on three different operating systems",
+      "relief_moment": "Grandpa and teen bond over shared confusion \ud83d\ude02",
+      "cta": "Who else speaks three generations fluently? \ud83d\udde3\ufe0f",
+      "supportive_ending": "You're the bridge that keeps the family connected. \ud83c\udf09"
+    },
+    {
+      "id": "mobile_pharmacy",
+      "hook": "POV: Your car is a mobile pharmacy/daycare/Uber",
+      "mood": "automotive_chaos",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "inventory",
+          "text": "Backseat: Juice boxes + pill organizers + car seats",
+          "stress_level": 3
+        },
+        {
+          "type": "paperwork",
+          "text": "Glove box: Permission slips + insurance cards + napkins",
+          "stress_level": 4
+        },
+        {
+          "type": "emergency_kit",
+          "text": "Center console: Band-aids + anxiety meds + hand sanitizer",
+          "stress_level": 5
+        },
+        {
+          "type": "radio_wars",
+          "text": "Toggle: Pop music \u2192 talk radio \u2192 audiobook",
+          "stress_level": 6
+        },
+        {
+          "type": "drive_thru_regular",
+          "text": "Pharmacist knows your voice and order",
+          "stress_level": 7
+        }
+      ],
+      "inner_monologue": "My car has more medical supplies than some hospitals.",
+      "punchline": "AAA thinks you live at CVS",
+      "relief_moment": "Everything needed is magically in your car \ud83d\ude97",
+      "cta": "Show us your sandwich generation car setup! \ud83d\ude99",
+      "supportive_ending": "You're always prepared because you always care. \ud83d\udc9d"
+    },
+    {
+      "id": "adult_conversation",
+      "hook": "POV: Trying to have ONE uninterrupted adult conversation",
+      "mood": "social_frustration",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "interrupted",
+          "text": "Mom starts story \u2192 kid needs math help",
+          "stress_level": 4
+        },
+        {
+          "type": "phone_interruption",
+          "text": "Dad calls confused about his medication",
+          "stress_level": 6
+        },
+        {
+          "type": "drama_alert",
+          "text": "Other kid has friendship emergency NOW",
+          "stress_level": 7
+        },
+        {
+          "type": "memory_loss",
+          "text": "Mom forgets her story halfway through",
+          "stress_level": 5
+        },
+        {
+          "type": "surrender",
+          "text": "Give up and just nod at everyone",
+          "stress_level": 8
+        }
+      ],
+      "inner_monologue": "Remember when conversations had beginnings, middles, and ends?",
+      "punchline": "Your deepest conversation today was with the grocery cashier",
+      "relief_moment": "Finally connect with partner after kids sleep \ud83c\udf19",
+      "cta": "Who else misses finishing sentences? \ud83d\udcac",
+      "supportive_ending": "The fragmented conversations still add up to love. \ud83d\udc95"
+    },
+    {
+      "id": "bedtime_olympics",
+      "hook": "POV: Bedtime is a multi-generational Olympic event",
+      "mood": "nighttime_coordination",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "story_time",
+          "text": "Read to kid while checking Dad's blood sugar",
+          "stress_level": 4
+        },
+        {
+          "type": "medication_time",
+          "text": "Tuck in child + Mom's nighttime pills",
+          "stress_level": 5
+        },
+        {
+          "type": "homework_check",
+          "text": "Verify teenager actually did homework",
+          "stress_level": 6
+        },
+        {
+          "type": "false_security",
+          "text": "Everyone settled! Time for YOU!",
+          "stress_level": 2
+        },
+        {
+          "type": "round_two",
+          "text": "Water/bathroom/anxiety relief requests",
+          "stress_level": 8
+        }
+      ],
+      "inner_monologue": "Bedtime is like herding cats. Very tired, anxious cats.",
+      "punchline": "Collapse into bed fully clothed like a cartoon character",
+      "relief_moment": "House finally quiet at 10:30pm \ud83e\udd2b",
+      "cta": "How many bedtime rounds do you do? \ud83d\udecf\ufe0f",
+      "supportive_ending": "You tuck in the whole world before yourself. You're magic. \u2728"
+    },
+    {
+      "id": "vacation_planning",
+      "hook": "POV: Planning a 'simple' family vacation",
+      "mood": "travel_logistics_nightmare",
+      "season": "summer",
+      "chaos_moments": [
+        {
+          "type": "accessibility",
+          "text": "Find wheelchair accessible place",
+          "stress_level": 5
+        },
+        {
+          "type": "medical_proximity",
+          "text": "Check nearby urgent care facilities",
+          "stress_level": 6
+        },
+        {
+          "type": "pharmacy_portable",
+          "text": "Pack medication for small army",
+          "stress_level": 7
+        },
+        {
+          "type": "age_range_activities",
+          "text": "Plan fun for ages 8 to 80",
+          "stress_level": 8
+        },
+        {
+          "type": "backup_plans",
+          "text": "Have contingencies for contingencies",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Why is a vacation harder to plan than a space mission?",
+      "punchline": "A weekend at home starts sounding like luxury",
+      "relief_moment": "Everyone has fun despite your anxiety \ud83c\udfd6\ufe0f",
+      "cta": "Share your family vacation planning nightmare! \u2708\ufe0f",
+      "supportive_ending": "You create adventures that span generations. Amazing! \ud83c\udf1f"
+    },
+    {
+      "id": "normal_googling",
+      "hook": "POV: Googling 'is this normal' for multiple life stages",
+      "mood": "parenting_uncertainty",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "elderly_concerns",
+          "text": "'Is forgetting names normal at 75?'",
+          "stress_level": 6
+        },
+        {
+          "type": "teen_behavior",
+          "text": "'Is hating everyone normal at 13?'",
+          "stress_level": 7
+        },
+        {
+          "type": "self_check",
+          "text": "'Is crying in parking lots normal?'",
+          "stress_level": 8
+        },
+        {
+          "type": "guilt_spiral",
+          "text": "'Is feeling guilty about everything normal?'",
+          "stress_level": 9
+        },
+        {
+          "type": "escape_fantasy",
+          "text": "'Is wanting to join circus normal?'",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Google knows more about my family than I do.",
+      "punchline": "The answer to the circus question is DEFINITELY yes",
+      "relief_moment": "Millions search the same things - you're normal! \ud83d\udc99",
+      "cta": "What's your weirdest 'is this normal' search? \ud83e\udd14",
+      "supportive_ending": "Questioning everything means you care about everything. \ud83d\udc95"
+    },
+    {
+      "id": "becoming_mother",
+      "hook": "POV: You realize you're becoming your mother",
+      "mood": "generational_acceptance",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "purse_transformation",
+          "text": "Carrying snacks for everyone",
+          "stress_level": 2
+        },
+        {
+          "type": "medical_historian",
+          "text": "Know everyone's medical history by heart",
+          "stress_level": 4
+        },
+        {
+          "type": "authority_phrases",
+          "text": "Say 'because I said so' unironically",
+          "stress_level": 3
+        },
+        {
+          "type": "constant_worry",
+          "text": "Worry about everyone constantly",
+          "stress_level": 6
+        },
+        {
+          "type": "mirror_moment",
+          "text": "Make her exact facial expressions",
+          "stress_level": 5
+        }
+      ],
+      "inner_monologue": "When did I become the mom of moms?",
+      "punchline": "And honestly? She was pretty amazing at this job",
+      "relief_moment": "Feel proud to carry on her legacy \ud83d\udc95",
+      "cta": "What trait did you inherit from mom? \ud83d\udc69\u200d\ud83d\udc67",
+      "supportive_ending": "You're continuing a legacy of love. She'd be so proud. \u2728"
+    },
+    {
+      "id": "thanksgiving_coordinator",
+      "hook": "POV: You're the Thanksgiving coordinator for 20+ people",
+      "mood": "holiday_logistics_commander",
+      "season": "fall",
+      "chaos_moments": [
+        {
+          "type": "dietary_restrictions",
+          "text": "Gluten-free, diabetic, vegan, and picky toddler",
+          "stress_level": 7
+        },
+        {
+          "type": "seating_chart",
+          "text": "Navigate family politics with place cards",
+          "stress_level": 8
+        },
+        {
+          "type": "cooking_timeline",
+          "text": "Turkey math while managing three ovens",
+          "stress_level": 9
+        },
+        {
+          "type": "referee_dinner",
+          "text": "Prevent political discussions over mashed potatoes",
+          "stress_level": 10
+        },
+        {
+          "type": "cleanup_crew",
+          "text": "Somehow you're cleaning alone again",
+          "stress_level": 6
+        }
+      ],
+      "inner_monologue": "I'm running a small restaurant and family therapy session.",
+      "punchline": "Next year you're ordering pizza and calling it 'deconstructed turkey'",
+      "relief_moment": "Everyone leaves saying 'best Thanksgiving ever!' \ud83e\udd83",
+      "cta": "Who else is the family Thanksgiving MVP? \ud83c\udf42",
+      "supportive_ending": "You create the traditions that bind families together. \u2728"
+    },
+    {
+      "id": "school_pickup_line",
+      "hook": "POV: The school pickup line is your second office",
+      "mood": "automotive_community_center",
+      "season": "school_year",
+      "chaos_moments": [
+        {
+          "type": "timing_precision",
+          "text": "Arrive exactly 14 minutes early for good spot",
+          "stress_level": 3
+        },
+        {
+          "type": "car_coordination",
+          "text": "Text other parents while handling calls",
+          "stress_level": 5
+        },
+        {
+          "type": "snack_distribution",
+          "text": "Distribute snacks to hungry children",
+          "stress_level": 4
+        },
+        {
+          "type": "homework_preview",
+          "text": "Pre-review assignments in car",
+          "stress_level": 6
+        },
+        {
+          "type": "social_worker",
+          "text": "Mediate sibling disputes immediately",
+          "stress_level": 7
+        }
+      ],
+      "inner_monologue": "My car is basically a mobile family therapy unit.",
+      "punchline": "You know every other parent's car and coffee order",
+      "relief_moment": "Perfect sync with your pickup line mom friend \ud83d\udc6f\u200d\u2640\ufe0f",
+      "cta": "Pickup line parents are the real MVPs! \ud83d\ude97",
+      "supportive_ending": "You're part of an amazing community of caring parents. \ud83d\udc95"
+    },
+    {
+      "id": "tax_season_nightmare",
+      "hook": "POV: Tax season with multiple dependents and care costs",
+      "mood": "financial_documentation_hell",
+      "season": "spring",
+      "chaos_moments": [
+        {
+          "type": "paper_explosion",
+          "text": "Medical receipts for everyone everywhere",
+          "stress_level": 6
+        },
+        {
+          "type": "dependent_calculation",
+          "text": "Who counts as dependent when?",
+          "stress_level": 8
+        },
+        {
+          "type": "care_cost_tracking",
+          "text": "Daycare + elder care + medical = bankruptcy?",
+          "stress_level": 9
+        },
+        {
+          "type": "form_confusion",
+          "text": "Need PhD in tax law for these deductions",
+          "stress_level": 10
+        },
+        {
+          "type": "receipt_archaeology",
+          "text": "Dig through year of car receipts",
+          "stress_level": 7
+        }
+      ],
+      "inner_monologue": "I'm supporting the entire tax software industry single-handedly.",
+      "punchline": "Your accountant sends sympathy cards instead of bills",
+      "relief_moment": "Bigger refund than expected! \ud83d\udcb0",
+      "cta": "Tax season sandwich parents unite! \ud83d\udcca",
+      "supportive_ending": "You're managing complex finances like a pro. Amazing! \ud83c\udf1f"
+    },
+    {
+      "id": "grocery_store_olympics",
+      "hook": "POV: Grocery shopping for three generations",
+      "mood": "retail_athletic_event",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "list_management",
+          "text": "Three different shopping lists + coupons",
+          "stress_level": 4
+        },
+        {
+          "type": "dietary_juggling",
+          "text": "Low sodium + high fiber + kid-approved",
+          "stress_level": 6
+        },
+        {
+          "type": "pharmacy_run",
+          "text": "Pick up prescriptions between frozen foods",
+          "stress_level": 5
+        },
+        {
+          "type": "budget_math",
+          "text": "Calculate costs while preventing meltdowns",
+          "stress_level": 8
+        },
+        {
+          "type": "checkout_chaos",
+          "text": "Pay while kids ask for everything",
+          "stress_level": 7
+        }
+      ],
+      "inner_monologue": "I need a personal shopper and a financial advisor.",
+      "punchline": "Spend $300 and somehow have no food for dinner",
+      "relief_moment": "Everyone eats without complaining (miracle!) \ud83d\ude4c",
+      "cta": "Share your grocery shopping survival tips! \ud83d\uded2",
+      "supportive_ending": "You keep everyone fed and healthy. You're amazing! \ud83d\udc95"
+    },
+    {
+      "id": "saturday_taxi_service",
+      "hook": "POV: Saturday is your unpaid taxi/chauffeur service day",
+      "mood": "automotive_logistics_specialist",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "schedule_tetris",
+          "text": "Soccer + piano + physical therapy + groceries",
+          "stress_level": 7
+        },
+        {
+          "type": "traffic_roulette",
+          "text": "Calculate drive times with traffic variables",
+          "stress_level": 6
+        },
+        {
+          "type": "snack_coordinator",
+          "text": "Pack snacks for all stops and ages",
+          "stress_level": 4
+        },
+        {
+          "type": "entertainment_system",
+          "text": "Playlist that works for everyone (impossible)",
+          "stress_level": 5
+        },
+        {
+          "type": "gas_station_reality",
+          "text": "Realize you've driven 200 miles in your city",
+          "stress_level": 8
+        }
+      ],
+      "inner_monologue": "I should charge by the mile like real taxi drivers.",
+      "punchline": "Your car qualifies for commercial vehicle insurance",
+      "relief_moment": "Everyone gets where they need to be safely \ud83d\ude97",
+      "cta": "How many miles do you drive on Saturdays? \ud83d\udccd",
+      "supportive_ending": "You're the wheels that keep your family moving forward. \ud83c\udf1f"
+    },
+    {
+      "id": "summer_camp_coordination",
+      "hook": "POV: Summer camp coordination requires military planning",
+      "mood": "summer_logistics_commander",
+      "season": "summer",
+      "chaos_moments": [
+        {
+          "type": "schedule_overlap",
+          "text": "Camp A ends at 3, Camp B starts at 2:30",
+          "stress_level": 8
+        },
+        {
+          "type": "supply_management",
+          "text": "Label everything with everyone's names",
+          "stress_level": 5
+        },
+        {
+          "type": "pickup_rotation",
+          "text": "Coordinate with 15 other parents",
+          "stress_level": 7
+        },
+        {
+          "type": "activity_overload",
+          "text": "Swimming + art + sports = three different bags",
+          "stress_level": 6
+        },
+        {
+          "type": "weather_contingency",
+          "text": "Rain day alternatives for outdoor camps",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "I'm running a summer camp logistics empire.",
+      "punchline": "September can't come fast enough (wait, yes it can)",
+      "relief_moment": "Kids are happy, tired, and sun-kissed \u2600\ufe0f",
+      "cta": "Summer camp parents deserve medals! \ud83c\udfc6",
+      "supportive_ending": "You're creating magical summer memories. Beautiful! \u2728"
+    }
+  ]
+}

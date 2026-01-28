@@ -1,0 +1,22 @@
+# Content Repurposing Tool Dependencies
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+openai-whisper>=20230918  # Optional: for audio transcription
+
+# System dependencies (install with package manager):
+# - ffmpeg (for video processing)
+# - ffprobe (usually comes with ffmpeg)
+
+# To install:
+# pip install -r requirements_repurpose.txt
+
+# For audio transcription (optional):
+# pip install openai-whisper
+
+# macOS ffmpeg installation:
+# brew install ffmpeg
+
+# Ubuntu/Debian ffmpeg installation:
+# sudo apt update
+# sudo apt install ffmpeg

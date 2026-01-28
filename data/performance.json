@@ -1,0 +1,44 @@
+[
+  {
+    "video": "validation_001.mp4",
+    "platform": "tiktok",
+    "timestamp": "2026-01-28T22:49:00.336989",
+    "metrics": {
+      "views": 5000,
+      "likes": 300,
+      "saves": 150,
+      "shares": 50,
+      "comments": 25,
+      "engagement_rate": 10.5
+    },
+    "content_type": "validation"
+  },
+  {
+    "video": "tips_morning_routine.mp4",
+    "platform": "instagram",
+    "timestamp": "2026-01-28T22:49:03.475347",
+    "metrics": {
+      "views": 3200,
+      "likes": 240,
+      "saves": 180,
+      "shares": 15,
+      "comments": 45,
+      "engagement_rate": 15.0
+    },
+    "content_type": "tips"
+  },
+  {
+    "video": "confession_burnout.mp4",
+    "platform": "youtube",
+    "timestamp": "2026-01-28T22:49:06.634047",
+    "metrics": {
+      "views": 8500,
+      "likes": 650,
+      "saves": 95,
+      "shares": 120,
+      "comments": 180,
+      "engagement_rate": 12.29
+    },
+    "content_type": "confession"
+  }
+]

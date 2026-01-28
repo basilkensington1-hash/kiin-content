@@ -1,0 +1,612 @@
+{
+  "description": "Enhanced coordination chaos scenarios - V2 with 20+ real-world situations",
+  "version": "2.0",
+  "statistics_sources": [
+    "AARP Family Caregiving Research 2023",
+    "National Academy of Medicine Action Collaborative",
+    "Joint Commission Patient Safety Report",
+    "Medicare Hospital Readmission Data"
+  ],
+  "scenarios": [
+    {
+      "id": "medication_double_dose_v2",
+      "category": "medication",
+      "severity": "critical",
+      "description": "Dangerous medication overdose due to family miscommunication",
+      "statistic": "Medication errors affect 1.5 million Americans annually",
+      "hook": "My dad took his blood pressure medication TWICE yesterday",
+      "chaos": [
+        "Mom gave him his morning pills at 8am like always",
+        "I didn't know she'd already done it - gave them again at noon", 
+        "Nobody was tracking who was responsible for what",
+        "His blood pressure dropped dangerously low - we rushed to the ER",
+        "Doctor said we were lucky it wasn't worse"
+      ],
+      "turning_point": "That emergency room visit was our wake-up call",
+      "calm": [
+        "Now everyone can see the same medication schedule in real-time",
+        "We check off doses the moment they're given",
+        "No more dangerous double-dosing or missed medications",
+        "Peace of mind for the whole family - and safety for Dad"
+      ],
+      "cta": "Medication coordination isn't optional. It's life-saving.",
+      "kiin_features": ["shared_medication_tracking", "real_time_updates", "family_notifications"],
+      "target_emotion": "fear_to_relief",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "dementia_wandering_crisis",
+      "category": "dementia",
+      "severity": "critical",
+      "description": "Alzheimer's patient goes missing due to uncoordinated care",
+      "statistic": "60% of dementia patients wander - most are found within 24 hours if families coordinate properly",
+      "hook": "Grandma with Alzheimer's went missing for 8 hours because nobody knew who was watching her",
+      "chaos": [
+        "I thought my sister was staying with her Tuesday morning",
+        "Sister assumed I was covering since I usually do Tuesdays",
+        "Mom went to her doctor's appointment thinking we had it handled",
+        "Grandma wandered out around 10am - nobody realized until 6pm",
+        "Panic, police search, neighborhood alerts - our worst nightmare"
+      ],
+      "turning_point": "When we found her safe but scared, we knew this could never happen again",
+      "calm": [
+        "Shared care calendar ensures someone is always assigned and confirmed",
+        "GPS tracking and family alerts for peace of mind",
+        "Backup systems when life happens and plans change",
+        "Grandma feels secure, family feels confident"
+      ],
+      "cta": "When caring for dementia, coordination isn't convenience - it's safety.",
+      "kiin_features": ["care_calendar", "backup_coordination", "emergency_protocols"],
+      "target_emotion": "fear_to_security",
+      "scenario_type": "family"
+    },
+    {
+      "id": "post_surgery_disaster",
+      "category": "recovery",
+      "severity": "high",
+      "description": "Post-surgical care breakdown leads to complications",
+      "statistic": "1 in 5 patients experience readmission within 30 days - many due to care coordination failures",
+      "hook": "Dad came home from bypass surgery to complete chaos instead of coordinated recovery",
+      "chaos": [
+        "Discharge instructions went to my brother who lives 2 states away",
+        "Physical therapy scheduled without checking our family calendar",
+        "Follow-up cardiology appointment conflicted with Mom's dialysis",
+        "Wound care instructions lost in family text chain somewhere",
+        "Dad's recovery stalled because nobody could coordinate his care properly"
+      ],
+      "turning_point": "The home health nurse asked why our family seemed so disorganized",
+      "calm": [
+        "All discharge instructions shared with entire care team instantly",
+        "Medical appointments coordinated with family schedules",
+        "Recovery milestones tracked and celebrated together",
+        "Dad healed faster with organized, loving support"
+      ],
+      "cta": "Recovery happens faster when families work together seamlessly.",
+      "kiin_features": ["discharge_planning", "appointment_coordination", "progress_tracking"],
+      "target_emotion": "chaos_to_organized_care",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "insurance_authorization_nightmare",
+      "category": "insurance",
+      "severity": "high", 
+      "description": "Critical procedure delayed due to insurance miscommunication",
+      "statistic": "Prior authorization delays affect 91% of physicians and can postpone critical care",
+      "hook": "Mom's cancer surgery was delayed 3 weeks because three doctors submitted different information to insurance",
+      "chaos": [
+        "Oncologist submitted one set of medical records",
+        "Surgeon's office sent conflicting procedure codes",
+        "Primary care updated her file but didn't notify the specialists",
+        "Insurance denied authorization citing 'inconsistent information'",
+        "Surgery postponed while cancer continued growing"
+      ],
+      "turning_point": "We realized we needed to be the coordinators between all her doctors",
+      "calm": [
+        "All medical providers working from the same updated information",
+        "Insurance paperwork coordinated and consistent",
+        "Pre-authorization completed smoothly and quickly",
+        "Surgery scheduled without delays - treatment back on track"
+      ],
+      "cta": "When facing serious illness, coordination can't wait.",
+      "kiin_features": ["medical_record_sharing", "provider_coordination", "insurance_management"],
+      "target_emotion": "anxiety_to_confidence",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "three_generation_scheduling",
+      "category": "sandwich_generation",
+      "severity": "moderate",
+      "description": "Family managing kids, aging parents, and work schedules",
+      "statistic": "54% of sandwich generation caregivers struggle with scheduling conflicts",
+      "hook": "Soccer practice, Mom's chemotherapy, and Dad's physical therapy - all scheduled for the same Tuesday at 3pm",
+      "chaos": [
+        "Kids' sports schedule came out and I booked the carpool",
+        "Mom's cancer treatment got moved up - same time slot",
+        "Dad's stroke recovery PT only had that appointment available", 
+        "I can't be in three places at once but everyone needs me",
+        "Feeling like I'm failing at everything that matters most"
+      ],
+      "turning_point": "My sister suggested we share one family calendar instead of juggling separate ones",
+      "calm": [
+        "One master calendar showing everyone's needs and availability",
+        "Family members can help cover when schedules conflict",
+        "Kids understand why family care sometimes comes first",
+        "Nobody falls through the cracks - everyone gets the support they need"
+      ],
+      "cta": "Sandwich generation? Share the load, share the calendar.",
+      "kiin_features": ["unified_calendar", "family_coordination", "priority_management"],
+      "target_emotion": "overwhelmed_to_balanced",
+      "scenario_type": "family"
+    },
+    {
+      "id": "diabetic_emergency_miscommunication",
+      "category": "emergency",
+      "severity": "critical",
+      "description": "Diabetic emergency worsened by communication breakdown",
+      "statistic": "Diabetes-related emergencies are 40% more severe when family coordination is poor",
+      "hook": "Grandpa's diabetic emergency turned critical because nobody could find his glucose meter or medication list",
+      "chaos": [
+        "Found Grandpa unconscious - blood sugar crashed", 
+        "Brother had his glucose meter from last week's visit",
+        "Sister had the updated medication list in her car",
+        "I had his insurance cards but couldn't reach the others",
+        "EMTs treating him blind while we scrambled to coordinate"
+      ],
+      "turning_point": "The ER doctor said those extra 20 minutes of confusion almost cost us everything",
+      "calm": [
+        "Emergency medical information accessible to all family members",
+        "Current medication lists, allergies, and glucose logs shared",
+        "Emergency contacts know exactly where to find everything",
+        "Quick response saves lives when diabetes emergencies happen"
+      ],
+      "cta": "In medical emergencies, every minute of confusion matters.",
+      "kiin_features": ["emergency_access", "medical_information_sharing", "quick_response_tools"],
+      "target_emotion": "panic_to_preparedness",
+      "scenario_type": "emergency"
+    },
+    {
+      "id": "mental_health_crisis_coordination",
+      "category": "mental_health",
+      "severity": "high",
+      "description": "Mental health crisis complicated by family miscommunication",
+      "statistic": "Family support coordination improves mental health outcomes by 60%",
+      "hook": "Dad's depression crisis hit when our family was completely disconnected about his mental health care",
+      "chaos": [
+        "His therapist changed his medication but only told my brother",
+        "I noticed he seemed worse but didn't know about the change",
+        "Sister was worried but didn't want to 'interfere'", 
+        "Mom was handling it alone and getting exhausted",
+        "Dad felt like a burden and stopped communicating with all of us"
+      ],
+      "turning_point": "Family therapy session taught us that mental health is a team effort",
+      "calm": [
+        "Everyone aware of treatment plan and medication changes",
+        "Regular check-ins scheduled and shared among family",
+        "Dad feels supported by coordinated, not overwhelming care",
+        "His depression improved with consistent family involvement"
+      ],
+      "cta": "Mental health recovery thrives with coordinated family support.",
+      "kiin_features": ["mental_health_tracking", "family_communication", "support_coordination"],
+      "target_emotion": "helplessness_to_supportive_unity",
+      "scenario_type": "family"
+    },
+    {
+      "id": "multiple_specialists_conflict",
+      "category": "medical_coordination",
+      "severity": "moderate",
+      "description": "Conflicting medical advice from multiple specialists",
+      "statistic": "67% of patients seeing 3+ specialists receive conflicting advice",
+      "hook": "Five different doctors, five different treatment plans, one confused patient",
+      "chaos": [
+        "Cardiologist says 'increase blood pressure medication'",
+        "Kidney specialist says 'that medication is too hard on kidneys'",
+        "Neurologist wants to add seizure medication",
+        "Primary care doctor isn't sure who to follow",
+        "Mom caught in the middle taking random combinations"
+      ],
+      "turning_point": "We became Mom's medical coordinators instead of leaving her alone with conflicting advice",
+      "calm": [
+        "All specialists see the same current medication list",
+        "Treatment decisions coordinated between doctors",
+        "Mom follows one clear, coordinated plan",
+        "Better health outcomes with unified medical approach"
+      ],
+      "cta": "Multiple doctors need coordinated communication for safe care.",
+      "kiin_features": ["medical_record_coordination", "specialist_communication", "unified_care_plans"],
+      "target_emotion": "confusion_to_clarity",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "caregiver_burnout_cascade",
+      "category": "caregiver_support",
+      "severity": "high",
+      "description": "Primary caregiver burnout affects entire family",
+      "statistic": "40% of caregivers experience depression - coordination reduces this by half",
+      "hook": "Mom was caring for Dad 24/7 until she collapsed from exhaustion and we realized none of us were helping effectively",
+      "chaos": [
+        "Mom insisted she could handle Dad's care alone",
+        "We all wanted to help but nobody knew how",
+        "Different family members offering conflicting assistance",
+        "Mom getting overwhelmed but unable to coordinate our help",
+        "She ended up in the hospital from stress and exhaustion"
+      ],
+      "turning_point": "Mom's breakdown taught us that sustainable caregiving requires family teamwork",
+      "calm": [
+        "Shared caregiving schedule that gives Mom regular breaks",
+        "Everyone knows their role and when they're needed",
+        "Respite care coordinated seamlessly when someone can't make it",
+        "Mom feels supported instead of alone - Dad gets better care"
+      ],
+      "cta": "Caregiver burnout is preventable with proper family coordination.",
+      "kiin_features": ["caregiver_support", "respite_scheduling", "family_teamwork"],
+      "target_emotion": "burnout_to_sustainable_support",
+      "scenario_type": "family"
+    },
+    {
+      "id": "nursing_home_transition_chaos",
+      "category": "transitions",
+      "severity": "high",
+      "description": "Chaotic nursing home admission due to poor family coordination",
+      "statistic": "Nursing home transitions go 70% smoother with coordinated family involvement",
+      "hook": "Dad's emergency nursing home admission turned into a nightmare because our family wasn't prepared or coordinated",
+      "chaos": [
+        "Sudden hospitalization led to emergency nursing home placement",
+        "Nobody had gathered his important documents",
+        "Different siblings arguing about which facility to choose",
+        "His preferences and care needs not clearly communicated",
+        "Dad felt abandoned and confused during the transition"
+      ],
+      "turning_point": "The social worker asked us to get organized before making any major decisions",
+      "calm": [
+        "Family meetings to discuss Dad's preferences and needs",
+        "All necessary documents organized and accessible",
+        "Unified family decision about the best care option",
+        "Smooth transition with Dad feeling involved and supported"
+      ],
+      "cta": "Major care transitions need family coordination, not family conflict.",
+      "kiin_features": ["transition_planning", "document_organization", "family_decision_support"],
+      "target_emotion": "crisis_to_thoughtful_planning",
+      "scenario_type": "family"
+    },
+    {
+      "id": "medication_interaction_crisis",
+      "category": "medication",
+      "severity": "critical",
+      "description": "Dangerous drug interaction due to uncoordinated prescribing",
+      "statistic": "Drug interactions cause 125,000 deaths annually - most preventable with coordination",
+      "hook": "Grandma ended up in ICU because three different doctors prescribed medications that don't mix",
+      "chaos": [
+        "Heart doctor prescribed blood thinner",
+        "Arthritis doctor added pain medication",
+        "Psychiatrist started antidepressant",
+        "Nobody was tracking the complete medication list",
+        "Dangerous interaction put her in intensive care"
+      ],
+      "turning_point": "Hospital pharmacist asked why no one was coordinating her medications",
+      "calm": [
+        "Complete medication list shared with every provider",
+        "Interaction checks before any new prescriptions",
+        "Family and doctors working from same accurate information",
+        "Grandma safe from preventable medication dangers"
+      ],
+      "cta": "Your loved one's medication list should never be a mystery to their doctors.",
+      "kiin_features": ["medication_coordination", "interaction_checking", "provider_communication"],
+      "target_emotion": "terror_to_safety",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "physical_therapy_coordination_failure",
+      "category": "rehabilitation",
+      "severity": "moderate",
+      "description": "Rehabilitation progress hindered by poor coordination",
+      "statistic": "Coordinated PT programs show 85% better outcomes than uncoordinated ones",
+      "hook": "Dad's stroke recovery stalled because PT, OT, and speech therapy weren't talking to each other or us",
+      "chaos": [
+        "Physical therapist working on walking goals",
+        "Occupational therapist focusing on different arm exercises", 
+        "Speech therapist not knowing about swallowing improvements",
+        "Each therapist giving us different homework instructions",
+        "Dad confused about what to practice and getting frustrated"
+      ],
+      "turning_point": "We asked all three therapists to meet together and coordinate Dad's care plan",
+      "calm": [
+        "All therapy goals aligned and reinforcing each other",
+        "Clear daily practice routine that makes sense",
+        "Progress tracked across all therapy types",
+        "Dad's recovery accelerated with coordinated approach"
+      ],
+      "cta": "Rehabilitation works best when everyone is working toward the same goals.",
+      "kiin_features": ["therapy_coordination", "progress_tracking", "goal_alignment"],
+      "target_emotion": "frustration_to_progress",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "holiday_care_disaster",
+      "category": "family_dynamics",
+      "severity": "moderate", 
+      "description": "Holiday care coordination breakdown causes family stress",
+      "statistic": "78% of family conflicts during holidays involve care coordination issues",
+      "hook": "Christmas turned into chaos when nobody coordinated who was bringing Mom's medications and wheelchair",
+      "chaos": [
+        "Everyone assumed someone else was handling Mom's travel needs",
+        "Arrived at family gathering - no wheelchair accessible bathroom",
+        "Forgot her evening medications at home 3 hours away",
+        "Mom felt like a burden ruining everyone's holiday",
+        "Family stress turned celebration into crisis"
+      ],
+      "turning_point": "We decided holidays should bring joy, not stress about coordination",
+      "calm": [
+        "Holiday planning includes accessibility and medication needs",
+        "Clear assignments for who brings what medical equipment",
+        "Backup plans for emergencies during family gatherings", 
+        "Mom enjoys holidays instead of worrying about being a burden"
+      ],
+      "cta": "Holiday memories should be joyful, not stressful care coordination crises.",
+      "kiin_features": ["travel_planning", "accessibility_coordination", "holiday_care_management"],
+      "target_emotion": "holiday_stress_to_joy",
+      "scenario_type": "family"
+    },
+    {
+      "id": "work_caregiving_conflict",
+      "category": "work_life_balance",
+      "severity": "moderate",
+      "description": "Career suffering due to uncoordinated caregiving demands",
+      "statistic": "73% of working caregivers miss work due to coordination failures",
+      "hook": "I almost lost my job because every family emergency fell on me - nobody else knew how to coordinate Dad's care",
+      "chaos": [
+        "Dad's medical appointments always during my work hours",
+        "Siblings wanted to help but didn't know his schedule",
+        "Emergency calls coming to me because I'm the 'primary' contact",
+        "Missing important work meetings for preventable crises",
+        "Boss questioning my commitment while family questions my priorities"
+      ],
+      "turning_point": "HR suggested I might need better family support systems to succeed at work",
+      "calm": [
+        "Rotating responsibility for Dad's appointments among siblings",
+        "Everyone trained to handle routine care coordination",
+        "Emergency contacts spread among multiple family members",
+        "My career and Dad's care both thriving with shared responsibility"
+      ],
+      "cta": "Working caregivers need family teamwork, not family burden.",
+      "kiin_features": ["responsibility_sharing", "emergency_contact_rotation", "work_life_coordination"],
+      "target_emotion": "career_conflict_to_balance",
+      "scenario_type": "family"
+    },
+    {
+      "id": "diabetes_education_confusion",
+      "category": "chronic_disease",
+      "severity": "moderate",
+      "description": "Diabetes management confused by conflicting family understanding", 
+      "statistic": "Diabetes patients with coordinated family support have 23% better glucose control",
+      "hook": "Grandpa's diabetes management became a family argument instead of family support",
+      "chaos": [
+        "Doctor taught Grandpa about carb counting",
+        "I learned something different from diabetes class",
+        "Sister found conflicting information online",
+        "Everyone giving Grandpa different advice about food",
+        "His blood sugar getting worse with our 'help'"
+      ],
+      "turning_point": "Diabetes educator said families need to learn together, not separately",
+      "calm": [
+        "Whole family attended diabetes education together",
+        "Everyone working from the same meal planning guidelines", 
+        "Consistent support instead of conflicting advice",
+        "Grandpa's glucose levels improved with unified family approach"
+      ],
+      "cta": "Chronic disease management works best when families learn together.",
+      "kiin_features": ["health_education_sharing", "chronic_disease_management", "family_learning"],
+      "target_emotion": "confusion_to_unified_support",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "discharge_planning_disaster",
+      "category": "hospital_discharge",
+      "severity": "high",
+      "description": "Hospital discharge chaos due to poor family coordination",
+      "statistic": "Coordinated discharge planning reduces readmission risk by 30%",
+      "hook": "Mom came home from the hospital with a 20-page discharge plan that nobody in our family understood or coordinated",
+      "chaos": [
+        "Discharge nurse rushed through instructions with whoever was present",
+        "Medication changes not clearly explained to primary caregiver",
+        "Follow-up appointments scheduled without checking family availability",
+        "Home health services scheduled but nobody home to meet them",
+        "First week home was terrifying instead of healing"
+      ],
+      "turning_point": "Readmission could have been prevented with better family preparation",
+      "calm": [
+        "Discharge planning included all key family members",
+        "Everyone understood medication changes and care instructions",
+        "Follow-up appointments coordinated with family schedules",
+        "Home recovery plan that the whole family could execute confidently"
+      ],
+      "cta": "Hospital discharge should be the start of healing, not family confusion.",
+      "kiin_features": ["discharge_coordination", "family_education", "care_plan_sharing"],
+      "target_emotion": "discharge_fear_to_confidence",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "memory_care_communication_breakdown",
+      "category": "memory_care",
+      "severity": "high",
+      "description": "Memory care facility issues due to poor family communication",
+      "statistic": "Memory care outcomes improve 50% with coordinated family involvement",
+      "hook": "Grandma's memory care was failing because the facility was getting different information from different family members",
+      "chaos": [
+        "I told them she loves classical music",
+        "Brother said she prefers complete quiet",
+        "Sister updated dietary restrictions but didn't tell others",
+        "Conflicting information about her daily routine preferences",
+        "Staff confused, Grandma agitated, family frustrated"
+      ],
+      "turning_point": "Care coordinator asked us to speak with one voice about Grandma's needs",
+      "calm": [
+        "Family meetings to align on Grandma's preferences and needs",
+        "Single point of contact for facility communication",
+        "Regular updates shared among all family members",
+        "Grandma receiving consistent, personalized care"
+      ],
+      "cta": "Memory care works better when families coordinate what they know and love about their person.",
+      "kiin_features": ["facility_communication", "family_coordination", "preference_management"],
+      "target_emotion": "frustration_to_advocacy",
+      "scenario_type": "family"
+    },
+    {
+      "id": "palliative_care_coordination",
+      "category": "end_of_life",
+      "severity": "high", 
+      "description": "End-of-life care complicated by family miscommunication",
+      "statistic": "Coordinated palliative care reduces family distress by 40% and improves quality of life",
+      "hook": "Dad's final months were more stressful than peaceful because our family couldn't coordinate his end-of-life care wishes",
+      "chaos": [
+        "Dad had told different family members different preferences",
+        "Medical decisions needed but nobody sure about his real wishes",
+        "Siblings disagreeing about hospice vs continued treatment",
+        "Each conversation with doctors included different family members",
+        "Dad's final weeks filled with family conflict instead of love"
+      ],
+      "turning_point": "Hospice counselor helped us have the coordinated conversations Dad deserved",
+      "calm": [
+        "Family meetings to understand and honor Dad's true wishes",
+        "Clear advance directives everyone understood and supported",
+        "Coordinated care plan focused on comfort and dignity",
+        "Dad's final time was peaceful, surrounded by unified family love"
+      ],
+      "cta": "End-of-life care deserves coordinated compassion, not family confusion.",
+      "kiin_features": ["advance_directive_sharing", "family_decision_coordination", "comfort_care_planning"],
+      "target_emotion": "end_of_life_conflict_to_peace",
+      "scenario_type": "family"
+    },
+    {
+      "id": "medication_adherence_family_conflict",
+      "category": "medication",
+      "severity": "moderate",
+      "description": "Family conflict over medication compliance monitoring", 
+      "statistic": "Medication adherence improves 60% with coordinated family support",
+      "hook": "Mom stopped taking her heart medication because three different kids were nagging her about pills in three different ways",
+      "chaos": [
+        "I called every morning to remind her about medication",
+        "Sister visited unexpectedly to check if she'd taken them",
+        "Brother set up pill boxes but didn't coordinate with us",
+        "Mom felt overwhelmed by our 'help' and stopped communicating",
+        "Her heart condition worsened while we thought we were helping"
+      ],
+      "turning_point": "Mom's cardiologist asked why her family support felt like harassment",
+      "calm": [
+        "One coordinated approach to medication reminders",
+        "Mom involved in planning the support she actually wanted",
+        "Consistent encouragement instead of overwhelming surveillance",
+        "Her medication adherence improved with respectful family coordination"
+      ],
+      "cta": "Medication support should feel like love, not supervision.",
+      "kiin_features": ["medication_support", "family_communication", "patient_autonomy"],
+      "target_emotion": "overwhelming_help_to_supportive_love", 
+      "scenario_type": "family"
+    },
+    {
+      "id": "emergency_room_information_chaos",
+      "category": "emergency",
+      "severity": "critical",
+      "description": "ER visit complicated by scattered family medical information",
+      "statistic": "ER treatment delays occur in 45% of cases when family medical information is uncoordinated",
+      "hook": "Grandpa's heart attack treatment was delayed 45 minutes because nobody could find his medication list or medical history",
+      "chaos": [
+        "Grandpa collapsed - rushed to ER unconscious",
+        "His medication list was in daughter's purse 30 miles away",
+        "Medical history scattered across three family members' phones",
+        "Previous heart attacks details in son's email somewhere",
+        "ER doctors treating him without critical background information"
+      ],
+      "turning_point": "Cardiologist said those 45 minutes of missing information might have cost him heart muscle",
+      "calm": [
+        "Complete medical profile accessible to any family member in emergency",
+        "Current medications, allergies, and medical history always available",
+        "Emergency contacts who can provide information immediately",
+        "Fast, informed treatment that saves heart muscle and lives"
+      ],
+      "cta": "In cardiac emergencies, information delays can be deadly.",
+      "kiin_features": ["emergency_medical_access", "family_medical_sharing", "quick_information_access"],
+      "target_emotion": "emergency_panic_to_prepared_response",
+      "scenario_type": "emergency"
+    },
+    {
+      "id": "aging_in_place_coordination",
+      "category": "aging_in_place",
+      "severity": "moderate",
+      "description": "Independent living threatened by uncoordinated family support",
+      "statistic": "89% of seniors prefer aging in place - coordinated family support makes this possible 75% longer",
+      "hook": "Dad wanted to stay in his own home but our uncoordinated 'help' was making him feel like he needed assisted living",
+      "chaos": [
+        "Everyone checking on Dad differently and at random times",
+        "Conflicting advice about home safety modifications",
+        "Groceries delivered by multiple people - food spoiling",
+        "Medical transportation arranged and cancelled by different siblings",
+        "Dad feeling overwhelmed by chaotic help instead of supported"
+      ],
+      "turning_point": "Dad said he'd rather move to assisted living than deal with our disorganized help",
+      "calm": [
+        "Coordinated schedule of support that respects Dad's independence",
+        "Clear division of responsibilities among family members",
+        "Regular family check-ins to adjust support as needs change",
+        "Dad thriving at home with organized, respectful family assistance"
+      ],
+      "cta": "Aging in place works when family support is coordinated, not chaotic.",
+      "kiin_features": ["aging_in_place_support", "independence_coordination", "family_support_scheduling"],
+      "target_emotion": "independence_threat_to_empowerment",
+      "scenario_type": "family"
+    },
+    {
+      "id": "respite_care_coordination_failure",
+      "category": "caregiver_support",
+      "severity": "moderate",
+      "description": "Primary caregiver breakdown due to failed respite coordination",
+      "statistic": "Regular respite care reduces caregiver burnout by 65% - but only when properly coordinated",
+      "hook": "Mom needed a break from caring for Dad, but our family's attempt at respite care became more stressful than helpful",
+      "chaos": [
+        "Scheduled Mom a weekend away but didn't prepare Dad's care details",
+        "Brothers showed up not knowing Dad's routine or medications",
+        "Emergency calls to Mom every few hours during her 'break'",
+        "Dad upset by disrupted routine, Mom guilty about leaving",
+        "Mom came back more exhausted than when she left"
+      ],
+      "turning_point": "Mom said she'd never take another break if this is what it looked like",
+      "calm": [
+        "Detailed care plans prepared for any respite caregiver",
+        "Family members trained in Dad's routine and preferences",
+        "Emergency protocols that don't require calling Mom",
+        "Mom gets real breaks while Dad receives consistent, competent care"
+      ],
+      "cta": "Respite care only works when backup caregivers are truly prepared.",
+      "kiin_features": ["respite_planning", "caregiver_training", "care_routine_documentation"],
+      "target_emotion": "failed_respite_to_true_relief",
+      "scenario_type": "family"
+    }
+  ],
+  "scenario_categories": {
+    "medication": "Medication management and safety",
+    "dementia": "Dementia and Alzheimer's care coordination", 
+    "emergency": "Emergency response and crisis management",
+    "family": "Family dynamics and communication",
+    "medical": "Medical care coordination between providers",
+    "transitions": "Care transitions and life changes",
+    "chronic_disease": "Ongoing chronic condition management",
+    "work_life_balance": "Balancing work and caregiving",
+    "aging_in_place": "Supporting independent living",
+    "caregiver_support": "Supporting family caregivers"
+  },
+  "target_emotions": {
+    "fear_to_relief": "Transform medical fear into relief through coordination",
+    "chaos_to_organized_care": "Turn caregiving chaos into organized support",
+    "overwhelmed_to_balanced": "Help overwhelmed families find balance",
+    "panic_to_preparedness": "Convert emergency panic to prepared confidence",
+    "confusion_to_clarity": "Clear up medical and care confusion",
+    "burnout_to_sustainable_support": "Transform caregiver burnout into sustainable help",
+    "crisis_to_thoughtful_planning": "Turn crisis reaction into thoughtful planning"
+  },
+  "kiin_value_propositions": [
+    "Real-time family coordination prevents dangerous miscommunication",
+    "Shared information reduces medical errors and improves outcomes", 
+    "Coordinated caregiving reduces burden and improves quality of life",
+    "Emergency preparedness keeps families calm during crises",
+    "Sustainable caregiving preserves family relationships and caregiver health"
+  ]
+}

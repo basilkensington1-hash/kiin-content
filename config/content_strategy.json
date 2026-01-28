@@ -1,0 +1,355 @@
+{
+  "pillars": [
+    "Caregiver Self-Care",
+    "Care Coordination", 
+    "Emotional Support",
+    "Practical Tips",
+    "Family Dynamics"
+  ],
+  "clusters": {
+    "caregiver_self_care": {
+      "main_topic": "Caregiver Self-Care",
+      "pillar_page": "Complete Guide to Caregiver Self-Care",
+      "supporting_topics": [
+        "Preventing Caregiver Burnout",
+        "Self-Care Routines for Busy Caregivers",
+        "Managing Caregiver Stress",
+        "Finding Time for Yourself as a Caregiver",
+        "Caregiver Exercise and Fitness",
+        "Nutrition for Caregivers",
+        "Sleep Strategies for Caregivers",
+        "Mental Health Support for Caregivers",
+        "Setting Boundaries as a Caregiver",
+        "Caregiver Support Groups"
+      ],
+      "keywords": [
+        "caregiver self care",
+        "caregiver burnout prevention",
+        "caregiver stress management",
+        "caregiver mental health",
+        "caregiver wellness"
+      ]
+    },
+    "care_coordination": {
+      "main_topic": "Care Coordination",
+      "pillar_page": "Mastering Care Coordination: A Family Caregiver's Guide",
+      "supporting_topics": [
+        "Creating a Care Team",
+        "Medical Appointment Management",
+        "Coordinating Multiple Healthcare Providers",
+        "Care Plan Development",
+        "Health Records Organization",
+        "Insurance and Benefits Navigation",
+        "Care Transitions and Hospital Discharge",
+        "Emergency Planning for Seniors",
+        "Communication with Healthcare Providers",
+        "Technology Tools for Care Coordination"
+      ],
+      "keywords": [
+        "care coordination",
+        "medical appointment scheduling",
+        "healthcare provider communication",
+        "care plan development",
+        "care team management"
+      ]
+    },
+    "emotional_support": {
+      "main_topic": "Emotional Support", 
+      "pillar_page": "Emotional Journey of Caregiving: Support and Healing",
+      "supporting_topics": [
+        "Dealing with Caregiver Guilt",
+        "Managing Grief While Caregiving",
+        "Coping with Role Reversal",
+        "Supporting a Loved One's Dignity",
+        "Difficult Conversations in Caregiving",
+        "When Caregiving Relationships Change",
+        "Finding Hope in Difficult Times",
+        "Celebrating Small Victories",
+        "Building Resilience as a Caregiver",
+        "Processing End-of-Life Decisions"
+      ],
+      "keywords": [
+        "caregiver emotional support",
+        "caregiver guilt",
+        "caregiver grief",
+        "caregiving relationships",
+        "emotional caregiving challenges"
+      ]
+    },
+    "practical_tips": {
+      "main_topic": "Practical Tips",
+      "pillar_page": "Essential Practical Tips for Family Caregivers",
+      "supporting_topics": [
+        "Home Safety Modifications",
+        "Medication Management",
+        "Adaptive Equipment and Assistive Devices",
+        "Meal Planning and Nutrition",
+        "Personal Care Assistance",
+        "Transportation Solutions",
+        "Financial Planning for Care",
+        "Legal Documents and Planning",
+        "Home Care vs. Facility Care",
+        "Daily Routine Management"
+      ],
+      "keywords": [
+        "caregiving tips",
+        "elder care practical advice",
+        "home safety for seniors",
+        "medication management elderly",
+        "adaptive equipment seniors"
+      ]
+    },
+    "family_dynamics": {
+      "main_topic": "Family Dynamics",
+      "pillar_page": "Navigating Family Dynamics in Caregiving",
+      "supporting_topics": [
+        "Sharing Caregiving Responsibilities",
+        "Family Meetings About Care",
+        "Dealing with Disagreeing Siblings",
+        "Long-Distance Caregiving",
+        "Sandwich Generation Challenges",
+        "Involving Grandchildren in Care",
+        "Cultural Considerations in Family Care",
+        "Blended Family Caregiving",
+        "When One Sibling Does All the Care",
+        "Setting Family Boundaries"
+      ],
+      "keywords": [
+        "family caregiving dynamics",
+        "sibling caregiving conflicts",
+        "long distance caregiving",
+        "sandwich generation",
+        "family care meetings"
+      ]
+    },
+    "condition_specific": {
+      "main_topic": "Condition-Specific Care",
+      "pillar_page": "Comprehensive Guide to Condition-Specific Caregiving",
+      "supporting_topics": [
+        "Dementia and Alzheimer's Care",
+        "Stroke Recovery Support",
+        "Diabetes Management for Seniors",
+        "Heart Disease Caregiving",
+        "Cancer Care Support",
+        "Parkinson's Disease Care",
+        "COPD Caregiver Guide",
+        "Post-Surgery Recovery",
+        "Chronic Pain Management",
+        "Mental Health in Aging"
+      ],
+      "keywords": [
+        "dementia caregiving",
+        "alzheimer care tips",
+        "stroke recovery care",
+        "diabetes elderly care",
+        "condition specific caregiving"
+      ]
+    }
+  },
+  "seasonal_themes": {
+    "spring": {
+      "themes": [
+        "Spring Cleaning for Senior Safety",
+        "Outdoor Activities for Seniors",
+        "Allergy Management for Elderly",
+        "Garden Therapy and Seniors",
+        "Spring Mental Health Boost"
+      ],
+      "keywords": [
+        "spring safety seniors",
+        "outdoor activities elderly",
+        "senior spring activities"
+      ]
+    },
+    "summer": {
+      "themes": [
+        "Heat Safety for Seniors",
+        "Summer Hydration for Elderly",
+        "Family Vacation with Care Needs",
+        "Sundowning in Summer Months",
+        "Swimming and Water Safety"
+      ],
+      "keywords": [
+        "heat safety elderly",
+        "summer senior safety",
+        "vacation caregiving"
+      ]
+    },
+    "fall": {
+      "themes": [
+        "Fall Prevention Strategies",
+        "Seasonal Depression in Seniors",
+        "Holiday Planning with Care Needs",
+        "Flu Shot Importance for Seniors",
+        "Back to School as Sandwich Generation"
+      ],
+      "keywords": [
+        "fall prevention seniors",
+        "senior fall safety",
+        "holiday caregiving"
+      ]
+    },
+    "winter": {
+      "themes": [
+        "Winter Safety for Seniors",
+        "Holiday Stress and Caregiving",
+        "Seasonal Affective Disorder",
+        "Emergency Preparedness Winter",
+        "New Year Care Planning"
+      ],
+      "keywords": [
+        "winter safety elderly",
+        "holiday caregiving stress",
+        "winter senior care"
+      ]
+    }
+  },
+  "content_funnel": {
+    "awareness": {
+      "intent": "Educational and inspirational content",
+      "topics": [
+        "Signs your parent may need help",
+        "What is the sandwich generation?", 
+        "Understanding caregiver burnout",
+        "Types of senior care options",
+        "Early warning signs of dementia"
+      ],
+      "content_types": [
+        "Educational blog posts",
+        "Infographics", 
+        "Social media posts",
+        "Video content",
+        "Checklists and guides"
+      ]
+    },
+    "consideration": {
+      "intent": "Solution-focused content",
+      "topics": [
+        "How to create a care plan",
+        "Questions to ask when choosing care",
+        "Comparing care options",
+        "Building a support network",
+        "Technology solutions for caregiving"
+      ],
+      "content_types": [
+        "Comparison guides",
+        "How-to articles",
+        "Case studies",
+        "Expert interviews",
+        "Resource directories"
+      ]
+    },
+    "decision": {
+      "intent": "Action-oriented content",
+      "topics": [
+        "Getting started with Kiin app",
+        "Creating your first care plan",
+        "Connecting with local resources",
+        "Setting up family communication",
+        "Emergency planning templates"
+      ],
+      "content_types": [
+        "Product tutorials",
+        "Getting started guides",
+        "Templates and tools",
+        "Success stories",
+        "Feature demonstrations"
+      ]
+    }
+  },
+  "trending_topics": {
+    "2024_trends": [
+      "AI and caregiving",
+      "Remote monitoring technology",
+      "Telehealth adoption",
+      "Caregiver mental health awareness",
+      "Digital health records",
+      "Virtual reality therapy",
+      "Wearable health devices",
+      "Smart home technology",
+      "Social isolation solutions",
+      "Caregiver burnout prevention"
+    ],
+    "viral_content_patterns": [
+      "Day in the life of caregiver",
+      "Before and after care transformations",
+      "Caregiver tips and hacks",
+      "Emotional caregiving moments",
+      "Funny caregiving stories",
+      "Technology solutions demos",
+      "Family care team introductions",
+      "Care routine walkthroughs"
+    ]
+  },
+  "platform_strategy": {
+    "tiktok": {
+      "content_types": [
+        "Quick caregiver tips",
+        "Day in the life videos",
+        "Emotional storytelling",
+        "Technology demonstrations",
+        "Family moments"
+      ],
+      "optimal_length": "15-60 seconds",
+      "posting_frequency": "Daily"
+    },
+    "instagram": {
+      "content_types": [
+        "Inspirational quotes",
+        "Infographic carousels",
+        "Behind the scenes",
+        "Story highlights guides",
+        "IGTV tutorials"
+      ],
+      "optimal_length": "Variable",
+      "posting_frequency": "Daily posts, multiple stories"
+    },
+    "youtube": {
+      "content_types": [
+        "Comprehensive tutorials",
+        "Expert interviews",
+        "Care routine walkthroughs",
+        "Product reviews",
+        "Live Q&A sessions"
+      ],
+      "optimal_length": "8-15 minutes",
+      "posting_frequency": "2-3 times per week"
+    },
+    "pinterest": {
+      "content_types": [
+        "Caregiver checklists",
+        "Home safety infographics",
+        "Meal planning guides",
+        "Self-care routines",
+        "Resource lists"
+      ],
+      "optimal_format": "Vertical pins",
+      "posting_frequency": "5-10 pins daily"
+    }
+  },
+  "content_calendar_themes": {
+    "weekly_themes": {
+      "monday": "Motivation Monday - Inspirational content",
+      "tuesday": "Tip Tuesday - Practical advice",
+      "wednesday": "Wellness Wednesday - Self-care focus",
+      "thursday": "Thankful Thursday - Gratitude and positivity",
+      "friday": "Feature Friday - Product/service highlights",
+      "saturday": "Story Saturday - Personal narratives",
+      "sunday": "Sunday Reflection - Planning and preparation"
+    },
+    "monthly_themes": {
+      "january": "New Year, New Care Plans",
+      "february": "Heart Health and Love",
+      "march": "Women's History and Caregiving",
+      "april": "Stress Awareness Month",
+      "may": "Mental Health Awareness",
+      "june": "Men's Health and Father's Day",
+      "july": "Summer Safety",
+      "august": "Back to School (Sandwich Generation)",
+      "september": "Healthy Aging Month",
+      "october": "Breast Cancer Awareness",
+      "november": "Family Caregiver Month",
+      "december": "Holiday Stress and Joy"
+    }
+  }
+}

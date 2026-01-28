@@ -1,0 +1,765 @@
+{
+  "confessions": [
+    {
+      "id": 1,
+      "category": "guilt",
+      "emotional_weight": "heavy",
+      "hook": "The thing I'm afraid to admit as a caregiver...",
+      "confession": "some days I resent the person I'm caring for. And then I feel terrible for feeling that.",
+      "validation": "You're not alone in feeling this way. Resentment and love can coexist.",
+      "duration_target": 22,
+      "pause_points": [
+        8,
+        15
+      ],
+      "emphasis_words": [
+        "resent",
+        "terrible",
+        "alone"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "guilt",
+      "emotional_weight": "medium",
+      "hook": "I feel guilty for missing my old life",
+      "confession": "when I know their life has changed so much more than mine has.",
+      "validation": "Both of your losses matter equally.",
+      "duration_target": 18,
+      "pause_points": [
+        6,
+        12
+      ],
+      "emphasis_words": [
+        "guilty",
+        "missing",
+        "losses",
+        "matter"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "guilt",
+      "emotional_weight": "heavy",
+      "hook": "The guilt hits hardest when",
+      "confession": "I catch myself getting impatient with them for something they can't control.",
+      "validation": "Patience has limits. You're beautifully human.",
+      "duration_target": 20,
+      "pause_points": [
+        5,
+        13
+      ],
+      "emphasis_words": [
+        "guilt",
+        "impatient",
+        "control",
+        "human"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "grief",
+      "emotional_weight": "heavy",
+      "hook": "Nobody tells you that caring for someone you love",
+      "confession": "sometimes feels like grieving them while they're still here.",
+      "validation": "Anticipatory grief is real grief. This pain is part of love.",
+      "duration_target": 24,
+      "pause_points": [
+        7,
+        16
+      ],
+      "emphasis_words": [
+        "grieving",
+        "still here",
+        "grief",
+        "love"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "grief",
+      "emotional_weight": "heavy",
+      "hook": "The hardest part about being a caregiver",
+      "confession": "is watching someone slowly disappear and pretending you're okay with it.",
+      "validation": "Your grief is valid, even while they're still alive.",
+      "duration_target": 25,
+      "pause_points": [
+        8,
+        18
+      ],
+      "emphasis_words": [
+        "disappear",
+        "pretending",
+        "grief",
+        "valid"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "grief",
+      "emotional_weight": "medium",
+      "hook": "Nobody prepared me for",
+      "confession": "how lonely it would feel to watch someone fade away in slow motion.",
+      "validation": "Loneliness in caregiving is one of the hardest parts.",
+      "duration_target": 21,
+      "pause_points": [
+        5,
+        14
+      ],
+      "emphasis_words": [
+        "lonely",
+        "fade",
+        "slow motion",
+        "hardest"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "frustration",
+      "emotional_weight": "medium",
+      "hook": "I love my mom. But some days",
+      "confession": "I fantasize about what my life would be like if I didn't have to do this.",
+      "validation": "Dreaming of freedom doesn't make you selfish. It makes you human.",
+      "duration_target": 23,
+      "pause_points": [
+        6,
+        16
+      ],
+      "emphasis_words": [
+        "fantasize",
+        "freedom",
+        "selfish",
+        "human"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "frustration",
+      "emotional_weight": "heavy",
+      "hook": "Nobody talks about how",
+      "confession": "you can love someone deeply and still feel trapped by caring for them.",
+      "validation": "Love and resentment can coexist. You're not broken.",
+      "duration_target": 21,
+      "pause_points": [
+        5,
+        14
+      ],
+      "emphasis_words": [
+        "love",
+        "trapped",
+        "coexist",
+        "broken"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "frustration",
+      "emotional_weight": "medium",
+      "hook": "The cruelest irony of caregiving",
+      "confession": "is that the better job you do, the longer your sentence becomes.",
+      "validation": "Loving well shouldn't feel like punishment.",
+      "duration_target": 19,
+      "pause_points": [
+        6,
+        13
+      ],
+      "emphasis_words": [
+        "irony",
+        "sentence",
+        "punishment"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "hope",
+      "emotional_weight": "light",
+      "hook": "Some days are harder than others, but",
+      "confession": "I'm learning that caring for someone is also caring for the deepest parts of myself.",
+      "validation": "Growth happens in the hardest moments. You're becoming who you're meant to be.",
+      "duration_target": 26,
+      "pause_points": [
+        7,
+        18
+      ],
+      "emphasis_words": [
+        "learning",
+        "caring",
+        "growth",
+        "meant to be"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "hope",
+      "emotional_weight": "light",
+      "hook": "I used to think strength meant",
+      "confession": "never breaking down. Now I know it means getting back up after you do.",
+      "validation": "True strength isn't avoiding the fall. It's in the rising.",
+      "duration_target": 22,
+      "pause_points": [
+        6,
+        15
+      ],
+      "emphasis_words": [
+        "strength",
+        "breaking",
+        "getting back up",
+        "rising"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "hope",
+      "emotional_weight": "light",
+      "hook": "The unexpected gift of caregiving",
+      "confession": "is discovering how much love your heart can actually hold.",
+      "validation": "Love expands us in ways we never imagined possible.",
+      "duration_target": 20,
+      "pause_points": [
+        6,
+        13
+      ],
+      "emphasis_words": [
+        "gift",
+        "discovering",
+        "love",
+        "expands"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "isolation",
+      "emotional_weight": "heavy",
+      "hook": "Sometimes I lock myself in the bathroom",
+      "confession": "just to cry for five minutes without anyone needing something from me.",
+      "validation": "Even caregivers need space to fall apart. Those tears are sacred.",
+      "duration_target": 24,
+      "pause_points": [
+        8,
+        17
+      ],
+      "emphasis_words": [
+        "cry",
+        "needing",
+        "space",
+        "sacred"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "isolation",
+      "emotional_weight": "heavy",
+      "hook": "The most isolating thing about caregiving",
+      "confession": "is that everyone expects you to be grateful for the 'time together' when it's slowly killing you.",
+      "validation": "Your suffering doesn't negate your love. Both can be true.",
+      "duration_target": 28,
+      "pause_points": [
+        8,
+        20
+      ],
+      "emphasis_words": [
+        "isolating",
+        "grateful",
+        "killing",
+        "suffering",
+        "love"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "isolation",
+      "emotional_weight": "medium",
+      "hook": "I smile when friends talk about their weekend plans",
+      "confession": "but inside I'm remembering what spontaneity used to feel like.",
+      "validation": "Mourning your freedom is natural. You haven't lost yourself completely.",
+      "duration_target": 23,
+      "pause_points": [
+        8,
+        16
+      ],
+      "emphasis_words": [
+        "smile",
+        "spontaneity",
+        "mourning",
+        "freedom"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "identity",
+      "emotional_weight": "medium",
+      "hook": "I used to be a whole person",
+      "confession": "with dreams and plans. Now I'm just someone who gives medications and changes sheets.",
+      "validation": "You haven't disappeared. You're still there, just buried under the care.",
+      "duration_target": 25,
+      "pause_points": [
+        6,
+        17
+      ],
+      "emphasis_words": [
+        "whole",
+        "dreams",
+        "disappeared",
+        "buried"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "identity",
+      "emotional_weight": "medium",
+      "hook": "I smile and nod when people say",
+      "confession": "'you're so strong' but inside I'm screaming that I never wanted to be this strong.",
+      "validation": "Strength isn't a choice you made. It was thrust upon you.",
+      "duration_target": 26,
+      "pause_points": [
+        7,
+        18
+      ],
+      "emphasis_words": [
+        "strong",
+        "screaming",
+        "choice",
+        "thrust"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "fear",
+      "emotional_weight": "heavy",
+      "hook": "The thing that keeps me up at night:",
+      "confession": "wondering if I'm doing enough, or if I'm secretly hoping it will end soon.",
+      "validation": "These thoughts don't make you a bad person. They make you human.",
+      "duration_target": 24,
+      "pause_points": [
+        6,
+        17
+      ],
+      "emphasis_words": [
+        "keeps me up",
+        "enough",
+        "hoping",
+        "human"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "fear",
+      "emotional_weight": "heavy",
+      "hook": "The thing I'll never say out loud:",
+      "confession": "sometimes I wonder if they'd be better off if I just... wasn't here to enable their dependence.",
+      "validation": "These dark thoughts don't define you. They're just thoughts.",
+      "duration_target": 27,
+      "pause_points": [
+        7,
+        19
+      ],
+      "emphasis_words": [
+        "never say",
+        "better off",
+        "dependence",
+        "define"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "numbness",
+      "emotional_weight": "medium",
+      "hook": "The worst part isn't the physical exhaustion",
+      "confession": "it's the emotional numbness that creeps in to protect you from caring too much.",
+      "validation": "Numbness is sometimes survival. Your heart is still beating underneath.",
+      "duration_target": 26,
+      "pause_points": [
+        7,
+        18
+      ],
+      "emphasis_words": [
+        "exhaustion",
+        "numbness",
+        "protect",
+        "survival",
+        "beating"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "response",
+      "emotional_weight": "medium",
+      "hook": "To the caregiver who thinks they're failing:",
+      "confession": "I see you in the grocery store, tired but still choosing their favorite foods. You're not failing.",
+      "validation": "Small acts of love are never small. They're everything.",
+      "duration_target": 24,
+      "pause_points": [
+        7,
+        17
+      ],
+      "emphasis_words": [
+        "failing",
+        "tired",
+        "choosing",
+        "everything"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "response",
+      "emotional_weight": "light",
+      "hook": "To the caregiver who feels invisible:",
+      "confession": "Your sacrifices are seen, even when no one acknowledges them out loud.",
+      "validation": "You are witnessed. Your love matters. You matter.",
+      "duration_target": 20,
+      "pause_points": [
+        6,
+        13
+      ],
+      "emphasis_words": [
+        "invisible",
+        "sacrifices",
+        "witnessed",
+        "matter"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "response",
+      "emotional_weight": "light",
+      "hook": "To the caregiver who's reading this at 2 AM:",
+      "confession": "because you can't sleep for worrying\u2014you're not alone in the dark.",
+      "validation": "Thousands of us are awake with you, carrying the same love and fear.",
+      "duration_target": 22,
+      "pause_points": [
+        8,
+        15
+      ],
+      "emphasis_words": [
+        "2 AM",
+        "worrying",
+        "alone",
+        "thousands",
+        "love"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "guilt",
+      "emotional_weight": "medium",
+      "hook": "I pretend to be asleep",
+      "confession": "when they call my name at night, hoping they'll figure it out themselves just once.",
+      "validation": "Needing rest doesn't make you selfish. It makes you human.",
+      "duration_target": 21,
+      "pause_points": [
+        5,
+        14
+      ],
+      "emphasis_words": [
+        "pretend",
+        "hoping",
+        "selfish",
+        "human"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "frustration",
+      "emotional_weight": "heavy",
+      "hook": "I have imaginary conversations",
+      "confession": "with the person they used to be, telling them how angry I am at what they've become.",
+      "validation": "Grieving who someone was is part of loving who they are now.",
+      "duration_target": 25,
+      "pause_points": [
+        6,
+        17
+      ],
+      "emphasis_words": [
+        "imaginary",
+        "angry",
+        "become",
+        "grieving"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "fear",
+      "emotional_weight": "heavy",
+      "hook": "I'm terrified of the day",
+      "confession": "when I'll feel relieved instead of devastated, and what that will say about who I've become.",
+      "validation": "Relief after suffering doesn't diminish your love. It honors your endurance.",
+      "duration_target": 26,
+      "pause_points": [
+        5,
+        18
+      ],
+      "emphasis_words": [
+        "terrified",
+        "relieved",
+        "devastated",
+        "endurance"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "hope",
+      "emotional_weight": "light",
+      "hook": "Yesterday they smiled",
+      "confession": "when I played their favorite song, and for a moment, we both remembered who we used to be.",
+      "validation": "These moments of recognition are gifts. Hold them gently.",
+      "duration_target": 24,
+      "pause_points": [
+        4,
+        16
+      ],
+      "emphasis_words": [
+        "smiled",
+        "remembered",
+        "gifts",
+        "gently"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "identity",
+      "emotional_weight": "medium",
+      "hook": "I catch glimpses of my old self",
+      "confession": "in windows and mirrors, and I barely recognize the person staring back.",
+      "validation": "Caregiving changes you. That doesn't mean you're lost forever.",
+      "duration_target": 22,
+      "pause_points": [
+        7,
+        15
+      ],
+      "emphasis_words": [
+        "glimpses",
+        "barely",
+        "recognize",
+        "lost"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "isolation",
+      "emotional_weight": "heavy",
+      "hook": "Friends stopped calling",
+      "confession": "not because they don't care, but because they don't know what to say to someone who's disappearing.",
+      "validation": "Your friendships aren't broken. They're paused, waiting for you to return.",
+      "duration_target": 25,
+      "pause_points": [
+        5,
+        17
+      ],
+      "emphasis_words": [
+        "stopped",
+        "disappearing",
+        "broken",
+        "waiting"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "guilt",
+      "emotional_weight": "medium",
+      "hook": "I eat their favorite foods",
+      "confession": "in secret because I'm afraid they'll think I'm mocking their dietary restrictions.",
+      "validation": "Taking small pleasures doesn't make you cruel. It makes you survive.",
+      "duration_target": 23,
+      "pause_points": [
+        5,
+        16
+      ],
+      "emphasis_words": [
+        "secret",
+        "mocking",
+        "pleasures",
+        "survive"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "response",
+      "emotional_weight": "light",
+      "hook": "To the caregiver counting pills at midnight:",
+      "confession": "your vigilance is an act of love, even when it feels like a prison sentence.",
+      "validation": "Every pill counted is a prayer. Every dose given is hope.",
+      "duration_target": 21,
+      "pause_points": [
+        6,
+        14
+      ],
+      "emphasis_words": [
+        "counting",
+        "vigilance",
+        "prison",
+        "prayer"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "response",
+      "emotional_weight": "medium",
+      "hook": "To the caregiver who snapped today:",
+      "confession": "your patience isn't infinite, and that's okay. Tomorrow you'll try again.",
+      "validation": "Perfect caregivers don't exist. Loving ones do. You are one.",
+      "duration_target": 22,
+      "pause_points": [
+        6,
+        15
+      ],
+      "emphasis_words": [
+        "snapped",
+        "patience",
+        "tomorrow",
+        "perfect"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "hope",
+      "emotional_weight": "light",
+      "hook": "Some nights I dream",
+      "confession": "about who I'll be when this is over, and I'm surprised to find I'm still in there somewhere.",
+      "validation": "The person you were is not lost. They're just resting, waiting to emerge.",
+      "duration_target": 25,
+      "pause_points": [
+        4,
+        17
+      ],
+      "emphasis_words": [
+        "dream",
+        "surprised",
+        "resting",
+        "emerge"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "numbness",
+      "emotional_weight": "medium",
+      "hook": "I've become an expert",
+      "confession": "at smiling when people ask how I'm doing, even though I haven't felt 'fine' in months.",
+      "validation": "Social armor serves a purpose. But you don't have to wear it here.",
+      "duration_target": 24,
+      "pause_points": [
+        5,
+        16
+      ],
+      "emphasis_words": [
+        "expert",
+        "smiling",
+        "fine",
+        "armor"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "fear",
+      "emotional_weight": "heavy",
+      "hook": "I practice conversations",
+      "confession": "about funeral arrangements in my head, then feel guilty for thinking ahead.",
+      "validation": "Planning doesn't mean wishing. It means loving them enough to be prepared.",
+      "duration_target": 23,
+      "pause_points": [
+        5,
+        15
+      ],
+      "emphasis_words": [
+        "practice",
+        "funeral",
+        "guilty",
+        "prepared"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "frustration",
+      "emotional_weight": "medium",
+      "hook": "I'm tired of being the strong one,",
+      "confession": "the one who has all the answers, when I'm just figuring it out as I go.",
+      "validation": "Nobody expects you to be perfect. Except maybe you.",
+      "duration_target": 21,
+      "pause_points": [
+        7,
+        15
+      ],
+      "emphasis_words": [
+        "tired",
+        "strong",
+        "answers",
+        "perfect"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "identity",
+      "emotional_weight": "medium",
+      "hook": "I forgot what my laugh sounds like",
+      "confession": "when it's not forced, not performed, just pure and spontaneous and mine.",
+      "validation": "Your joy isn't gone forever. It's just hibernating, waiting for spring.",
+      "duration_target": 23,
+      "pause_points": [
+        7,
+        16
+      ],
+      "emphasis_words": [
+        "forgot",
+        "laugh",
+        "forced",
+        "hibernating"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "grief",
+      "emotional_weight": "heavy",
+      "hook": "I mourn in installments,",
+      "confession": "little pieces of grief for each thing they lose, each memory that slips away.",
+      "validation": "Gradual loss requires gradual grieving. There's no timeline for this kind of love.",
+      "duration_target": 24,
+      "pause_points": [
+        5,
+        16
+      ],
+      "emphasis_words": [
+        "mourn",
+        "installments",
+        "grief",
+        "timeline"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "response",
+      "emotional_weight": "light",
+      "hook": "To the caregiver who thinks no one notices:",
+      "confession": "the way you adjust their pillow, remember their stories, protect their dignity\u2014it's beautiful.",
+      "validation": "Every small act of care ripples out into the universe. You are making it better.",
+      "duration_target": 26,
+      "pause_points": [
+        8,
+        18
+      ],
+      "emphasis_words": [
+        "notices",
+        "dignity",
+        "beautiful",
+        "ripples"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "hope",
+      "emotional_weight": "light",
+      "hook": "Today I realized",
+      "confession": "that love isn't just what I'm giving\u2014it's what I'm becoming in the process.",
+      "validation": "Caregiving transforms the giver as much as the receiver. You are being refined by love.",
+      "duration_target": 24,
+      "pause_points": [
+        4,
+        16
+      ],
+      "emphasis_words": [
+        "realized",
+        "becoming",
+        "transforms",
+        "refined"
+      ]
+    }
+  ]
+}

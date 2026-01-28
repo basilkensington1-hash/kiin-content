@@ -1,0 +1,452 @@
+{
+  "checklists": [
+    {
+      "name": "Complete Home Safety Checklist for Aging in Place",
+      "description": "Room-by-room safety assessment with actionable items",
+      "target_audience": "family caregivers",
+      "lead_magnet_type": "checklist",
+      "format": "PDF",
+      "pages": 8,
+      "sections": [
+        {
+          "section_title": "Kitchen Safety",
+          "items_count": 15,
+          "priority_level": "high",
+          "estimated_time": "30 minutes"
+        },
+        {
+          "section_title": "Bathroom Safety",
+          "items_count": 12,
+          "priority_level": "critical",
+          "estimated_time": "20 minutes"
+        },
+        {
+          "section_title": "Bedroom Safety",
+          "items_count": 10,
+          "priority_level": "medium",
+          "estimated_time": "15 minutes"
+        },
+        {
+          "section_title": "Living Areas",
+          "items_count": 18,
+          "priority_level": "high",
+          "estimated_time": "25 minutes"
+        },
+        {
+          "section_title": "Stairs & Entryways",
+          "items_count": 8,
+          "priority_level": "critical",
+          "estimated_time": "10 minutes"
+        },
+        {
+          "section_title": "Outdoor Areas",
+          "items_count": 12,
+          "priority_level": "medium",
+          "estimated_time": "20 minutes"
+        }
+      ],
+      "design_elements": [
+        "checkboxes for each item",
+        "priority color coding",
+        "cost estimates for modifications",
+        "professional vs DIY indicators",
+        "additional resources section"
+      ],
+      "cta_placement": "after_completion",
+      "related_content": ["home modification guides", "contractor resources"]
+    },
+    {
+      "name": "Medication Management Master Checklist",
+      "description": "Complete system for organizing and tracking medications",
+      "target_audience": "caregivers managing complex medication regimens",
+      "lead_magnet_type": "checklist",
+      "format": "PDF",
+      "pages": 6,
+      "sections": [
+        {
+          "section_title": "Medication Inventory Setup",
+          "items_count": 8,
+          "includes": "medication list template"
+        },
+        {
+          "section_title": "Pharmacy & Doctor Coordination",
+          "items_count": 10,
+          "includes": "contact information template"
+        },
+        {
+          "section_title": "Daily Management System",
+          "items_count": 12,
+          "includes": "tracking sheets"
+        },
+        {
+          "section_title": "Emergency Preparedness",
+          "items_count": 6,
+          "includes": "emergency medication kit"
+        }
+      ]
+    },
+    {
+      "name": "New Caregiver's First 30 Days Checklist",
+      "description": "Essential tasks and priorities for the first month",
+      "target_audience": "new caregivers",
+      "lead_magnet_type": "checklist",
+      "format": "PDF",
+      "pages": 5,
+      "timeline": "30 days",
+      "sections": [
+        {
+          "section_title": "Week 1: Assessment & Immediate Needs",
+          "items_count": 8
+        },
+        {
+          "section_title": "Week 2: Medical & Legal Groundwork",
+          "items_count": 10
+        },
+        {
+          "section_title": "Week 3: Support Systems & Resources",
+          "items_count": 7
+        },
+        {
+          "section_title": "Week 4: Long-term Planning",
+          "items_count": 9
+        }
+      ]
+    }
+  ],
+  "resource_guides": [
+    {
+      "name": "The Ultimate Dementia Resource Guide",
+      "description": "Comprehensive directory of dementia care resources",
+      "target_audience": "dementia caregivers",
+      "lead_magnet_type": "resource_guide",
+      "format": "PDF",
+      "pages": 20,
+      "sections": [
+        {
+          "section_title": "Understanding Dementia",
+          "content_type": "educational_overview",
+          "pages": 3,
+          "includes": ["stages chart", "symptom timeline", "terminology glossary"]
+        },
+        {
+          "section_title": "Local Support Services",
+          "content_type": "resource_directory",
+          "pages": 4,
+          "includes": ["contact templates", "questions to ask", "evaluation criteria"]
+        },
+        {
+          "section_title": "Online Resources & Tools",
+          "content_type": "curated_links",
+          "pages": 3,
+          "includes": ["website directory", "app recommendations", "online support groups"]
+        },
+        {
+          "section_title": "Financial & Legal Resources",
+          "content_type": "practical_guidance",
+          "pages": 4,
+          "includes": ["planning documents", "benefit programs", "legal aid resources"]
+        },
+        {
+          "section_title": "Caregiver Support",
+          "content_type": "self_care_resources",
+          "pages": 3,
+          "includes": ["respite options", "support groups", "counseling resources"]
+        },
+        {
+          "section_title": "Emergency Planning",
+          "content_type": "action_plans",
+          "pages": 3,
+          "includes": ["emergency contacts", "behavior management", "crisis planning"]
+        }
+      ],
+      "interactive_elements": [
+        "fillable contact forms",
+        "clickable links",
+        "progress tracking sheets"
+      ]
+    },
+    {
+      "name": "Family Caregiver's Financial Planning Guide",
+      "description": "Navigate the costs and financial planning for care",
+      "target_audience": "family financial planners",
+      "lead_magnet_type": "resource_guide",
+      "format": "PDF",
+      "pages": 15,
+      "sections": [
+        {
+          "section_title": "Cost Assessment Worksheet",
+          "content_type": "planning_tool",
+          "pages": 3
+        },
+        {
+          "section_title": "Insurance Navigation",
+          "content_type": "educational_guide",
+          "pages": 4
+        },
+        {
+          "section_title": "Government Benefits & Programs",
+          "content_type": "resource_directory",
+          "pages": 3
+        },
+        {
+          "section_title": "Tax Considerations",
+          "content_type": "financial_guidance",
+          "pages": 2
+        },
+        {
+          "section_title": "Long-term Planning Strategies",
+          "content_type": "strategic_planning",
+          "pages": 3
+        }
+      ]
+    }
+  ],
+  "planners": [
+    {
+      "name": "Weekly Caregiver Planning System",
+      "description": "Organize care tasks, appointments, and self-care",
+      "target_audience": "organized caregivers",
+      "lead_magnet_type": "planner",
+      "format": "PDF",
+      "pages": 25,
+      "time_period": "13 weeks",
+      "sections": [
+        {
+          "section_title": "Getting Started Guide",
+          "pages": 3,
+          "content": "how to use the planner effectively"
+        },
+        {
+          "section_title": "Monthly Overview Pages",
+          "pages": 4,
+          "content": "high-level monthly planning"
+        },
+        {
+          "section_title": "Weekly Planning Pages",
+          "pages": 13,
+          "content": "detailed weekly layouts"
+        },
+        {
+          "section_title": "Tracking Pages",
+          "pages": 3,
+          "content": "medication, mood, symptoms tracking"
+        },
+        {
+          "section_title": "Resource Pages",
+          "pages": 2,
+          "content": "emergency contacts, important information"
+        }
+      ],
+      "features": [
+        "daily task lists",
+        "appointment scheduling",
+        "medication reminders",
+        "self-care tracking",
+        "mood monitoring",
+        "note sections",
+        "goal setting pages"
+      ]
+    },
+    {
+      "name": "Care Transition Planner",
+      "description": "Organize hospital-to-home or facility transitions",
+      "target_audience": "caregivers managing transitions",
+      "lead_magnet_type": "planner",
+      "format": "PDF",
+      "pages": 12,
+      "sections": [
+        {
+          "section_title": "Pre-Transition Checklist",
+          "pages": 2,
+          "timeline": "1-2 weeks before"
+        },
+        {
+          "section_title": "Transition Day Planning",
+          "pages": 3,
+          "timeline": "day of transition"
+        },
+        {
+          "section_title": "First Week Home",
+          "pages": 3,
+          "timeline": "week 1"
+        },
+        {
+          "section_title": "Follow-up & Monitoring",
+          "pages": 2,
+          "timeline": "weeks 2-4"
+        },
+        {
+          "section_title": "Emergency Protocols",
+          "pages": 2,
+          "timeline": "always accessible"
+        }
+      ]
+    }
+  ],
+  "tip_sheets": [
+    {
+      "name": "10 Conversation Starters for Difficult Care Topics",
+      "description": "Scripts for sensitive family conversations",
+      "target_audience": "adult children caregivers",
+      "lead_magnet_type": "tip_sheet",
+      "format": "PDF",
+      "pages": 4,
+      "topics": [
+        "driving safety",
+        "home safety concerns",
+        "medication compliance",
+        "hygiene issues",
+        "social isolation",
+        "financial management",
+        "future care planning",
+        "family involvement",
+        "professional help acceptance",
+        "end-of-life preferences"
+      ],
+      "format_elements": [
+        "conversation openers",
+        "what to avoid saying",
+        "how to respond to pushback",
+        "when to have the conversation",
+        "follow-up strategies"
+      ]
+    },
+    {
+      "name": "Emergency Room Advocacy Tip Sheet",
+      "description": "Be an effective advocate during medical crises",
+      "target_audience": "medical advocates",
+      "lead_magnet_type": "tip_sheet",
+      "format": "PDF",
+      "pages": 3,
+      "sections": [
+        {
+          "section_title": "Before You Go",
+          "tips_count": 5,
+          "focus": "preparation"
+        },
+        {
+          "section_title": "In the ER",
+          "tips_count": 8,
+          "focus": "advocacy_techniques"
+        },
+        {
+          "section_title": "Discharge Planning",
+          "tips_count": 6,
+          "focus": "safe_transitions"
+        }
+      ]
+    },
+    {
+      "name": "Caregiver Burnout Prevention Quick Reference",
+      "description": "Recognize and prevent caregiver burnout",
+      "target_audience": "stressed caregivers",
+      "lead_magnet_type": "tip_sheet",
+      "format": "PDF",
+      "pages": 2,
+      "sections": [
+        {
+          "section_title": "Warning Signs Checklist",
+          "items_count": 12,
+          "format": "yes/no checklist"
+        },
+        {
+          "section_title": "Immediate Relief Strategies",
+          "items_count": 8,
+          "format": "action items"
+        },
+        {
+          "section_title": "Long-term Prevention Plan",
+          "items_count": 6,
+          "format": "strategic_steps"
+        }
+      ]
+    }
+  ],
+  "quick_reference_cards": [
+    {
+      "name": "Medical Emergency Quick Reference Card",
+      "description": "Essential information for care emergencies",
+      "target_audience": "all caregivers",
+      "lead_magnet_type": "reference_card",
+      "format": "PDF",
+      "size": "wallet_sized",
+      "pages": 2,
+      "front_content": [
+        "emergency contact numbers",
+        "current medications list",
+        "allergies and medical conditions",
+        "preferred hospital",
+        "insurance information"
+      ],
+      "back_content": [
+        "when to call 911",
+        "what information to provide",
+        "what to bring to hospital",
+        "questions to ask doctors",
+        "discharge checklist"
+      ]
+    },
+    {
+      "name": "Daily Care Routine Reference",
+      "description": "Streamlined daily care task checklist",
+      "target_audience": "hands-on caregivers",
+      "lead_magnet_type": "reference_card",
+      "format": "PDF",
+      "size": "standard",
+      "pages": 1,
+      "sections": [
+        "morning routine",
+        "medication schedule",
+        "safety checks",
+        "evening routine",
+        "weekly tasks",
+        "emergency protocols"
+      ]
+    }
+  ],
+  "design_specifications": {
+    "branding": {
+      "primary_colors": ["#2C3E50", "#3498DB", "#E74C3C"],
+      "fonts": ["Open Sans", "Lato", "Source Sans Pro"],
+      "logo_placement": "header_and_footer",
+      "brand_elements": ["consistent color scheme", "professional typography", "clean layout"]
+    },
+    "layout_principles": [
+      "white_space_for_readability",
+      "consistent_margins",
+      "clear_hierarchy",
+      "scannable_format",
+      "mobile_friendly_design"
+    ],
+    "interactive_elements": [
+      "fillable_fields",
+      "checkboxes",
+      "clickable_links",
+      "progress_trackers",
+      "note_sections"
+    ]
+  },
+  "distribution_strategy": {
+    "opt_in_incentives": [
+      "immediate_download",
+      "email_follow_up_series",
+      "bonus_resources",
+      "community_access",
+      "expert_webinar_invitation"
+    ],
+    "promotion_channels": [
+      "blog_post_content_upgrades",
+      "social_media_campaigns",
+      "email_signature_links",
+      "partner_collaborations",
+      "paid_advertising"
+    ],
+    "follow_up_sequences": [
+      "resource_usage_tips",
+      "related_content_recommendations",
+      "community_engagement_invitations",
+      "feedback_collection",
+      "upsell_opportunities"
+    ]
+  }
+}

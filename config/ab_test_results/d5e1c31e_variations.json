@@ -1,0 +1,126 @@
+{
+  "test_id": "d5e1c31e",
+  "variations": [
+    {
+      "id": "A",
+      "hook": {
+        "type": "vulnerability_hook",
+        "details": {
+          "style": "emotional vulnerability",
+          "examples": [
+            "I used to think...",
+            "Nobody talks about...",
+            "The hardest part is..."
+          ],
+          "tone": "intimate, honest"
+        }
+      },
+      "colors": {
+        "scheme": "warm",
+        "palette": {
+          "primary": "#FF6B6B",
+          "secondary": "#4ECDC4",
+          "accent": "#FFE66D"
+        }
+      },
+      "voice": {
+        "style": "empathetic",
+        "settings": {
+          "tone": "warm",
+          "pace": "moderate",
+          "style": "conversational"
+        }
+      },
+      "text_emphasis": {
+        "style": "bold_keywords",
+        "description": "Bold key phrases and emotional words"
+      },
+      "music": {
+        "genre": "ambient",
+        "mood": "uplifting",
+        "energy": "medium"
+      }
+    },
+    {
+      "id": "B",
+      "hook": {
+        "type": "question_hook",
+        "details": {
+          "style": "engaging question",
+          "examples": [
+            "What if I told you...",
+            "Have you ever wondered...",
+            "Why do we..."
+          ],
+          "tone": "curious, inviting"
+        }
+      },
+      "colors": {
+        "scheme": "professional",
+        "palette": {
+          "primary": "#2C3E50",
+          "secondary": "#3498DB",
+          "accent": "#E74C3C"
+        }
+      },
+      "voice": {
+        "style": "authoritative",
+        "settings": {
+          "tone": "confident",
+          "pace": "steady",
+          "style": "professional"
+        }
+      },
+      "text_emphasis": {
+        "style": "italic_emotions",
+        "description": "Italicize emotional and personal words"
+      },
+      "music": {
+        "genre": "acoustic",
+        "mood": "warm",
+        "energy": "low"
+      }
+    },
+    {
+      "id": "C",
+      "hook": {
+        "type": "bold_hook",
+        "details": {
+          "style": "bold statement",
+          "examples": [
+            "Stop doing this immediately",
+            "This changes everything",
+            "Here's the truth..."
+          ],
+          "tone": "authoritative, direct"
+        }
+      },
+      "colors": {
+        "scheme": "calming",
+        "palette": {
+          "primary": "#6C7B7F",
+          "secondary": "#99D8C8",
+          "accent": "#F7DC6F"
+        }
+      },
+      "voice": {
+        "style": "friendly",
+        "settings": {
+          "tone": "upbeat",
+          "pace": "lively",
+          "style": "casual"
+        }
+      },
+      "text_emphasis": {
+        "style": "caps_action",
+        "description": "CAPS for action words and calls-to-action"
+      },
+      "music": {
+        "genre": "soft_piano",
+        "mood": "hopeful",
+        "energy": "medium-low"
+      }
+    }
+  ],
+  "created_at": "2026-01-28T22:49:25.084235"
+}

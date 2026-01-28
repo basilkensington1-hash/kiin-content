@@ -1,0 +1,344 @@
+{
+  "welcome_sequences": {
+    "new_caregiver": {
+      "sequence_name": "New Caregiver Welcome Series",
+      "total_emails": 7,
+      "send_schedule": "days_1,3,7,14,21,30,45",
+      "goal": "orientation_and_support",
+      "emails": [
+        {
+          "email_number": 1,
+          "subject_lines": [
+            "Welcome to your caregiving journey - you're not alone",
+            "Hi {{first_name}}, let's start this together",
+            "Your caregiver support starts now"
+          ],
+          "tone": "welcoming",
+          "main_topic": "welcome_and_validation",
+          "cta": "Download Getting Started Guide",
+          "estimated_words": 300
+        },
+        {
+          "email_number": 2,
+          "subject_lines": [
+            "The one thing every new caregiver needs to know",
+            "{{first_name}}, here's what I wish someone told me",
+            "Your first caregiver 'assignment' (it's easier than you think)"
+          ],
+          "tone": "educational",
+          "main_topic": "first_steps",
+          "cta": "Join Community Forum",
+          "estimated_words": 400
+        },
+        {
+          "email_number": 3,
+          "subject_lines": [
+            "Red flags: When to seek help immediately",
+            "Emergency signs every caregiver should know",
+            "{{first_name}}, this could save your loved one's life"
+          ],
+          "tone": "urgent_but_supportive",
+          "main_topic": "emergency_awareness",
+          "cta": "Download Emergency Checklist",
+          "estimated_words": 450
+        },
+        {
+          "email_number": 4,
+          "subject_lines": [
+            "Self-care isn't selfish (here's proof)",
+            "Why burned-out caregivers help no one",
+            "{{first_name}}, you matter too"
+          ],
+          "tone": "compassionate",
+          "main_topic": "self_care_foundation",
+          "cta": "Take Self-Care Assessment",
+          "estimated_words": 350
+        },
+        {
+          "email_number": 5,
+          "subject_lines": [
+            "Building your care team (even if it's just you)",
+            "You don't have to do this alone",
+            "Creating your support network: a simple plan"
+          ],
+          "tone": "empowering",
+          "main_topic": "building_support",
+          "cta": "Access Care Team Template",
+          "estimated_words": 400
+        },
+        {
+          "email_number": 6,
+          "subject_lines": [
+            "The conversation every family needs to have",
+            "Talking to family about care: script included",
+            "How to get siblings on the same page"
+          ],
+          "tone": "practical",
+          "main_topic": "family_communication",
+          "cta": "Download Conversation Guide",
+          "estimated_words": 500
+        },
+        {
+          "email_number": 7,
+          "subject_lines": [
+            "Your 30-day caregiver milestone",
+            "Looking back, moving forward",
+            "What comes next in your caregiving journey"
+          ],
+          "tone": "reflective_and_forward_looking",
+          "main_topic": "milestone_celebration",
+          "cta": "Schedule Check-in Call",
+          "estimated_words": 350
+        }
+      ]
+    }
+  },
+  "drip_campaigns": {
+    "caregiver_journey_support": {
+      "sequence_name": "Ongoing Caregiver Journey Support",
+      "total_emails": 12,
+      "send_schedule": "weekly",
+      "goal": "ongoing_education_and_support",
+      "emails": [
+        {
+          "week": 1,
+          "subject_lines": [
+            "Week 1: Setting up for success",
+            "Your caregiver foundation starts here",
+            "Building habits that actually work"
+          ],
+          "main_topic": "foundation_building",
+          "estimated_words": 400
+        },
+        {
+          "week": 2,
+          "subject_lines": [
+            "Week 2: Medical management made simple",
+            "Organizing the healthcare chaos",
+            "Your medical coordination toolkit"
+          ],
+          "main_topic": "medical_organization",
+          "estimated_words": 450
+        },
+        {
+          "week": 3,
+          "subject_lines": [
+            "Week 3: Home safety that doesn't feel like a prison",
+            "Safety modifications they'll actually accept",
+            "Preventing falls without the fights"
+          ],
+          "main_topic": "home_safety",
+          "estimated_words": 400
+        }
+      ]
+    },
+    "dementia_care_series": {
+      "sequence_name": "Dementia Care Education Series",
+      "total_emails": 8,
+      "send_schedule": "every_3_days",
+      "goal": "dementia_specific_education",
+      "target_segment": "dementia_caregivers"
+    }
+  },
+  "re_engagement": {
+    "dormant_subscribers": {
+      "sequence_name": "We Miss You Series",
+      "total_emails": 3,
+      "send_schedule": "days_1,7,14",
+      "goal": "reactivation",
+      "emails": [
+        {
+          "email_number": 1,
+          "subject_lines": [
+            "We miss you (and hope you're okay)",
+            "{{first_name}}, checking in on you",
+            "Taking a break from caregiving emails?"
+          ],
+          "tone": "caring_check_in",
+          "main_topic": "wellness_check",
+          "cta": "Update Preferences",
+          "estimated_words": 200
+        },
+        {
+          "email_number": 2,
+          "subject_lines": [
+            "What's changed since you've been gone",
+            "New resources you might have missed",
+            "Here's what the community is talking about"
+          ],
+          "tone": "informative",
+          "main_topic": "updates_and_highlights",
+          "cta": "Browse New Content",
+          "estimated_words": 300
+        },
+        {
+          "email_number": 3,
+          "subject_lines": [
+            "Last chance: Should we say goodbye?",
+            "One final check-in",
+            "We'll respect your decision"
+          ],
+          "tone": "respectful_final",
+          "main_topic": "final_engagement_attempt",
+          "cta": "Stay Connected or Unsubscribe",
+          "estimated_words": 150
+        }
+      ]
+    }
+  },
+  "product_announcements": {
+    "new_resource_launch": {
+      "sequence_name": "New Resource Announcement",
+      "total_emails": 3,
+      "send_schedule": "days_-3,0,7",
+      "goal": "awareness_and_adoption",
+      "emails": [
+        {
+          "timing": "pre_launch",
+          "subject_lines": [
+            "Something special is coming your way",
+            "{{first_name}}, get ready for this",
+            "Sneak peek: what's launching Tuesday"
+          ],
+          "tone": "anticipation_building",
+          "main_topic": "teaser_and_preview",
+          "estimated_words": 250
+        },
+        {
+          "timing": "launch_day",
+          "subject_lines": [
+            "🎉 It's here! Your new favorite caregiver resource",
+            "Launch day: grab your free copy now",
+            "{{first_name}}, this is for you"
+          ],
+          "tone": "excited_announcement",
+          "main_topic": "launch_announcement",
+          "estimated_words": 350
+        },
+        {
+          "timing": "post_launch_follow_up",
+          "subject_lines": [
+            "How are you finding the new resource?",
+            "First week feedback: what caregivers are saying",
+            "Making the most of your new tool"
+          ],
+          "tone": "follow_up_and_support",
+          "main_topic": "usage_tips_and_feedback",
+          "estimated_words": 300
+        }
+      ]
+    }
+  },
+  "weekly_newsletters": {
+    "caregiver_weekly": {
+      "newsletter_name": "The Caregiver Weekly",
+      "sections": [
+        {
+          "section_name": "This Week's Focus",
+          "content_type": "featured_topic",
+          "word_count": 200
+        },
+        {
+          "section_name": "Caregiver Spotlight",
+          "content_type": "community_story",
+          "word_count": 150
+        },
+        {
+          "section_name": "Quick Tip Tuesday",
+          "content_type": "actionable_tip",
+          "word_count": 100
+        },
+        {
+          "section_name": "Resource Roundup",
+          "content_type": "curated_links",
+          "word_count": 150
+        },
+        {
+          "section_name": "From the Community",
+          "content_type": "user_generated_content",
+          "word_count": 100
+        },
+        {
+          "section_name": "Self-Care Corner",
+          "content_type": "wellness_reminder",
+          "word_count": 75
+        }
+      ],
+      "total_estimated_words": 775,
+      "tone": "conversational_and_supportive",
+      "send_day": "tuesday",
+      "subject_line_formulas": [
+        "This week: {{main_topic}}",
+        "{{first_name}}, your Tuesday dose of support",
+        "Caregiver Weekly: {{highlighted_resource}}",
+        "What {{number}} caregivers learned this week"
+      ]
+    }
+  },
+  "community_highlights": {
+    "member_success": {
+      "email_name": "Community Success Story",
+      "frequency": "monthly",
+      "goal": "inspiration_and_validation",
+      "subject_line_templates": [
+        "How {{member_name}} conquered {{challenge}}",
+        "Success story: {{achievement}}",
+        "This caregiver's breakthrough will inspire you"
+      ],
+      "content_structure": {
+        "opening": "personal_connection",
+        "story": "challenge_solution_outcome",
+        "lesson": "actionable_takeaway",
+        "community_tie": "encourage_sharing",
+        "cta": "join_conversation"
+      },
+      "estimated_words": 500,
+      "tone": "inspirational"
+    }
+  },
+  "personalization_tokens": {
+    "basic": [
+      "{{first_name}}",
+      "{{care_recipient_relationship}}",
+      "{{primary_challenge}}",
+      "{{signup_date}}",
+      "{{location}}"
+    ],
+    "behavioral": [
+      "{{last_opened_email}}",
+      "{{most_clicked_topic}}",
+      "{{engagement_level}}",
+      "{{preferred_content_type}}",
+      "{{time_since_last_click}}"
+    ],
+    "caregiver_specific": [
+      "{{care_stage}}",
+      "{{caregiver_type}}",
+      "{{support_level}}",
+      "{{main_concern}}",
+      "{{care_setting}}"
+    ]
+  },
+  "email_types": {
+    "educational": {
+      "structure": "problem_solution_action",
+      "tone_options": ["supportive", "informative", "empowering"],
+      "word_count_range": "300-500"
+    },
+    "inspirational": {
+      "structure": "story_lesson_encouragement",
+      "tone_options": ["warm", "uplifting", "motivational"],
+      "word_count_range": "250-400"
+    },
+    "practical": {
+      "structure": "tip_explanation_implementation",
+      "tone_options": ["straightforward", "helpful", "actionable"],
+      "word_count_range": "200-350"
+    },
+    "community": {
+      "structure": "connection_sharing_engagement",
+      "tone_options": ["conversational", "inclusive", "collaborative"],
+      "word_count_range": "150-300"
+    }
+  }
+}
