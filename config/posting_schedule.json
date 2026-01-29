@@ -1,0 +1,134 @@
+{
+  "timezone": "America/New_York",
+  "posting_frequency": {
+    "instagram": {
+      "daily": 1,
+      "weekly": 7,
+      "optimal_times": ["11:00", "14:00", "19:00"]
+    },
+    "tiktok": {
+      "daily": 1,
+      "weekly": 5,
+      "optimal_times": ["09:00", "12:00", "19:00"]
+    },
+    "youtube": {
+      "weekly": 2,
+      "optimal_times": ["14:00", "15:00"]
+    },
+    "twitter": {
+      "daily": 2,
+      "weekly": 10,
+      "optimal_times": ["09:00", "15:00", "20:00"]
+    },
+    "linkedin": {
+      "weekly": 3,
+      "optimal_times": ["10:00", "14:00"]
+    },
+    "pinterest": {
+      "weekly": 3,
+      "optimal_times": ["20:00", "19:00", "14:00"]
+    },
+    "facebook": {
+      "weekly": 4,
+      "optimal_times": ["15:00", "12:00", "19:00"]
+    }
+  },
+  "minimum_gap_hours": 2,
+  "cross_platform_gap_minutes": 15,
+  "avoid_holidays": true,
+  "caregiver_audience_patterns": {
+    "morning_routine": {
+      "time_range": ["06:00", "08:00"],
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "engagement_modifier": 0.6,
+      "notes": "Caregivers checking social during morning routines"
+    },
+    "lunch_break": {
+      "time_range": ["11:00", "13:00"],
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "engagement_modifier": 0.9,
+      "notes": "Peak engagement during lunch breaks"
+    },
+    "evening_wind_down": {
+      "time_range": ["19:00", "21:00"],
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+      "engagement_modifier": 0.8,
+      "notes": "After care duties, seeking support/community"
+    },
+    "weekend_rest": {
+      "time_range": ["10:00", "15:00"],
+      "days": ["saturday", "sunday"],
+      "engagement_modifier": 0.7,
+      "notes": "Weekend self-care and reflection time"
+    },
+    "late_night_reflection": {
+      "time_range": ["21:00", "23:00"],
+      "days": ["sunday", "monday", "tuesday", "wednesday", "thursday"],
+      "engagement_modifier": 0.6,
+      "notes": "Lower volume but high emotional connection"
+    }
+  },
+  "special_events": {
+    "national_caregivers_month": {
+      "month": 11,
+      "boost_factor": 1.2,
+      "content_themes": ["appreciation", "support", "resources"]
+    },
+    "world_alzheimers_day": {
+      "date": "2024-09-21",
+      "boost_factor": 1.4,
+      "content_themes": ["awareness", "education", "support"]
+    },
+    "mothers_day": {
+      "month": 5,
+      "week": 2,
+      "boost_factor": 1.3,
+      "content_themes": ["appreciation", "caregiver_mothers"]
+    },
+    "fathers_day": {
+      "month": 6,
+      "week": 3,
+      "boost_factor": 1.3,
+      "content_themes": ["appreciation", "caregiver_fathers"]
+    },
+    "mental_health_awareness_month": {
+      "month": 5,
+      "boost_factor": 1.2,
+      "content_themes": ["mental_health", "caregiver_wellness", "self_care"]
+    }
+  },
+  "avoid_posting_dates": [
+    "2024-12-25",
+    "2024-01-01",
+    "2024-07-04",
+    "2024-11-28"
+  ],
+  "audience_timezone_distribution": {
+    "America/New_York": 0.4,
+    "America/Chicago": 0.25,
+    "America/Denver": 0.15,
+    "America/Los_Angeles": 0.2
+  },
+  "content_type_timing": {
+    "tips": {
+      "best_times": ["11:00", "14:00"],
+      "best_days": ["tuesday", "wednesday", "thursday"],
+      "note": "Educational content performs best mid-week"
+    },
+    "support": {
+      "best_times": ["19:00", "20:00"],
+      "best_days": ["sunday", "monday", "tuesday"],
+      "note": "Emotional support content works well in evenings"
+    },
+    "validation": {
+      "best_times": ["20:00", "21:00"],
+      "best_days": ["sunday", "monday"],
+      "note": "Validation content resonates during reflection times"
+    },
+    "self_care": {
+      "best_times": ["10:00", "19:00"],
+      "best_days": ["saturday", "sunday"],
+      "note": "Self-care content performs best on weekends"
+    }
+  }
+}

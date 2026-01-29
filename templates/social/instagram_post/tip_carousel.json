@@ -1,0 +1,91 @@
+{
+  "template_name": "Tip Carousel",
+  "platform": "instagram_post",
+  "aspect_ratio": "1:1",
+  "dimensions": "1080x1080",
+  "slides": 5,
+  "emotional_tone": "energy",
+  
+  "slide_1_cover": {
+    "background": {
+      "type": "gradient",
+      "colors": ["#FF7F50", "#FFB347"],
+      "direction": "radial"
+    },
+    "title": {
+      "position": "center",
+      "font": "Poppins Bold",
+      "size": "48px",
+      "color": "#FFFFFF",
+      "text": "5 Quick Tips"
+    },
+    "subtitle": {
+      "position": "below_title",
+      "font": "Source Sans Pro Medium",
+      "size": "20px",
+      "color": "#FFFFFF",
+      "opacity": 0.9
+    },
+    "swipe_indicator": {
+      "position": "bottom_center",
+      "text": "Swipe for tips →",
+      "font": "Inter Regular",
+      "size": "16px",
+      "color": "#FFFFFF"
+    }
+  },
+  
+  "tip_slides": {
+    "background": {
+      "type": "solid",
+      "color": "#FFFACD"
+    },
+    "tip_number": {
+      "position": "top_left",
+      "font": "Poppins Bold",
+      "size": "24px",
+      "color": "#CD5C5C",
+      "format": "TIP {number}"
+    },
+    "tip_title": {
+      "position": "upper_center",
+      "font": "Poppins Medium",
+      "size": "32px",
+      "color": "#CD5C5C",
+      "max_lines": 2
+    },
+    "tip_content": {
+      "position": "center",
+      "font": "Source Sans Pro Regular",
+      "size": "22px",
+      "color": "#8B4513",
+      "max_lines": 6,
+      "line_height": 1.4
+    }
+  },
+  
+  "design_elements": {
+    "accent_shapes": {
+      "style": "geometric_subtle",
+      "color": "#FFE4B5",
+      "opacity": 0.3
+    },
+    "progress_indicator": {
+      "position": "top_center",
+      "style": "dots",
+      "active_color": "#FF7F50"
+    }
+  },
+  
+  "content_guidelines": {
+    "tip_length": "15-25 words per tip",
+    "actionable_focus": true,
+    "progression": "simple to advanced",
+    "tone": "encouraging, practical"
+  },
+  
+  "caption_template": {
+    "structure": "hook -> tip_preview -> save_instruction -> hashtags",
+    "hashtags": ["#CaregiverTips", "#QuickWins", "#CareCoordination", "#Kiin", "#CaregiverHacks"]
+  }
+}

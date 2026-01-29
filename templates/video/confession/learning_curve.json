@@ -1,0 +1,77 @@
+{
+  "template_name": "Learning Curve",
+  "category": "confession",
+  "duration": "30-40s",
+  "emotional_tone": "energy",
+  
+  "thumbnail_layout": {
+    "background": "energy_primary",
+    "text_placement": "diagonal_dynamic",
+    "font": "display_medium",
+    "text_color": "energy_text",
+    "overlay_opacity": 0.8,
+    "visual_style": "progression_visual"
+  },
+
+  "intro_animation": {
+    "style": "dynamic_reveal",
+    "duration": "2s",
+    "elements": [
+      "energetic_text_pop",
+      "bright_color_burst"
+    ],
+    "sound": "upbeat_gentle_chime"
+  },
+
+  "text_placement": {
+    "primary_text": {
+      "position": "center_dynamic",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "bounce_in",
+      "timing": "0-18s"
+    },
+    "growth_text": {
+      "position": "varied_positions",
+      "font": "accent_medium",
+      "size": "small",
+      "animation": "stagger_appear",
+      "timing": "18-30s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#FF7F50",
+    "secondary": "#FFB347",
+    "accent": "#FFFF99",
+    "background": "warm_energetic_gradient",
+    "text": "#CD5C5C"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "energetic_slide",
+    "duration": "0.6s",
+    "easing": "ease_out_bounce"
+  },
+
+  "outro_cta": {
+    "style": "energy_motivational",
+    "message": "We're all figuring it out 💪",
+    "duration": "4s",
+    "background": "energy_background",
+    "action": "share_your_journey"
+  },
+
+  "content_guidelines": {
+    "opening": "Plot twist: I'm still learning...",
+    "structure": "admission_of_growth -> learning_examples -> encouragement",
+    "tone": "upbeat, encouraging, relatable",
+    "length": "3-4 energetic sentences"
+  }
+}

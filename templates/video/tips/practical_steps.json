@@ -1,0 +1,85 @@
+{
+  "template_name": "Practical Steps",
+  "category": "tips",
+  "duration": "30-45s",
+  "emotional_tone": "calm",
+  
+  "thumbnail_layout": {
+    "background": "calm_primary",
+    "text_placement": "structured_layout",
+    "font": "display_regular",
+    "text_color": "calm_text",
+    "overlay_opacity": 0.8,
+    "visual_style": "organized_checklist",
+    "badge": "STEP BY STEP"
+  },
+
+  "intro_animation": {
+    "style": "organized_reveal",
+    "duration": "2s",
+    "elements": [
+      "structured_text_build",
+      "calm_progression_line"
+    ],
+    "sound": "organized_chime_sequence"
+  },
+
+  "text_placement": {
+    "step_counter": {
+      "position": "top_left",
+      "font": "accent_medium",
+      "size": "small",
+      "animation": "count_up",
+      "timing": "throughout"
+    },
+    "step_content": {
+      "position": "center_left",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "step_by_step_reveal",
+      "timing": "staggered"
+    },
+    "completion": {
+      "position": "center",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "satisfying_complete",
+      "timing": "final_5s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#B0C4DE",
+    "secondary": "#E6E6FA",
+    "accent": "#F0F8FF",
+    "background": "organized_clean_gradient",
+    "text": "#4682B4"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Regular",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "step_progression",
+    "duration": "0.8s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "calm_completion",
+    "message": "One step at a time ✓",
+    "duration": "4s",
+    "background": "calm_background",
+    "action": "save_these_steps"
+  },
+
+  "content_guidelines": {
+    "opening": "Here's how to...",
+    "structure": "clear_problem -> numbered_steps -> completion_encouragement",
+    "tone": "clear, organized, achievable",
+    "length": "3-5 specific, actionable steps"
+  }
+}

@@ -1,0 +1,28 @@
+Subject: Hi {{first_name}}, let's start this together
+==================================================
+
+Hi there,
+
+Welcome to a community that truly understands what you're going through.
+
+Becoming a caregiver can feel overwhelming, isolating, and emotionally exhausting. 
+            You might be wondering if you're doing enough, if you're making the right decisions, 
+            or if it's normal to feel this way. Let me be the first to tell you: everything 
+            you're feeling is valid, and you're not alone in this journey.
+
+Thousands of caregivers just like you have found support, guidance, and community here. 
+            We're not just another resource website – we're fellow caregivers who've been in your 
+            shoes and understand the unique challenges you face.
+
+Over the next few weeks, I'll be sharing practical tips, emotional support, and 
+            real stories from other caregivers. You'll get resources that actually work, 
+            not just generic advice that doesn't fit your situation.
+
+Your first step is simple: download our 'Getting Started as a Caregiver' guide. It's designed specifically for people just beginning this journey.
+
+>> Download Getting Started Guide: {{cta_url}}
+
+--------------------------------------------------
+Kiin Care - Supporting caregivers with understanding
+Unsubscribe: {{unsubscribe_url}}
+Manage Preferences: {{preferences_url}}

@@ -1,0 +1,85 @@
+{
+  "template_name": "Perspective Shift",
+  "category": "quote",
+  "duration": "15-25s",
+  "emotional_tone": "hope",
+  
+  "thumbnail_layout": {
+    "background": "hope_primary",
+    "text_placement": "perspective_dynamic",
+    "font": "display_medium",
+    "text_color": "hope_text",
+    "overlay_opacity": 0.75,
+    "visual_style": "shifting_viewpoint",
+    "badge": "PERSPECTIVE"
+  },
+
+  "intro_animation": {
+    "style": "perspective_shift",
+    "duration": "2s",
+    "elements": [
+      "viewpoint_text_shift",
+      "hopeful_light_turn"
+    ],
+    "sound": "perspective_shift_tone"
+  },
+
+  "text_placement": {
+    "old_view": {
+      "position": "left_side",
+      "font": "body_regular",
+      "size": "medium",
+      "animation": "fade_old_view",
+      "timing": "0-8s"
+    },
+    "shift_indicator": {
+      "position": "center",
+      "font": "accent_medium",
+      "size": "small",
+      "animation": "gentle_transition",
+      "timing": "8-10s"
+    },
+    "new_view": {
+      "position": "right_side",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "hopeful_emerge",
+      "timing": "10-20s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#6BB3A0",
+    "secondary": "#87CEEB",
+    "accent": "#FFE4B5",
+    "background": "perspective_shift_gradient",
+    "text": "#2F4F4F"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "perspective_flow",
+    "duration": "1.5s",
+    "easing": "ease_in_out_cubic"
+  },
+
+  "outro_cta": {
+    "style": "hope_perspective",
+    "message": "New view, new possibilities ✨",
+    "duration": "4s",
+    "background": "hope_background",
+    "action": "shift_perspective"
+  },
+
+  "content_guidelines": {
+    "opening": "What if we looked at it this way...",
+    "structure": "current_perspective -> gentle_shift -> hopeful_new_view",
+    "tone": "thoughtful, hopeful, opening",
+    "length": "2-3 perspective-shifting sentences"
+  }
+}

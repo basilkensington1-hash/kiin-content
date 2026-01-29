@@ -1,0 +1,132 @@
+{
+  "cta_variations": [
+    {
+      "category": "Engagement",
+      "purpose": "encourage_comments",
+      "ctas": [
+        "What's your experience with this? Share below 👇",
+        "Can you relate? Tell me in the comments",
+        "Drop a 💙 if you needed to hear this today",
+        "What would you add to this list?",
+        "Share your biggest caregiving win this week",
+        "Who else feels this way? You're not alone",
+        "What's one thing that helps you through tough days?",
+        "Tell me: what's working for you right now?",
+        "React with ❤️ if this resonates",
+        "Comment 'YES' if you've been here too"
+      ]
+    },
+    {
+      "category": "Save & Share",
+      "purpose": "increase_reach",
+      "ctas": [
+        "Save this for when you need a reminder",
+        "Share this with someone who needs to see it",
+        "Tag a fellow caregiver who gets it",
+        "Screenshot this and keep it handy",
+        "Send this to your caregiver friend",
+        "Save this post for rough days",
+        "Share this if it helped you feel less alone",
+        "Tag someone who inspires you in caregiving",
+        "Keep this in your back pocket",
+        "Pass this along to your caregiver community"
+      ]
+    },
+    {
+      "category": "Follow & Community",
+      "purpose": "grow_following",
+      "ctas": [
+        "Follow @kiinapp for daily caregiver support",
+        "Join our community of caring humans",
+        "Follow for more honest caregiving content",
+        "Tap follow if this content speaks to you",
+        "Join thousands of caregivers finding support here",
+        "Follow for tips that actually work",
+        "Be part of our supportive community",
+        "Follow @kiinapp for real talk about caregiving",
+        "Join us for daily doses of understanding",
+        "Follow if you're ready for genuine support"
+      ]
+    },
+    {
+      "category": "Bio Link",
+      "purpose": "drive_traffic",
+      "ctas": [
+        "Link in bio for our free caregiver resources",
+        "Check our bio for helpful tools",
+        "Tap the link in bio for more support",
+        "Free resources waiting in our bio",
+        "Link in bio for caregiving tools that help",
+        "More resources like this in our bio",
+        "Visit our bio for practical caregiver guides",
+        "Link in bio for community support",
+        "Free help available through our bio link",
+        "Check our bio for instant access to tools"
+      ]
+    },
+    {
+      "category": "Gentle Actions",
+      "purpose": "soft_engagement",
+      "ctas": [
+        "Take a deep breath with me",
+        "Give yourself credit for how far you've come",
+        "Pause and acknowledge your strength",
+        "Remember: you're doing better than you think",
+        "Take a moment to appreciate yourself",
+        "Breathe in peace, breathe out stress",
+        "You don't have to carry this alone",
+        "It's okay to rest today",
+        "Be gentle with yourself right now",
+        "You have permission to take care of yourself too"
+      ]
+    },
+    {
+      "category": "Story Continuation",
+      "purpose": "create_series",
+      "ctas": [
+        "Want to hear how this story ends? Follow for part 2",
+        "More on this tomorrow - follow so you don't miss it",
+        "This story continues... follow for updates",
+        "Part 2 coming soon - tap follow",
+        "There's more to this story... follow @kiinapp",
+        "Follow for the rest of this journey",
+        "The plot twist comes next week - don't miss it",
+        "This story has layers... follow for the full picture",
+        "More insights from this experience coming up",
+        "Follow to see how this situation resolved"
+      ]
+    },
+    {
+      "category": "Question Starters",
+      "purpose": "meaningful_discussion",
+      "ctas": [
+        "What's your honest take on this?",
+        "How do you handle situations like this?",
+        "What advice would you give your past self?",
+        "What's been your biggest learning curve?",
+        "How has your perspective changed over time?",
+        "What would you tell someone just starting this journey?",
+        "What's one thing you wish people understood?",
+        "How do you find moments of joy in hard times?",
+        "What keeps you going on difficult days?",
+        "What's surprised you most about caregiving?"
+      ]
+    },
+    {
+      "category": "Gratitude & Recognition",
+      "purpose": "community_appreciation",
+      "ctas": [
+        "Grateful for this community of caring souls",
+        "Thank you for being part of this supportive space",
+        "Your comments and support mean everything",
+        "This community reminds me we're not alone",
+        "Thank you for sharing your stories with me",
+        "Grateful for every caregiver reading this",
+        "Your strength inspires me daily",
+        "Thank you for creating such a safe space here",
+        "This community is proof that caring people exist",
+        "Honored to be part of your caregiving journey"
+      ]
+    }
+  ]
+}

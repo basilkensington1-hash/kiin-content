@@ -1,0 +1,85 @@
+{
+  "template_name": "Reality Check",
+  "category": "data",
+  "duration": "18-25s",
+  "emotional_tone": "urgency",
+  
+  "thumbnail_layout": {
+    "background": "urgency_secondary",
+    "text_placement": "attention_focused",
+    "font": "display_bold",
+    "text_color": "urgency_text",
+    "overlay_opacity": 0.85,
+    "visual_style": "stark_attention_getter",
+    "badge": "REALITY CHECK"
+  },
+
+  "intro_animation": {
+    "style": "attention_grab",
+    "duration": "1.5s",
+    "elements": [
+      "stark_data_flash",
+      "attention_focus_light"
+    ],
+    "sound": "attention_reality_tone"
+  },
+
+  "text_placement": {
+    "alert": {
+      "position": "top_center",
+      "font": "accent_bold",
+      "size": "small",
+      "animation": "alert_flash",
+      "timing": "0-2s"
+    },
+    "stark_stat": {
+      "position": "center",
+      "font": "display_bold",
+      "size": "extra_large",
+      "animation": "reality_impact",
+      "timing": "2-12s"
+    },
+    "call_to_awareness": {
+      "position": "lower_center",
+      "font": "body_bold",
+      "size": "medium",
+      "animation": "urgent_appeal",
+      "timing": "12-20s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#DC143C",
+    "secondary": "#FF6347",
+    "accent": "#FFE4E1",
+    "background": "urgent_attention_gradient",
+    "text": "#8B0000"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Bold",
+    "body": "Source Sans Pro Bold",
+    "accent": "Inter Bold"
+  },
+
+  "transition_style": {
+    "type": "urgent_snap",
+    "duration": "0.6s",
+    "easing": "ease_out_back"
+  },
+
+  "outro_cta": {
+    "style": "urgency_action",
+    "message": "This matters. Share it. 🚨",
+    "duration": "3s",
+    "background": "urgency_background",
+    "action": "spread_awareness"
+  },
+
+  "content_guidelines": {
+    "opening": "Reality check:",
+    "structure": "stark_statistic -> reality_impact -> urgent_awareness_call",
+    "tone": "urgent, direct, motivating action",
+    "length": "Impactful statistic + call to awareness"
+  }
+}

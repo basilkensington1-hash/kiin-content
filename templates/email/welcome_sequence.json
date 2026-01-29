@@ -1,0 +1,124 @@
+{
+  "template_name": "Welcome Email Sequence",
+  "email_type": "welcome_series",
+  "brand_tone": "warm, supportive, practical",
+  "sequence_length": 5,
+  
+  "email_1": {
+    "subject_lines": [
+      "Welcome to the Kiin family 💙",
+      "You're not alone in this journey",
+      "Your caregiving support starts here"
+    ],
+    "structure": {
+      "greeting": "warm, personal welcome",
+      "empathy": "acknowledge their caregiving challenges",
+      "value_promise": "what they can expect from Kiin",
+      "first_action": "simple, valuable first step",
+      "closing": "supportive, encouraging"
+    },
+    "content_blocks": {
+      "header": {
+        "background_color": "#F8FAFB",
+        "logo_placement": "center",
+        "tagline": "Care coordination made easier"
+      },
+      "greeting": {
+        "font": "Source Sans Pro Regular",
+        "size": "18px",
+        "color": "#2C3E50",
+        "content": "Hi [First Name],\n\nWelcome to the Kiin community. I'm so glad you're here."
+      },
+      "main_content": {
+        "background": "#FFFFFF",
+        "padding": "30px",
+        "font": "Source Sans Pro Regular",
+        "size": "16px",
+        "line_height": "1.6",
+        "color": "#2C3E50"
+      },
+      "cta_button": {
+        "background": "#4A90B8",
+        "text_color": "#FFFFFF",
+        "font": "Poppins Medium",
+        "border_radius": "6px",
+        "padding": "12px 24px"
+      }
+    }
+  },
+  
+  "email_2": {
+    "subject_lines": [
+      "Your first week as a caregiver (what to expect)",
+      "5 things I wish I'd known starting out",
+      "The caregiving basics that actually matter"
+    ],
+    "purpose": "practical_value_delivery",
+    "send_delay": "3_days"
+  },
+  
+  "email_3": {
+    "subject_lines": [
+      "When caregiving feels overwhelming (you're normal)",
+      "The guilt that comes with caregiving",
+      "It's okay to not be okay"
+    ],
+    "purpose": "emotional_validation",
+    "send_delay": "7_days"
+  },
+  
+  "email_4": {
+    "subject_lines": [
+      "Building your support network (even if you're shy)",
+      "You don't have to do this alone",
+      "Finding your caregiving tribe"
+    ],
+    "purpose": "community_building",
+    "send_delay": "14_days"
+  },
+  
+  "email_5": {
+    "subject_lines": [
+      "Your caregiving journey: what's next?",
+      "How to keep growing as a caregiver",
+      "The path forward looks different for everyone"
+    ],
+    "purpose": "future_orientation",
+    "send_delay": "21_days"
+  },
+  
+  "design_elements": {
+    "header": {
+      "height": "80px",
+      "background": "linear-gradient(135deg, #4A90B8, #6BB3A0)",
+      "logo": "white_version",
+      "alignment": "center"
+    },
+    "body": {
+      "max_width": "600px",
+      "background": "#FFFFFF",
+      "font_family": "Source Sans Pro, Arial, sans-serif",
+      "margin": "0 auto"
+    },
+    "footer": {
+      "background": "#F8FAFB",
+      "padding": "20px",
+      "font_size": "14px",
+      "color": "#6B7280",
+      "unsubscribe_link": true
+    }
+  },
+  
+  "personalization": {
+    "merge_tags": ["first_name", "caregiver_type", "biggest_challenge"],
+    "dynamic_content": "based_on_signup_survey",
+    "send_time_optimization": true
+  },
+  
+  "success_metrics": {
+    "open_rate_target": "25%",
+    "click_rate_target": "5%",
+    "reply_rate_target": "2%",
+    "unsubscribe_threshold": "2%"
+  }
+}

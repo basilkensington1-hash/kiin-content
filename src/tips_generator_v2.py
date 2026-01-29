@@ -349,81 +349,102 @@ class TipsGeneratorV2:
         return image
 
     def create_section_image_v2(self, section: str, content: Dict, 
-                               section_number: int, total_sections: int) -> Image.Image:
-        """Create enhanced section image with professional design"""
+                               section_number: int, total_sections: int,
+                               frame: int = 15, total_frames: int = 30) -> Image.Image:
+        """Create enhanced section image with professional cinematic effects"""
         
-        # Determine section styling
+        # Section configuration with enhanced styling
         section_config = {
             'intro': {
-                'bg_colors': (self.colors['primary'], self.colors['secondary']),
-                'text_color': self.colors['text_light'],
-                'icon': 'lightbulb',
-                'title': 'KIIN CAREGIVER TIP'
+                'palette': 'kiin_brand',
+                'mood': 'professional',
+                'icon_type': 'lightbulb',
+                'title': 'KIIN CAREGIVER TIP',
+                'bg_style': 'cinematic',
+                'text_treatment': 'premium',
+                'particles': 'professional'
             },
             'hook': {
-                'bg_colors': (self.colors['info'], self.colors['primary']),
-                'text_color': self.colors['text_light'],
-                'icon': 'heart',
-                'title': 'STOP!'
+                'palette': 'cinematic_warm',
+                'mood': 'energetic', 
+                'icon_type': 'heart_beat',
+                'title': 'ATTENTION!',
+                'bg_style': 'energetic',
+                'text_treatment': 'glow',
+                'particles': 'energetic'
             },
             'problem': {
-                'bg_colors': (self.colors['danger'], (180, 40, 50)),
-                'text_color': self.colors['text_light'],
-                'icon': 'x_mark',
-                'title': "❌ DON'T DO THIS"
+                'palette': 'dramatic',
+                'mood': 'dramatic',
+                'icon_type': 'x_mark',
+                'title': "❌ AVOID THIS MISTAKE",
+                'bg_style': 'flowing',
+                'text_treatment': 'dramatic',
+                'particles': 'professional'
             },
             'solution': {
-                'bg_colors': (self.colors['success'], (20, 120, 70)),
-                'text_color': self.colors['text_light'],
-                'icon': 'checkmark',
-                'title': '✅ DO THIS INSTEAD'
+                'palette': 'organic',
+                'mood': 'warm',
+                'icon_type': 'growing_plant',
+                'title': '✅ BETTER APPROACH',
+                'bg_style': 'energetic',
+                'text_treatment': 'premium',
+                'particles': 'calming'
             },
             'takeaway': {
-                'bg_colors': (self.colors['accent'], (200, 140, 80)),
-                'text_color': self.colors['text_dark'],
-                'icon': 'brain',
-                'title': '🧠 KEY TAKEAWAY'
+                'palette': 'cinematic_cool',
+                'mood': 'professional',
+                'icon_type': 'brain',
+                'title': '🧠 REMEMBER THIS',
+                'bg_style': 'flowing',
+                'text_treatment': 'glow',
+                'particles': 'professional'
             },
             'action': {
-                'bg_colors': (self.colors['secondary'], self.colors['accent']),
-                'text_color': self.colors['text_dark'],
-                'icon': 'checkmark',
-                'title': '🎯 TRY THIS TODAY'
+                'palette': 'cinematic_warm',
+                'mood': 'energetic',
+                'icon_type': 'bouncing_ball',
+                'title': '🎯 TAKE ACTION TODAY',
+                'bg_style': 'energetic',
+                'text_treatment': 'premium',
+                'particles': 'energetic'
             },
             'outro': {
-                'bg_colors': (self.colors['background'], self.colors['secondary']),
-                'text_color': self.colors['text_dark'],
-                'icon': 'heart',
-                'title': 'YOU\'VE GOT THIS!'
+                'palette': 'organic',
+                'mood': 'warm',
+                'icon_type': 'heart_beat',
+                'title': 'YOU\'VE GOT THIS! 💙',
+                'bg_style': 'flowing',
+                'text_treatment': 'glow',
+                'particles': 'calming'
             }
         }
         
         config = section_config.get(section, section_config['intro'])
         
-        # Create gradient background
-        image = self.create_gradient_background(VIDEO_WIDTH, VIDEO_HEIGHT, 
-                                              config['bg_colors'][0], config['bg_colors'][1])
+        # Create professional animated background
+        background = self.effects.animated_gradient_pro(
+            frame, total_frames, config['palette'], config['bg_style']
+        )
         
-        draw = ImageDraw.Draw(image)
+        # Add premium particle effects
+        particles = self.effects.premium_particle_system(
+            frame, total_frames, config['particles'], 'medium'
+        )
+        background = Image.alpha_composite(background, particles)
         
-        # Add progress indicator
-        progress = self.create_progress_indicator(section_number, total_sections, 600)
-        progress_x = (VIDEO_WIDTH - 600) // 2
-        image.paste(progress, (progress_x, 50), progress)
+        # Add cinematic bokeh for depth
+        if section in ['solution', 'takeaway', 'outro']:
+            bokeh = self.effects.cinematic_bokeh(frame, total_frames, 'warm', 0.4)
+            background = Image.alpha_composite(background, bokeh)
         
-        # Add animated icon
-        icon = self.create_animated_icon(config['icon'], config['text_color'])
-        icon_x = (VIDEO_WIDTH - icon.width) // 2
-        image.paste(icon, (icon_x, 150), icon)
+        # Create content dictionary for professional frame generation
+        frame_content = {
+            'title': config['title'],
+            'mood': config['mood']
+        }
         
-        # Add section title
-        title_font = self.get_enhanced_font(48, 'bold')
-        title_bbox = draw.textbbox((0, 0), config['title'], font=title_font)
-        title_width = title_bbox[2] - title_bbox[0]
-        title_x = (VIDEO_WIDTH - title_width) // 2
-        draw.text((title_x, 300), config['title'], fill=config['text_color'], font=title_font)
-        
-        # Add main content text
+        # Get main content text
         if section in ['hook', 'problem', 'solution']:
             main_text = content.get(section, '')
         elif section == 'takeaway':
@@ -433,68 +454,124 @@ class TipsGeneratorV2:
         elif section == 'intro':
             difficulty = content.get('difficulty', 'beginner').title()
             category = content.get('category', 'general').title().replace('_', ' ')
-            main_text = f"{difficulty} • {category}"
+            main_text = f"{difficulty} Level • {category} Series"
         elif section == 'outro':
-            main_text = "Remember: Every small act of care matters. You're making a difference! 💙"
+            main_text = "Every small act of care makes a difference. You're doing amazing work!"
         else:
             main_text = ''
         
         if main_text:
-            # Wrap and position main text
-            content_font = self.get_enhanced_font(42)
-            max_width = VIDEO_WIDTH - 120
-            wrapped_lines = self.wrap_text_enhanced(main_text, content_font, max_width)
-            
-            line_height = 55
-            total_text_height = len(wrapped_lines) * line_height
-            start_y = (VIDEO_HEIGHT - total_text_height) // 2 + 100
-            
-            for i, line in enumerate(wrapped_lines):
-                line_bbox = draw.textbbox((0, 0), line, font=content_font)
-                line_width = line_bbox[2] - line_bbox[0]
-                line_x = (VIDEO_WIDTH - line_width) // 2
-                
-                draw.text((line_x, start_y + i * line_height), line, 
-                         fill=config['text_color'], font=content_font)
+            frame_content['subtitle'] = main_text
         
-        # Add memory aid for relevant sections
-        if section in ['takeaway', 'action'] and content.get('memory_aid'):
-            memory_visual = self.create_memory_aid_visual(content['memory_aid'])
-            memory_x = (VIDEO_WIDTH - memory_visual.width) // 2
-            memory_y = VIDEO_HEIGHT - 250
-            image.paste(memory_visual, (memory_x, memory_y), memory_visual)
+        # Generate professional video frame
+        result = self.effects.create_professional_video_frame(
+            frame_content, frame, total_frames, section
+        )
         
-        # Add data visualization for relevant sections
+        # Add progress visualization
+        progress_value = section_number / total_sections
+        progress_viz = self.effects.progress_visualization(
+            frame, total_frames, progress_value, 'modern', 'tip_progress'
+        )
+        result = Image.alpha_composite(result, progress_viz)
+        
+        # Add animated icon
+        if config['icon_type']:
+            icon_animation = self.effects.animated_icons_library(
+                frame, total_frames, config['icon_type'], 
+                'positive' if section in ['solution', 'action'] else 'neutral'
+            )
+            result = Image.alpha_composite(result, icon_animation)
+        
+        # Add cinematic title with professional treatment
+        if config['title']:
+            title_overlay = self.effects.cinematic_title_reveal(
+                config['title'], main_text[:50] + '...' if len(main_text) > 50 else main_text,
+                frame, total_frames, 'epic', config['palette']
+            )
+            result = Image.alpha_composite(result, title_overlay)
+        
+        # Add data visualization for solution sections
         if section == 'solution' and content.get('data_point'):
             try:
-                data_viz = self.create_data_visualization(content['data_point'], content)
-                viz_x = (VIDEO_WIDTH - data_viz.width) // 2
-                viz_y = VIDEO_HEIGHT - 400
-                image.paste(data_viz, (viz_x, viz_y))
+                # Extract percentage or create improvement data
+                import re
+                percentage_match = re.search(r'(\d+)%', content['data_point'])
+                if percentage_match:
+                    improvement = int(percentage_match.group(1))
+                    data = [30, improvement]  # Before vs After
+                else:
+                    data = [40, 85, 90]  # Generic improvement story
+                
+                data_viz = self.effects.data_story_charts(
+                    frame, total_frames, data, 'impact', 'improvement'
+                )
+                result = Image.alpha_composite(result, data_viz)
             except Exception as e:
                 print(f"Could not create data visualization: {e}")
         
-        # Add subtle watermark
+        # Add call-to-action for action sections
+        if section == 'action':
+            cta_text = "Try This Today!"
+            cta_animation = self.effects.call_to_action_pro(
+                frame, total_frames, cta_text, 'medium'
+            )
+            result = Image.alpha_composite(result, cta_animation)
+        
+        # Add memory aid visual enhancement
+        if section in ['takeaway', 'action'] and content.get('memory_aid'):
+            # Create enhanced memory aid with effects
+            memory_text = content['memory_aid']
+            memory_overlay = self._create_enhanced_memory_aid(
+                memory_text, frame, total_frames
+            )
+            result = Image.alpha_composite(result, memory_overlay)
+        
+        # Apply final cinematic polish
+        result = self.effects.mood_responsive_effects(result, config['mood'], 0.8)
+        result = self.effects.adaptive_vignette(result, section)
+        result = self.effects.film_grain_texture(result, 'modern')
+        
+        # Add professional watermark
         try:
             watermark_path = self.brand.get_watermark_path()
             if watermark_path.exists():
-                watermark = Image.open(watermark_path)
-                # Resize watermark to 5% of video width
-                wm_size = int(VIDEO_WIDTH * 0.05)
+                watermark = Image.open(watermark_path).convert('RGBA')
+                # Professional watermark treatment
+                wm_size = int(VIDEO_WIDTH * 0.04)  # Smaller, more elegant
                 watermark = watermark.resize((wm_size, wm_size), Image.Resampling.LANCZOS)
                 
-                # Apply transparency
-                if watermark.mode != 'RGBA':
-                    watermark = watermark.convert('RGBA')
+                # Apply subtle glow to watermark
+                watermark = self.effects.advanced_effects.add_glow_effect(
+                    watermark, (255, 255, 255), 0.3, 4
+                )
                 
-                # Position at bottom right
-                wm_x = VIDEO_WIDTH - wm_size - 30
-                wm_y = VIDEO_HEIGHT - wm_size - 30
-                image.paste(watermark, (wm_x, wm_y), watermark)
+                # Position elegantly
+                wm_x = VIDEO_WIDTH - wm_size - 40
+                wm_y = VIDEO_HEIGHT - wm_size - 40
+                result.paste(watermark, (wm_x, wm_y), watermark)
         except Exception as e:
             print(f"Could not add watermark: {e}")
         
-        return image
+        return result
+
+    def _create_enhanced_memory_aid(self, memory_text: str, frame: int, total_frames: int) -> Image.Image:
+        """Create enhanced memory aid with cinematic effects"""
+        image = Image.new('RGBA', (VIDEO_WIDTH, VIDEO_HEIGHT), (0, 0, 0, 0))
+        
+        # Create memory aid as subtitle-style overlay
+        memory_overlay = self.effects.advanced_effects.subtitle_popup_animation(
+            f"💡 {memory_text}", frame, total_frames,
+            self.effects._get_professional_font(32, 'medium'),
+            (255, 255, 255), (41, 98, 255)  # Kiin brand blue background
+        )
+        
+        # Position in lower third
+        memory_y_offset = int(VIDEO_HEIGHT * 0.75)
+        paste_img = Image.new('RGBA', (VIDEO_WIDTH, VIDEO_HEIGHT), (0, 0, 0, 0))
+        paste_img.paste(memory_overlay, (0, memory_y_offset - VIDEO_HEIGHT // 2))
+        
+        return paste_img
 
     def wrap_text_enhanced(self, text: str, font: ImageFont.FreeTypeFont, max_width: int) -> List[str]:
         """Enhanced text wrapping with better word breaking"""
@@ -550,7 +627,7 @@ class TipsGeneratorV2:
 
     def create_video_with_moviepy(self, sections: List[Tuple[str, Image.Image, float]], 
                                  audio_path: str, output_path: str, tip: Dict):
-        """Create video using MoviePy for advanced features"""
+        """Create video using MoviePy with cinematic frame-by-frame effects"""
         if not MOVIEPY_AVAILABLE:
             print("MoviePy not available, falling back to FFmpeg")
             self.create_video_with_ffmpeg(sections, audio_path, output_path, tip)
@@ -559,76 +636,97 @@ class TipsGeneratorV2:
         try:
             clips = []
             
-            # Convert PIL images to MoviePy clips with transitions
-            for i, (section_name, image, duration) in enumerate(sections):
-                # Save image temporarily
-                temp_image_path = tempfile.mktemp(suffix='.png')
-                image.save(temp_image_path)
-                
-                # Create video clip
-                clip = ImageClip(temp_image_path, duration=duration)
-                
-                # Add entrance animation based on section type
-                if section_name in ['hook', 'problem']:
-                    # Slide in from left
-                    clip = clip.set_position(lambda t: (max(-VIDEO_WIDTH + (VIDEO_WIDTH * t * 2), 0), 0))
-                elif section_name in ['solution', 'takeaway']:
-                    # Fade in with slight scale
-                    clip = clip.crossfadein(0.5).resize(lambda t: 1 + 0.1 * np.sin(2 * np.pi * t))
-                elif section_name == 'action':
-                    # Bounce in effect
-                    def bounce_pos(t):
-                        if t < 0.5:
-                            bounce = 50 * (1 - (2*t - 1)**2)
-                            return (0, -bounce)
-                        return (0, 0)
-                    clip = clip.set_position(bounce_pos)
-                
-                # Add exit animation for non-final clips
-                if i < len(sections) - 1:
-                    clip = clip.crossfadeout(0.3)
-                
-                clips.append(clip)
-                
-                # Cleanup temp file
-                os.unlink(temp_image_path)
+            print("   🎬 Creating cinematic video clips with frame-by-frame effects...")
             
-            # Concatenate all clips
+            # Generate frame-by-frame animations for each section
+            for i, (section_name, base_image, duration) in enumerate(sections):
+                print(f"      🎨 Animating {section_name} section...")
+                
+                # Calculate frames for this section
+                section_frames = int(duration * FPS)
+                frame_images = []
+                
+                # Generate animated frames using our enhanced effects
+                for frame in range(section_frames):
+                    # Create professional animated frame
+                    animated_frame = self.create_section_image_v2(
+                        section_name, tip, i+1, len(sections), frame, section_frames
+                    )
+                    
+                    # Save frame temporarily
+                    temp_frame_path = tempfile.mktemp(suffix='.png')
+                    animated_frame.save(temp_frame_path)
+                    frame_images.append(temp_frame_path)
+                
+                # Create video clip from frame sequence
+                if frame_images:
+                    # Use ImageSequenceClip for smooth animation
+                    clip = ImageSequenceClip(frame_images, fps=FPS, with_mask=False)
+                    
+                    # Add cinematic transitions between sections
+                    if i > 0:
+                        # Get transition type based on content flow
+                        prev_section = sections[i-1][0]
+                        transition_context = self._get_transition_context(prev_section, section_name)
+                        
+                        # Add crossfade transition
+                        clip = clip.crossfadein(0.5)
+                    
+                    # Add section-specific motion effects
+                    clip = self._apply_section_motion_effects(clip, section_name)
+                    
+                    clips.append(clip)
+                
+                # Cleanup frame files
+                for frame_path in frame_images:
+                    if os.path.exists(frame_path):
+                        os.unlink(frame_path)
+            
+            print("   🎵 Assembling final video with audio...")
+            
+            # Concatenate all clips with transitions
             video = concatenate_videoclips(clips, method="compose")
             
-            # Load and process audio
+            # Load and enhance audio
             audio = AudioFileClip(audio_path)
             
-            # Add background music if available
+            # Add professional audio processing
             if self.audio_assets['background_music']:
                 try:
                     bg_music = AudioFileClip(self.audio_assets['background_music'])
-                    # Loop background music if needed
+                    # Loop and mix background music
                     if bg_music.duration < video.duration:
                         bg_music = bg_music.loop(duration=video.duration)
                     else:
                         bg_music = bg_music.subclip(0, video.duration)
                     
-                    # Mix audio: 70% voice, 30% background music
-                    bg_music = bg_music.volumex(0.15)  # Lower volume for background
-                    final_audio = CompositeAudioClip([audio.volumex(0.85), bg_music])
+                    # Professional audio mixing
+                    bg_music = bg_music.volumex(0.12)  # Very subtle background
+                    final_audio = CompositeAudioClip([audio.volumex(0.88), bg_music])
+                    
+                    # Add subtle fade in/out
+                    final_audio = final_audio.audio_fadein(0.5).audio_fadeout(0.5)
                     video = video.set_audio(final_audio)
                 except Exception as e:
                     print(f"Could not add background music: {e}")
-                    video = video.set_audio(audio)
+                    video = video.set_audio(audio.audio_fadein(0.3).audio_fadeout(0.3))
             else:
-                video = video.set_audio(audio)
+                video = video.set_audio(audio.audio_fadein(0.3).audio_fadeout(0.3))
             
-            # Write final video
+            # Write final video with optimal settings
+            print("   📼 Rendering final video...")
             video.write_videofile(
                 output_path,
                 fps=FPS,
                 codec='libx264',
+                preset='medium',  # Better quality
                 audio_codec='aac',
+                audio_bitrate='128k',
                 temp_audiofile=tempfile.mktemp(suffix='.m4a'),
                 remove_temp=True,
                 verbose=False,
-                logger=None
+                logger=None,
+                ffmpeg_params=['-crf', '20']  # High quality
             )
             
             # Cleanup
@@ -637,6 +735,8 @@ class TipsGeneratorV2:
             
         except Exception as e:
             print(f"MoviePy creation failed, falling back to FFmpeg: {e}")
+            import traceback
+            traceback.print_exc()
             # Fallback to original FFmpeg method
             self.create_video_with_ffmpeg(sections, audio_path, output_path, tip)
 
@@ -786,6 +886,38 @@ class TipsGeneratorV2:
     def get_tips_by_difficulty(self, difficulty: str) -> List[Dict]:
         """Get tips filtered by difficulty level"""
         return [tip for tip in self.data['tips'] if tip.get('difficulty') == difficulty]
+
+    def _get_transition_context(self, from_section: str, to_section: str) -> str:
+        """Determine transition context based on section flow"""
+        context_map = {
+            ('intro', 'hook'): 'neutral',
+            ('hook', 'problem'): 'insight_reveal',
+            ('problem', 'solution'): 'problem_to_solution',
+            ('solution', 'takeaway'): 'emotional_shift',
+            ('takeaway', 'action'): 'neutral',
+            ('action', 'outro'): 'emotional_shift'
+        }
+        
+        return context_map.get((from_section, to_section), 'neutral')
+    
+    def _apply_section_motion_effects(self, clip, section_name: str):
+        """Apply motion effects based on section type"""
+        
+        if section_name in ['hook', 'problem']:
+            # Attention-grabbing entrance
+            return clip.resize(lambda t: min(1.0, 0.8 + 0.2 * t))
+            
+        elif section_name in ['solution', 'takeaway']:
+            # Gentle, confident motion
+            return clip.set_position(lambda t: (0, -5 * np.sin(t * 2)))
+            
+        elif section_name == 'action':
+            # Energetic, motivating motion
+            return clip.resize(lambda t: 1.0 + 0.02 * np.sin(t * 4))
+            
+        else:
+            # Standard, stable presentation
+            return clip
 
     def get_tips_by_series(self, series_name: str) -> List[Dict]:
         """Get tips for a specific series"""

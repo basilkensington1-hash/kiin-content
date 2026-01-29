@@ -1,0 +1,85 @@
+{
+  "template_name": "Stat Reveal",
+  "category": "data",
+  "duration": "20-30s",
+  "emotional_tone": "hope",
+  
+  "thumbnail_layout": {
+    "background": "hope_accent",
+    "text_placement": "data_focused",
+    "font": "display_bold",
+    "text_color": "hope_text",
+    "overlay_opacity": 0.85,
+    "visual_style": "clean_data_presentation",
+    "badge": "DATA"
+  },
+
+  "intro_animation": {
+    "style": "data_emerge",
+    "duration": "2s",
+    "elements": [
+      "statistic_build_up",
+      "hopeful_data_glow"
+    ],
+    "sound": "data_reveal_chime"
+  },
+
+  "text_placement": {
+    "context": {
+      "position": "upper_center",
+      "font": "body_regular",
+      "size": "small",
+      "animation": "context_set",
+      "timing": "0-5s"
+    },
+    "statistic": {
+      "position": "center",
+      "font": "display_bold",
+      "size": "extra_large",
+      "animation": "impactful_reveal",
+      "timing": "5-15s"
+    },
+    "meaning": {
+      "position": "lower_center",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "hopeful_context",
+      "timing": "15-25s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#6BB3A0",
+    "secondary": "#87CEEB",
+    "accent": "#FFE4B5",
+    "background": "data_hopeful_gradient",
+    "text": "#2F4F4F"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Bold",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Regular"
+  },
+
+  "transition_style": {
+    "type": "data_flow",
+    "duration": "1s",
+    "easing": "ease_out"
+  },
+
+  "outro_cta": {
+    "style": "hope_data",
+    "message": "You're part of this story 📊",
+    "duration": "4s",
+    "background": "hope_background",
+    "action": "share_the_data"
+  },
+
+  "content_guidelines": {
+    "opening": "Here's something important:",
+    "structure": "context_setup -> impactful_statistic -> hopeful_meaning",
+    "tone": "informative, hopeful, connecting",
+    "length": "Statistic + meaningful interpretation"
+  }
+}

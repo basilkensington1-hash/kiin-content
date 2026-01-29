@@ -1,0 +1,85 @@
+{
+  "template_name": "Quiet Strength",
+  "category": "story",
+  "duration": "25-40s",
+  "emotional_tone": "comfort",
+  
+  "thumbnail_layout": {
+    "background": "comfort_primary",
+    "text_placement": "strength_subtle",
+    "font": "display_light",
+    "text_color": "comfort_text",
+    "overlay_opacity": 0.65,
+    "visual_style": "gentle_resilience",
+    "badge": "STRENGTH"
+  },
+
+  "intro_animation": {
+    "style": "quiet_power_reveal",
+    "duration": "2.5s",
+    "elements": [
+      "gentle_strength_emerge",
+      "steady_light_build"
+    ],
+    "sound": "quiet_strength_tone"
+  },
+
+  "text_placement": {
+    "observation": {
+      "position": "upper_center",
+      "font": "body_light",
+      "size": "small",
+      "animation": "gentle_notice",
+      "timing": "0-8s"
+    },
+    "strength_moment": {
+      "position": "center",
+      "font": "display_light",
+      "size": "large",
+      "animation": "quiet_power",
+      "timing": "8-25s"
+    },
+    "recognition": {
+      "position": "lower_center",
+      "font": "accent_light",
+      "size": "small",
+      "animation": "warm_acknowledgment",
+      "timing": "25-35s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#D2B48C",
+    "secondary": "#DEB887",
+    "accent": "#F5DEB3",
+    "background": "quiet_strength_gradient",
+    "text": "#8B4513"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Light",
+    "body": "Source Sans Pro Light",
+    "accent": "Inter Light"
+  },
+
+  "transition_style": {
+    "type": "steady_presence",
+    "duration": "1.5s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "comfort_recognition",
+    "message": "You're stronger than you know 🌱",
+    "duration": "4s",
+    "background": "comfort_background",
+    "action": "recognize_strength"
+  },
+
+  "content_guidelines": {
+    "opening": "I noticed something today...",
+    "structure": "quiet_observation -> strength_recognition -> gentle_validation",
+    "tone": "observant, validating, quietly empowering",
+    "length": "2-3 gentle, affirming sentences"
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "version": "2.0",
+  "description": "Voice personas for Kiin Content Factory - Professional TTS with emotional intelligence",
+  "updated": "2025-01-29T00:00:00Z",
+  
+  "personas": {
+    "maya": {
+      "description": "Warm, nurturing caregiver voice for validation and confessions",
+      "primary_voice": "en-US-JennyNeural",
+      "fallback_voices": ["en-US-AriaNeural", "en-AU-NatashaNeural", "en-GB-SoniaNeural"],
+      "characteristics": ["warm", "empathetic", "nurturing", "gentle", "understanding"],
+      "content_types": ["validation", "confessions", "support"],
+      
+      "ssml_settings": {
+        "rate": "0.85",
+        "pitch": "-5%",
+        "volume": "90%",
+        "pauses": {
+          "sentence": "600ms",
+          "comma": "250ms",
+          "question": "700ms",
+          "exclamation": "500ms",
+          "colon": "400ms",
+          "emphasis_pause": "500ms",
+          "emphasis_phrases": ["take your time", "you're not alone", "it's okay", "I understand"]
+        },
+        "emphasis": {
+          "caps_level": "moderate",
+          "quote_level": "strong"
+        },
+        "content_type_validation": {
+          "rate": "0.80",
+          "pitch": "-7%",
+          "pauses": {
+            "sentence": "700ms"
+          }
+        },
+        "content_type_confessions": {
+          "rate": "0.85",
+          "pitch": "-3%",
+          "pauses": {
+            "sentence": "600ms"
+          }
+        }
+      },
+      
+      "emotional_range": {
+        "comforting": {
+          "description": "Deep comfort for distressed caregivers",
+          "preferred_voice": "en-US-JennyNeural",
+          "ssml_overrides": {
+            "rate": "0.80",
+            "pitch": "-8%",
+            "volume": "85%",
+            "pauses": {
+              "sentence": "800ms",
+              "emphasis_pause": "700ms"
+            }
+          }
+        },
+        "reassuring": {
+          "description": "Gentle reassurance for uncertain moments",
+          "preferred_voice": "en-US-AriaNeural",
+          "ssml_overrides": {
+            "rate": "0.85",
+            "pitch": "-3%",
+            "pauses": {
+              "sentence": "500ms"
+            }
+          }
+        },
+        "understanding": {
+          "description": "Deep empathy for difficult situations",
+          "preferred_voice": "en-AU-NatashaNeural",
+          "ssml_overrides": {
+            "rate": "0.90",
+            "pitch": "-2%",
+            "pauses": {
+              "sentence": "650ms"
+            }
+          }
+        },
+        "celebratory": {
+          "description": "Gentle celebration of caregiving wins",
+          "preferred_voice": "en-US-AriaNeural",
+          "ssml_overrides": {
+            "rate": "0.95",
+            "pitch": "0%",
+            "volume": "95%"
+          }
+        }
+      }
+    },
+    
+    "dr_sarah": {
+      "description": "Professional, authoritative voice for tips and educational content",
+      "primary_voice": "en-US-DavisNeural",
+      "fallback_voices": ["en-GB-RyanNeural", "en-US-JasonNeural", "en-CA-LiamNeural"],
+      "characteristics": ["authoritative", "clear", "professional", "confident", "knowledgeable"],
+      "content_types": ["tips", "education", "facts", "advice", "how-to"],
+      
+      "ssml_settings": {
+        "rate": "1.00",
+        "pitch": "0%",
+        "volume": "95%",
+        "pauses": {
+          "sentence": "400ms",
+          "comma": "200ms",
+          "question": "500ms",
+          "emphasis_pause": "350ms",
+          "emphasis_phrases": ["first", "second", "third", "important", "remember", "key point", "essential"]
+        },
+        "emphasis": {
+          "caps_level": "strong",
+          "quote_level": "moderate"
+        },
+        "content_type_tips": {
+          "rate": "0.95",
+          "pauses": {
+            "sentence": "450ms"
+          }
+        },
+        "content_type_education": {
+          "rate": "0.90",
+          "pauses": {
+            "sentence": "500ms",
+            "emphasis_pause": "400ms"
+          }
+        }
+      },
+      
+      "emotional_range": {
+        "instructional": {
+          "description": "Clear instruction delivery",
+          "preferred_voice": "en-US-DavisNeural",
+          "ssml_overrides": {
+            "rate": "0.95",
+            "pitch": "0%",
+            "emphasis": {
+              "caps_level": "strong"
+            }
+          }
+        },
+        "encouraging": {
+          "description": "Encouraging professional tone",
+          "preferred_voice": "en-GB-RyanNeural",
+          "ssml_overrides": {
+            "rate": "1.05",
+            "pitch": "+2%",
+            "volume": "100%"
+          }
+        },
+        "serious": {
+          "description": "Serious professional tone for important information",
+          "preferred_voice": "en-US-DavisNeural",
+          "ssml_overrides": {
+            "rate": "0.85",
+            "pitch": "-2%",
+            "pauses": {
+              "sentence": "600ms"
+            }
+          }
+        },
+        "supportive_professional": {
+          "description": "Professional but warm support",
+          "preferred_voice": "en-CA-LiamNeural",
+          "ssml_overrides": {
+            "rate": "0.90",
+            "pitch": "-1%"
+          }
+        }
+      }
+    },
+    
+    "alex": {
+      "description": "Peer voice, relatable and energetic for sandwich generation content",
+      "primary_voice": "en-US-AmberNeural",
+      "fallback_voices": ["en-US-AshleyNeural", "en-AU-WilliamNeural", "en-GB-LibbyNeural"],
+      "characteristics": ["relatable", "energetic", "friendly", "conversational", "authentic", "peer-like"],
+      "content_types": ["sandwich_gen", "peer_support", "stories", "real_talk"],
+      
+      "ssml_settings": {
+        "rate": "1.05",
+        "pitch": "+2%",
+        "volume": "100%",
+        "pauses": {
+          "sentence": "300ms",
+          "comma": "150ms",
+          "question": "400ms",
+          "emphasis_pause": "250ms",
+          "emphasis_phrases": ["totally get it", "been there", "real talk", "honestly", "let's be real", "no judgment"]
+        },
+        "emphasis": {
+          "caps_level": "strong",
+          "quote_level": "moderate"
+        },
+        "content_type_sandwich_gen": {
+          "rate": "1.08",
+          "pitch": "+3%"
+        },
+        "content_type_peer_support": {
+          "rate": "1.00",
+          "pitch": "+1%"
+        }
+      },
+      
+      "emotional_range": {
+        "enthusiastic": {
+          "description": "High energy peer support",
+          "preferred_voice": "en-US-AmberNeural",
+          "ssml_overrides": {
+            "rate": "1.10",
+            "pitch": "+5%",
+            "volume": "105%"
+          }
+        },
+        "empathetic": {
+          "description": "Understanding peer empathy",
+          "preferred_voice": "en-US-AshleyNeural",
+          "ssml_overrides": {
+            "rate": "0.95",
+            "pitch": "0%",
+            "pauses": {
+              "sentence": "400ms"
+            }
+          }
+        },
+        "motivational": {
+          "description": "Peer motivation and encouragement",
+          "preferred_voice": "en-AU-WilliamNeural",
+          "ssml_overrides": {
+            "rate": "1.05",
+            "pitch": "+3%",
+            "volume": "100%"
+          }
+        },
+        "real_talk": {
+          "description": "Honest, authentic conversation",
+          "preferred_voice": "en-GB-LibbyNeural",
+          "ssml_overrides": {
+            "rate": "1.00",
+            "pitch": "+1%"
+          }
+        }
+      }
+    },
+    
+    "narrator": {
+      "description": "Documentary-style narrator for chaos stories and longer content",
+      "primary_voice": "en-GB-LibbyNeural",
+      "fallback_voices": ["en-US-AriaNeural", "en-CA-ClaraNeural", "en-AU-NatashaNeural"],
+      "characteristics": ["narrative", "engaging", "storytelling", "dramatic", "cinematic", "immersive"],
+      "content_types": ["chaos", "stories", "narratives", "documentation", "long_form"],
+      
+      "ssml_settings": {
+        "rate": "0.92",
+        "pitch": "-1%",
+        "volume": "92%",
+        "pauses": {
+          "sentence": "500ms",
+          "comma": "200ms",
+          "question": "600ms",
+          "emphasis_pause": "400ms",
+          "emphasis_phrases": ["suddenly", "meanwhile", "however", "but then", "imagine", "picture this"]
+        },
+        "emphasis": {
+          "caps_level": "strong",
+          "quote_level": "strong"
+        },
+        "content_type_chaos": {
+          "rate": "0.90",
+          "pauses": {
+            "sentence": "550ms",
+            "emphasis_pause": "450ms"
+          }
+        },
+        "content_type_stories": {
+          "rate": "0.95",
+          "pitch": "0%"
+        }
+      },
+      
+      "emotional_range": {
+        "dramatic": {
+          "description": "High drama for intense moments",
+          "preferred_voice": "en-GB-LibbyNeural",
+          "ssml_overrides": {
+            "rate": "0.88",
+            "pitch": "-3%",
+            "pauses": {
+              "sentence": "650ms",
+              "emphasis_pause": "500ms"
+            }
+          }
+        },
+        "storytelling": {
+          "description": "Engaging narrative flow",
+          "preferred_voice": "en-US-AriaNeural",
+          "ssml_overrides": {
+            "rate": "0.95",
+            "pitch": "0%",
+            "pauses": {
+              "sentence": "450ms"
+            }
+          }
+        },
+        "suspenseful": {
+          "description": "Building tension and suspense",
+          "preferred_voice": "en-CA-ClaraNeural",
+          "ssml_overrides": {
+            "rate": "0.85",
+            "pitch": "-2%",
+            "volume": "88%",
+            "pauses": {
+              "sentence": "700ms"
+            }
+          }
+        },
+        "reflective": {
+          "description": "Thoughtful reflection on events",
+          "preferred_voice": "en-AU-NatashaNeural",
+          "ssml_overrides": {
+            "rate": "0.90",
+            "pitch": "-1%",
+            "pauses": {
+              "sentence": "600ms"
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "usage_guidelines": {
+    "persona_selection": {
+      "validation_content": "Always use Maya with comforting or reassuring emotional tone",
+      "confession_content": "Maya with understanding or empathetic tone",
+      "tips_content": "Dr. Sarah with instructional or encouraging tone",
+      "educational_content": "Dr. Sarah with instructional or serious tone",
+      "sandwich_gen_content": "Alex with enthusiastic or motivational tone",
+      "chaos_stories": "Narrator with dramatic or suspenseful tone",
+      "peer_support": "Alex with empathetic or real_talk tone",
+      "long_narratives": "Narrator with storytelling tone"
+    },
+    
+    "emotional_tone_mapping": {
+      "content_requiring_comfort": ["comforting", "reassuring"],
+      "content_requiring_authority": ["instructional", "serious"],
+      "content_requiring_energy": ["enthusiastic", "motivational"],
+      "content_requiring_drama": ["dramatic", "suspenseful"],
+      "content_requiring_empathy": ["understanding", "empathetic"],
+      "content_requiring_celebration": ["celebratory", "encouraging"]
+    },
+    
+    "voice_fallback_strategy": {
+      "primary_unavailable": "Use first fallback voice with same emotional settings",
+      "fallback_unavailable": "Use next fallback voice with adjusted settings",
+      "all_unavailable": "Fall back to default Edge TTS with neutral settings",
+      "provider_failure": "Switch to next provider in chain (ElevenLabs → Azure → Google → Edge)"
+    }
+  },
+  
+  "quality_control": {
+    "speech_requirements": {
+      "minimum_clarity": "Must be clearly understandable",
+      "emotional_appropriateness": "Must match content emotional context",
+      "consistency": "Voice characteristics should remain consistent within content",
+      "natural_pauses": "Pauses should feel natural and appropriate",
+      "emphasis_accuracy": "Important words should be properly emphasized"
+    },
+    
+    "testing_criteria": {
+      "A_B_testing": "Test different personas for same content type",
+      "emotional_resonance": "Verify emotional tone matches content intent",
+      "accessibility": "Ensure clarity for hearing-impaired users",
+      "cultural_sensitivity": "Verify appropriateness across cultural contexts"
+    }
+  },
+  
+  "technical_specifications": {
+    "ssml_compliance": "Microsoft Speech Synthesis Markup Language 1.0",
+    "fallback_behavior": "Graceful degradation when SSML features unavailable",
+    "rate_limits": "Respect TTS provider rate limits and quotas",
+    "caching_strategy": "Cache frequently used phrases and segments",
+    "error_handling": "Robust error handling with provider fallbacks"
+  }
+}

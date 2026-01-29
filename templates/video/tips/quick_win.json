@@ -1,0 +1,85 @@
+{
+  "template_name": "Quick Win",
+  "category": "tips",
+  "duration": "15-25s",
+  "emotional_tone": "energy",
+  
+  "thumbnail_layout": {
+    "background": "energy_accent",
+    "text_placement": "bold_center",
+    "font": "display_bold",
+    "text_color": "energy_text",
+    "overlay_opacity": 0.9,
+    "visual_style": "action_oriented_visual",
+    "badge": "QUICK TIP"
+  },
+
+  "intro_animation": {
+    "style": "snappy_reveal",
+    "duration": "1s",
+    "elements": [
+      "quick_text_snap",
+      "bright_highlight_flash"
+    ],
+    "sound": "sharp_positive_chime"
+  },
+
+  "text_placement": {
+    "tip_number": {
+      "position": "top_center",
+      "font": "accent_bold",
+      "size": "small",
+      "animation": "quick_appear",
+      "timing": "0-2s"
+    },
+    "main_tip": {
+      "position": "center",
+      "font": "display_bold",
+      "size": "large",
+      "animation": "snap_in",
+      "timing": "2-15s"
+    },
+    "action_step": {
+      "position": "lower_third",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "slide_up",
+      "timing": "15-20s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#FF7F50",
+    "secondary": "#FFB347",
+    "accent": "#FFFF99",
+    "background": "bright_action_gradient",
+    "text": "#CD5C5C"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Bold",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Bold"
+  },
+
+  "transition_style": {
+    "type": "quick_snap",
+    "duration": "0.4s",
+    "easing": "ease_out_back"
+  },
+
+  "outro_cta": {
+    "style": "energy_action",
+    "message": "Try this today! 🚀",
+    "duration": "3s",
+    "background": "energy_background",
+    "action": "save_and_try"
+  },
+
+  "content_guidelines": {
+    "opening": "Quick tip:",
+    "structure": "problem_identification -> simple_solution -> immediate_action",
+    "tone": "actionable, encouraging, specific",
+    "length": "1-2 clear, actionable sentences"
+  }
+}

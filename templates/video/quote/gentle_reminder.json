@@ -1,0 +1,78 @@
+{
+  "template_name": "Gentle Reminder",
+  "category": "quote",
+  "duration": "12-18s",
+  "emotional_tone": "comfort",
+  
+  "thumbnail_layout": {
+    "background": "comfort_secondary",
+    "text_placement": "soft_nurturing",
+    "font": "display_light",
+    "text_color": "comfort_text",
+    "overlay_opacity": 0.7,
+    "visual_style": "gentle_embrace",
+    "badge": "REMINDER"
+  },
+
+  "intro_animation": {
+    "style": "nurturing_embrace",
+    "duration": "2s",
+    "elements": [
+      "gentle_reminder_wrap",
+      "nurturing_light_hold"
+    ],
+    "sound": "gentle_nurturing_tone"
+  },
+
+  "text_placement": {
+    "reminder_intro": {
+      "position": "upper_center",
+      "font": "accent_light",
+      "size": "small",
+      "animation": "gentle_hello",
+      "timing": "0-3s"
+    },
+    "main_reminder": {
+      "position": "center",
+      "font": "display_light",
+      "size": "large",
+      "animation": "nurturing_embrace",
+      "timing": "3-15s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#DEB887",
+    "secondary": "#F5DEB3",
+    "accent": "#D2B48C",
+    "background": "gentle_nurturing_gradient",
+    "text": "#8B4513"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Light",
+    "body": "Source Sans Pro Light",
+    "accent": "Inter Light"
+  },
+
+  "transition_style": {
+    "type": "gentle_hold",
+    "duration": "2s",
+    "easing": "ease_in_out_sine"
+  },
+
+  "outro_cta": {
+    "style": "comfort_nurturing",
+    "message": "Hold this close 💛",
+    "duration": "3s",
+    "background": "comfort_background",
+    "action": "keep_this_close"
+  },
+
+  "content_guidelines": {
+    "opening": "Gentle reminder:",
+    "structure": "soft_introduction -> nurturing_reminder -> comforting_close",
+    "tone": "gentle, nurturing, comforting",
+    "length": "1-2 comforting, affirming statements"
+  }
+}

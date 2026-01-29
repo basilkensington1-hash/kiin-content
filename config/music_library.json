@@ -1,0 +1,486 @@
+{
+  "version": "2.0",
+  "description": "Music library configuration for Kiin Content Factory - Intelligent mood-based selection",
+  "updated": "2025-01-29T00:00:00Z",
+  
+  "moods": {
+    "supportive_gentle": {
+      "description": "Gentle, supportive background music for validation content",
+      "characteristics": ["warm", "nurturing", "peaceful", "comforting", "non-intrusive"],
+      "tempo_range": [60, 100],
+      "energy_level": "low",
+      "emotional_tone": "positive_calm",
+      "valence_range": [0.4, 0.8],
+      "arousal_range": [0.1, 0.3],
+      
+      "instruments": {
+        "primary": ["soft piano", "gentle strings", "acoustic guitar", "ambient pads"],
+        "secondary": ["light bells", "soft flute", "warm synth pads"],
+        "avoid": ["percussion", "bass guitar", "dramatic changes", "dissonance"]
+      },
+      
+      "musical_characteristics": {
+        "key_preferences": ["major keys", "pentatonic", "modes with warm character"],
+        "chord_progressions": ["simple", "consonant", "resolution-focused"],
+        "dynamics": ["consistent", "gentle swells", "no sudden changes"],
+        "texture": ["sparse", "breathing room", "not busy"]
+      },
+      
+      "technical_requirements": {
+        "frequency_balance": {
+          "low_end": "warm but not overpowering",
+          "midrange": "clear but not competing with voice",
+          "high_end": "soft and airy"
+        },
+        "dynamic_range": "moderate compression for consistency",
+        "stereo_image": "centered with slight width"
+      },
+      
+      "usage_contexts": ["validation messages", "comfort content", "gentle affirmations", "peaceful moments"],
+      "content_type_mapping": ["validation", "gentle_support"],
+      "recommended_volume": 0.15,
+      "duck_ratio": 0.25
+    },
+    
+    "hopeful_uplifting": {
+      "description": "Positive, encouraging music for tips and advice content",
+      "characteristics": ["inspiring", "motivational", "bright", "forward-moving", "optimistic"],
+      "tempo_range": [80, 130],
+      "energy_level": "medium",
+      "emotional_tone": "optimistic",
+      "valence_range": [0.6, 0.9],
+      "arousal_range": [0.3, 0.6],
+      
+      "instruments": {
+        "primary": ["bright piano", "uplifting strings", "light percussion", "warm pads"],
+        "secondary": ["acoustic guitar arpeggios", "soft brass", "light woodwinds"],
+        "avoid": ["dark tones", "minor progressions", "sad melodies", "heavy bass"]
+      },
+      
+      "musical_characteristics": {
+        "key_preferences": ["major keys", "bright modes", "uplifting progressions"],
+        "chord_progressions": ["ascending", "resolution-rich", "hopeful"],
+        "dynamics": ["gentle builds", "upward motion", "inspiring crescendos"],
+        "texture": ["moderately dense", "layered but clear"]
+      },
+      
+      "technical_requirements": {
+        "frequency_balance": {
+          "low_end": "supportive but not heavy",
+          "midrange": "clear and present",
+          "high_end": "bright and airy"
+        },
+        "dynamic_range": "moderate dynamics with inspiring builds",
+        "stereo_image": "wide but focused"
+      },
+      
+      "usage_contexts": ["tip delivery", "advice giving", "positive messaging", "encouragement"],
+      "content_type_mapping": ["tips", "advice", "encouragement"],
+      "recommended_volume": 0.20,
+      "duck_ratio": 0.35
+    },
+    
+    "tense_to_calm": {
+      "description": "Music that transitions from tension to calm for chaos stories",
+      "characteristics": ["dynamic", "transitional", "resolving", "cathartic", "journey-like"],
+      "tempo_range": [70, 120],
+      "energy_level": "variable",
+      "emotional_tone": "transformative",
+      "valence_range": [0.2, 0.8],
+      "arousal_range": [0.2, 0.8],
+      
+      "instruments": {
+        "primary": ["building strings", "dynamic piano", "subtle percussion", "resolution pads"],
+        "secondary": ["tension-building synths", "emotional brass", "release-focused elements"],
+        "avoid": ["static mood", "unchanging dynamics", "abrupt jarring changes"]
+      },
+      
+      "musical_characteristics": {
+        "key_preferences": ["minor to major transitions", "modal shifts", "resolution progressions"],
+        "chord_progressions": ["tension-building to resolution", "dissonance to consonance"],
+        "dynamics": ["significant dynamic journey", "careful tension building", "satisfying release"],
+        "texture": ["evolving complexity", "building then settling"]
+      },
+      
+      "technical_requirements": {
+        "frequency_balance": {
+          "low_end": "building tension, then warm resolution",
+          "midrange": "emotional center, clear narrative",
+          "high_end": "tension elements that resolve sweetly"
+        },
+        "dynamic_range": "wide range to support emotional journey",
+        "stereo_image": "evolving from narrow to wide"
+      },
+      
+      "usage_contexts": ["chaos story narratives", "problem-to-solution content", "emotional journeys"],
+      "content_type_mapping": ["chaos_stories", "transformation", "resolution"],
+      "recommended_volume": 0.22,
+      "duck_ratio": 0.40
+    },
+    
+    "reflective_emotional": {
+      "description": "Deep, emotional music for confessions and personal stories",
+      "characteristics": ["intimate", "contemplative", "emotional", "vulnerable", "personal"],
+      "tempo_range": [50, 90],
+      "energy_level": "low",
+      "emotional_tone": "contemplative",
+      "valence_range": [0.2, 0.6],
+      "arousal_range": [0.1, 0.4],
+      
+      "instruments": {
+        "primary": ["solo piano", "intimate strings", "soft pads", "minimal arrangements"],
+        "secondary": ["solo cello", "ambient textures", "soft vocal pads"],
+        "avoid": ["busy arrangements", "bright tones", "fast rhythms", "complex harmonies"]
+      },
+      
+      "musical_characteristics": {
+        "key_preferences": ["minor keys", "emotional modes", "introspective progressions"],
+        "chord_progressions": ["simple but profound", "emotional weight", "contemplative"],
+        "dynamics": ["subtle", "intimate", "personal"],
+        "texture": ["sparse", "space for reflection", "emotional breathing room"]
+      },
+      
+      "technical_requirements": {
+        "frequency_balance": {
+          "low_end": "minimal but warm",
+          "midrange": "emotional core, intimate",
+          "high_end": "soft and delicate"
+        },
+        "dynamic_range": "intimate dynamics, no loud elements",
+        "stereo_image": "narrow and intimate"
+      },
+      
+      "usage_contexts": ["confession content", "personal stories", "vulnerable moments", "deep sharing"],
+      "content_type_mapping": ["confessions", "personal_stories", "vulnerable_content"],
+      "recommended_volume": 0.12,
+      "duck_ratio": 0.20
+    },
+    
+    "energetic_motivating": {
+      "description": "Energetic, motivating music for sandwich generation content",
+      "characteristics": ["energetic", "driving", "confident", "empowering", "action-oriented"],
+      "tempo_range": [110, 160],
+      "energy_level": "high",
+      "emotional_tone": "empowering",
+      "valence_range": [0.7, 0.9],
+      "arousal_range": [0.6, 0.9],
+      
+      "instruments": {
+        "primary": ["driving piano", "strong strings", "light percussion", "motivational builds"],
+        "secondary": ["energetic synths", "upbeat guitar", "empowering brass"],
+        "avoid": ["slow tempos", "subdued energy", "sad progressions", "overly busy textures"]
+      },
+      
+      "musical_characteristics": {
+        "key_preferences": ["confident major keys", "energetic modes", "empowering progressions"],
+        "chord_progressions": ["driving", "confident", "forward-moving"],
+        "dynamics": ["energetic", "motivational builds", "confident presentation"],
+        "texture": ["full but not cluttered", "energetic layers"]
+      },
+      
+      "technical_requirements": {
+        "frequency_balance": {
+          "low_end": "driving but not overpowering",
+          "midrange": "energetic and clear",
+          "high_end": "bright and engaging"
+        },
+        "dynamic_range": "energetic with motivational peaks",
+        "stereo_image": "wide and engaging"
+      },
+      
+      "usage_contexts": ["sandwich generation content", "motivation", "empowerment", "action items"],
+      "content_type_mapping": ["sandwich_gen", "motivation", "empowerment", "action"],
+      "recommended_volume": 0.25,
+      "duck_ratio": 0.45
+    }
+  },
+  
+  "content_type_mappings": {
+    "validation": {
+      "primary_mood": "supportive_gentle",
+      "alternative_moods": ["reflective_emotional"],
+      "emotional_modifiers": {
+        "deep_comfort": "supportive_gentle",
+        "gentle_reassurance": "supportive_gentle"
+      }
+    },
+    "confessions": {
+      "primary_mood": "reflective_emotional",
+      "alternative_moods": ["supportive_gentle"],
+      "emotional_modifiers": {
+        "vulnerable": "reflective_emotional",
+        "intimate": "reflective_emotional",
+        "supportive": "supportive_gentle"
+      }
+    },
+    "tips": {
+      "primary_mood": "hopeful_uplifting",
+      "alternative_moods": ["energetic_motivating"],
+      "emotional_modifiers": {
+        "encouraging": "hopeful_uplifting",
+        "motivational": "energetic_motivating",
+        "gentle": "supportive_gentle"
+      }
+    },
+    "sandwich_gen": {
+      "primary_mood": "energetic_motivating",
+      "alternative_moods": ["hopeful_uplifting"],
+      "emotional_modifiers": {
+        "high_energy": "energetic_motivating",
+        "encouraging": "hopeful_uplifting",
+        "understanding": "supportive_gentle"
+      }
+    },
+    "chaos": {
+      "primary_mood": "tense_to_calm",
+      "alternative_moods": ["reflective_emotional"],
+      "emotional_modifiers": {
+        "dramatic": "tense_to_calm",
+        "reflective": "reflective_emotional"
+      }
+    },
+    "general": {
+      "primary_mood": "supportive_gentle",
+      "alternative_moods": ["hopeful_uplifting"],
+      "emotional_modifiers": {
+        "neutral": "supportive_gentle",
+        "positive": "hopeful_uplifting"
+      }
+    }
+  },
+  
+  "royalty_free_sources": {
+    "recommended_sources": [
+      {
+        "name": "Pixabay Music",
+        "url": "https://pixabay.com/music/",
+        "license": "Pixabay Content License",
+        "cost": "Free",
+        "quality": "Good",
+        "search_strategy": {
+          "supportive_gentle": ["ambient", "peaceful", "calm", "soft piano", "gentle"],
+          "hopeful_uplifting": ["inspiring", "uplifting", "positive", "bright", "acoustic"],
+          "tense_to_calm": ["cinematic", "dramatic", "emotional journey", "tension"],
+          "reflective_emotional": ["emotional", "contemplative", "sad", "intimate", "piano"],
+          "energetic_motivating": ["energetic", "motivational", "upbeat", "driving", "corporate"]
+        },
+        "download_tips": [
+          "Filter by mood and tempo",
+          "Check duration - prefer 2-5 minute tracks",
+          "Download highest quality available",
+          "Verify license allows commercial use"
+        ]
+      },
+      {
+        "name": "YouTube Audio Library",
+        "url": "https://studio.youtube.com/channel/music",
+        "license": "Creative Commons / YouTube License",
+        "cost": "Free",
+        "quality": "High",
+        "search_strategy": {
+          "supportive_gentle": ["ambient", "acoustic", "peaceful", "meditation"],
+          "hopeful_uplifting": ["acoustic", "happy", "upbeat", "folk"],
+          "tense_to_calm": ["cinematic", "dramatic", "orchestral"],
+          "reflective_emotional": ["emotional", "sad", "ambient", "piano"],
+          "energetic_motivating": ["electronic", "upbeat", "rock", "energetic"]
+        },
+        "download_tips": [
+          "Check attribution requirements",
+          "Download in highest quality",
+          "Note any usage restrictions",
+          "Keep track of artist credits"
+        ]
+      },
+      {
+        "name": "Incompetech",
+        "url": "https://incompetech.com/",
+        "license": "Creative Commons Attribution 4.0",
+        "cost": "Free with attribution",
+        "quality": "Professional",
+        "search_strategy": {
+          "supportive_gentle": ["Ambient", "Peaceful", "Calm"],
+          "hopeful_uplifting": ["Corporate", "Uplifting", "Positive"],
+          "tense_to_calm": ["Cinematic", "Dramatic", "Emotional"],
+          "reflective_emotional": ["Emotional", "Contemplative", "Sad"],
+          "energetic_motivating": ["Energetic", "Rock", "Electronic"]
+        },
+        "attribution": "Music by Kevin MacLeod (incompetech.com)",
+        "download_tips": [
+          "Always include proper attribution",
+          "Check tempo and key information",
+          "Consider purchasing license for no attribution"
+        ]
+      },
+      {
+        "name": "Free Music Archive",
+        "url": "https://freemusicarchive.org/",
+        "license": "Various Creative Commons",
+        "cost": "Free",
+        "quality": "Variable",
+        "search_strategy": {
+          "supportive_gentle": ["Ambient", "Folk", "Instrumental"],
+          "hopeful_uplifting": ["Folk", "Pop", "Acoustic"],
+          "tense_to_calm": ["Experimental", "Ambient", "Post-Rock"],
+          "reflective_emotional": ["Folk", "Ambient", "Singer-Songwriter"],
+          "energetic_motivating": ["Electronic", "Rock", "Hip-Hop"]
+        },
+        "download_tips": [
+          "Carefully check individual license terms",
+          "Quality varies significantly",
+          "Filter by license type needed"
+        ]
+      }
+    ],
+    
+    "premium_sources": [
+      {
+        "name": "Epidemic Sound",
+        "url": "https://www.epidemicsound.com/",
+        "license": "Commercial license included",
+        "cost": "$15-50/month",
+        "quality": "Professional",
+        "benefits": ["High quality", "No attribution required", "Stems available", "Easy licensing"]
+      },
+      {
+        "name": "Artlist",
+        "url": "https://artlist.io/",
+        "license": "Perpetual commercial license",
+        "cost": "$199/year",
+        "quality": "Professional",
+        "benefits": ["Lifetime license", "High quality", "Good search features"]
+      }
+    ]
+  },
+  
+  "file_organization": {
+    "directory_structure": {
+      "base_path": "assets/music/",
+      "mood_directories": {
+        "supportive_gentle": "assets/music/supportive_gentle/",
+        "hopeful_uplifting": "assets/music/hopeful_uplifting/",
+        "tense_to_calm": "assets/music/tense_to_calm/",
+        "reflective_emotional": "assets/music/reflective_emotional/",
+        "energetic_motivating": "assets/music/energetic_motivating/"
+      }
+    },
+    
+    "naming_convention": {
+      "format": "{mood}_{tempo}bpm_{key}_{duration}s_{descriptive_name}_{source}.{ext}",
+      "examples": [
+        "supportive_gentle_80bpm_Cmaj_180s_soft_piano_pixabay.mp3",
+        "hopeful_uplifting_110bpm_Gmaj_240s_acoustic_guitar_incompetech.wav",
+        "reflective_emotional_65bpm_Amin_300s_solo_piano_youtube.mp3"
+      ]
+    },
+    
+    "metadata_file": {
+      "filename": "track_metadata.json",
+      "location": "each mood directory",
+      "structure": {
+        "track_id": "unique identifier",
+        "filename": "actual filename",
+        "mood": "mood category",
+        "tempo": "BPM",
+        "key": "musical key",
+        "duration": "seconds",
+        "source": "where obtained",
+        "license": "license type",
+        "attribution": "required attribution",
+        "tags": ["descriptive tags"],
+        "energy_level": "0.0-1.0",
+        "valence": "0.0-1.0",
+        "arousal": "0.0-1.0",
+        "usage_count": "how many times used",
+        "last_used": "timestamp",
+        "quality_rating": "1-5 stars"
+      }
+    }
+  },
+  
+  "quality_standards": {
+    "audio_requirements": {
+      "format": ["mp3", "wav", "aac"],
+      "minimum_bitrate": "128kbps",
+      "preferred_bitrate": "192kbps or higher",
+      "sample_rate": "44100Hz minimum",
+      "duration_range": [30, 600],
+      "volume_consistency": "normalized to -23 LUFS",
+      "dynamic_range": "minimum 6dB, maximum 20dB"
+    },
+    
+    "musical_requirements": {
+      "fade_requirements": {
+        "fade_in": "2-5 seconds smooth fade",
+        "fade_out": "3-6 seconds smooth fade",
+        "loop_ready": "seamless if track will loop"
+      },
+      "frequency_balance": {
+        "no_mud": "clean low end below 100Hz",
+        "voice_space": "reduced energy 300-3000Hz",
+        "air": "pleasant high frequencies above 8kHz"
+      },
+      "harmonic_content": {
+        "appropriate_complexity": "match mood requirements",
+        "no_clashing": "avoid frequencies that compete with voice",
+        "emotional_appropriateness": "match intended emotional context"
+      }
+    },
+    
+    "technical_validation": {
+      "phase_coherence": "mono-compatible",
+      "peak_levels": "below -3dB",
+      "no_clipping": "clean throughout",
+      "noise_floor": "below -60dB",
+      "artifacts": "no compression artifacts or distortion"
+    }
+  },
+  
+  "usage_guidelines": {
+    "selection_algorithm": {
+      "primary_factors": [
+        "mood match to content type",
+        "emotional context appropriateness", 
+        "duration compatibility",
+        "avoid recent repetition"
+      ],
+      "weighting": {
+        "mood_compatibility": 0.4,
+        "emotional_match": 0.3,
+        "duration_fit": 0.2,
+        "freshness": 0.1
+      }
+    },
+    
+    "mixing_guidelines": {
+      "volume_levels": "Use recommended volume per mood",
+      "ducking": "Apply intelligent ducking based on speech activity",
+      "eq_adjustments": "High-pass filter at 80Hz, gentle mid cut around 1kHz",
+      "compression": "Gentle compression for consistency",
+      "timing": "Fade in over 3 seconds, fade out over 4 seconds"
+    },
+    
+    "content_matching": {
+      "validation_content": "Always supportive_gentle or reflective_emotional",
+      "high_energy_content": "energetic_motivating but watch volume levels",
+      "intimate_content": "reflective_emotional with lower volume",
+      "educational_content": "hopeful_uplifting for clarity",
+      "story_content": "tense_to_calm for narrative arc"
+    }
+  },
+  
+  "automation_features": {
+    "intelligent_selection": {
+      "mood_analysis": "Analyze content for emotional markers",
+      "duration_matching": "Select tracks that fit content length",
+      "variety_enforcement": "Avoid repetition within time window",
+      "quality_preference": "Prefer higher quality and better-rated tracks"
+    },
+    
+    "beat_detection": {
+      "sync_opportunities": "Identify beat markers for precise timing",
+      "transition_points": "Find natural transition moments",
+      "loop_detection": "Identify seamless loop points",
+      "tempo_mapping": "Map tempo changes for dynamic content"
+    }
+  }
+}

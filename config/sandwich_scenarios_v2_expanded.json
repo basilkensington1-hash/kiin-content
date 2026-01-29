@@ -1,0 +1,1602 @@
+{
+  "scenarios": [
+    {
+      "id": "emergency_contact",
+      "hook": "POV: You're the emergency contact for literally everyone",
+      "mood": "overwhelming",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "notification",
+          "text": "School nurse: 'Your daughter has a fever 🤒'",
+          "stress_level": 3
+        },
+        {
+          "type": "phone_call",
+          "text": "Dad's facility: 'He fell, nothing serious but...'",
+          "stress_level": 8
+        },
+        {
+          "type": "text_spam",
+          "text": "Mom: 'TV broken. Very scared. Call me.'",
+          "stress_level": 5
+        },
+        {
+          "type": "urgent",
+          "text": "Teen: 'MOM WHERE ARE YOU I NEED YOU RIGHT NOW'",
+          "stress_level": 7
+        },
+        {
+          "type": "split_screen",
+          "left": "Dr office calling",
+          "right": "Kid texting 'pick me up'",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Why am I everyone's person? When did this happen?",
+      "punchline": "Your phone battery dies and you have a full panic attack",
+      "relief_moment": "Everyone turns out fine. You're not.",
+      "cta": "Tag someone who's everyone's emergency contact 📱",
+      "supportive_ending": "Being needed means being loved. You're doing great. 💕"
+    },
+    {
+      "id": "sunday_military_op",
+      "hook": "POV: Sunday family dinner requires military-level logistics",
+      "mood": "chaotic_love",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "multi_task",
+          "text": "Cut Dad's food + help with science project",
+          "stress_level": 4
+        },
+        {
+          "type": "reminder",
+          "text": "Pills for Mom between making soccer snacks",
+          "stress_level": 3
+        },
+        {
+          "type": "mediation",
+          "text": "Referee: Grandpa vs Teenager political debate",
+          "stress_level": 6
+        },
+        {
+          "type": "translation",
+          "text": "Explain TikTok to Grandma mid-homework check",
+          "stress_level": 5
+        },
+        {
+          "type": "solo",
+          "text": "Clean everything while everyone relaxes",
+          "stress_level": 8
+        }
+      ],
+      "inner_monologue": "I love my family. I love my family. I LOVE my family.",
+      "punchline": "Monday feels like a spa day in comparison",
+      "relief_moment": "Everyone says 'thanks for dinner' at once 🥰",
+      "cta": "Who else is the family dinner MVP? 🍽️",
+      "supportive_ending": "These moments become the memories they treasure most. ✨"
+    },
+    {
+      "id": "wfh_chaos",
+      "hook": "POV: Working from home in the sandwich generation",
+      "mood": "frazzled_professional",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "zoom_bomb",
+          "text": "Kid barges in during client meeting",
+          "stress_level": 7
+        },
+        {
+          "type": "split_screen",
+          "left": "Presenting slides",
+          "right": "Mom calling 5 times",
+          "stress_level": 8
+        },
+        {
+          "type": "notification",
+          "text": "School: 'Pick up your sick child'",
+          "stress_level": 9
+        },
+        {
+          "type": "multi_task",
+          "text": "Type emails while making lunch",
+          "stress_level": 5
+        },
+        {
+          "type": "meltdown",
+          "text": "Explain to boss why you're 'having technical difficulties'",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Professional on top, chaos underneath. Story of my life.",
+      "punchline": "'Sorry, my cat stepped on the keyboard' (it was your life)",
+      "relief_moment": "Somehow you didn't get fired today 🙏",
+      "cta": "WFH sandwich parents unite! 💻",
+      "supportive_ending": "You're pioneering a new way to balance it all. You're amazing. 🌟"
+    },
+    {
+      "id": "dating_disaster",
+      "hook": "POV: Trying to date while sandwiched between generations",
+      "mood": "romantic_comedy_nightmare",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "preparation",
+          "text": "Get ready for date while organizing pills",
+          "stress_level": 4
+        },
+        {
+          "type": "interruption",
+          "text": "Dad calls confused about his TV remote",
+          "stress_level": 6
+        },
+        {
+          "type": "babysitter_drama",
+          "text": "Teen decides NOW to have emotional crisis",
+          "stress_level": 8
+        },
+        {
+          "type": "emergency",
+          "text": "Mom falls in bathroom right as you leave",
+          "stress_level": 10
+        },
+        {
+          "type": "reality_check",
+          "text": "Text date: 'Rain check? My life is imploding'",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Why did I think romance was possible right now?",
+      "punchline": "Date understands. They're sandwich generation too.",
+      "relief_moment": "Reschedule for coffee. Much more realistic 😅",
+      "cta": "Dating while sandwiched is extreme sport! 💕",
+      "supportive_ending": "The right person will understand your beautiful chaos. 💞"
+    },
+    {
+      "id": "financial_juggling",
+      "hook": "POV: Managing finances for three generations",
+      "mood": "economic_acrobatics",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "calculation",
+          "text": "College tuition + assisted living costs",
+          "stress_level": 8
+        },
+        {
+          "type": "insurance_nightmare",
+          "text": "Three different healthcare plans to navigate",
+          "stress_level": 7
+        },
+        {
+          "type": "emergency_fund",
+          "text": "Transmission dies same week as medical bills",
+          "stress_level": 9
+        },
+        {
+          "type": "guilt_spending",
+          "text": "Skip family vacation to pay for Dad's care",
+          "stress_level": 6
+        },
+        {
+          "type": "midnight_math",
+          "text": "Calculate if you can afford groceries AND gas",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "I need three jobs or a miracle. Preferably both.",
+      "punchline": "Excel crashes from too many budget scenarios",
+      "relief_moment": "Tax refund arrives like a gift from heaven 🙌",
+      "cta": "Who else is a financial wizard by necessity? 💰",
+      "supportive_ending": "You're making impossible math work through pure love. Amazing! 🌟"
+    },
+    {
+      "id": "sleep_deprivation",
+      "hook": "POV: Sleep is a luxury you can't afford",
+      "mood": "zombie_exhaustion",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "midnight_call",
+          "text": "Mom: 'I think someone is in the house'",
+          "stress_level": 7
+        },
+        {
+          "type": "homework_crisis",
+          "text": "Kid remembers 20-page report due tomorrow",
+          "stress_level": 8
+        },
+        {
+          "type": "medication_alarm",
+          "text": "2 AM, 4 AM, 6 AM pill reminders",
+          "stress_level": 5
+        },
+        {
+          "type": "anxiety_spiral",
+          "text": "Lie awake worrying about everyone but yourself",
+          "stress_level": 9
+        },
+        {
+          "type": "morning_reality",
+          "text": "Alarm goes off after 90 minutes total sleep",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Coffee is a food group now, right?",
+      "punchline": "Fall asleep standing up at school pickup",
+      "relief_moment": "Everyone naps simultaneously for 20 blessed minutes 😴",
+      "cta": "Sleep-deprived sandwich parents unite! 😴",
+      "supportive_ending": "You're running on love, not sleep. That's superhuman. 💪"
+    },
+    {
+      "id": "healthcare_navigation",
+      "hook": "POV: You're a healthcare system translator for three generations",
+      "mood": "medical_maze_runner",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "appointment_tetris",
+          "text": "Schedule kid's physical between parent's specialists",
+          "stress_level": 6
+        },
+        {
+          "type": "insurance_chaos",
+          "text": "Three different networks, none overlap",
+          "stress_level": 8
+        },
+        {
+          "type": "medication_confusion",
+          "text": "Pharmacy says Dad's script 'doesn't exist'",
+          "stress_level": 7
+        },
+        {
+          "type": "referral_runaround",
+          "text": "Need pre-auth for already-scheduled MRI",
+          "stress_level": 9
+        },
+        {
+          "type": "billing_nightmare",
+          "text": "Receive bill for procedure covered by insurance",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "I didn't go to medical school but I'm basically a doctor now.",
+      "punchline": "Know more medical acronyms than actual doctors",
+      "relief_moment": "One appointment goes smoothly and on time 🙏",
+      "cta": "Healthcare navigators deserve honorary degrees! 🏥",
+      "supportive_ending": "You're protecting their health with warrior-level advocacy. 🛡️"
+    },
+    {
+      "id": "technology_gap",
+      "hook": "POV: Tech support for both ends of the age spectrum",
+      "mood": "digital_diplomat",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "tutorial_exhaustion",
+          "text": "Explain Zoom for the 47th time to Mom",
+          "stress_level": 5
+        },
+        {
+          "type": "teenage_meltdown",
+          "text": "Kid: 'WiFi is down and my life is OVER'",
+          "stress_level": 6
+        },
+        {
+          "type": "password_crisis",
+          "text": "Dad forgot every password he's ever created",
+          "stress_level": 7
+        },
+        {
+          "type": "software_update",
+          "text": "Phone update breaks everything Grandma knew",
+          "stress_level": 8
+        },
+        {
+          "type": "helpdesk_mode",
+          "text": "Become family IT department, available 24/7",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "I'm fluent in three different tech languages now.",
+      "punchline": "Your screen time report shows 12 hours of 'helping others'",
+      "relief_moment": "Grandpa successfully video calls without help 📱",
+      "cta": "Family tech support heroes, stand up! 💻",
+      "supportive_ending": "You bridge generations through technology. That's beautiful! 🌉"
+    },
+    {
+      "id": "meal_planning_madness",
+      "hook": "POV: Cooking for dietary restrictions from ages 8 to 80",
+      "mood": "culinary_chaos",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "diet_requirements",
+          "text": "Low sodium + gluten-free + kid who only eats beige food",
+          "stress_level": 7
+        },
+        {
+          "type": "grocery_confusion",
+          "text": "Read every label for hidden ingredients",
+          "stress_level": 5
+        },
+        {
+          "type": "texture_issues",
+          "text": "Puree for Dad, crunchy for kid, normal for you",
+          "stress_level": 6
+        },
+        {
+          "type": "medication_timing",
+          "text": "Dinner must be before 6 PM but after 4 PM pills",
+          "stress_level": 8
+        },
+        {
+          "type": "cleanup_reality",
+          "text": "Three different meals = infinite dishes",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "I'm running a restaurant with very difficult customers.",
+      "punchline": "Order pizza and call it 'family bonding'",
+      "relief_moment": "Everyone actually likes the same meal 🙌",
+      "cta": "Sandwich generation chefs deserve Michelin stars! 👨‍🍳",
+      "supportive_ending": "You nourish bodies and souls across generations. Amazing! 💖"
+    },
+    {
+      "id": "exercise_attempts",
+      "hook": "POV: Trying to maintain your health while caring for everyone else's",
+      "mood": "fitness_frustration",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "gym_plans",
+          "text": "Wake up early for workout, Mom needs emergency help",
+          "stress_level": 6
+        },
+        {
+          "type": "home_workout",
+          "text": "Do yoga while supervising homework",
+          "stress_level": 5
+        },
+        {
+          "type": "interruption_cycle",
+          "text": "Every plank becomes a 'Mom, where is...' session",
+          "stress_level": 7
+        },
+        {
+          "type": "guilt_exercise",
+          "text": "Feel selfish for taking 30 minutes for yourself",
+          "stress_level": 8
+        },
+        {
+          "type": "reality_acceptance",
+          "text": "Running errands counts as cardio, right?",
+          "stress_level": 4
+        }
+      ],
+      "inner_monologue": "Self-care is not selfish. Self-care is not selfish. Self-care...",
+      "punchline": "Your Fitbit thinks you're training for Olympics (it's just life)",
+      "relief_moment": "Complete one workout without interruption 💪",
+      "cta": "Who else exercises in 3-minute increments? 🏃‍♀️",
+      "supportive_ending": "Prioritizing your health helps you care for theirs. You matter! 🌟"
+    },
+    {
+      "id": "social_life_extinction",
+      "hook": "POV: Friends start to feel like urban legends",
+      "mood": "social_isolation",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "cancellation_pattern",
+          "text": "Cancel plans for the 5th time this month",
+          "stress_level": 6
+        },
+        {
+          "type": "scheduling_impossibility",
+          "text": "Free time = doctor appointments or emergencies",
+          "stress_level": 7
+        },
+        {
+          "type": "conversation_gap",
+          "text": "Realize you only talk about medications and kids",
+          "stress_level": 5
+        },
+        {
+          "type": "invitation_decline",
+          "text": "Stop getting invited because you always say no",
+          "stress_level": 8
+        },
+        {
+          "type": "isolation_reality",
+          "text": "Grocery store cashier becomes your closest confidant",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "I used to be fun. I think. Did I imagine that?",
+      "punchline": "Best friend is now your Uber Eats delivery person",
+      "relief_moment": "One friend truly gets it and sticks around 💕",
+      "cta": "Sandwich generation: where friendships go to hibernate! 😴",
+      "supportive_ending": "Real friends wait for you to come back. And you will. 🌈"
+    },
+    {
+      "id": "weekend_rest_myth",
+      "hook": "POV: 'Weekend rest' is a beautiful fantasy",
+      "mood": "exhausted_irony",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "saturday_schedule",
+          "text": "Soccer, grocery store, Mom's hair appointment, kid's birthday party",
+          "stress_level": 7
+        },
+        {
+          "type": "sunday_expectations",
+          "text": "Family wants 'relaxing' day that requires massive coordination",
+          "stress_level": 6
+        },
+        {
+          "type": "chore_marathon",
+          "text": "Catch up on laundry while meal prepping",
+          "stress_level": 5
+        },
+        {
+          "type": "emergency_weekend",
+          "text": "Dad's urgent care visit ruins 'day off'",
+          "stress_level": 9
+        },
+        {
+          "type": "sunday_scaries",
+          "text": "Monday feels easier than weekends",
+          "stress_level": 8
+        }
+      ],
+      "inner_monologue": "Weekends are just weekdays with more people home.",
+      "punchline": "Schedule 'rest' like a doctor's appointment",
+      "relief_moment": "Everyone naps and you read 3 pages of a book 📚",
+      "cta": "Who else needs a weekend from their weekend? 😅",
+      "supportive_ending": "Your 'rest' is love in action. That energy feeds your family. 💞"
+    },
+    {
+      "id": "career_sacrifice_guilt",
+      "hook": "POV: Watching your career dreams adjust to reality",
+      "mood": "professional_compromise",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "promotion_pass",
+          "text": "Skip promotion opportunity that requires travel",
+          "stress_level": 7
+        },
+        {
+          "type": "networking_nightmare",
+          "text": "Leave conference early for Mom's emergency",
+          "stress_level": 8
+        },
+        {
+          "type": "flexibility_reality",
+          "text": "Choose job based on caregiver schedule, not dreams",
+          "stress_level": 6
+        },
+        {
+          "type": "guilt_spiral",
+          "text": "Feel guilty for wanting professional success",
+          "stress_level": 9
+        },
+        {
+          "type": "perspective_shift",
+          "text": "Redefine success as 'everyone survived today'",
+          "stress_level": 5
+        }
+      ],
+      "inner_monologue": "I used to have ambition. Now I have responsibility.",
+      "punchline": "LinkedIn status: 'Chief Executive of Everything Officer'",
+      "relief_moment": "Boss understands and offers flexible schedule 🙏",
+      "cta": "Career pivot artists, unite! 💼",
+      "supportive_ending": "Success looks different when measured in love and care. You're winning. 🏆"
+    },
+    {
+      "id": "housing_decision_stress",
+      "hook": "POV: Every housing decision affects three generations",
+      "mood": "real_estate_complexity",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "accessibility_audit",
+          "text": "Need wheelchair ramp + good schools + affordable",
+          "stress_level": 8
+        },
+        {
+          "type": "proximity_calculation",
+          "text": "Close to work + doctors + kids' activities = impossible",
+          "stress_level": 7
+        },
+        {
+          "type": "space_requirements",
+          "text": "Need office + guest room + medical equipment storage",
+          "stress_level": 6
+        },
+        {
+          "type": "future_planning",
+          "text": "Will this work when they need more care?",
+          "stress_level": 9
+        },
+        {
+          "type": "compromise_reality",
+          "text": "Perfect house doesn't exist for sandwich families",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "I'm shopping for a unicorn that costs less than gold.",
+      "punchline": "Realtor suggests you lower your standards (again)",
+      "relief_moment": "Find place that checks 70% of boxes 🏠",
+      "cta": "Sandwich generation house hunting is extreme sport! 🏡",
+      "supportive_ending": "Home is where your family feels loved, not where it looks perfect. ✨"
+    },
+    {
+      "id": "end_of_life_conversations",
+      "hook": "POV: Having 'the talk' while kids are listening",
+      "mood": "delicate_balance",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "timing_challenge",
+          "text": "Start serious conversation, kid walks in",
+          "stress_level": 7
+        },
+        {
+          "type": "emotional_navigation",
+          "text": "Protect kids while honoring parent's wishes",
+          "stress_level": 9
+        },
+        {
+          "type": "practical_planning",
+          "text": "Discuss DNR while making school lunches",
+          "stress_level": 8
+        },
+        {
+          "type": "generational_perspective",
+          "text": "Kids think Grandpa is immortal, you know better",
+          "stress_level": 10
+        },
+        {
+          "type": "role_reversal",
+          "text": "Become the parent to your parent",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "How do I protect innocence while preparing for reality?",
+      "punchline": "Kid asks if Grandpa will be in heaven during math homework",
+      "relief_moment": "Have honest, age-appropriate conversation that helps everyone 💕",
+      "cta": "The hardest conversations require the biggest hearts. 💗",
+      "supportive_ending": "You're teaching kids about love, loss, and life's preciousness. Beautiful. 🌟"
+    },
+    {
+      "id": "morning_chaos_olympics",
+      "hook": "POV: Getting everyone out the door is a tactical operation",
+      "mood": "military_precision_panic",
+      "season": "school_year",
+      "chaos_moments": [
+        {
+          "type": "wake_up_relay",
+          "text": "Rouse three generations with different needs",
+          "stress_level": 5
+        },
+        {
+          "type": "medication_timing",
+          "text": "Pills with breakfast, after breakfast, separate from vitamins",
+          "stress_level": 6
+        },
+        {
+          "type": "outfit_approval",
+          "text": "Kid's clothes + weather appropriate + dignity for Mom",
+          "stress_level": 7
+        },
+        {
+          "type": "transportation_tetris",
+          "text": "Drop off, pick up, appointments, work schedule",
+          "stress_level": 8
+        },
+        {
+          "type": "forgotten_essentials",
+          "text": "Lunch, homework, pills, phone, dignity",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "How do military generals make this look easy?",
+      "punchline": "Arrive everywhere 10 minutes late but everyone's alive",
+      "relief_moment": "One morning where everything goes to plan 🙌",
+      "cta": "Morning routine masters deserve medals! 🏅",
+      "supportive_ending": "Every successful morning is a small miracle you orchestrate. 🎵"
+    },
+    {
+      "id": "sandwich_guilt_special",
+      "hook": "POV: Guilt comes in three delicious flavors",
+      "mood": "emotional_sandwich",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "kid_guilt",
+          "text": "Miss school play for Mom's doctor appointment",
+          "stress_level": 7
+        },
+        {
+          "type": "parent_guilt",
+          "text": "Dad in assisted living feels abandoned",
+          "stress_level": 8
+        },
+        {
+          "type": "self_guilt",
+          "text": "Feel guilty for wanting 20 minutes alone",
+          "stress_level": 9
+        },
+        {
+          "type": "comparison_guilt",
+          "text": "Other families seem to have it all figured out",
+          "stress_level": 6
+        },
+        {
+          "type": "guilt_inception",
+          "text": "Feel guilty about feeling guilty",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Guilt is my constant companion. Should I feel guilty about that?",
+      "punchline": "Start therapy to discuss your guilt about needing therapy",
+      "relief_moment": "Realize everyone is struggling, you're not alone 💙",
+      "cta": "Guilt collectors anonymous meeting is now open! 😅",
+      "supportive_ending": "Guilt means you care deeply. That's a superpower, not a weakness. 💪"
+    },
+    {
+      "id": "emergency_preparedness",
+      "hook": "POV: Your emergency kit has emergency kits",
+      "mood": "preparedness_paranoia",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "medical_readiness",
+          "text": "Hospital bags pre-packed for three people",
+          "stress_level": 6
+        },
+        {
+          "type": "contact_management",
+          "text": "Everyone's doctors programmed in your phone",
+          "stress_level": 5
+        },
+        {
+          "type": "medication_backup",
+          "text": "Extra prescriptions in car, purse, office",
+          "stress_level": 7
+        },
+        {
+          "type": "scenario_planning",
+          "text": "Have Plan A through Z for every possible crisis",
+          "stress_level": 8
+        },
+        {
+          "type": "overthinking_reality",
+          "text": "Prepare for emergencies that never come",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Better overprepared than scrambling in crisis.",
+      "punchline": "Emergency contacts have emergency contacts",
+      "relief_moment": "Preparedness pays off during actual emergency 🚨",
+      "cta": "Preparedness pros, what's in your kit? 🏥",
+      "supportive_ending": "Your vigilance protects everyone you love. That's heroic. 🦸‍♀️"
+    },
+    {
+      "id": "mental_load_management",
+      "hook": "POV: Your brain is a 24/7 family management system",
+      "mood": "cognitive_overload",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "scheduling_matrix",
+          "text": "Track 47 appointments across three calendars",
+          "stress_level": 8
+        },
+        {
+          "type": "medication_database",
+          "text": "Remember dosages, timing, side effects for everyone",
+          "stress_level": 7
+        },
+        {
+          "type": "preference_tracking",
+          "text": "Know food allergies, favorite colors, trigger topics",
+          "stress_level": 6
+        },
+        {
+          "type": "emotional_monitoring",
+          "text": "Track everyone's moods, needs, energy levels",
+          "stress_level": 9
+        },
+        {
+          "type": "future_planning",
+          "text": "Think 5 steps ahead for every scenario",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "I'm Google Calendar with feelings.",
+      "punchline": "Forget your own birthday, remember everyone else's shoe sizes",
+      "relief_moment": "Someone else remembers an important detail 🧠",
+      "cta": "Mental load managers deserve honorary IT degrees! 💻",
+      "supportive_ending": "Your mind holds your family together. That's computational love. 🤖💕"
+    },
+    {
+      "id": "birthday_party_logistics",
+      "hook": "POV: Kids' birthday parties require United Nations coordination",
+      "mood": "celebration_stress",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "guest_management",
+          "text": "Navigate divorced parents, step-families, allergies",
+          "stress_level": 7
+        },
+        {
+          "type": "grandparent_inclusion",
+          "text": "Make party accessible for wheelchairs and hearing aids",
+          "stress_level": 6
+        },
+        {
+          "type": "dietary_planning",
+          "text": "Gluten-free cake that doesn't taste like cardboard",
+          "stress_level": 5
+        },
+        {
+          "type": "timing_precision",
+          "text": "After nap time, before medication time, during good mood window",
+          "stress_level": 8
+        },
+        {
+          "type": "cleanup_reality",
+          "text": "Pinterest expectations vs. actual exhausted parent reality",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Why does celebrating require so much stress?",
+      "punchline": "Kid asks why you look tired during their 'fun' day",
+      "relief_moment": "Everyone has genuine fun despite the chaos 🎉",
+      "cta": "Party planning pros, share your survival tips! 🎂",
+      "supportive_ending": "You create magical memories while juggling impossible logistics. Amazing! ✨"
+    },
+    {
+      "id": "sick_day_multiplication",
+      "hook": "POV: One person gets sick, everyone's schedule implodes",
+      "mood": "contagion_chaos",
+      "season": "flu_season",
+      "chaos_moments": [
+        {
+          "type": "patient_zero",
+          "text": "Kid brings home plague from school",
+          "stress_level": 5
+        },
+        {
+          "type": "containment_failure",
+          "text": "Try to protect immunocompromised parent, fail",
+          "stress_level": 8
+        },
+        {
+          "type": "caregiver_down",
+          "text": "You get sick but still have to function",
+          "stress_level": 9
+        },
+        {
+          "type": "medication_complexity",
+          "text": "Research drug interactions for three different illnesses",
+          "stress_level": 7
+        },
+        {
+          "type": "recovery_rotation",
+          "text": "Everyone gets better in waves, never all at once",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Sick days are myths when you're the caregiver.",
+      "punchline": "Order enough soup to feed small army",
+      "relief_moment": "Last person recovers, house is finally healthy again 🏥",
+      "cta": "Sandwich family sick days are survival mode! 🤒",
+      "supportive_ending": "You nurse everyone back to health while ignoring your own needs. Hero status. 🦸‍♀️"
+    },
+    {
+      "id": "graduation_generation_gap",
+      "hook": "POV: Kid's graduation involves more logistics than royal wedding",
+      "mood": "ceremonial_complexity",
+      "season": "spring",
+      "chaos_moments": [
+        {
+          "type": "seating_politics",
+          "text": "Divorced grandparents need 50-foot buffer zone",
+          "stress_level": 7
+        },
+        {
+          "type": "accessibility_planning",
+          "text": "Wheelchair access for Grandpa, hearing loop for Grandma",
+          "stress_level": 6
+        },
+        {
+          "type": "photo_coordination",
+          "text": "Everyone wants the perfect shot, nobody agrees on perfect",
+          "stress_level": 8
+        },
+        {
+          "type": "restaurant_nightmare",
+          "text": "Find place that accommodates dietary restrictions and budget",
+          "stress_level": 9
+        },
+        {
+          "type": "emotional_management",
+          "text": "Happy tears from you, confused tears from great-grandma",
+          "stress_level": 5
+        }
+      ],
+      "inner_monologue": "This should be simple celebration. Why is nothing simple?",
+      "punchline": "Need security detail for family dinner",
+      "relief_moment": "Everyone forgets drama when kid crosses stage 🎓",
+      "cta": "Graduation coordinators deserve event planning degrees! 🎉",
+      "supportive_ending": "You orchestrated love across generations for one beautiful moment. Magic! ✨"
+    },
+    {
+      "id": "vacation_planning_nightmare",
+      "hook": "POV: Family vacation requires State Department level coordination",
+      "mood": "travel_logistics_hell",
+      "season": "summer",
+      "chaos_moments": [
+        {
+          "type": "accessibility_research",
+          "text": "Find resort with ramps, grab bars, and kid-friendly activities",
+          "stress_level": 8
+        },
+        {
+          "type": "medical_preparation",
+          "text": "Pack pharmacy, research nearest hospitals, call doctors",
+          "stress_level": 7
+        },
+        {
+          "type": "dietary_coordination",
+          "text": "Restaurant menu approval process for three generations",
+          "stress_level": 6
+        },
+        {
+          "type": "transportation_tetris",
+          "text": "Wheelchair, car seats, luggage, and sanity",
+          "stress_level": 9
+        },
+        {
+          "type": "itinerary_impossibility",
+          "text": "Balance rest, adventure, medical needs, and fun",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Staycation is looking better by the minute.",
+      "punchline": "Vacation planning more stressful than actual work",
+      "relief_moment": "Everyone enjoys one perfect family moment 📸",
+      "cta": "Vacation planners deserve travel agent salaries! ✈️",
+      "supportive_ending": "You create adventures that span generations. That's pure magic! 🌟"
+    },
+    {
+      "id": "car_seat_to_wheelchair",
+      "hook": "POV: Your car accommodates every mobility need known to humanity",
+      "mood": "automotive_adaptation",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "equipment_tetris",
+          "text": "Fit car seat, wheelchair, walker, and groceries",
+          "stress_level": 6
+        },
+        {
+          "type": "transfer_training",
+          "text": "Become expert at helping bodies in and out safely",
+          "stress_level": 7
+        },
+        {
+          "type": "medical_mobile",
+          "text": "Glove compartment is basically traveling pharmacy",
+          "stress_level": 5
+        },
+        {
+          "type": "emergency_ready",
+          "text": "Hospital bags permanently in trunk",
+          "stress_level": 8
+        },
+        {
+          "type": "comfort_coordination",
+          "text": "Temperature controls that make everyone happy (impossible)",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "My car is basically a medical transport vehicle with snacks.",
+      "punchline": "AAA membership includes 'family crisis counseling'",
+      "relief_moment": "Everyone gets safely from A to B without incident 🚗",
+      "cta": "Mobile care unit drivers, unite! 🚙",
+      "supportive_ending": "Your car carries more than people - it carries love across generations. 💕"
+    },
+    {
+      "id": "homework_help_across_decades",
+      "hook": "POV: Explaining Common Core math while teaching iPad basics",
+      "mood": "educational_translation",
+      "season": "school_year",
+      "chaos_moments": [
+        {
+          "type": "math_confusion",
+          "text": "Kid's homework makes no sense to you or Grandpa",
+          "stress_level": 7
+        },
+        {
+          "type": "technology_tutorial",
+          "text": "Teach Grandma Zoom while helping with fractions",
+          "stress_level": 6
+        },
+        {
+          "type": "generation_clash",
+          "text": "Three different learning styles at one kitchen table",
+          "stress_level": 8
+        },
+        {
+          "type": "attention_juggling",
+          "text": "Everyone needs help at exactly the same time",
+          "stress_level": 9
+        },
+        {
+          "type": "knowledge_gaps",
+          "text": "Google becomes your teaching assistant",
+          "stress_level": 5
+        }
+      ],
+      "inner_monologue": "I'm running a three-ring educational circus.",
+      "punchline": "Kid explains TikTok to Grandpa better than you explain math",
+      "relief_moment": "Multi-generational learning success happens 📚",
+      "cta": "Multi-level tutors deserve teaching credentials! 🎓",
+      "supportive_ending": "You facilitate learning across generations. That's educational magic! ✨"
+    },
+    {
+      "id": "grocery_store_expedition",
+      "hook": "POV: Grocery shopping becomes UN humanitarian mission",
+      "mood": "retail_reconnaissance",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "list_management",
+          "text": "Three shopping lists with conflicting requirements",
+          "stress_level": 6
+        },
+        {
+          "type": "cart_logistics",
+          "text": "Accommodate walker, impatient kid, and actual groceries",
+          "stress_level": 7
+        },
+        {
+          "type": "dietary_detective",
+          "text": "Read every label for allergens, sodium, sugar, additives",
+          "stress_level": 8
+        },
+        {
+          "type": "checkout_chaos",
+          "text": "Pay while managing medications pickup and bathroom emergency",
+          "stress_level": 9
+        },
+        {
+          "type": "loading_tetris",
+          "text": "Fit everything in car without crushing anyone or anything",
+          "stress_level": 5
+        }
+      ],
+      "inner_monologue": "Military operations have simpler logistics than grocery shopping.",
+      "punchline": "Self-checkout becomes group activity requiring three generations",
+      "relief_moment": "Everyone gets what they need without meltdowns 🛒",
+      "cta": "Grocery shopping coordinators deserve combat pay! 🛍️",
+      "supportive_ending": "You nourish your family's bodies and navigate their needs with love. Amazing! 💕"
+    },
+    {
+      "id": "bedtime_routine_marathon",
+      "hook": "POV: Bedtime takes 3 hours and involves 7 different protocols",
+      "mood": "nocturnal_negotiations",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "medication_timing",
+          "text": "Evening pills with food, without food, an hour apart",
+          "stress_level": 6
+        },
+        {
+          "type": "comfort_choreography",
+          "text": "Tuck in kid, help parent to bed, check on everyone twice",
+          "stress_level": 7
+        },
+        {
+          "type": "safety_patrol",
+          "text": "Night lights, fall alarms, baby monitors for all ages",
+          "stress_level": 5
+        },
+        {
+          "type": "anxiety_management",
+          "text": "Soothe fears about tomorrow, next week, next year",
+          "stress_level": 8
+        },
+        {
+          "type": "personal_collapse",
+          "text": "Finally lie down and remember 47 things you forgot",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Bedtime routine requires project management skills.",
+      "punchline": "Fall asleep fully dressed with shoes on",
+      "relief_moment": "Everyone sleeps peacefully for entire night 🌙",
+      "cta": "Bedtime coordinators work harder than air traffic controllers! 😴",
+      "supportive_ending": "You tuck in the whole world with love. That's pure tenderness. 💗"
+    },
+    {
+      "id": "appointment_scheduling_tetris",
+      "hook": "POV: Scheduling appointments requires advanced mathematics degree",
+      "mood": "calendar_chaos",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "availability_matrix",
+          "text": "Find time that works for 3 schedules and 2 doctors",
+          "stress_level": 8
+        },
+        {
+          "type": "transportation_planning",
+          "text": "Who drives, who stays with whom, who picks up kid",
+          "stress_level": 7
+        },
+        {
+          "type": "preparation_coordination",
+          "text": "Fasting labs, medication holds, insurance cards",
+          "stress_level": 6
+        },
+        {
+          "type": "contingency_planning",
+          "text": "Backup plans for appointments running late",
+          "stress_level": 9
+        },
+        {
+          "type": "rescheduling_domino",
+          "text": "One change creates 5 more scheduling conflicts",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "NASA mission control has simpler coordination requirements.",
+      "punchline": "Calendar app crashes from overuse",
+      "relief_moment": "All appointments happen as planned 📅",
+      "cta": "Appointment coordinators deserve honorary medical degrees! 🏥",
+      "supportive_ending": "Your scheduling genius keeps everyone healthy. That's life-saving logistics! 🌟"
+    },
+    {
+      "id": "laundry_mountain_expedition",
+      "hook": "POV: Laundry for three generations requires sherpa guide",
+      "mood": "textile_overwhelm",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "sorting_science",
+          "text": "Medical garments, school uniforms, delicate fabrics",
+          "stress_level": 5
+        },
+        {
+          "type": "stain_investigation",
+          "text": "What is this? Do I want to know? How do I remove it?",
+          "stress_level": 6
+        },
+        {
+          "type": "timing_coordination",
+          "text": "Washer schedule around everyone's clothing needs",
+          "stress_level": 7
+        },
+        {
+          "type": "folding_futility",
+          "text": "Clean clothes live in baskets permanently",
+          "stress_level": 8
+        },
+        {
+          "type": "sock_mystery",
+          "text": "Where do they go? Seriously, where?",
+          "stress_level": 4
+        }
+      ],
+      "inner_monologue": "Laundry multiplies when no one is looking.",
+      "punchline": "Buy new socks instead of finding missing ones",
+      "relief_moment": "Everyone has clean clothes at the same time 👕",
+      "cta": "Laundry mountain climbers deserve expedition medals! 🧺",
+      "supportive_ending": "You keep everyone clean and comfortable. That's love in fabric form. 💕"
+    },
+    {
+      "id": "gift_giving_diplomacy",
+      "hook": "POV: Holiday gift shopping requires international relations degree",
+      "mood": "present_pressure",
+      "season": "holidays",
+      "chaos_moments": [
+        {
+          "type": "budget_balancing",
+          "text": "Meaningful gifts for everyone within impossible budget",
+          "stress_level": 7
+        },
+        {
+          "type": "preference_research",
+          "text": "Track wishes across three generations and changing interests",
+          "stress_level": 6
+        },
+        {
+          "type": "accessibility_consideration",
+          "text": "Large print books, easy-open packages, age-appropriate",
+          "stress_level": 5
+        },
+        {
+          "type": "wrapping_logistics",
+          "text": "Hide packages from curious eyes while accessibility-wrapping",
+          "stress_level": 8
+        },
+        {
+          "type": "reaction_management",
+          "text": "Ensure everyone feels equally loved and remembered",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Gift giving is emotional minefield with pretty bows.",
+      "punchline": "Spend more on gifts than yourself, wrap them in free grocery bags",
+      "relief_moment": "Everyone loves their gifts and feels special 🎁",
+      "cta": "Holiday diplomats deserve Nobel Peace Prizes! 🎄",
+      "supportive_ending": "Your thoughtful gifts wrap love across generations. That's pure magic! ✨"
+    },
+    {
+      "id": "snow_day_salvation",
+      "hook": "POV: Snow day throws carefully planned week into beautiful chaos",
+      "mood": "weather_disruption",
+      "season": "winter",
+      "chaos_moments": [
+        {
+          "type": "work_scramble",
+          "text": "Find childcare for unexpected day off",
+          "stress_level": 8
+        },
+        {
+          "type": "cabin_fever",
+          "text": "Keep three generations entertained indoors",
+          "stress_level": 7
+        },
+        {
+          "type": "snow_removal",
+          "text": "Clear paths for wheelchair while kids build snowmen",
+          "stress_level": 6
+        },
+        {
+          "type": "power_concerns",
+          "text": "Backup plan for medical equipment if electricity fails",
+          "stress_level": 9
+        },
+        {
+          "type": "unexpected_joy",
+          "text": "Everyone actually enjoys forced family time",
+          "stress_level": 3
+        }
+      ],
+      "inner_monologue": "Why do weather emergencies feel like family bonding opportunities?",
+      "punchline": "Make snow ice cream while power is still on",
+      "relief_moment": "Perfect family snow day creates magical memory ❄️",
+      "cta": "Snow day survivors know how to find silver linings! ⛄",
+      "supportive_ending": "You turn disruption into connection. That's love finding a way. 💕"
+    },
+    {
+      "id": "back_to_school_logistics",
+      "hook": "POV: Back-to-school prep rivals corporate merger in complexity",
+      "mood": "academic_preparation_panic",
+      "season": "late_summer",
+      "chaos_moments": [
+        {
+          "type": "supply_shopping",
+          "text": "Navigate school lists while accommodating family budget",
+          "stress_level": 6
+        },
+        {
+          "type": "schedule_coordination",
+          "text": "New school times affect everyone's care routine",
+          "stress_level": 7
+        },
+        {
+          "type": "emergency_contacts",
+          "text": "Update forms to include backup caregivers for family",
+          "stress_level": 5
+        },
+        {
+          "type": "health_documentation",
+          "text": "School physicals, medication forms, allergy alerts",
+          "stress_level": 8
+        },
+        {
+          "type": "emotional_preparation",
+          "text": "Help kid adjust while managing your own transition anxiety",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Summer was chaotic but at least it was predictable chaos.",
+      "punchline": "Label everything including your sanity",
+      "relief_moment": "First day goes smoothly for everyone 🎒",
+      "cta": "Back-to-school coordinators deserve education administration degrees! 📚",
+      "supportive_ending": "You launch new school years with love and preparation. Academic excellence! 🌟"
+    },
+    {
+      "id": "summer_camp_survival",
+      "hook": "POV: Summer camp logistics require military contractor experience",
+      "mood": "seasonal_coordination_chaos",
+      "season": "summer",
+      "chaos_moments": [
+        {
+          "type": "camp_selection",
+          "text": "Find camps that accommodate family schedule and budget",
+          "stress_level": 7
+        },
+        {
+          "type": "transportation_relay",
+          "text": "Camp dropoff between parent doctor visits",
+          "stress_level": 8
+        },
+        {
+          "type": "activity_coordination",
+          "text": "Swimming + art + sports = three different supply lists",
+          "stress_level": 6
+        },
+        {
+          "type": "lunch_logistics",
+          "text": "Pack camp lunch while preparing parent's special diet",
+          "stress_level": 5
+        },
+        {
+          "type": "pickup_precision",
+          "text": "Late pickup fees vs. leaving parent alone vs. impossible timing",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Summer should be relaxing. Who decided that?",
+      "punchline": "September can't come soon enough (but also don't rush summer)",
+      "relief_moment": "Kid loves camp and makes new friends 🏕️",
+      "cta": "Summer camp coordinators deserve recreational therapy licenses! ☀️",
+      "supportive_ending": "You create magical summers while managing impossible logistics. Amazing! ✨"
+    },
+    {
+      "id": "pharmacy_pickup_marathon",
+      "hook": "POV: Pharmacy visits are more frequent than coffee shop trips",
+      "mood": "prescription_pilgrimage",
+      "season": "any",
+      "chaos_moments": [
+        {
+          "type": "timing_coordination",
+          "text": "Pick up prescriptions during kid's practice",
+          "stress_level": 5
+        },
+        {
+          "type": "insurance_battles",
+          "text": "Prior authorization expired overnight, naturally",
+          "stress_level": 8
+        },
+        {
+          "type": "medication_reconciliation",
+          "text": "Verify everything matches doctor's orders",
+          "stress_level": 6
+        },
+        {
+          "type": "cost_calculation",
+          "text": "Calculate which medications you can afford this month",
+          "stress_level": 9
+        },
+        {
+          "type": "organization_system",
+          "text": "Sort pills into weekly organizers like pharmaceutical librarian",
+          "stress_level": 7
+        }
+      ],
+      "inner_monologue": "I should get frequent flyer points for pharmacy visits.",
+      "punchline": "Pharmacist knows your coffee order and life story",
+      "relief_moment": "All prescriptions ready, covered by insurance, no issues 💊",
+      "cta": "Pharmacy frequent flyers deserve loyalty discounts! 🏥",
+      "supportive_ending": "Your medication management keeps everyone healthy. That's precision care! 💕"
+    },
+    {
+      "id": "birthday_month_madness",
+      "hook": "POV: Family birthdays cluster like they're personally attacking you",
+      "mood": "celebration_overload",
+      "season": "birthday_months",
+      "chaos_moments": [
+        {
+          "type": "gift_budget_crisis",
+          "text": "Four birthdays in three weeks, one paycheck",
+          "stress_level": 8
+        },
+        {
+          "type": "party_planning_overlap",
+          "text": "Kid's party, grandparent celebration, your own forgotten birthday",
+          "stress_level": 7
+        },
+        {
+          "type": "cake_coordination",
+          "text": "Sugar-free, gluten-free, fun-free options that please everyone",
+          "stress_level": 6
+        },
+        {
+          "type": "energy_management",
+          "text": "Be enthusiastic for everyone while internally exhausted",
+          "stress_level": 9
+        },
+        {
+          "type": "memory_making",
+          "text": "Document everything while actually living it",
+          "stress_level": 5
+        }
+      ],
+      "inner_monologue": "Who decided everyone should be born in the same month?",
+      "punchline": "Order birthday cake in bulk, freeze for later celebrations",
+      "relief_moment": "Everyone feels celebrated and loved despite chaos 🎂",
+      "cta": "Birthday month survivors deserve party planning degrees! 🎉",
+      "supportive_ending": "You create celebration magic across generations. That's pure joy! ✨"
+    },
+    {
+      "id": "tax_season_sandwich_edition",
+      "hook": "POV: Tax season with dependents, medical expenses, and care costs",
+      "mood": "financial_documentation_nightmare",
+      "season": "spring",
+      "chaos_moments": [
+        {
+          "type": "receipt_archaeology",
+          "text": "Dig through year of medical receipts for three people",
+          "stress_level": 7
+        },
+        {
+          "type": "dependent_classification",
+          "text": "Who counts as what dependent when?",
+          "stress_level": 8
+        },
+        {
+          "type": "care_expense_tracking",
+          "text": "Daycare + eldercare + medical = tax nightmare",
+          "stress_level": 9
+        },
+        {
+          "type": "form_confusion",
+          "text": "Need CPA degree to understand deduction requirements",
+          "stress_level": 6
+        },
+        {
+          "type": "refund_allocation",
+          "text": "Decide between savings and immediate family needs",
+          "stress_level": 8
+        }
+      ],
+      "inner_monologue": "Tax code wasn't written for sandwich families.",
+      "punchline": "Accountant sends sympathy card with bill",
+      "relief_moment": "Bigger refund than expected helps family budget 💰",
+      "cta": "Sandwich tax survivors deserve accounting degrees! 📊",
+      "supportive_ending": "You navigate complex finances with love and determination. Financial hero! 💪"
+    },
+    {
+      "id": "daylight_saving_disruption",
+      "hook": "POV: Time change affects three generations and 47 medical routines",
+      "mood": "temporal_chaos",
+      "season": "spring_fall",
+      "chaos_moments": [
+        {
+          "type": "medication_timing",
+          "text": "Adjust all medicine schedules gradually or shock everyone?",
+          "stress_level": 6
+        },
+        {
+          "type": "sleep_schedule_chaos",
+          "text": "Kid confused, parent disoriented, you exhausted",
+          "stress_level": 7
+        },
+        {
+          "type": "appointment_confusion",
+          "text": "Did doctor appointment move or stay the same?",
+          "stress_level": 5
+        },
+        {
+          "type": "sundown_syndrome",
+          "text": "Early darkness triggers dementia confusion",
+          "stress_level": 8
+        },
+        {
+          "type": "technology_update",
+          "text": "Manually change every clock except the ones that auto-update",
+          "stress_level": 4
+        }
+      ],
+      "inner_monologue": "Who decided changing time twice a year was good idea?",
+      "punchline": "Show up hour early/late to everything for a week",
+      "relief_moment": "Everyone adjusts and new schedule works 🕐",
+      "cta": "Time change survivors deserve temporal management degrees! ⏰",
+      "supportive_ending": "You help everyone adapt to time changes with patience. Chronological care! 💕"
+    },
+    {
+      "id": "power_outage_protocol",
+      "hook": "POV: Power outage becomes family emergency management test",
+      "mood": "infrastructure_crisis",
+      "season": "storm_season",
+      "chaos_moments": [
+        {
+          "type": "medical_equipment",
+          "text": "Backup power for CPAP, oxygen, medication refrigeration",
+          "stress_level": 9
+        },
+        {
+          "type": "communication_planning",
+          "text": "Keep phones charged to stay connected with outside world",
+          "stress_level": 7
+        },
+        {
+          "type": "entertainment_crisis",
+          "text": "Three generations without WiFi, TV, or air conditioning",
+          "stress_level": 6
+        },
+        {
+          "type": "food_safety",
+          "text": "Save medications and special diet foods from spoilage",
+          "stress_level": 8
+        },
+        {
+          "type": "unexpected_bonding",
+          "text": "Family actually talks to each other without screens",
+          "stress_level": 3
+        }
+      ],
+      "inner_monologue": "Why does power always go out at worst possible time?",
+      "punchline": "Rediscover board games and actual conversation",
+      "relief_moment": "Power returns, everyone survives, memories made 💡",
+      "cta": "Emergency managers deserve crisis coordination medals! ⚡",
+      "supportive_ending": "You turn crisis into connection. That's love finding light in darkness. ✨"
+    },
+    {
+      "id": "wedding_attendance_logistics",
+      "hook": "POV: Attending family wedding requires advance tactical planning",
+      "mood": "formal_event_coordination",
+      "season": "wedding_season",
+      "chaos_moments": [
+        {
+          "type": "accessibility_coordination",
+          "text": "Wheelchair access, close parking, dietary accommodations",
+          "stress_level": 7
+        },
+        {
+          "type": "outfit_optimization",
+          "text": "Formal wear that works for dignity and mobility needs",
+          "stress_level": 5
+        },
+        {
+          "type": "timing_precision",
+          "text": "Arrive for photos, leave before exhaustion hits",
+          "stress_level": 6
+        },
+        {
+          "type": "medication_scheduling",
+          "text": "Pills with/without food around wedding meal timing",
+          "stress_level": 8
+        },
+        {
+          "type": "emotional_management",
+          "text": "Happy tears, nostalgic tears, overwhelmed tears",
+          "stress_level": 4
+        }
+      ],
+      "inner_monologue": "Weddings should be simple joy. Nothing is simple anymore.",
+      "punchline": "Bring backup outfit and emergency snacks in formal purse",
+      "relief_moment": "Everyone enjoys celebration and feels included 💒",
+      "cta": "Wedding attendees deserve event coordination degrees! 💍",
+      "supportive_ending": "You help your family celebrate love across generations. Beautiful! 💕"
+    },
+    {
+      "id": "sports_season_survival",
+      "hook": "POV: Kid's sports season requires Olympic-level coordination",
+      "mood": "athletic_logistics",
+      "season": "sports_season",
+      "chaos_moments": [
+        {
+          "type": "schedule_juggling",
+          "text": "Practice, games, tournaments vs. parent care schedule",
+          "stress_level": 8
+        },
+        {
+          "type": "equipment_management",
+          "text": "Clean uniforms, working gear, snacks, and medical supplies",
+          "stress_level": 6
+        },
+        {
+          "type": "transportation_coordination",
+          "text": "Who drives to what when parent can't be left alone",
+          "stress_level": 7
+        },
+        {
+          "type": "weather_contingency",
+          "text": "Outdoor games cancelled, indoor backup needed",
+          "stress_level": 5
+        },
+        {
+          "type": "team_parent_duties",
+          "text": "Volunteer while managing family medical needs",
+          "stress_level": 9
+        }
+      ],
+      "inner_monologue": "Sports are supposed to be fun. Who decided they needed logistics degrees?",
+      "punchline": "Pack cooler that serves as mobile family command center",
+      "relief_moment": "Kid scores goal while grandparents cheer from stands ⚽",
+      "cta": "Sports parent coordinators deserve athletic achievement awards! 🏆",
+      "supportive_ending": "You support dreams while managing reality. That's championship parenting! 🌟"
+    },
+    {
+      "id": "college_application_complexity",
+      "hook": "POV: College applications while managing family care is graduate-level stress",
+      "mood": "academic_future_planning",
+      "season": "senior_year",
+      "chaos_moments": [
+        {
+          "type": "financial_calculations",
+          "text": "College costs vs. care costs vs. reality",
+          "stress_level": 9
+        },
+        {
+          "type": "distance_considerations",
+          "text": "Dream school across country vs. staying close for family",
+          "stress_level": 8
+        },
+        {
+          "type": "application_support",
+          "text": "Help with essays while managing medical appointments",
+          "stress_level": 7
+        },
+        {
+          "type": "visit_logistics",
+          "text": "Campus tours require care coordination for parents",
+          "stress_level": 6
+        },
+        {
+          "type": "emotional_preparation",
+          "text": "Prepare for kid leaving while family needs increase",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "College planning wasn't this complicated for previous generations.",
+      "punchline": "Apply to colleges based on proximity to good airports",
+      "relief_moment": "Acceptance letter arrives with decent financial aid package 🎓",
+      "cta": "College planning consultants deserve family therapy degrees! 📚",
+      "supportive_ending": "You balance dreams with reality through pure love. Educational hero! ✨"
+    },
+    {
+      "id": "insurance_open_enrollment",
+      "hook": "POV: Open enrollment becomes advanced probability mathematics",
+      "mood": "healthcare_gambling",
+      "season": "fall",
+      "chaos_moments": [
+        {
+          "type": "plan_comparison",
+          "text": "Compare coverage for three different medical profiles",
+          "stress_level": 8
+        },
+        {
+          "type": "doctor_network_research",
+          "text": "Ensure all current providers covered under new plan",
+          "stress_level": 7
+        },
+        {
+          "type": "prescription_coverage",
+          "text": "Check formularies for expensive medications",
+          "stress_level": 9
+        },
+        {
+          "type": "cost_calculation",
+          "text": "Premium vs. deductible vs. out-of-pocket maximums",
+          "stress_level": 6
+        },
+        {
+          "type": "deadline_pressure",
+          "text": "Make perfect decision with imperfect information quickly",
+          "stress_level": 10
+        }
+      ],
+      "inner_monologue": "Healthcare decisions shouldn't require MBA in risk management.",
+      "punchline": "Choose plan based on which color brochure is least depressing",
+      "relief_moment": "Find plan that covers everyone's needs affordably 📋",
+      "cta": "Insurance navigators deserve actuarial science degrees! 💊",
+      "supportive_ending": "You protect your family's health through complex planning. Risk management hero! 💪"
+    }
+  ]
+}

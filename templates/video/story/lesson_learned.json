@@ -1,0 +1,92 @@
+{
+  "template_name": "Lesson Learned",
+  "category": "story",
+  "duration": "35-50s",
+  "emotional_tone": "calm",
+  
+  "thumbnail_layout": {
+    "background": "calm_primary",
+    "text_placement": "wisdom_centered",
+    "font": "display_regular",
+    "text_color": "calm_text",
+    "overlay_opacity": 0.7,
+    "visual_style": "thoughtful_reflection",
+    "badge": "LESSON"
+  },
+
+  "intro_animation": {
+    "style": "wisdom_unfold",
+    "duration": "2.5s",
+    "elements": [
+      "thoughtful_text_emerge",
+      "gentle_wisdom_light"
+    ],
+    "sound": "contemplative_tone"
+  },
+
+  "text_placement": {
+    "experience": {
+      "position": "upper_third",
+      "font": "body_regular",
+      "size": "medium",
+      "animation": "memory_recall",
+      "timing": "0-15s"
+    },
+    "struggle": {
+      "position": "center_left",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "honest_admission",
+      "timing": "15-25s"
+    },
+    "insight": {
+      "position": "center",
+      "font": "display_regular",
+      "size": "large",
+      "animation": "wisdom_reveal",
+      "timing": "25-40s"
+    },
+    "application": {
+      "position": "lower_center",
+      "font": "accent_regular",
+      "size": "small",
+      "animation": "gentle_guidance",
+      "timing": "40-45s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#B0C4DE",
+    "secondary": "#E6E6FA",
+    "accent": "#F0F8FF",
+    "background": "wisdom_reflection_gradient",
+    "text": "#4682B4"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Regular",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Regular"
+  },
+
+  "transition_style": {
+    "type": "thoughtful_flow",
+    "duration": "1.5s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "calm_wisdom",
+    "message": "Learning together 🤝",
+    "duration": "5s",
+    "background": "calm_background",
+    "action": "reflect_on_this"
+  },
+
+  "content_guidelines": {
+    "opening": "Here's what I learned...",
+    "structure": "experience_context -> challenge_faced -> insight_gained -> wisdom_shared",
+    "tone": "reflective, honest, wise",
+    "length": "4-5 thoughtful sentences"
+  }
+}

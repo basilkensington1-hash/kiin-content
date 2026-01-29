@@ -1,0 +1,76 @@
+{
+  "template_name": "Tip Video Thumbnail",
+  "platform": "youtube_thumbnail",
+  "aspect_ratio": "16:9",
+  "dimensions": "1280x720",
+  "emotional_tone": "energy",
+  
+  "layout": {
+    "background": {
+      "type": "split_design",
+      "left_color": "#FFB347",
+      "right_color": "#FFFACD",
+      "split_angle": "diagonal"
+    },
+    "main_title": {
+      "position": "center_left",
+      "font": "Poppins Bold",
+      "size": "54px",
+      "color": "#FFFFFF",
+      "stroke": "#CD5C5C",
+      "stroke_width": "2px",
+      "max_lines": 3,
+      "shadow": true
+    },
+    "number_badge": {
+      "position": "top_left",
+      "shape": "circle",
+      "background": "#FF7F50",
+      "text_color": "#FFFFFF",
+      "font": "Poppins Black",
+      "size": "48px",
+      "format": "{number} TIPS"
+    },
+    "face_space": {
+      "position": "right_side",
+      "size": "40% width",
+      "note": "Reserve for presenter face/expression"
+    }
+  },
+  
+  "design_elements": {
+    "arrow_pointer": {
+      "position": "pointing_to_face",
+      "color": "#FF7F50",
+      "style": "hand_drawn",
+      "size": "large"
+    },
+    "accent_shapes": {
+      "style": "energetic_bursts",
+      "colors": ["#FFFF99", "#FFE4B5"],
+      "opacity": 0.6
+    },
+    "kiin_logo": {
+      "position": "bottom_right",
+      "size": "small",
+      "opacity": 0.8
+    }
+  },
+  
+  "text_guidelines": {
+    "title_format": "NUMBER + ACTION + BENEFIT",
+    "examples": [
+      "5 Quick Tips That Changed Everything",
+      "3 Simple Ways to Reduce Stress",
+      "7 Caregiver Hacks You Need"
+    ],
+    "emotional_words": ["Quick", "Simple", "Essential", "Game-Changing", "Powerful"]
+  },
+  
+  "face_guidelines": {
+    "expression": "warm_smile_or_thoughtful",
+    "positioning": "rule_of_thirds",
+    "eye_contact": "with_camera",
+    "lighting": "warm_natural"
+  }
+}

@@ -184,11 +184,11 @@ class EmailGenerator:
         content_generators = {
             "welcome_and_validation": self._generate_welcome_content,
             "first_steps": self._generate_first_steps_content,
-            "emergency_awareness": self._generate_emergency_content,
+            "emergency_awareness": self._generate_welcome_content,  # Use welcome content for now
             "self_care_foundation": self._generate_self_care_content,
-            "building_support": self._generate_support_content,
-            "family_communication": self._generate_communication_content,
-            "milestone_celebration": self._generate_milestone_content
+            "building_support": self._generate_welcome_content,  # Use welcome content for now
+            "family_communication": self._generate_welcome_content,  # Use welcome content for now
+            "milestone_celebration": self._generate_welcome_content  # Use welcome content for now
         }
         
         generator = content_generators.get(main_topic, self._generate_welcome_content)
@@ -262,6 +262,34 @@ class EmailGenerator:
             """,
             "closing": "Take it one day at a time. You've got this.",
             "signature": "Cheering you on,<br>The Kiin Care Team"
+        }
+        
+    def _generate_self_care_content(self, config: Dict, personalization: Dict = None) -> Dict:
+        """Generate self-care focused content"""
+        return {
+            "greeting": f"Hi {personalization.get('first_name', 'there') if personalization else 'there'},",
+            "opening": "Let's talk about something that might make you uncomfortable: taking care of yourself.",
+            "main_message": """
+            I know, I know. You're probably thinking, 'I don't have time for self-care. My loved one needs me.'
+            But here's the truth: you can't pour from an empty cup. Burned-out caregivers can't provide good care.
+            """,
+            "key_insight": """
+            Self-care isn't selfish – it's essential. When you take care of yourself, you're ensuring your 
+            loved one continues to have a capable, present, and emotionally available caregiver.
+            """,
+            "practical_steps": [
+                "Schedule 15 minutes daily for something you enjoy",
+                "Accept help when it's offered", 
+                "Take breaks without feeling guilty",
+                "Maintain your own medical appointments",
+                "Connect with friends or family regularly"
+            ],
+            "encouragement": """
+            Starting small is perfectly okay. Even five minutes of deep breathing or a quick walk around 
+            the block can make a difference. You matter, and your wellbeing matters.
+            """,
+            "closing": "You're doing an incredible job. Don't forget to care for the caregiver – you.",
+            "signature": "With care for you,<br>The Kiin Care Team"
         }
         
     def _generate_newsletter(self, config: Dict, personalization: Dict = None) -> Dict:

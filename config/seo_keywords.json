@@ -1,21 +1,42 @@
 {
-  "primary_keywords": [
-    "caregiver",
-    "caregiving",
-    "family care",
-    "eldercare",
-    "elder care",
-    "home care",
-    "senior care",
-    "aging in place",
-    "family caregiver",
-    "care coordinator",
-    "care management",
-    "long term care",
-    "geriatric care",
-    "respite care",
-    "adult children caregivers"
-  ],
+  "primary_keywords": {
+    "high_volume": [
+      "family caregiver",
+      "elderly care",
+      "aging parents",
+      "caregiver support",
+      "dementia care",
+      "Alzheimer's care",
+      "senior care",
+      "caregiving tips",
+      "caregiver resources",
+      "elder care"
+    ],
+    "medium_volume": [
+      "caregiver burnout",
+      "sandwich generation",
+      "working caregiver",
+      "caregiver stress",
+      "aging in place",
+      "memory care",
+      "caregiver guilt",
+      "family caregiving",
+      "care coordination",
+      "caregiver help"
+    ],
+    "long_tail": [
+      "how to talk to aging parents about care",
+      "signs your parent needs help",
+      "caregiver support groups near me",
+      "managing medications for elderly parents",
+      "when to consider assisted living",
+      "balancing work and caregiving",
+      "dealing with difficult aging parents",
+      "caregiver self-care strategies",
+      "finding respite care",
+      "navigating Medicare for parents"
+    ]
+  },
   "condition_specific": [
     "dementia care",
     "alzheimer care",

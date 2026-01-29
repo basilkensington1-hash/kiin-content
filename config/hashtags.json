@@ -1,0 +1,286 @@
+{
+  "core_hashtags": [
+    "caregiver",
+    "caregiving",
+    "familycare"
+  ],
+  "emotional_hashtags": [
+    "caregiversupport",
+    "yourenotalone",
+    "caregiverstress",
+    "caregiverolve",
+    "caregivercommunity",
+    "caregiverlife",
+    "caregiverjourney"
+  ],
+  "niche_hashtags": [
+    "sandwichgeneration",
+    "dementia",
+    "eldercare",
+    "alzheimers",
+    "memorycare",
+    "seniorcare",
+    "agingparents",
+    "caregiverselfcare",
+    "caregiverburnout",
+    "caregiverhelp"
+  ],
+  "trending_detection": true,
+  "banned_hashtags": [
+    "follow4follow",
+    "like4like",
+    "spam",
+    "bot",
+    "fake"
+  ],
+  "platform_specific": {
+    "instagram": [
+      "instagramreels",
+      "reelsinstagram",
+      "caregiverreels",
+      "caregivercommunity",
+      "caregiverolve",
+      "caregiverlife",
+      "caregivertips",
+      "eldercaretips"
+    ],
+    "tiktok": [
+      "fyp",
+      "foryou",
+      "viral",
+      "caregivertiktok",
+      "caregivingjourney",
+      "sandwichgeneration",
+      "caregiversupport",
+      "eldercaretips",
+      "caregiverlife"
+    ],
+    "youtube": [
+      "shorts",
+      "youtubeshorts",
+      "caregivingjourney",
+      "caregiverolve",
+      "eldercare",
+      "dementiaawareness",
+      "caregivertips",
+      "familycaregiving"
+    ],
+    "twitter": [
+      "CaregiverChat",
+      "ElderCare",
+      "CaregivingTips",
+      "CaregiverSupport",
+      "DementiaAwareness",
+      "SandwichGeneration",
+      "CaregiverWellness"
+    ],
+    "linkedin": [
+      "healthcare",
+      "professionalcare",
+      "CaregivingProfessionals",
+      "HealthcareTips",
+      "FamilyCare",
+      "ElderCareServices",
+      "CaregiverResources"
+    ],
+    "pinterest": [
+      "selfcare",
+      "wellness",
+      "CaregiverWellness",
+      "ElderCareTips",
+      "CaregiverSupport",
+      "FamilyCaregiving",
+      "CaregiverSelfCare",
+      "MentalHealthAwareness"
+    ],
+    "facebook": [
+      "familysupport",
+      "community",
+      "CaregiverCommunity",
+      "FamilyCaregiving",
+      "ElderSupport",
+      "CaregiverSupport",
+      "CaregivingJourney"
+    ]
+  },
+  "content_theme_hashtags": {
+    "support": [
+      "caregiversupport",
+      "yourenotalone",
+      "caregivercommunity",
+      "familysupport",
+      "caregiverhelp",
+      "supportgroup"
+    ],
+    "tips": [
+      "caregivertips",
+      "eldercaretips",
+      "caregivingadvice",
+      "helpfulhints",
+      "caregiverresources",
+      "practicaladvice"
+    ],
+    "validation": [
+      "itsokay",
+      "youredoingggreat",
+      "normalfeelings",
+      "caregiverguilt",
+      "emotional",
+      "understanding"
+    ],
+    "self_care": [
+      "caregiverselfcare",
+      "selfcare",
+      "caregiverwellness",
+      "mentalhealth",
+      "wellness",
+      "recharge",
+      "boundaries"
+    ],
+    "awareness": [
+      "dementiaawareness",
+      "alzheimersawareness",
+      "eldercare",
+      "agingparents",
+      "memorycare",
+      "education",
+      "awareness"
+    ],
+    "stress": [
+      "caregiverstress",
+      "caregiverburnout",
+      "overwhelmed",
+      "stress",
+      "mentalhealth",
+      "coping"
+    ]
+  },
+  "seasonal_hashtags": {
+    "january": [
+      "newyear",
+      "resolutions",
+      "selfcare",
+      "mentalhealth"
+    ],
+    "february": [
+      "heartmonth",
+      "love",
+      "caregiverolve",
+      "selfcare"
+    ],
+    "march": [
+      "womenshistorymonth",
+      "spring",
+      "renewal"
+    ],
+    "april": [
+      "stressawarenessmonth",
+      "spring",
+      "renewal",
+      "mentalhealth"
+    ],
+    "may": [
+      "mentalhealthawareness",
+      "mothersday",
+      "mentalhealth",
+      "wellnessmonth"
+    ],
+    "june": [
+      "fathersday",
+      "alzheimersawareness",
+      "summer"
+    ],
+    "july": [
+      "summer",
+      "vacation",
+      "selfcare"
+    ],
+    "august": [
+      "summer",
+      "relaxation"
+    ],
+    "september": [
+      "worldalzheimersday",
+      "dementiaawareness",
+      "fall",
+      "backtoschool"
+    ],
+    "october": [
+      "mentalhealth",
+      "awareness",
+      "fall"
+    ],
+    "november": [
+      "nationalcaregiversmonth",
+      "gratitude",
+      "thanksgiving",
+      "caregiverappreciation"
+    ],
+    "december": [
+      "holidays",
+      "family",
+      "selfcare",
+      "stress"
+    ]
+  },
+  "hashtag_combinations": {
+    "high_engagement": [
+      ["caregiver", "yourenotalone", "support"],
+      ["eldercare", "dementia", "family"],
+      ["caregiverselfcare", "wellness", "mentalhealth"],
+      ["caregivertips", "help", "advice"]
+    ],
+    "niche_specific": [
+      ["sandwichgeneration", "agingparents", "familycare"],
+      ["dementia", "alzheimers", "memorycare"],
+      ["caregiverburnout", "stress", "selfcare"],
+      ["eldercare", "seniorcare", "aging"]
+    ],
+    "emotional_support": [
+      ["yourenotalone", "caregiversupport", "community"],
+      ["itsokay", "normalfeelings", "validation"],
+      ["caregiverolve", "compassion", "understanding"]
+    ]
+  },
+  "hashtag_performance_tracking": {
+    "track_metrics": [
+      "impressions",
+      "engagement",
+      "reach",
+      "saves",
+      "shares"
+    ],
+    "update_frequency": "weekly",
+    "min_posts_for_analysis": 3
+  },
+  "rules": {
+    "max_hashtags_per_platform": {
+      "instagram": 30,
+      "tiktok": 100,
+      "youtube": 15,
+      "twitter": 10,
+      "linkedin": 5,
+      "pinterest": 20,
+      "facebook": 10
+    },
+    "optimal_hashtags_per_platform": {
+      "instagram": 11,
+      "tiktok": 8,
+      "youtube": 5,
+      "twitter": 3,
+      "linkedin": 3,
+      "pinterest": 10,
+      "facebook": 5
+    },
+    "character_limits": {
+      "tiktok": 100,
+      "twitter": 50
+    },
+    "mixing_strategy": {
+      "core_hashtags_percentage": 30,
+      "niche_hashtags_percentage": 40,
+      "trending_hashtags_percentage": 20,
+      "platform_specific_percentage": 10
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "template_name": "Small Victory",
+  "category": "story",
+  "duration": "20-35s",
+  "emotional_tone": "comfort",
+  
+  "thumbnail_layout": {
+    "background": "comfort_accent",
+    "text_placement": "celebration_gentle",
+    "font": "display_medium",
+    "text_color": "comfort_text",
+    "overlay_opacity": 0.8,
+    "visual_style": "quiet_celebration",
+    "badge": "SMALL WIN"
+  },
+
+  "intro_animation": {
+    "style": "gentle_celebration",
+    "duration": "2s",
+    "elements": [
+      "soft_confetti_text",
+      "warm_success_glow"
+    ],
+    "sound": "gentle_success_chime"
+  },
+
+  "text_placement": {
+    "context": {
+      "position": "upper_center",
+      "font": "body_regular",
+      "size": "small",
+      "animation": "gentle_set_stage",
+      "timing": "0-8s"
+    },
+    "victory": {
+      "position": "center",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "quiet_celebration",
+      "timing": "8-20s"
+    },
+    "meaning": {
+      "position": "lower_center",
+      "font": "body_light",
+      "size": "small",
+      "animation": "warm_reflection",
+      "timing": "20-30s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#F5DEB3",
+    "secondary": "#DEB887",
+    "accent": "#D2B48C",
+    "background": "gentle_victory_gradient",
+    "text": "#8B4513"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Light"
+  },
+
+  "transition_style": {
+    "type": "gentle_lift",
+    "duration": "1s",
+    "easing": "ease_out"
+  },
+
+  "outro_cta": {
+    "style": "comfort_celebration",
+    "message": "Celebrate the small wins 🌟",
+    "duration": "4s",
+    "background": "comfort_background",
+    "action": "acknowledge_progress"
+  },
+
+  "content_guidelines": {
+    "opening": "Today's small victory...",
+    "structure": "simple_context -> specific_achievement -> why_it_matters",
+    "tone": "grateful, celebrating, meaningful",
+    "length": "2-3 appreciative sentences"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "template_name": "Permission Granted",
+  "category": "confession",
+  "duration": "20-30s",
+  "emotional_tone": "comfort",
+  
+  "thumbnail_layout": {
+    "background": "comfort_secondary",
+    "text_placement": "center_with_frame",
+    "font": "display_bold",
+    "text_color": "comfort_text",
+    "overlay_opacity": 0.75,
+    "visual_style": "gentle_embrace_feeling"
+  },
+
+  "intro_animation": {
+    "style": "warm_embrace_reveal",
+    "duration": "2s",
+    "elements": [
+      "gentle_text_hug",
+      "warm_light_envelope"
+    ],
+    "sound": "comforting_tone"
+  },
+
+  "text_placement": {
+    "primary_text": {
+      "position": "center",
+      "font": "display_bold",
+      "size": "large",
+      "animation": "gentle_embrace",
+      "timing": "0-12s"
+    },
+    "permission_text": {
+      "position": "center_lower",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "warm_appear",
+      "timing": "12-20s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#D2B48C",
+    "secondary": "#DEB887",
+    "accent": "#F5DEB3",
+    "background": "embracing_warm_gradient",
+    "text": "#8B4513"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Bold",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "warm_dissolve",
+    "duration": "1s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "comfort_embrace",
+    "message": "You have permission 🤗",
+    "duration": "3.5s",
+    "background": "comfort_background",
+    "action": "save_this_reminder"
+  },
+
+  "content_guidelines": {
+    "opening": "I give you permission to...",
+    "structure": "permission_statement -> why_its_needed -> gentle_encouragement",
+    "tone": "permissive, nurturing, validating",
+    "length": "2-3 empowering sentences"
+  }
+}

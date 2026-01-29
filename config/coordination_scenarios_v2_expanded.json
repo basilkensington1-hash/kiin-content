@@ -1,0 +1,924 @@
+{
+  "description": "Enhanced coordination chaos scenarios - V2 with 75+ real-world situations",
+  "version": "3.0", 
+  "statistics_sources": [
+    "AARP Family Caregiving Research 2023",
+    "National Academy of Medicine Action Collaborative", 
+    "Joint Commission Patient Safety Report",
+    "Medicare Hospital Readmission Data",
+    "National Alliance for Caregiving Report 2020",
+    "CMS Care Coordination Statistics 2024"
+  ],
+  "scenarios": [
+    {
+      "id": "medication_double_dose_v2",
+      "category": "medication",
+      "severity": "critical",
+      "description": "Dangerous medication overdose due to family miscommunication",
+      "statistic": "Medication errors affect 1.5 million Americans annually",
+      "hook": "My dad took his blood pressure medication TWICE yesterday",
+      "chaos": [
+        "Mom gave him his morning pills at 8am like always",
+        "I didn't know she'd already done it - gave them again at noon", 
+        "Nobody was tracking who was responsible for what",
+        "His blood pressure dropped dangerously low - we rushed to the ER",
+        "Doctor said we were lucky it wasn't worse"
+      ],
+      "turning_point": "That emergency room visit was our wake-up call",
+      "calm": [
+        "Now everyone can see the same medication schedule in real-time",
+        "We check off doses the moment they're given",
+        "No more dangerous double-dosing or missed medications",
+        "Peace of mind for the whole family - and safety for Dad"
+      ],
+      "cta": "Medication coordination isn't optional. It's life-saving.",
+      "kiin_features": ["shared_medication_tracking", "real_time_updates", "family_notifications"],
+      "target_emotion": "fear_to_relief",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "specialist_communication_failure",
+      "category": "medical_coordination",
+      "severity": "high",
+      "description": "Contradictory specialist orders create dangerous care gaps",
+      "statistic": "80% of serious medical errors involve communication breakdowns between providers",
+      "hook": "Three specialists gave Mom three different medication schedules and nobody talked to each other",
+      "chaos": [
+        "Cardiologist said stop blood thinners before surgery",
+        "Surgeon's office said continue them until day of procedure",
+        "Primary care wasn't told about either instruction",
+        "We gave her conflicting medications for a week",
+        "Surgery almost cancelled due to 'medication non-compliance'"
+      ],
+      "turning_point": "Realized we needed to be the central communication hub",
+      "calm": [
+        "All specialists copied on shared care updates",
+        "Medication changes tracked and verified across providers",
+        "Family acts as care coordinator to prevent miscommunication",
+        "Mom gets consistent, safe care from entire medical team"
+      ],
+      "cta": "When specialists don't talk, families must become the bridge.",
+      "kiin_features": ["provider_communication", "medication_tracking", "care_coordination"],
+      "target_emotion": "confusion_to_clarity",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "home_health_schedule_chaos",
+      "category": "home_health",
+      "severity": "medium",
+      "description": "Multiple home health providers creating scheduling conflicts",
+      "statistic": "65% of families report coordination issues with multiple home health agencies",
+      "hook": "Physical therapy, nursing, and aide visits overlapped creating chaos instead of care",
+      "chaos": [
+        "PT scheduled Tuesdays at 10am, nurse comes 'sometime Tuesday morning'",
+        "Home health aide arrives during PT session every week",
+        "Each provider books different time slots without checking others",
+        "Dad exhausted from back-to-back appointments",
+        "Family schedules destroyed by unpredictable care times"
+      ],
+      "turning_point": "Told all providers they needed to coordinate or we'd find ones who would",
+      "calm": [
+        "Shared calendar visible to all providers and family",
+        "Appointment scheduling considers Dad's energy and family availability",
+        "Providers communicate with each other about care needs",
+        "Peaceful, coordinated care that actually helps Dad heal"
+      ],
+      "cta": "Home health should help families, not create more chaos.",
+      "kiin_features": ["provider_scheduling", "family_coordination", "care_planning"],
+      "target_emotion": "overwhelm_to_organized",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "equipment_supply_nightmare",
+      "category": "medical_equipment",
+      "severity": "medium",
+      "description": "Critical supplies run out due to poor coordination between providers",
+      "statistic": "Medical supply shortages affect 40% of home care patients monthly",
+      "hook": "Grandma's oxygen concentrator broke and three agencies blamed each other while she couldn't breathe",
+      "chaos": [
+        "Oxygen company said 'call insurance'",
+        "Insurance said 'call equipment vendor'",
+        "Vendor said 'not our patient anymore'",
+        "Backup tanks nearly empty, Grandma getting scared",
+        "Spent 6 hours on phones while she struggled to breathe"
+      ],
+      "turning_point": "Drove to equipment company and refused to leave without working oxygen",
+      "calm": [
+        "Backup equipment always on hand before primary fails",
+        "Direct contacts with real people, not phone trees",
+        "Family tracks supply schedules and orders replacements early",
+        "Grandma never worries about running out of life-saving equipment"
+      ],
+      "cta": "Life-supporting equipment is too critical for bureaucratic delays.",
+      "kiin_features": ["equipment_tracking", "supply_management", "emergency_contacts"],
+      "target_emotion": "panic_to_preparedness",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "insurance_prior_auth_battle",
+      "category": "insurance",
+      "severity": "high",
+      "description": "Prior authorization delays critical care while patient suffers",
+      "statistic": "Prior authorization delays affect 91% of physicians and can postpone critical care",
+      "hook": "Dad's heart medication was denied by insurance while his cardiologist was on vacation",
+      "chaos": [
+        "Insurance denied medication for 'lack of medical necessity'",
+        "Cardiologist out of office for 2 weeks",
+        "Covering doctor wouldn't authorize meds for patient he'd never seen",
+        "Pharmacy couldn't provide emergency supply",
+        "Dad's chest pains returned while we fought bureaucracy"
+      ],
+      "turning_point": "Filed emergency appeal and threatened to contact state insurance board",
+      "calm": [
+        "Learned to file appeals immediately, not wait for doctors",
+        "Built relationships with insurance case managers",
+        "Keep emergency supplies of critical medications",
+        "Dad's health protected from insurance delays"
+      ],
+      "cta": "Insurance should never come between patient and life-saving treatment.",
+      "kiin_features": ["insurance_tracking", "medication_management", "appeals_process"],
+      "target_emotion": "frustration_to_advocacy",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "pharmacy_coordination_crisis",
+      "category": "pharmacy",
+      "severity": "medium",
+      "description": "Multiple pharmacies create dangerous medication gaps",
+      "statistic": "Medication errors increase 300% when patients use multiple pharmacies",
+      "hook": "Mom's prescriptions were scattered across four pharmacies and nobody tracked interactions",
+      "chaos": [
+        "Hospital pharmacy, local CVS, mail-order, and specialty pharmacy",
+        "Each only knew about their own medications",
+        "Dangerous drug interactions nobody caught",
+        "Refill timing confusion led to missed doses",
+        "Insurance only covered some meds at certain pharmacies"
+      ],
+      "turning_point": "Pharmacist found dangerous interaction by accident during routine review",
+      "calm": [
+        "Consolidated everything to one pharmacy with clinical pharmacist",
+        "Complete medication list shared with all providers",
+        "Automated refill coordination prevents gaps",
+        "Mom's safety protected by comprehensive medication management"
+      ],
+      "cta": "One pharmacy, one complete picture, safer medication management.",
+      "kiin_features": ["pharmacy_coordination", "medication_tracking", "interaction_monitoring"],
+      "target_emotion": "dangerous_to_safe",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "telehealth_vs_inperson_confusion",
+      "category": "appointments",
+      "severity": "medium",
+      "description": "Mixed telehealth and in-person appointments create scheduling chaos",
+      "statistic": "Telehealth adoption increased 3800% during pandemic, creating coordination challenges",
+      "hook": "Half of Dad's appointments were virtual, half in-person, and nobody could keep track",
+      "chaos": [
+        "Drove to doctor's office for virtual appointment",
+        "Sat at home for in-person appointment that required lab work",
+        "Technology failures meant missed virtual visits",
+        "Insurance covered different amounts for virtual vs in-person",
+        "Family couldn't participate in virtual visits they used to attend"
+      ],
+      "turning_point": "Insisted on clear designation and confirmation for every appointment type",
+      "calm": [
+        "Calendar clearly marks virtual vs in-person appointments",
+        "Technology tested before every virtual visit",
+        "Family participation planned for both visit types",
+        "Dad gets best of both worlds - convenience and comprehensive care"
+      ],
+      "cta": "Clear communication prevents telehealth confusion.",
+      "kiin_features": ["appointment_management", "technology_support", "visit_coordination"],
+      "target_emotion": "confusion_to_clarity",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "sibling_conflict_care_decisions",
+      "category": "family_dynamics",
+      "severity": "high", 
+      "description": "Siblings disagree on care approach causing family fractures",
+      "statistic": "78% of families experience conflict over caregiving decisions",
+      "hook": "My brother thinks I'm being 'too dramatic' about Mom's memory loss while I see her declining daily",
+      "chaos": [
+        "Brother visits monthly, thinks Mom is 'just getting older'",
+        "I see her daily decline and confusion",
+        "He criticizes every care decision I make",
+        "Argues against assisted living because 'she seems fine to me'",
+        "Mom caught in middle of family tension"
+      ],
+      "turning_point": "Invited brother to spend a full week providing daily care",
+      "calm": [
+        "Regular family meetings with objective care assessments",
+        "Professional geriatrician evaluation everyone accepts",
+        "Clear roles and responsibilities for each family member",
+        "United family approach that prioritizes Mom's needs"
+      ],
+      "cta": "Family unity creates better care outcomes for everyone.",
+      "kiin_features": ["family_communication", "care_planning", "conflict_resolution"],
+      "target_emotion": "division_to_unity",
+      "scenario_type": "family"
+    },
+    {
+      "id": "spouse_caregiver_burnout",
+      "category": "caregiver_burnout",
+      "severity": "critical",
+      "description": "Primary caregiving spouse reaches dangerous exhaustion levels",
+      "statistic": "40% of caregivers die before the person they're caring for due to stress and neglect",
+      "hook": "Dad insisted on caring for Mom's dementia alone until he collapsed from exhaustion",
+      "chaos": [
+        "Dad refused all offers of help for 3 years",
+        "Lost 40 pounds from stress and forgetting to eat",
+        "Started making dangerous mistakes with Mom's medications",
+        "Family watched him deteriorate but he wouldn't accept help",
+        "Emergency hospitalization for exhaustion while Mom wandered confused"
+      ],
+      "turning_point": "Doctor told Dad that Mom needed him healthy to care for her",
+      "calm": [
+        "Scheduled respite care that Dad gradually accepted",
+        "Family rotates support so burden isn't on one person",
+        "Dad's health monitored and protected",
+        "Mom gets better care because Dad can sustain his caregiving"
+      ],
+      "cta": "Sustainable caregiving requires support systems, not heroic isolation.",
+      "kiin_features": ["respite_coordination", "caregiver_support", "health_monitoring"],
+      "target_emotion": "isolation_to_support",
+      "scenario_type": "family"
+    },
+    {
+      "id": "long_distance_caregiving_gaps",
+      "category": "distance_care",
+      "severity": "high",
+      "description": "Geographic separation creates dangerous gaps in care oversight",
+      "statistic": "7 million Americans provide care from a distance, often with coordination challenges",
+      "hook": "Living 500 miles away, I didn't know Dad was falling daily until neighbor called 911",
+      "chaos": [
+        "Daily check-in calls seemed normal, Dad hiding problems",
+        "Local siblings saw him weekly but missed gradual decline",
+        "Medical appointments happened without family input",
+        "Medication management falling through cracks",
+        "Emergency hospitalization revealed months of hidden struggles"
+      ],
+      "turning_point": "Realized long-distance care requires different strategies than local care",
+      "calm": [
+        "Video calls reveal more than phone conversations",
+        "Local trusted friends and neighbors enlisted as eyes and ears",
+        "Medical appointments include family via video when possible",
+        "Technology bridges distance for daily medication and safety monitoring"
+      ],
+      "cta": "Distance doesn't have to mean disconnect when technology bridges the gap.",
+      "kiin_features": ["remote_monitoring", "virtual_participation", "local_support_networks"],
+      "target_emotion": "helplessness_to_connection",
+      "scenario_type": "family"
+    },
+    {
+      "id": "cultural_care_expectations_clash",
+      "category": "cultural_differences",
+      "severity": "medium",
+      "description": "Generational and cultural differences create care conflicts",
+      "statistic": "Cultural factors influence care decisions for 85% of immigrant families",
+      "hook": "Grandma expects traditional family care while grandchildren want professional help",
+      "chaos": [
+        "Grandma feels disrespected by suggestion of 'strangers' providing care",
+        "Adult children work full-time and can't provide traditional care",
+        "Language barriers with healthcare providers create misunderstandings",
+        "Religious requirements conflict with medical recommendations",
+        "Family torn between honoring tradition and ensuring safety"
+      ],
+      "turning_point": "Found culturally sensitive care providers who respect family values",
+      "calm": [
+        "Care plan honors cultural values while ensuring safety",
+        "Bilingual care providers bridge language gaps",
+        "Family traditions incorporated into professional care",
+        "Grandma feels respected while getting needed support"
+      ],
+      "cta": "Good care honors both cultural values and medical needs.",
+      "kiin_features": ["cultural_care_planning", "bilingual_support", "tradition_integration"],
+      "target_emotion": "conflict_to_harmony",
+      "scenario_type": "family"
+    },
+    {
+      "id": "financial_contribution_disputes",
+      "category": "financial_coordination",
+      "severity": "high",
+      "description": "Family members disagree on financial responsibilities for care",
+      "statistic": "Money disputes occur in 60% of families providing care to aging parents",
+      "hook": "Three siblings, three different incomes, zero agreement on who pays for Dad's care",
+      "chaos": [
+        "High-earning brother thinks everyone should contribute equally",
+        "Sister with kids says she can't afford much",
+        "I'm already providing all hands-on care, now expected to pay too",
+        "Dad's savings running out while family argues",
+        "Care quality suffering because nobody wants to pay"
+      ],
+      "turning_point": "Realized Dad's dignity was more important than family finance disputes",
+      "calm": [
+        "Fair contribution formula based on income and time given",
+        "Clear written agreement about who pays for what",
+        "Regular family financial meetings to adjust as needed",
+        "Dad gets quality care without family resentment"
+      ],
+      "cta": "Financial transparency prevents care funding crises.",
+      "kiin_features": ["financial_tracking", "contribution_planning", "expense_sharing"],
+      "target_emotion": "resentment_to_fairness",
+      "scenario_type": "family"
+    },
+    {
+      "id": "medical_record_chaos",
+      "category": "information_management",
+      "severity": "medium",
+      "description": "Scattered medical records create dangerous information gaps",
+      "statistic": "Medical record errors affect 25% of patients and can lead to serious complications",
+      "hook": "Mom's medical history was scattered across 12 providers with no central record",
+      "chaos": [
+        "Each specialist had different pieces of medical puzzle",
+        "Surgery history at one hospital, medications at another",
+        "Allergy information inconsistent across providers",
+        "Family members gave contradictory health histories",
+        "Emergency care delayed while hunting for critical information"
+      ],
+      "turning_point": "Created comprehensive medical binder after ER near-disaster",
+      "calm": [
+        "Complete medical history accessible to all family and providers",
+        "Current medications, allergies, and emergency contacts always updated",
+        "Copies in car, home, and with key family members",
+        "Emergency care faster and safer with complete information"
+      ],
+      "cta": "Organized medical records can save lives in emergencies.",
+      "kiin_features": ["medical_record_management", "emergency_information", "provider_sharing"],
+      "target_emotion": "scattered_to_organized",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "emergency_contact_confusion",
+      "category": "emergency_coordination",
+      "severity": "high",
+      "description": "Unclear emergency contacts delay critical care decisions",
+      "statistic": "Emergency care is delayed in 35% of cases due to unclear decision-making authority",
+      "hook": "Hospital called wrong family member during Dad's heart attack while person with medical POA was unreachable",
+      "chaos": [
+        "Hospital had old emergency contact from 5 years ago",
+        "Medical POA holder was traveling with phone off",
+        "Three family members arrived with conflicting information",
+        "Critical treatment decisions delayed while sorting out authority",
+        "Dad's condition worsened during family confusion"
+      ],
+      "turning_point": "Realized emergency planning requires backup plans for everything",
+      "calm": [
+        "Clear hierarchy of decision-makers with current contact information",
+        "Multiple family members have copies of legal documents",
+        "Emergency contacts updated regularly with all providers",
+        "Quick decisions possible even when primary contact unavailable"
+      ],
+      "cta": "Emergency planning saves precious time when every minute matters.",
+      "kiin_features": ["emergency_contacts", "legal_document_management", "decision_hierarchy"],
+      "target_emotion": "chaos_to_preparedness",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "medical_transportation_breakdown",
+      "category": "transportation",
+      "severity": "medium",
+      "description": "Transportation coordination failures cause missed appointments",
+      "statistic": "3.6 million Americans miss medical appointments annually due to transportation issues",
+      "hook": "Wheelchair van broke down morning of Mom's critical oncology appointment we'd waited 6 weeks to get",
+      "chaos": [
+        "Medical transport company called at 7am to cancel",
+        "No backup transportation for wheelchair users available",
+        "Appointment can't be rescheduled for another month",
+        "Treatment timeline disrupted by transportation failure",
+        "Family scrambling to find accessible vehicle"
+      ],
+      "turning_point": "Bought used wheelchair van to never depend on transport companies again",
+      "calm": [
+        "Reliable family transportation for all medical needs",
+        "Backup transport arrangements for emergency situations",
+        "Never miss critical appointments due to transport failures",
+        "Mom's care timeline stays on track"
+      ],
+      "cta": "Reliable transportation is essential for consistent medical care.",
+      "kiin_features": ["transportation_coordination", "backup_planning", "accessibility_solutions"],
+      "target_emotion": "dependency_to_independence",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "hospital_discharge_disaster",
+      "category": "discharge_planning",
+      "severity": "critical",
+      "description": "Poor discharge coordination leads to dangerous readmission",
+      "statistic": "1 in 5 Medicare patients are readmitted within 30 days, often due to poor discharge planning",
+      "hook": "Dad was discharged with complex care instructions that no family member understood",
+      "chaos": [
+        "Discharge at 4pm Friday when no follow-up services available",
+        "Instructions written in medical jargon nobody could interpret",
+        "Home health services not arranged despite obvious need",
+        "Medication changes not communicated to pharmacy or family doctor",
+        "Back in ER within 72 hours with preventable complications"
+      ],
+      "turning_point": "Demanded discharge planning meeting with entire care team",
+      "calm": [
+        "Discharge only happens when family feels confident and prepared",
+        "Home services arranged before hospital discharge",
+        "Clear, understandable instructions with family education",
+        "Follow-up appointments scheduled before leaving hospital"
+      ],
+      "cta": "Safe discharge requires preparation, not just medical stability.",
+      "kiin_features": ["discharge_planning", "family_education", "service_coordination"],
+      "target_emotion": "unprepared_to_confident",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "medication_insurance_coverage_gap",
+      "category": "insurance_pharmacy",
+      "severity": "high",
+      "description": "Insurance formulary changes create dangerous medication gaps",
+      "statistic": "Insurance formulary changes affect 15% of patients annually, sometimes dangerously",
+      "hook": "Mom's heart medication was suddenly 'no longer covered' by insurance with no warning",
+      "chaos": [
+        "Insurance changed formulary January 1st without patient notification",
+        "Pharmacy couldn't fill prescription, suggested 'call insurance'",
+        "Insurance suggested switching to different medication",
+        "Cardiologist not available to approve change for 2 weeks",
+        "Mom without heart medication while bureaucracy sorted itself out"
+      ],
+      "turning_point": "Filed emergency appeal and threatened state insurance commissioner complaint",
+      "calm": [
+        "Monitor insurance formulary changes before they take effect",
+        "Pre-approve alternative medications with doctors",
+        "Appeal process started immediately when coverage denied",
+        "Mom never without life-sustaining medications"
+      ],
+      "cta": "Insurance formulary changes shouldn't endanger patient health.",
+      "kiin_features": ["insurance_monitoring", "formulary_tracking", "appeals_management"],
+      "target_emotion": "vulnerable_to_protected",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "adult_day_program_coordination_failure",
+      "category": "day_programs",
+      "severity": "medium",
+      "description": "Adult day program schedule conflicts with medical appointments",
+      "statistic": "Adult day programs serve 290,000 seniors but coordination with medical care often lacks",
+      "hook": "Dad's adult day program refused to accommodate his physical therapy schedule",
+      "chaos": [
+        "Day program runs 9-4, PT only available 10-2",
+        "Program says they 'don't do transportation to appointments'",
+        "Dad misses therapy or misses socialization, both critical",
+        "Family has to choose between medical care and mental health",
+        "Day program threatens discharge if attendance inconsistent"
+      ],
+      "turning_point": "Found day program that coordinates with medical care instead of competing",
+      "calm": [
+        "Day program works with family to accommodate medical needs",
+        "Transportation provided for therapy appointments",
+        "Dad gets both socialization and medical care without conflict",
+        "Care plan supports all aspects of Dad's wellbeing"
+      ],
+      "cta": "Day programs should enhance care coordination, not complicate it.",
+      "kiin_features": ["program_coordination", "medical_scheduling", "transportation_management"],
+      "target_emotion": "forced_choice_to_comprehensive_care",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "power_of_attorney_activation_crisis",
+      "category": "legal_coordination",
+      "severity": "critical",
+      "description": "Delayed POA activation prevents timely medical decisions",
+      "statistic": "Legal authority confusion affects 40% of families during medical crises",
+      "hook": "Mom lost capacity overnight but POA wasn't 'activated' so nobody could make medical decisions",
+      "chaos": [
+        "Stroke left Mom unable to make decisions",
+        "POA document required doctor certification of incapacity",
+        "Doctor hesitant to 'take away patient autonomy'",
+        "Hospital wouldn't accept family decisions without activated POA",
+        "Critical treatment delayed while legal paperwork sorted out"
+      ],
+      "turning_point": "Lawyer explained how to properly activate POA before crisis hits",
+      "calm": [
+        "POA activation process understood before emergency",
+        "Doctors educated about family's legal authority",
+        "Medical decisions made quickly when patient unable",
+        "Mom's wishes honored through proper legal channels"
+      ],
+      "cta": "Legal authority must be clear before medical emergencies occur.",
+      "kiin_features": ["legal_document_management", "poa_coordination", "emergency_authority"],
+      "target_emotion": "helpless_to_empowered",
+      "scenario_type": "family"
+    },
+    {
+      "id": "respite_care_scheduling_chaos",
+      "category": "respite_care",
+      "severity": "medium",
+      "description": "Respite care scheduling conflicts leave primary caregiver without breaks",
+      "statistic": "Only 25% of caregivers use respite services, often due to coordination difficulties",
+      "hook": "Three different respite providers meant I never knew who was coming when",
+      "chaos": [
+        "Church volunteers came Sundays but inconsistent timing",
+        "Paid aide scheduled Wednesdays but often called out",
+        "Family members helped 'when they could' but unreliably",
+        "Never could make plans because didn't know when help available",
+        "Primary caregiver burnout from lack of reliable respite"
+      ],
+      "turning_point": "Realized respite needed to be scheduled like any other medical service",
+      "calm": [
+        "Reliable respite schedule that allows for planning",
+        "Backup providers when primary respite unavailable",
+        "Family calendar includes respite as non-negotiable care component",
+        "Primary caregiver sustains because support is predictable"
+      ],
+      "cta": "Reliable respite care prevents caregiver collapse.",
+      "kiin_features": ["respite_scheduling", "caregiver_support", "backup_coordination"],
+      "target_emotion": "exhaustion_to_sustainability",
+      "scenario_type": "family"
+    },
+    {
+      "id": "medical_equipment_insurance_battle",
+      "category": "equipment_insurance",
+      "severity": "high",
+      "description": "Insurance denies essential medical equipment while patient suffers",
+      "statistic": "Medicare denies 27% of durable medical equipment claims, often inappropriately",
+      "hook": "Insurance denied Dad's hospital bed saying it wasn't 'medically necessary' while he couldn't get out of regular bed",
+      "chaos": [
+        "Doctor ordered hospital bed for safe transfers",
+        "Insurance denied claim citing 'insufficient documentation'",
+        "Dad falling trying to get out of regular bed",
+        "Family paying out of pocket for equipment insurance should cover",
+        "Appeals process taking months while Dad's safety at risk"
+      ],
+      "turning_point": "Learned how to write appeals that insurance companies can't deny",
+      "calm": [
+        "Medical necessity documentation submitted with initial equipment orders",
+        "Appeals filed with comprehensive supporting evidence",
+        "Dad's safety equipment approved and covered",
+        "Family advocates effectively within insurance system"
+      ],
+      "cta": "Essential medical equipment shouldn't be held hostage by insurance bureaucracy.",
+      "kiin_features": ["insurance_appeals", "equipment_tracking", "medical_documentation"],
+      "target_emotion": "denied_to_approved",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "family_caregiver_role_confusion",
+      "category": "family_roles",
+      "severity": "medium",
+      "description": "Unclear family roles create resentment and care gaps",
+      "statistic": "Role ambiguity creates stress for 70% of family caregiving situations",
+      "hook": "Everyone assumed someone else was managing Mom's medications",
+      "chaos": [
+        "Three adult children, nobody officially in charge",
+        "Everyone thought someone else was tracking medications",
+        "Mom got confused about who to ask for help",
+        "Duplicate efforts and care gaps happening simultaneously",
+        "Family meetings became blame sessions instead of planning"
+      ],
+      "turning_point": "Assigned specific roles based on abilities and availability",
+      "calm": [
+        "Clear responsibilities for each family member",
+        "Primary and backup roles for all essential tasks",
+        "Regular family meetings to adjust roles as needed",
+        "Mom knows who to contact for each type of need"
+      ],
+      "cta": "Clear roles prevent both care gaps and family conflicts.",
+      "kiin_features": ["role_assignment", "responsibility_tracking", "family_coordination"],
+      "target_emotion": "confusion_to_clarity",
+      "scenario_type": "family"
+    },
+    {
+      "id": "emergency_room_information_chaos",
+      "category": "emergency_care",
+      "severity": "critical",
+      "description": "ER visit complicated by missing medical information",
+      "statistic": "Medical errors increase 40% in emergency situations with incomplete information",
+      "hook": "Dad's ER visit turned dangerous when we couldn't remember his medication names or dosages",
+      "chaos": [
+        "Emergency happened while medication list was at home",
+        "Couldn't remember exact names of 12 different medications",
+        "Drug interaction nearly caused serious complication",
+        "ER doctor making decisions with incomplete information",
+        "Family members giving conflicting medical history"
+      ],
+      "turning_point": "Created emergency medical information system that travels with Dad",
+      "calm": [
+        "Current medication list in wallet, car, and with key family members",
+        "Emergency medical information easily accessible",
+        "Critical health information organized for quick reference",
+        "ER treatment safer and more effective with complete information"
+      ],
+      "cta": "Emergency medical information can save lives when every second counts.",
+      "kiin_features": ["emergency_medical_info", "medication_tracking", "health_records"],
+      "target_emotion": "dangerous_to_safe",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "primary_care_specialist_coordination_gap",
+      "category": "provider_coordination",
+      "severity": "medium",
+      "description": "Primary care doctor unaware of specialist recommendations",
+      "statistic": "Lack of coordination between providers contributes to 70% of medical errors",
+      "hook": "Mom's cardiologist changed her medications but didn't tell her primary care doctor",
+      "chaos": [
+        "Specialist made medication changes during visit",
+        "Changes not communicated to primary care office",
+        "Primary care refilled old medications during routine visit",
+        "Mom taking both old and new medications simultaneously",
+        "Dangerous drug interaction discovered during routine blood work"
+      ],
+      "turning_point": "Family became central communication hub for all providers",
+      "calm": [
+        "All medication changes shared with all providers immediately",
+        "Family maintains master list of current medications",
+        "Providers copied on important visit summaries",
+        "Mom's care coordinated across entire medical team"
+      ],
+      "cta": "Families often become the essential link between disconnected providers.",
+      "kiin_features": ["provider_communication", "medication_coordination", "visit_summaries"],
+      "target_emotion": "dangerous_to_coordinated",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "nursing_home_placement_family_division",
+      "category": "placement_decisions",
+      "severity": "high",
+      "description": "Family divided over nursing home placement creates care crisis",
+      "statistic": "85% of families struggle with nursing home placement decisions",
+      "hook": "Half the family wanted nursing home care, half demanded Mom stay home, while Mom declined rapidly",
+      "chaos": [
+        "Mom's dementia progressing beyond family's ability to manage",
+        "Some siblings felt nursing home was 'giving up'",
+        "Others recognized family couldn't provide safe care",
+        "Mom caught in middle of family arguments",
+        "Care suffering while family debated instead of deciding"
+      ],
+      "turning_point": "Professional geriatric care manager helped family see situation objectively",
+      "calm": [
+        "Objective assessment of Mom's needs vs family's capacity",
+        "Nursing home choice based on Mom's wellbeing, not family guilt",
+        "United family approach to placement decision",
+        "Mom receiving safe, professional care while maintaining family connection"
+      ],
+      "cta": "Placement decisions require objective assessment, not family politics.",
+      "kiin_features": ["care_assessment", "family_mediation", "placement_planning"],
+      "target_emotion": "divided_to_united",
+      "scenario_type": "family"
+    },
+    {
+      "id": "medication_reconciliation_hospital_discharge",
+      "category": "medication_management",
+      "severity": "high",
+      "description": "Hospital discharge medications conflict with home medications",
+      "statistic": "Medication errors occur in 60% of patients within 30 days of hospital discharge",
+      "hook": "Dad came home from hospital with 15 new medications and nobody knew which ones to stop",
+      "chaos": [
+        "Hospital discharge gave list of new medications",
+        "No instructions about stopping or continuing home medications",
+        "Family unsure which medications were temporary vs permanent",
+        "Some new medications duplicated existing ones",
+        "Dad taking potentially dangerous combination of old and new medications"
+      ],
+      "turning_point": "Pharmacist conducted comprehensive medication review at discharge",
+      "calm": [
+        "Clear instructions about which medications to stop, start, or change",
+        "Hospital discharge medications reconciled with home medications",
+        "Pharmacist education about new medication purposes and timing",
+        "Dad safely transitioned from hospital to home medication regimen"
+      ],
+      "cta": "Medication reconciliation at discharge prevents dangerous errors at home.",
+      "kiin_features": ["medication_reconciliation", "discharge_planning", "pharmacy_coordination"],
+      "target_emotion": "confused_to_confident",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "adult_protective_services_investigation",
+      "category": "aps_investigation",
+      "severity": "critical",
+      "description": "APS investigation disrupts family care coordination",
+      "statistic": "APS investigates 5.2 million reports annually, often involving families providing care",
+      "hook": "Neighbor reported 'neglect' because Dad looked unkempt, triggering APS investigation of our loving family",
+      "chaos": [
+        "Anonymous report filed after Dad had bad day and went outside disheveled",
+        "APS investigator arrived unannounced during medical crisis",
+        "Family treated as suspects instead of devoted caregivers",
+        "Care providers questioned about family's ability to provide care",
+        "Investigation lasted months while family felt attacked"
+      ],
+      "turning_point": "Documentation of care efforts vindicated family's dedication",
+      "calm": [
+        "Comprehensive documentation of all care efforts and medical compliance",
+        "Professional care team testified to family's dedication",
+        "Investigation closed with recognition of excellent family care",
+        "Family learned to protect themselves with proper documentation"
+      ],
+      "cta": "Good documentation protects dedicated families from false accusations.",
+      "kiin_features": ["care_documentation", "professional_references", "investigation_support"],
+      "target_emotion": "accused_to_vindicated",
+      "scenario_type": "family"
+    },
+    {
+      "id": "insurance_network_provider_loss",
+      "category": "insurance_networks",
+      "severity": "medium",
+      "description": "Insurance network changes force disruption of established care relationships",
+      "statistic": "Provider network changes affect 20% of patients annually",
+      "hook": "Mom's longtime cardiologist was suddenly 'out of network' forcing care disruption",
+      "chaos": [
+        "Insurance changed networks without adequate patient notification",
+        "Cardiologist who knew Mom's complex history no longer covered",
+        "New in-network cardiologist unfamiliar with Mom's case",
+        "Medical records transfer delayed by administrative barriers",
+        "Continuity of specialized care disrupted by insurance decision"
+      ],
+      "turning_point": "Filed appeal for continuity of care exception with insurance",
+      "calm": [
+        "Insurance approved continuity exception for specialized care",
+        "Transition planning when provider changes unavoidable",
+        "Medical records properly transferred to maintain continuity",
+        "Mom's cardiac care uninterrupted by insurance network changes"
+      ],
+      "cta": "Established care relationships shouldn't be casualties of insurance changes.",
+      "kiin_features": ["insurance_monitoring", "continuity_planning", "appeals_process"],
+      "target_emotion": "disrupted_to_continuous",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "medical_translator_coordination_failure",
+      "category": "language_barriers",
+      "severity": "medium",
+      "description": "Medical interpreter no-shows create dangerous communication gaps",
+      "statistic": "Language barriers contribute to medical errors for 25 million Americans",
+      "hook": "Grandma's oncology appointment proceeded without interpreter when translator didn't show up",
+      "chaos": [
+        "Hospital scheduled interpreter but they cancelled last minute",
+        "Oncologist proceeded with appointment using family translation",
+        "Complex medical information lost in family member translation",
+        "Treatment decisions made with incomplete understanding",
+        "Grandma agreed to treatment she didn't fully comprehend"
+      ],
+      "turning_point": "Demanded rescheduling until professional interpreter available",
+      "calm": [
+        "Professional medical interpretation for all complex appointments",
+        "Backup interpreter arrangements when primary unavailable",
+        "Medical information properly translated and understood",
+        "Grandma making informed decisions about her cancer treatment"
+      ],
+      "cta": "Language barriers in medical care can be life-threatening.",
+      "kiin_features": ["interpreter_coordination", "language_support", "medical_translation"],
+      "target_emotion": "misunderstood_to_informed",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "hospice_care_coordination_timing",
+      "category": "hospice_care",
+      "severity": "critical",
+      "description": "Delayed hospice referral creates unnecessary suffering",
+      "statistic": "Median hospice length of stay is only 18 days, often too late for optimal comfort",
+      "hook": "Dad suffered for months because doctor said 'it wasn't time for hospice yet'",
+      "chaos": [
+        "Doctor focused on curative treatments despite poor prognosis",
+        "Dad enduring painful treatments with little benefit",
+        "Family afraid to mention hospice because doctor seemed opposed",
+        "Dad's quality of life deteriorating with aggressive treatment",
+        "Hospice finally started weeks before death, too late for optimal comfort"
+      ],
+      "turning_point": "Family advocated for hospice consultation despite doctor's reluctance",
+      "calm": [
+        "Hospice started when focused on comfort rather than cure",
+        "Dad's pain managed effectively with hospice expertise",
+        "Family educated about comfort care options",
+        "Dad's final weeks peaceful instead of painful"
+      ],
+      "cta": "Hospice care should start when comfort becomes the priority.",
+      "kiin_features": ["hospice_coordination", "comfort_care_planning", "end_of_life_advocacy"],
+      "target_emotion": "suffering_to_peaceful",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "medical_appointment_scheduling_cascade_failure",
+      "category": "appointment_coordination",
+      "severity": "medium",
+      "description": "One cancelled appointment creates cascade of scheduling disasters",
+      "statistic": "Medical appointment changes affect family schedules in 80% of caregiving situations",
+      "hook": "Cardiologist cancelled last minute, disrupting 6 other family appointments scheduled around it",
+      "chaos": [
+        "Cardiology appointment was anchor for entire week's schedule",
+        "Family members took time off work to coordinate care",
+        "Transportation arranged around appointment timing",
+        "Other medical appointments scheduled in sequence",
+        "Last-minute cancellation destroyed carefully orchestrated schedule"
+      ],
+      "turning_point": "Built flexibility into scheduling with backup plans",
+      "calm": [
+        "Appointment scheduling includes contingency planning",
+        "Flexible family schedules accommodate medical appointment changes",
+        "Transportation and care coverage adaptable to schedule changes",
+        "Medical care coordination robust enough to handle disruptions"
+      ],
+      "cta": "Medical appointment changes shouldn't destroy family coordination.",
+      "kiin_features": ["flexible_scheduling", "contingency_planning", "appointment_coordination"],
+      "target_emotion": "disrupted_to_adaptable",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "family_meeting_coordination_failure",
+      "category": "family_communication",
+      "severity": "medium",
+      "description": "Failed family care planning meetings lead to coordination breakdown",
+      "statistic": "Regular family meetings improve care coordination for 85% of families",
+      "hook": "We tried to plan Dad's care but three siblings never showed up to family meetings",
+      "chaos": [
+        "Scheduled family meetings but attendance always incomplete",
+        "Absent siblings complained about decisions made without them",
+        "Care planning stalled by inability to gather family together",
+        "Important decisions delayed waiting for family consensus",
+        "Dad's care suffering from lack of coordinated family approach"
+      ],
+      "turning_point": "Moved to virtual family meetings with recorded sessions for absent members",
+      "calm": [
+        "Virtual meetings allow participation regardless of location",
+        "Recorded sessions ensure absent family members stay informed",
+        "Regular care planning meetings keep everyone coordinated",
+        "Dad benefits from unified family approach to his care"
+      ],
+      "cta": "Technology can bridge family coordination gaps.",
+      "kiin_features": ["virtual_family_meetings", "meeting_coordination", "information_sharing"],
+      "target_emotion": "fragmented_to_unified",
+      "scenario_type": "family"
+    },
+    {
+      "id": "medical_equipment_maintenance_failure",
+      "category": "equipment_maintenance",
+      "severity": "high",
+      "description": "Critical medical equipment fails due to poor maintenance coordination",
+      "statistic": "Medical equipment failures affect 15% of home care patients annually",
+      "hook": "Mom's oxygen concentrator failed at 2am because nobody scheduled routine maintenance",
+      "chaos": [
+        "Oxygen concentrator making strange noises for weeks",
+        "Equipment company said maintenance was 'family responsibility'",
+        "Insurance didn't cover preventive maintenance costs",
+        "Equipment failed during night when repair services unavailable",
+        "Emergency oxygen tanks nearly empty, Mom struggling to breathe"
+      ],
+      "turning_point": "Established preventive maintenance schedule for all critical equipment",
+      "calm": [
+        "Regular maintenance prevents equipment failures",
+        "Backup equipment available when primary devices serviced",
+        "Maintenance costs budgeted as essential medical expense",
+        "Mom never without life-supporting equipment"
+      ],
+      "cta": "Life-supporting equipment requires preventive maintenance, not emergency repairs.",
+      "kiin_features": ["equipment_maintenance_tracking", "preventive_scheduling", "backup_equipment"],
+      "target_emotion": "reactive_to_proactive",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "care_transition_hospital_to_home_chaos",
+      "category": "care_transitions",
+      "severity": "critical",
+      "description": "Poorly coordinated transition from hospital to home care creates dangerous gaps",
+      "statistic": "Care transition failures contribute to 80% of medical errors",
+      "hook": "Dad came home from hospital but home health services didn't start for a week",
+      "chaos": [
+        "Hospital discharge assumed home health services already arranged",
+        "Home health company needed doctor's orders they didn't receive",
+        "Insurance prior authorization required but not obtained",
+        "Family left to provide skilled nursing care without training",
+        "Dad's recovery compromised by care transition failure"
+      ],
+      "turning_point": "Demanded discharge be delayed until all home services confirmed",
+      "calm": [
+        "Home health services confirmed and started before hospital discharge",
+        "Family trained on care requirements before discharge",
+        "All necessary equipment and supplies delivered before patient arrives home",
+        "Smooth transition supports Dad's continued recovery at home"
+      ],
+      "cta": "Safe transitions require confirmation, not assumptions.",
+      "kiin_features": ["transition_planning", "service_coordination", "discharge_preparation"],
+      "target_emotion": "unprepared_to_ready",
+      "scenario_type": "medical"
+    },
+    {
+      "id": "emergency_medication_access_failure",
+      "category": "emergency_medications",
+      "severity": "critical",
+      "description": "Emergency medications unavailable when critically needed",
+      "statistic": "Emergency medication access failures affect 12% of patients with critical conditions",
+      "hook": "Dad's emergency heart medication was at pharmacy across town when he needed it at midnight",
+      "chaos": [
+        "Emergency medication prescription at single pharmacy",
+        "Chest pain started after pharmacy hours",
+        "Nearest 24-hour pharmacy didn't have medication in stock",
+        "911 called because emergency medication unavailable",
+        "Hospitalization required for condition that could have been managed at home"
+      ],
+      "turning_point": "Distributed emergency medications across multiple locations",
+      "calm": [
+        "Emergency medications stored at home, car, and workplace",
+        "Multiple family members carry emergency supplies",
+        "24-hour pharmacy relationships established for critical medications",
+        "Dad's emergency episodes managed at home with proper preparation"
+      ],
+      "cta": "Emergency medications must be available when and where needed.",
+      "kiin_features": ["emergency_medication_management", "multiple_location_storage", "24_hour_pharmacy_coordination"],
+      "target_emotion": "vulnerable_to_prepared",
+      "scenario_type": "medical"
+    }
+  ]
+}

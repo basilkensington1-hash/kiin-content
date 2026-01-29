@@ -27,11 +27,13 @@ try:
     from .voice_manager import VoiceManager
     from .music_mixer import MusicMixer
     from .brand_utils import KiinBrand
+    from .effects import KiinEffectsLibrary
 except ImportError:
     # Fallback for running as script
     from voice_manager import VoiceManager
     from music_mixer import MusicMixer
     from brand_utils import KiinBrand
+    from effects import KiinEffectsLibrary
 
 
 class EnhancedValidationGenerator:
@@ -47,6 +49,9 @@ class EnhancedValidationGenerator:
         self.voice_manager = VoiceManager()
         self.music_mixer = MusicMixer()
         self.brand = KiinBrand()
+        
+        # Initialize professional effects library
+        self.effects = KiinEffectsLibrary(self.width, self.height, self.fps)
         
         # Paths
         if config_path is None:

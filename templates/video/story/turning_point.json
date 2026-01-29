@@ -1,0 +1,92 @@
+{
+  "template_name": "Turning Point",
+  "category": "story",
+  "duration": "45-60s",
+  "emotional_tone": "hope",
+  
+  "thumbnail_layout": {
+    "background": "hope_primary",
+    "text_placement": "story_arc_visual",
+    "font": "display_regular",
+    "text_color": "hope_text",
+    "overlay_opacity": 0.7,
+    "visual_style": "journey_progression",
+    "badge": "STORY"
+  },
+
+  "intro_animation": {
+    "style": "story_opening",
+    "duration": "2.5s",
+    "elements": [
+      "narrative_text_unfold",
+      "warm_story_glow"
+    ],
+    "sound": "gentle_story_tone"
+  },
+
+  "text_placement": {
+    "setup": {
+      "position": "upper_third",
+      "font": "body_regular",
+      "size": "medium",
+      "animation": "story_begin",
+      "timing": "0-15s"
+    },
+    "challenge": {
+      "position": "center_left",
+      "font": "display_regular",
+      "size": "large",
+      "animation": "tension_build",
+      "timing": "15-30s"
+    },
+    "turning_point": {
+      "position": "center",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "revelation_moment",
+      "timing": "30-45s"
+    },
+    "resolution": {
+      "position": "lower_third",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "hopeful_settle",
+      "timing": "45-55s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#6BB3A0",
+    "secondary": "#87CEEB",
+    "accent": "#FFE4B5",
+    "background": "journey_arc_gradient",
+    "text": "#2F4F4F"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Regular",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Regular"
+  },
+
+  "transition_style": {
+    "type": "story_flow",
+    "duration": "1.2s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "hope_inspiring",
+    "message": "Your story matters too 💙",
+    "duration": "5s",
+    "background": "hope_background",
+    "action": "share_your_story"
+  },
+
+  "content_guidelines": {
+    "opening": "I remember when...",
+    "structure": "setup_situation -> challenge_faced -> turning_point -> positive_outcome",
+    "tone": "authentic, inspiring, relatable",
+    "length": "4-6 narrative sentences with clear story arc"
+  }
+}

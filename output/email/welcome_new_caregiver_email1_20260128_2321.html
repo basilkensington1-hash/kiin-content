@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi {{first_name}}, let's start this together</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
+        .header { background-color: #2C3E50; color: white; padding: 20px; text-align: center; }
+        .content { padding: 30px; line-height: 1.6; }
+        .cta-button { display: inline-block; background-color: #3498DB; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 20px 0; }
+        .footer { background-color: #ecf0f1; padding: 20px; text-align: center; font-size: 12px; color: #7f8c8d; }
+        .highlight { background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 10px; margin: 15px 0; }
+        .tip-box { background-color: #d1ecf1; border: 1px solid #bee5eb; border-radius: 5px; padding: 15px; margin: 15px 0; }
+        .story-box { background-color: #f8f9fa; border-left: 4px solid #6c757d; padding: 15px; margin: 15px 0; font-style: italic; }
+        @media only screen and (max-width: 600px) {
+            .container { width: 100%; }
+            .content { padding: 20px; }
+            .cta-button { display: block; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Kiin Care</h1>
+            <p>Supporting caregivers with understanding</p>
+        </div>
+        <div class="content">
+            <p><strong>Hi there,</strong></p>
+<p>Welcome to a community that truly understands what you're going through.</p>
+<p>Becoming a caregiver can feel overwhelming, isolating, and emotionally exhausting. 
+            You might be wondering if you're doing enough, if you're making the right decisions, 
+            or if it's normal to feel this way. Let me be the first to tell you: everything 
+            you're feeling is valid, and you're not alone in this journey.</p>
+<div class="highlight">Thousands of caregivers just like you have found support, guidance, and community here. 
+            We're not just another resource website – we're fellow caregivers who've been in your 
+            shoes and understand the unique challenges you face.</div>
+<p>Over the next few weeks, I'll be sharing practical tips, emotional support, and 
+            real stories from other caregivers. You'll get resources that actually work, 
+            not just generic advice that doesn't fit your situation.</p>
+<div class="tip-box">Your first step is simple: download our 'Getting Started as a Caregiver' guide. It's designed specifically for people just beginning this journey.</div>
+<p><a href="{{cta_url}}" class="cta-button">Download Getting Started Guide</a></p>
+        </div>
+        <div class="footer">
+            <p>You're receiving this email because you signed up for caregiver support from Kiin Care.</p>
+            <p><a href="{{unsubscribe_url}}">Unsubscribe</a> | <a href="{{preferences_url}}">Manage Preferences</a></p>
+            <p>&copy; 2024 Kiin Care. Supporting caregivers with love and understanding.</p>
+        </div>
+    </div>
+</body>
+</html>
+        

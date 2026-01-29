@@ -19,6 +19,9 @@ import uuid
 from typing import Dict, List, Tuple, Optional
 import colorsys
 
+# Import enhanced effects
+from effects import KiinEffectsLibrary
+
 class SandwichGeneratorV2:
     def __init__(self, config_dir: str = None, output_dir: str = None):
         """Initialize the enhanced generator."""
@@ -33,6 +36,9 @@ class SandwichGeneratorV2:
         self.video_width = 1080
         self.video_height = 1920
         self.fps = 30
+        
+        # Initialize professional effects library
+        self.effects = KiinEffectsLibrary(self.video_width, self.video_height, self.fps)
         
         # Enhanced timing settings
         self.hook_duration = 4

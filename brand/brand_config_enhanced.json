@@ -1,0 +1,185 @@
+{
+  "name": "Kiin",
+  "tagline": "Care coordination made easier",
+  "mission": "Supporting those who care for others with warmth, understanding, and practical tools",
+  
+  "colors": {
+    "primary": "#4A90B8",
+    "secondary": "#6BB3A0", 
+    "accent": "#F4A460",
+    "background_warm": "#FDF9F5",
+    "background_cool": "#F8FAFB",
+    "text_light": "#FFFFFF",
+    "text_dark": "#2C3E50",
+    "emotional_palettes": {
+      "hope": {
+        "primary": "#6BB3A0",
+        "secondary": "#87CEEB",
+        "accent": "#FFE4B5",
+        "background": "#F0FFFF",
+        "text": "#2F4F4F"
+      },
+      "comfort": {
+        "primary": "#DEB887",
+        "secondary": "#D2B48C",
+        "accent": "#F5DEB3",
+        "background": "#FFF8DC",
+        "text": "#8B4513"
+      },
+      "energy": {
+        "primary": "#FF7F50",
+        "secondary": "#FFB347",
+        "accent": "#FFFF99",
+        "background": "#FFFACD",
+        "text": "#CD5C5C"
+      },
+      "calm": {
+        "primary": "#B0C4DE",
+        "secondary": "#E6E6FA",
+        "accent": "#F0F8FF",
+        "background": "#F5F5F5",
+        "text": "#4682B4"
+      },
+      "urgency": {
+        "primary": "#DC143C",
+        "secondary": "#FF6347",
+        "accent": "#FFE4E1",
+        "background": "#FFFAF0",
+        "text": "#8B0000"
+      }
+    }
+  },
+  
+  "typography": {
+    "display": {
+      "font_family": "Poppins",
+      "weights": ["400", "600", "700"],
+      "use_cases": ["headlines", "hero_text", "call_to_action"],
+      "line_height": 1.2,
+      "letter_spacing": "-0.02em"
+    },
+    "body": {
+      "font_family": "Source Sans Pro",
+      "weights": ["400", "600"],
+      "use_cases": ["body_text", "captions", "descriptions"],
+      "line_height": 1.5,
+      "letter_spacing": "0.01em"
+    },
+    "accent": {
+      "font_family": "Inter",
+      "weights": ["500", "700"],
+      "use_cases": ["labels", "badges", "metadata"],
+      "line_height": 1.3,
+      "letter_spacing": "0.02em"
+    }
+  },
+
+  "imagery": {
+    "style_guidelines": [
+      "Authentic, unposed moments of real caregivers",
+      "Soft, natural lighting - avoid harsh shadows",
+      "Warm color grading with slight desaturation",
+      "Focus on hands, gentle gestures, caring interactions",
+      "Include diverse ages, ethnicities, and family structures",
+      "Show technology being used naturally, not prominently",
+      "Capture quiet moments of care and connection"
+    ],
+    "do_nots": [
+      "Stock photography with fake smiles",
+      "Clinical or hospital-like settings",
+      "Technology as the hero of the image",
+      "Overly dramatic or emotional staging",
+      "Perfect, unrealistic family scenarios",
+      "Cold or sterile environments",
+      "Aggressive or bright lighting"
+    ],
+    "mood_boards": {
+      "primary": "Gentle moments - tea cups, soft blankets, holding hands",
+      "secondary": "Technology integration - phones being used naturally, apps in context",
+      "accent": "Small victories - completed tasks, organized calendars, peaceful moments"
+    }
+  },
+
+  "voice": {
+    "tone_guidelines": {
+      "primary_tone": "Warm and understanding",
+      "secondary_tone": "Practical and helpful",
+      "emotional_range": "Gentle encouragement to quiet confidence",
+      "formality_level": "Conversational but respectful",
+      "energy_level": "Calm and steady, not high-energy"
+    },
+    "vocabulary": {
+      "preferred_words": [
+        "support", "together", "gentle", "care", "understanding", "helpful",
+        "practical", "simple", "easier", "moment", "step", "journey",
+        "family", "loved ones", "community", "tools", "resources"
+      ],
+      "power_words": [
+        "breathe", "pause", "gentle", "steady", "clear", "simple",
+        "together", "supported", "understood", "capable", "enough"
+      ],
+      "avoid_words": [
+        "amazing", "incredible", "life-changing", "revolutionary",
+        "perfect", "effortless", "instant", "miracle", "transform"
+      ]
+    },
+    "phrases_to_use": [
+      "You're not alone in this",
+      "Small steps make a difference",
+      "Take a moment for yourself",
+      "It's okay to ask for help",
+      "Every family's journey is different",
+      "You're doing better than you think",
+      "One thing at a time",
+      "Be gentle with yourself"
+    ],
+    "phrases_to_avoid": [
+      "You should...",
+      "Simply follow these steps",
+      "It's easy",
+      "Just do this",
+      "Obviously...",
+      "Everyone knows...",
+      "The secret is...",
+      "Transform your life"
+    ]
+  },
+
+  "content_frameworks": {
+    "confession_structure": {
+      "hook": "Relatable admission or realization",
+      "story": "Brief personal or observed experience",
+      "insight": "What was learned or understood",
+      "connection": "How this relates to caregiving"
+    },
+    "tip_structure": {
+      "problem": "Common caregiving challenge",
+      "solution": "Practical, actionable advice",
+      "context": "When/how to apply this",
+      "encouragement": "Supportive closing thought"
+    },
+    "story_structure": {
+      "setup": "Caregiving situation or challenge",
+      "journey": "What happened, decisions made",
+      "outcome": "How things improved or changed",
+      "lesson": "Takeaway for other caregivers"
+    }
+  },
+
+  "platform_adaptations": {
+    "instagram": {
+      "aspect_ratios": ["1:1", "4:5", "9:16"],
+      "caption_length": "125-150 characters for optimal engagement",
+      "hashtag_strategy": "8-12 relevant hashtags, mix of popular and niche"
+    },
+    "tiktok": {
+      "aspect_ratios": ["9:16"],
+      "video_length": "15-30 seconds for maximum reach",
+      "text_overlay": "Large, readable fonts, high contrast"
+    },
+    "youtube": {
+      "thumbnail_style": "Clear faces or hands, warm colors, readable text",
+      "title_optimization": "Front-load key terms, emotional hooks"
+    }
+  }
+}

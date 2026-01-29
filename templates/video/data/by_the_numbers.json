@@ -1,0 +1,85 @@
+{
+  "template_name": "By The Numbers",
+  "category": "data",
+  "duration": "25-35s",
+  "emotional_tone": "calm",
+  
+  "thumbnail_layout": {
+    "background": "calm_primary",
+    "text_placement": "numerical_grid",
+    "font": "display_regular",
+    "text_color": "calm_text",
+    "overlay_opacity": 0.8,
+    "visual_style": "organized_data_grid",
+    "badge": "NUMBERS"
+  },
+
+  "intro_animation": {
+    "style": "numerical_sequence",
+    "duration": "2.5s",
+    "elements": [
+      "numbers_cascade_in",
+      "organized_data_light"
+    ],
+    "sound": "numerical_sequence_tone"
+  },
+
+  "text_placement": {
+    "title": {
+      "position": "top_center",
+      "font": "accent_medium",
+      "size": "small",
+      "animation": "title_establish",
+      "timing": "0-3s"
+    },
+    "number_sequence": {
+      "position": "grid_layout",
+      "font": "display_regular",
+      "size": "large",
+      "animation": "sequential_reveal",
+      "timing": "3-20s"
+    },
+    "conclusion": {
+      "position": "bottom_center",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "calm_synthesis",
+      "timing": "20-30s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#B0C4DE",
+    "secondary": "#E6E6FA",
+    "accent": "#F0F8FF",
+    "background": "organized_data_gradient",
+    "text": "#4682B4"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Regular",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "sequential_flow",
+    "duration": "1.2s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "calm_data",
+    "message": "Numbers tell a story 📈",
+    "duration": "4s",
+    "background": "calm_background",
+    "action": "understand_the_story"
+  },
+
+  "content_guidelines": {
+    "opening": "By the numbers:",
+    "structure": "data_introduction -> sequential_statistics -> meaningful_conclusion",
+    "tone": "informative, organized, insightful",
+    "length": "3-5 related statistics with synthesis"
+  }
+}

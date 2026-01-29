@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "campaign_type": "welcome",
+    "sequence_name": "new_caregiver",
+    "email_number": 1,
+    "segment": "general",
+    "created_date": "2026-01-28 23:21",
+    "estimated_send_time": "1 min read"
+  },
+  "subject_lines": [
+    {
+      "variation": "A",
+      "subject_line": "Welcome to your caregiving journey - you're not alone",
+      "predicted_open_rate": "20-25%",
+      "personalized": false
+    },
+    {
+      "variation": "B",
+      "subject_line": "Hi {{first_name}}, let's start this together",
+      "predicted_open_rate": "25-30%",
+      "personalized": true
+    },
+    {
+      "variation": "C",
+      "subject_line": "Your caregiver support starts now",
+      "predicted_open_rate": "25-30%",
+      "personalized": false
+    }
+  ],
+  "content": {
+    "type": "welcome",
+    "email_number": 1,
+    "tone": "welcoming",
+    "subject_line": "Hi {{first_name}}, let's start this together",
+    "main_content": {
+      "greeting": "Hi there,",
+      "opening": "Welcome to a community that truly understands what you're going through.",
+      "main_message": "\n            Becoming a caregiver can feel overwhelming, isolating, and emotionally exhausting. \n            You might be wondering if you're doing enough, if you're making the right decisions, \n            or if it's normal to feel this way. Let me be the first to tell you: everything \n            you're feeling is valid, and you're not alone in this journey.\n            ",
+      "validation": "\n            Thousands of caregivers just like you have found support, guidance, and community here. \n            We're not just another resource website – we're fellow caregivers who've been in your \n            shoes and understand the unique challenges you face.\n            ",
+      "what_to_expect": "\n            Over the next few weeks, I'll be sharing practical tips, emotional support, and \n            real stories from other caregivers. You'll get resources that actually work, \n            not just generic advice that doesn't fit your situation.\n            ",
+      "immediate_action": "Your first step is simple: download our 'Getting Started as a Caregiver' guide. It's designed specifically for people just beginning this journey.",
+      "closing": "Remember, asking for help isn't a sign of weakness – it's a sign of strength. You've taken the first step by joining us.",
+      "signature": "With understanding and support,<br>The Kiin Care Team"
+    },
+    "cta": {
+      "text": "Download Getting Started Guide",
+      "url": "{{cta_url}}",
+      "style": "primary"
+    },
+    "estimated_words": 300
+  },
+  "html_version": "\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Hi {{first_name}}, let's start this together</title>\n    <style>\n        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }\n        .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }\n        .header { background-color: #2C3E50; color: white; padding: 20px; text-align: center; }\n        .content { padding: 30px; line-height: 1.6; }\n        .cta-button { display: inline-block; background-color: #3498DB; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 20px 0; }\n        .footer { background-color: #ecf0f1; padding: 20px; text-align: center; font-size: 12px; color: #7f8c8d; }\n        .highlight { background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 10px; margin: 15px 0; }\n        .tip-box { background-color: #d1ecf1; border: 1px solid #bee5eb; border-radius: 5px; padding: 15px; margin: 15px 0; }\n        .story-box { background-color: #f8f9fa; border-left: 4px solid #6c757d; padding: 15px; margin: 15px 0; font-style: italic; }\n        @media only screen and (max-width: 600px) {\n            .container { width: 100%; }\n            .content { padding: 20px; }\n            .cta-button { display: block; text-align: center; }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"header\">\n            <h1>Kiin Care</h1>\n            <p>Supporting caregivers with understanding</p>\n        </div>\n        <div class=\"content\">\n            <p><strong>Hi there,</strong></p>\n<p>Welcome to a community that truly understands what you're going through.</p>\n<p>Becoming a caregiver can feel overwhelming, isolating, and emotionally exhausting. \n            You might be wondering if you're doing enough, if you're making the right decisions, \n            or if it's normal to feel this way. Let me be the first to tell you: everything \n            you're feeling is valid, and you're not alone in this journey.</p>\n<div class=\"highlight\">Thousands of caregivers just like you have found support, guidance, and community here. \n            We're not just another resource website – we're fellow caregivers who've been in your \n            shoes and understand the unique challenges you face.</div>\n<p>Over the next few weeks, I'll be sharing practical tips, emotional support, and \n            real stories from other caregivers. You'll get resources that actually work, \n            not just generic advice that doesn't fit your situation.</p>\n<div class=\"tip-box\">Your first step is simple: download our 'Getting Started as a Caregiver' guide. It's designed specifically for people just beginning this journey.</div>\n<p><a href=\"{{cta_url}}\" class=\"cta-button\">Download Getting Started Guide</a></p>\n        </div>\n        <div class=\"footer\">\n            <p>You're receiving this email because you signed up for caregiver support from Kiin Care.</p>\n            <p><a href=\"{{unsubscribe_url}}\">Unsubscribe</a> | <a href=\"{{preferences_url}}\">Manage Preferences</a></p>\n            <p>&copy; 2024 Kiin Care. Supporting caregivers with love and understanding.</p>\n        </div>\n    </div>\n</body>\n</html>\n        ",
+  "plain_text_version": "Subject: Hi {{first_name}}, let's start this together\n==================================================\n\nHi there,\n\nWelcome to a community that truly understands what you're going through.\n\nBecoming a caregiver can feel overwhelming, isolating, and emotionally exhausting. \n            You might be wondering if you're doing enough, if you're making the right decisions, \n            or if it's normal to feel this way. Let me be the first to tell you: everything \n            you're feeling is valid, and you're not alone in this journey.\n\nThousands of caregivers just like you have found support, guidance, and community here. \n            We're not just another resource website – we're fellow caregivers who've been in your \n            shoes and understand the unique challenges you face.\n\nOver the next few weeks, I'll be sharing practical tips, emotional support, and \n            real stories from other caregivers. You'll get resources that actually work, \n            not just generic advice that doesn't fit your situation.\n\nYour first step is simple: download our 'Getting Started as a Caregiver' guide. It's designed specifically for people just beginning this journey.\n\n>> Download Getting Started Guide: {{cta_url}}\n\n--------------------------------------------------\nKiin Care - Supporting caregivers with understanding\nUnsubscribe: {{unsubscribe_url}}\nManage Preferences: {{preferences_url}}",
+  "analytics_tracking": {
+    "utm_source": "kiin_email",
+    "utm_medium": "email",
+    "utm_campaign": "welcome_new_caregiver",
+    "utm_content": "email_1",
+    "email_id": "welcome_20260128_1",
+    "tracking_pixel": "{{tracking_pixel_url}}",
+    "click_tracking": true,
+    "open_tracking": true
+  },
+  "send_timing": {
+    "day": "Tuesday",
+    "time": "10:00 AM",
+    "timezone": "EST"
+  },
+  "mobile_optimization": {
+    "subject_line_length": "Keep under 40 characters for mobile preview",
+    "preview_text": "First 90 characters will show in mobile preview",
+    "button_size": "Minimum 44px height for touch targets",
+    "font_size": "Minimum 14px for readability",
+    "image_width": "Maximum 600px width for container",
+    "single_column": "Use single column layout for mobile",
+    "spacing": "Add generous padding around tap targets"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "template_name": "Progress Tracker",
+  "category": "data",
+  "duration": "20-30s",
+  "emotional_tone": "energy",
+  
+  "thumbnail_layout": {
+    "background": "energy_primary",
+    "text_placement": "progress_visual",
+    "font": "display_medium",
+    "text_color": "energy_text",
+    "overlay_opacity": 0.8,
+    "visual_style": "upward_trending_visual",
+    "badge": "PROGRESS"
+  },
+
+  "intro_animation": {
+    "style": "progress_build",
+    "duration": "2s",
+    "elements": [
+      "progress_bar_fill",
+      "upward_energy_flow"
+    ],
+    "sound": "progress_building_tone"
+  },
+
+  "text_placement": {
+    "baseline": {
+      "position": "left_bottom",
+      "font": "body_regular",
+      "size": "small",
+      "animation": "baseline_establish",
+      "timing": "0-5s"
+    },
+    "progress_visual": {
+      "position": "center_dynamic",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "progress_climb",
+      "timing": "5-18s"
+    },
+    "achievement": {
+      "position": "top_right",
+      "font": "accent_bold",
+      "size": "medium",
+      "animation": "celebration_burst",
+      "timing": "18-25s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#FF7F50",
+    "secondary": "#FFB347",
+    "accent": "#FFFF99",
+    "background": "progress_upward_gradient",
+    "text": "#CD5C5C"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Bold"
+  },
+
+  "transition_style": {
+    "type": "progressive_climb",
+    "duration": "1s",
+    "easing": "ease_out_expo"
+  },
+
+  "outro_cta": {
+    "style": "energy_progress",
+    "message": "Look how far we've come! 📈",
+    "duration": "4s",
+    "background": "energy_background",
+    "action": "celebrate_progress"
+  },
+
+  "content_guidelines": {
+    "opening": "Progress update:",
+    "structure": "starting_point -> progress_demonstration -> celebration_of_advancement",
+    "tone": "energetic, celebrating, motivating",
+    "length": "Before/after statistics with progress celebration"
+  }
+}

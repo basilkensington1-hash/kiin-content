@@ -1,0 +1,870 @@
+{
+  "version": "2.0",
+  "description": "Professional audio mixing presets for Kiin Content Factory",
+  "updated": "2025-01-29T00:00:00Z",
+  
+  "content_presets": {
+    "podcast_standard": {
+      "description": "Standard podcast mixing for voice-heavy content",
+      "use_case": "General speech content with background music",
+      "target_platform": ["Podcast platforms", "Audio-only content"],
+      "target_lufs": -16,
+      "peak_limit": -1,
+      "sample_rate": 44100,
+      "channels": 2,
+      
+      "track_settings": {
+        "speech": {
+          "volume": 1.0,
+          "priority": "highest",
+          "processing_order": ["eq", "compression", "limiting"],
+          
+          "eq": {
+            "low_cut": 80,
+            "low_shelf": {
+              "frequency": 200,
+              "gain": -2,
+              "q": 0.7
+            },
+            "presence_boost": {
+              "frequency": 2800,
+              "gain": 2,
+              "q": 1.5
+            },
+            "high_cut": 8000,
+            "de_esser": {
+              "frequency": 6500,
+              "threshold": -20,
+              "ratio": 3.0
+            }
+          },
+          
+          "compression": {
+            "threshold": -18,
+            "ratio": 3.0,
+            "attack": 10,
+            "release": 100,
+            "knee": "soft",
+            "makeup_gain": 3,
+            "normalize": true
+          },
+          
+          "limiting": {
+            "threshold": -3,
+            "release": 50,
+            "lookahead": 5
+          },
+          
+          "noise_gate": {
+            "threshold": -45,
+            "attack": 5,
+            "hold": 100,
+            "release": 200
+          }
+        },
+        
+        "music": {
+          "volume": 0.15,
+          "priority": "background",
+          "processing_order": ["eq", "compression", "ducking"],
+          
+          "eq": {
+            "low_cut": 60,
+            "mid_cut": {
+              "frequency": 1000,
+              "gain": -3,
+              "q": 2.0
+            },
+            "high_cut": 10000,
+            "warmth": {
+              "frequency": 150,
+              "gain": 1,
+              "q": 0.8
+            }
+          },
+          
+          "compression": {
+            "threshold": -24,
+            "ratio": 2.0,
+            "attack": 20,
+            "release": 200,
+            "normalize": false
+          },
+          
+          "ducking": {
+            "enabled": true,
+            "threshold": -30,
+            "ratio": 4.0,
+            "attack": 5,
+            "release": 50,
+            "knee": "hard",
+            "target_reduction": 12
+          }
+        },
+        
+        "sfx": {
+          "volume": 0.4,
+          "priority": "accent",
+          "processing_order": ["eq", "compression"],
+          
+          "eq": {
+            "low_cut": 100,
+            "high_cut": 6000,
+            "clarity": {
+              "frequency": 3000,
+              "gain": 2,
+              "q": 1.0
+            }
+          },
+          
+          "compression": {
+            "threshold": -20,
+            "ratio": 2.5,
+            "attack": 1,
+            "release": 50,
+            "normalize": false
+          }
+        },
+        
+        "ambient": {
+          "volume": 0.08,
+          "priority": "background",
+          "processing_order": ["eq", "compression"],
+          
+          "eq": {
+            "low_cut": 200,
+            "high_cut": 4000,
+            "gentle_warmth": {
+              "frequency": 500,
+              "gain": 1,
+              "q": 0.5
+            }
+          },
+          
+          "compression": {
+            "threshold": -30,
+            "ratio": 1.5,
+            "attack": 50,
+            "release": 500,
+            "normalize": false
+          }
+        }
+      },
+      
+      "master_bus": {
+        "eq": {
+          "low_cut": 40,
+          "high_cut": 15000,
+          "warmth_boost": {
+            "frequency": 120,
+            "gain": 1,
+            "q": 0.7
+          },
+          "presence": {
+            "frequency": 3000,
+            "gain": 0.5,
+            "q": 1.0
+          }
+        },
+        
+        "compression": {
+          "threshold": -12,
+          "ratio": 2.0,
+          "attack": 30,
+          "release": 300,
+          "makeup_gain": 2,
+          "knee": "soft"
+        },
+        
+        "limiter": {
+          "threshold": -1,
+          "release": 50,
+          "lookahead": 10,
+          "isr": 4
+        }
+      },
+      
+      "automation": {
+        "speech_ducking": true,
+        "fade_transitions": true,
+        "level_automation": true
+      }
+    },
+    
+    "documentary_cinematic": {
+      "description": "Cinematic documentary mixing with emotional depth",
+      "use_case": "Story-driven content with dramatic music",
+      "target_platform": ["YouTube", "Vimeo", "Documentary platforms"],
+      "target_lufs": -14,
+      "peak_limit": -0.5,
+      "sample_rate": 48000,
+      "channels": 2,
+      
+      "track_settings": {
+        "speech": {
+          "volume": 1.0,
+          "priority": "highest",
+          
+          "eq": {
+            "low_cut": 70,
+            "warmth": {
+              "frequency": 200,
+              "gain": 1,
+              "q": 0.8
+            },
+            "presence_boost": {
+              "frequency": 2500,
+              "gain": 3,
+              "q": 1.2
+            },
+            "air": {
+              "frequency": 10000,
+              "gain": 1,
+              "q": 0.5
+            },
+            "high_cut": 12000
+          },
+          
+          "compression": {
+            "threshold": -16,
+            "ratio": 2.5,
+            "attack": 15,
+            "release": 150,
+            "makeup_gain": 2
+          }
+        },
+        
+        "music": {
+          "volume": 0.25,
+          "priority": "emotional_support",
+          
+          "eq": {
+            "low_cut": 50,
+            "bass_warmth": {
+              "frequency": 80,
+              "gain": 2,
+              "q": 1.0
+            },
+            "mid_scoop": {
+              "frequency": 800,
+              "gain": -2,
+              "q": 2.0
+            },
+            "string_clarity": {
+              "frequency": 5000,
+              "gain": 1,
+              "q": 0.8
+            }
+          },
+          
+          "compression": {
+            "threshold": -20,
+            "ratio": 1.8,
+            "attack": 50,
+            "release": 300
+          },
+          
+          "ducking": {
+            "enabled": true,
+            "threshold": -25,
+            "ratio": 3.0,
+            "attack": 10,
+            "release": 100,
+            "target_reduction": 8
+          }
+        }
+      },
+      
+      "master_bus": {
+        "eq": {
+          "low_cut": 30,
+          "sub_control": {
+            "frequency": 60,
+            "gain": -1,
+            "q": 0.8
+          },
+          "cinematic_warmth": {
+            "frequency": 150,
+            "gain": 2,
+            "q": 0.6
+          },
+          "clarity": {
+            "frequency": 4000,
+            "gain": 1,
+            "q": 0.8
+          }
+        },
+        
+        "compression": {
+          "threshold": -10,
+          "ratio": 1.5,
+          "attack": 50,
+          "release": 500,
+          "makeup_gain": 1
+        },
+        
+        "limiter": {
+          "threshold": -0.5,
+          "release": 100,
+          "lookahead": 15
+        }
+      }
+    },
+    
+    "social_media_punchy": {
+      "description": "Punchy, attention-grabbing mix for social media",
+      "use_case": "Short-form content for Instagram, TikTok, Twitter",
+      "target_platform": ["Instagram", "TikTok", "Twitter", "Facebook"],
+      "target_lufs": -12,
+      "peak_limit": -0.1,
+      "sample_rate": 44100,
+      "channels": 2,
+      
+      "track_settings": {
+        "speech": {
+          "volume": 1.0,
+          "priority": "maximum_clarity",
+          
+          "eq": {
+            "low_cut": 100,
+            "aggressive_presence": {
+              "frequency": 3000,
+              "gain": 4,
+              "q": 1.5
+            },
+            "brightness": {
+              "frequency": 8000,
+              "gain": 2,
+              "q": 0.7
+            },
+            "cut_mud": {
+              "frequency": 400,
+              "gain": -2,
+              "q": 2.0
+            }
+          },
+          
+          "compression": {
+            "threshold": -14,
+            "ratio": 4.0,
+            "attack": 5,
+            "release": 80,
+            "makeup_gain": 4
+          },
+          
+          "exciter": {
+            "frequency": 2000,
+            "drive": 2,
+            "mix": 15
+          }
+        },
+        
+        "music": {
+          "volume": 0.3,
+          "priority": "energy_support",
+          
+          "eq": {
+            "bass_punch": {
+              "frequency": 80,
+              "gain": 3,
+              "q": 1.2
+            },
+            "mid_cut": {
+              "frequency": 500,
+              "gain": -4,
+              "q": 2.0
+            },
+            "high_energy": {
+              "frequency": 10000,
+              "gain": 2,
+              "q": 0.8
+            }
+          },
+          
+          "compression": {
+            "threshold": -16,
+            "ratio": 3.0,
+            "attack": 10,
+            "release": 100
+          },
+          
+          "ducking": {
+            "enabled": true,
+            "threshold": -20,
+            "ratio": 6.0,
+            "attack": 3,
+            "release": 30,
+            "target_reduction": 15
+          }
+        }
+      },
+      
+      "master_bus": {
+        "eq": {
+          "low_cut": 50,
+          "punch": {
+            "frequency": 100,
+            "gain": 2,
+            "q": 1.0
+          },
+          "clarity": {
+            "frequency": 2500,
+            "gain": 2,
+            "q": 1.5
+          },
+          "sparkle": {
+            "frequency": 12000,
+            "gain": 1,
+            "q": 0.5
+          }
+        },
+        
+        "compression": {
+          "threshold": -8,
+          "ratio": 3.0,
+          "attack": 10,
+          "release": 100,
+          "makeup_gain": 3
+        },
+        
+        "limiter": {
+          "threshold": -0.1,
+          "release": 20,
+          "lookahead": 5
+        }
+      }
+    },
+    
+    "audiobook_clear": {
+      "description": "Crystal clear speech-focused mixing",
+      "use_case": "Speech-only content requiring maximum intelligibility",
+      "target_platform": ["Audiobook platforms", "Educational content"],
+      "target_lufs": -18,
+      "peak_limit": -2,
+      "sample_rate": 44100,
+      "channels": 2,
+      
+      "track_settings": {
+        "speech": {
+          "volume": 1.0,
+          "priority": "maximum_intelligibility",
+          
+          "eq": {
+            "low_cut": 80,
+            "mud_cut": {
+              "frequency": 300,
+              "gain": -1,
+              "q": 1.0
+            },
+            "clarity_boost": {
+              "frequency": 2000,
+              "gain": 2,
+              "q": 1.8
+            },
+            "consonant_clarity": {
+              "frequency": 4000,
+              "gain": 1,
+              "q": 2.0
+            },
+            "high_cut": 8000,
+            "de_esser": {
+              "frequency": 6000,
+              "threshold": -25,
+              "ratio": 4.0
+            }
+          },
+          
+          "compression": {
+            "threshold": -20,
+            "ratio": 2.0,
+            "attack": 20,
+            "release": 200,
+            "makeup_gain": 2
+          },
+          
+          "multiband_compression": {
+            "low_band": {
+              "frequency": 250,
+              "threshold": -25,
+              "ratio": 1.5
+            },
+            "mid_band": {
+              "frequency": 2500,
+              "threshold": -18,
+              "ratio": 3.0
+            },
+            "high_band": {
+              "frequency": 6000,
+              "threshold": -20,
+              "ratio": 2.0
+            }
+          }
+        },
+        
+        "ambient": {
+          "volume": 0.05,
+          "priority": "subtle_support",
+          
+          "eq": {
+            "low_cut": 300,
+            "high_cut": 3000,
+            "gentle_presence": {
+              "frequency": 1000,
+              "gain": 0.5,
+              "q": 0.5
+            }
+          }
+        }
+      },
+      
+      "master_bus": {
+        "eq": {
+          "low_cut": 60,
+          "speech_optimize": {
+            "frequency": 2000,
+            "gain": 1,
+            "q": 0.8
+          }
+        },
+        
+        "compression": {
+          "threshold": -15,
+          "ratio": 1.8,
+          "attack": 40,
+          "release": 400,
+          "makeup_gain": 1
+        },
+        
+        "limiter": {
+          "threshold": -2,
+          "release": 100,
+          "lookahead": 20
+        }
+      }
+    },
+    
+    "youtube_optimized": {
+      "description": "Optimized for YouTube's loudness normalization",
+      "use_case": "Long-form YouTube content",
+      "target_platform": ["YouTube"],
+      "target_lufs": -14,
+      "peak_limit": -1,
+      "sample_rate": 48000,
+      "channels": 2,
+      
+      "track_settings": {
+        "speech": {
+          "volume": 1.0,
+          
+          "eq": {
+            "low_cut": 75,
+            "youtube_presence": {
+              "frequency": 3200,
+              "gain": 2.5,
+              "q": 1.3
+            },
+            "air_band": {
+              "frequency": 11000,
+              "gain": 1.5,
+              "q": 0.6
+            }
+          },
+          
+          "compression": {
+            "threshold": -17,
+            "ratio": 2.8,
+            "attack": 12,
+            "release": 120,
+            "makeup_gain": 3
+          }
+        },
+        
+        "music": {
+          "volume": 0.2,
+          
+          "eq": {
+            "youtube_bass": {
+              "frequency": 90,
+              "gain": 1.5,
+              "q": 0.9
+            },
+            "speech_space": {
+              "frequency": 1200,
+              "gain": -2.5,
+              "q": 1.8
+            }
+          },
+          
+          "ducking": {
+            "enabled": true,
+            "threshold": -27,
+            "ratio": 3.5,
+            "attack": 8,
+            "release": 80,
+            "target_reduction": 10
+          }
+        }
+      }
+    },
+    
+    "instagram_stories": {
+      "description": "Optimized for Instagram Stories format",
+      "use_case": "Vertical video content for Instagram Stories",
+      "target_platform": ["Instagram Stories", "Instagram Reels"],
+      "target_lufs": -11,
+      "peak_limit": 0,
+      "sample_rate": 44100,
+      "channels": 2,
+      
+      "track_settings": {
+        "speech": {
+          "volume": 1.0,
+          
+          "eq": {
+            "low_cut": 120,
+            "phone_optimize": {
+              "frequency": 2800,
+              "gain": 3,
+              "q": 1.8
+            },
+            "cut_low_mid": {
+              "frequency": 500,
+              "gain": -2,
+              "q": 1.5
+            }
+          },
+          
+          "compression": {
+            "threshold": -12,
+            "ratio": 5.0,
+            "attack": 3,
+            "release": 60,
+            "makeup_gain": 5
+          }
+        },
+        
+        "music": {
+          "volume": 0.35,
+          
+          "ducking": {
+            "enabled": true,
+            "threshold": -18,
+            "ratio": 8.0,
+            "attack": 2,
+            "release": 25,
+            "target_reduction": 18
+          }
+        }
+      }
+    }
+  },
+  
+  "export_formats": {
+    "podcast_mp3": {
+      "description": "Standard podcast distribution format",
+      "format": "mp3",
+      "bitrate": "128k",
+      "sample_rate": 44100,
+      "channels": 2,
+      "quality": "standard",
+      "target_lufs": -16,
+      "recommended_presets": ["podcast_standard", "audiobook_clear"]
+    },
+    
+    "podcast_high_quality": {
+      "description": "High quality podcast for premium platforms",
+      "format": "mp3",
+      "bitrate": "192k",
+      "sample_rate": 48000,
+      "channels": 2,
+      "quality": "high",
+      "target_lufs": -16,
+      "recommended_presets": ["podcast_standard", "documentary_cinematic"]
+    },
+    
+    "youtube_aac": {
+      "description": "YouTube optimized AAC format",
+      "format": "aac",
+      "bitrate": "192k",
+      "sample_rate": 48000,
+      "channels": 2,
+      "quality": "high",
+      "target_lufs": -14,
+      "recommended_presets": ["youtube_optimized", "documentary_cinematic"]
+    },
+    
+    "instagram_mp3": {
+      "description": "Instagram optimized format",
+      "format": "mp3",
+      "bitrate": "128k",
+      "sample_rate": 44100,
+      "channels": 2,
+      "loudness": -11,
+      "recommended_presets": ["instagram_stories", "social_media_punchy"]
+    },
+    
+    "tiktok_aac": {
+      "description": "TikTok optimized format",
+      "format": "aac",
+      "bitrate": "128k",
+      "sample_rate": 44100,
+      "channels": 2,
+      "loudness": -12,
+      "recommended_presets": ["social_media_punchy"]
+    },
+    
+    "high_quality_wav": {
+      "description": "Uncompressed high quality for mastering",
+      "format": "wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bit_depth": 24,
+      "recommended_presets": ["documentary_cinematic"]
+    },
+    
+    "audibook_wav": {
+      "description": "Audiobook mastering format",
+      "format": "wav", 
+      "sample_rate": 44100,
+      "channels": 2,
+      "bit_depth": 16,
+      "target_lufs": -18,
+      "recommended_presets": ["audiobook_clear"]
+    }
+  },
+  
+  "platform_specifications": {
+    "youtube": {
+      "loudness_target": -14,
+      "peak_limit": -1,
+      "sample_rates": [44100, 48000],
+      "recommended_formats": ["aac", "mp3"],
+      "notes": "YouTube normalizes to -14 LUFS, peaks above -1dB may be limited"
+    },
+    
+    "instagram": {
+      "loudness_target": -11,
+      "peak_limit": 0,
+      "sample_rates": [44100],
+      "recommended_formats": ["aac", "mp3"],
+      "notes": "Very loud normalization, optimize for phone speakers"
+    },
+    
+    "tiktok": {
+      "loudness_target": -12,
+      "peak_limit": 0,
+      "sample_rates": [44100],
+      "recommended_formats": ["aac"],
+      "notes": "Aggressive normalization, prioritize vocal clarity"
+    },
+    
+    "spotify": {
+      "loudness_target": -14,
+      "peak_limit": -2,
+      "sample_rates": [44100],
+      "recommended_formats": ["ogg", "aac"],
+      "notes": "Spotify uses ReplayGain, avoid over-limiting"
+    },
+    
+    "apple_podcasts": {
+      "loudness_target": -16,
+      "peak_limit": -1,
+      "sample_rates": [44100, 48000],
+      "recommended_formats": ["aac", "mp3"],
+      "notes": "Apple optimizes for podcast listening"
+    }
+  },
+  
+  "quality_standards": {
+    "speech_intelligibility": {
+      "frequency_range": [300, 3400],
+      "snr_minimum": 20,
+      "dynamic_range_target": [6, 12],
+      "consonant_clarity": "Emphasized 2-4kHz range",
+      "sibilance_control": "De-essed above 6kHz"
+    },
+    
+    "music_quality": {
+      "frequency_range": [20, 20000],
+      "dynamic_range_target": [8, 16],
+      "stereo_imaging": "Centered with appropriate width",
+      "harmonic_balance": "Supports but doesn't compete with speech"
+    },
+    
+    "master_output": {
+      "peak_limit": -0.1,
+      "lufs_range": [-18, -11],
+      "phase_coherence": "Mono compatible",
+      "noise_floor": "Below -60dB",
+      "distortion": "THD < 0.1%"
+    }
+  },
+  
+  "automation_templates": {
+    "speech_ducking": {
+      "description": "Automatic music ducking during speech",
+      "detection_threshold": -40,
+      "duck_amount": 0.3,
+      "attack_time": 0.1,
+      "release_time": 0.5,
+      "lookahead": 0.05
+    },
+    
+    "fade_transitions": {
+      "default_fade_in": 1.0,
+      "default_fade_out": 2.0,
+      "crossfade_duration": 3.0,
+      "speech_entry_delay": 0.5
+    },
+    
+    "level_automation": {
+      "speech_consistency": "Maintain consistent RMS level",
+      "music_variation": "Allow natural music dynamics with limits",
+      "sfx_balance": "Scale SFX to content appropriateness"
+    }
+  },
+  
+  "troubleshooting": {
+    "common_issues": {
+      "speech_unclear": {
+        "problem": "Speech lacks clarity",
+        "solutions": [
+          "Increase presence boost 2-4kHz",
+          "Apply gentle de-essing",
+          "Reduce music in speech frequency range",
+          "Check for phase issues"
+        ]
+      },
+      
+      "music_overpowering": {
+        "problem": "Music competes with speech",
+        "solutions": [
+          "Reduce music volume",
+          "Increase ducking ratio",
+          "EQ cut music midrange",
+          "Faster ducking attack time"
+        ]
+      },
+      
+      "harsh_sibilants": {
+        "problem": "Harsh S sounds",
+        "solutions": [
+          "Apply de-essing 6-8kHz",
+          "Reduce high frequency gain",
+          "Use multiband compression",
+          "Check recording technique"
+        ]
+      },
+      
+      "muddy_low_end": {
+        "problem": "Unclear low frequencies",
+        "solutions": [
+          "High-pass filter speech at 80Hz",
+          "High-pass filter music at 60Hz",
+          "Reduce bass frequencies",
+          "Check for phase cancellation"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "template_name": "Mindful Moment",
+  "category": "tips",
+  "duration": "20-35s",
+  "emotional_tone": "calm",
+  
+  "thumbnail_layout": {
+    "background": "calm_secondary",
+    "text_placement": "centered_peaceful",
+    "font": "display_light",
+    "text_color": "calm_text",
+    "overlay_opacity": 0.6,
+    "visual_style": "peaceful_breathing",
+    "badge": "MINDFUL PAUSE"
+  },
+
+  "intro_animation": {
+    "style": "breathing_rhythm",
+    "duration": "3s",
+    "elements": [
+      "gentle_breath_text",
+      "peaceful_light_rhythm"
+    ],
+    "sound": "soft_breathing_guide"
+  },
+
+  "text_placement": {
+    "invitation": {
+      "position": "center",
+      "font": "display_light",
+      "size": "medium",
+      "animation": "peaceful_appear",
+      "timing": "0-8s"
+    },
+    "guidance": {
+      "position": "center",
+      "font": "body_light",
+      "size": "small",
+      "animation": "breathing_rhythm",
+      "timing": "8-25s"
+    },
+    "closing": {
+      "position": "center",
+      "font": "accent_light",
+      "size": "small",
+      "animation": "gentle_settle",
+      "timing": "25-30s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#E6E6FA",
+    "secondary": "#B0C4DE",
+    "accent": "#F0F8FF",
+    "background": "peaceful_breathing_gradient",
+    "text": "#4682B4"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Light",
+    "body": "Source Sans Pro Light",
+    "accent": "Inter Light"
+  },
+
+  "transition_style": {
+    "type": "breathing_flow",
+    "duration": "2s",
+    "easing": "ease_in_out_sine"
+  },
+
+  "outro_cta": {
+    "style": "calm_mindful",
+    "message": "Take another breath 🌸",
+    "duration": "4s",
+    "background": "calm_background",
+    "action": "pause_and_breathe"
+  },
+
+  "content_guidelines": {
+    "opening": "Let's pause together...",
+    "structure": "invitation_to_pause -> gentle_guidance -> peaceful_return",
+    "tone": "peaceful, grounding, present",
+    "length": "Short, calming phrases with pauses"
+  }
+}

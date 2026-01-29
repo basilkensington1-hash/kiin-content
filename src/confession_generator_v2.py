@@ -34,7 +34,7 @@ import cv2
 from brand_utils import KiinBrand, get_brand_colors
 from voice_manager import VoiceManager
 from music_mixer import MusicMixer
-from effects import VideoEffects
+from effects import KiinEffectsLibrary
 
 class ConfessionGeneratorV2:
     def __init__(self, config_path=None, output_dir=None):
@@ -48,6 +48,9 @@ class ConfessionGeneratorV2:
         self.brand = KiinBrand()
         self.voice_manager = VoiceManager()
         self.music_mixer = MusicMixer()
+        
+        # Initialize professional effects library
+        self.effects = KiinEffectsLibrary(1080, 1920, 30)
         self.effects = VideoEffects()
         
         # Video specifications

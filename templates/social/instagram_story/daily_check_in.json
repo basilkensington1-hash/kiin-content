@@ -1,0 +1,66 @@
+{
+  "template_name": "Daily Check-In",
+  "platform": "instagram_story",
+  "aspect_ratio": "9:16",
+  "dimensions": "1080x1920",
+  "emotional_tone": "calm",
+  
+  "layout": {
+    "background": {
+      "type": "gradient",
+      "colors": ["#F8FAFB", "#E6E6FA"],
+      "direction": "vertical"
+    },
+    "check_in_question": {
+      "position": "upper_third",
+      "font": "Poppins Medium",
+      "size": "32px",
+      "color": "#4682B4",
+      "alignment": "center",
+      "max_lines": 3
+    },
+    "interactive_element": {
+      "type": "poll_sticker",
+      "position": "center",
+      "options": ["I'm managing well", "It's been tough"],
+      "style": "soft_rounded"
+    },
+    "supportive_message": {
+      "position": "lower_third",
+      "font": "Source Sans Pro Regular",
+      "size": "18px",
+      "color": "#4682B4",
+      "alignment": "center",
+      "text": "Whatever you're feeling today is valid 💙"
+    }
+  },
+  
+  "interactive_features": {
+    "poll_sticker": true,
+    "question_sticker": false,
+    "emoji_slider": false,
+    "quiz": false
+  },
+  
+  "design_elements": {
+    "soft_shapes": {
+      "style": "organic_blobs",
+      "color": "#F0F8FF",
+      "opacity": 0.3,
+      "animation": "gentle_float"
+    }
+  },
+  
+  "content_guidelines": {
+    "question_style": "caring, non-judgmental",
+    "engagement_focus": "emotional support",
+    "follow_up": "respond_to_polls_personally"
+  },
+  
+  "variations": [
+    "How are you feeling today?",
+    "What's one thing you're grateful for?",
+    "How did you care for yourself today?",
+    "What challenged you today?"
+  ]
+}

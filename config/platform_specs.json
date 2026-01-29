@@ -1,0 +1,280 @@
+{
+  "instagram": {
+    "video_specs": {
+      "aspect_ratios": ["9:16", "1:1", "4:5"],
+      "max_duration": 90,
+      "min_duration": 3,
+      "resolution": {
+        "9:16": [1080, 1920],
+        "1:1": [1080, 1080],
+        "4:5": [1080, 1350]
+      },
+      "bitrate": "3500k",
+      "fps": 30,
+      "formats": ["mp4"],
+      "max_file_size_mb": 4000
+    },
+    "content_specs": {
+      "max_caption_length": 2200,
+      "optimal_caption_length": 150,
+      "max_hashtags": 30,
+      "optimal_hashtags": 11,
+      "supports_scheduling": false,
+      "emoji_friendly": true
+    },
+    "engagement_patterns": {
+      "peak_times": ["11:00", "14:00", "19:00"],
+      "best_days": ["tuesday", "wednesday", "thursday"],
+      "content_types": ["reels", "carousel", "stories"]
+    }
+  },
+  "tiktok": {
+    "video_specs": {
+      "aspect_ratios": ["9:16"],
+      "max_duration": 60,
+      "min_duration": 15,
+      "resolution": {
+        "9:16": [1080, 1920]
+      },
+      "bitrate": "4000k",
+      "fps": 30,
+      "formats": ["mp4"],
+      "max_file_size_mb": 500
+    },
+    "content_specs": {
+      "max_caption_length": 2200,
+      "optimal_caption_length": 100,
+      "max_hashtag_chars": 100,
+      "optimal_hashtags": 8,
+      "supports_scheduling": false,
+      "emoji_friendly": true
+    },
+    "engagement_patterns": {
+      "peak_times": ["09:00", "12:00", "15:00", "19:00"],
+      "best_days": ["tuesday", "thursday", "friday"],
+      "content_types": ["short_videos", "trending_sounds"]
+    }
+  },
+  "youtube": {
+    "video_specs": {
+      "aspect_ratios": ["9:16", "16:9"],
+      "max_duration": 60,
+      "min_duration": 15,
+      "resolution": {
+        "9:16": [1080, 1920],
+        "16:9": [1920, 1080]
+      },
+      "bitrate": "5000k",
+      "fps": 30,
+      "formats": ["mp4"],
+      "max_file_size_mb": 15000
+    },
+    "content_specs": {
+      "max_title_length": 100,
+      "max_description_length": 5000,
+      "optimal_description_length": 200,
+      "max_hashtags": 15,
+      "optimal_hashtags": 5,
+      "supports_scheduling": true,
+      "emoji_friendly": false
+    },
+    "engagement_patterns": {
+      "peak_times": ["14:00", "15:00"],
+      "best_days": ["tuesday", "wednesday", "thursday", "saturday"],
+      "content_types": ["shorts", "tutorials", "educational"]
+    }
+  },
+  "twitter": {
+    "video_specs": {
+      "aspect_ratios": ["16:9", "1:1", "9:16"],
+      "max_duration": 140,
+      "min_duration": 0.5,
+      "resolution": {
+        "16:9": [1280, 720],
+        "1:1": [720, 720],
+        "9:16": [720, 1280]
+      },
+      "bitrate": "2500k",
+      "fps": 30,
+      "formats": ["mp4"],
+      "max_file_size_mb": 512
+    },
+    "content_specs": {
+      "max_tweet_length": 280,
+      "optimal_tweet_length": 120,
+      "max_hashtags": 10,
+      "optimal_hashtags": 3,
+      "supports_scheduling": false,
+      "emoji_friendly": true
+    },
+    "engagement_patterns": {
+      "peak_times": ["09:00", "15:00", "20:00"],
+      "best_days": ["monday", "tuesday", "wednesday"],
+      "content_types": ["short_videos", "quotes", "conversations"]
+    }
+  },
+  "linkedin": {
+    "video_specs": {
+      "aspect_ratios": ["16:9", "1:1"],
+      "max_duration": 600,
+      "min_duration": 3,
+      "resolution": {
+        "16:9": [1920, 1080],
+        "1:1": [1080, 1080]
+      },
+      "bitrate": "4000k",
+      "fps": 30,
+      "formats": ["mp4"],
+      "max_file_size_mb": 5000
+    },
+    "content_specs": {
+      "max_post_length": 3000,
+      "optimal_post_length": 300,
+      "max_hashtags": 5,
+      "optimal_hashtags": 3,
+      "supports_scheduling": false,
+      "emoji_friendly": false,
+      "tone": "professional"
+    },
+    "engagement_patterns": {
+      "peak_times": ["10:00", "14:00"],
+      "best_days": ["tuesday", "wednesday", "thursday"],
+      "content_types": ["professional_tips", "industry_insights", "career_advice"]
+    }
+  },
+  "pinterest": {
+    "video_specs": {
+      "aspect_ratios": ["2:3", "1:1", "9:16"],
+      "max_duration": 60,
+      "min_duration": 4,
+      "resolution": {
+        "2:3": [1000, 1500],
+        "1:1": [1000, 1000],
+        "9:16": [1080, 1920]
+      },
+      "bitrate": "3000k",
+      "fps": 25,
+      "formats": ["mp4"],
+      "max_file_size_mb": 2000
+    },
+    "content_specs": {
+      "max_title_length": 100,
+      "max_description_length": 500,
+      "optimal_description_length": 200,
+      "max_hashtags": 20,
+      "optimal_hashtags": 10,
+      "supports_scheduling": false,
+      "emoji_friendly": true
+    },
+    "engagement_patterns": {
+      "peak_times": ["20:00", "19:00", "14:00"],
+      "best_days": ["saturday", "sunday", "tuesday"],
+      "content_types": ["infographics", "tips", "inspiration"]
+    }
+  },
+  "facebook": {
+    "video_specs": {
+      "aspect_ratios": ["9:16", "1:1", "16:9"],
+      "max_duration": 90,
+      "min_duration": 3,
+      "resolution": {
+        "9:16": [1080, 1920],
+        "1:1": [1080, 1080],
+        "16:9": [1920, 1080]
+      },
+      "bitrate": "4000k",
+      "fps": 30,
+      "formats": ["mp4"],
+      "max_file_size_mb": 4000
+    },
+    "content_specs": {
+      "max_post_length": 63206,
+      "optimal_post_length": 250,
+      "max_hashtags": 10,
+      "optimal_hashtags": 5,
+      "supports_scheduling": true,
+      "emoji_friendly": true
+    },
+    "engagement_patterns": {
+      "peak_times": ["15:00", "12:00", "19:00"],
+      "best_days": ["tuesday", "wednesday", "thursday"],
+      "content_types": ["reels", "community_posts", "educational"]
+    }
+  },
+  "cross_platform": {
+    "common_aspects": {
+      "caregiver_content_themes": [
+        "support",
+        "tips",
+        "validation",
+        "self_care",
+        "awareness",
+        "resources"
+      ],
+      "optimal_video_length": "15-30 seconds",
+      "universal_hashtags": [
+        "caregiver",
+        "caregiving",
+        "familycare",
+        "caregiversupport"
+      ],
+      "content_pillars": [
+        "emotional_support",
+        "practical_tips",
+        "self_care_reminders",
+        "community_building",
+        "education_awareness"
+      ]
+    },
+    "repurposing_strategy": {
+      "primary_source": "16:9 landscape video",
+      "adaptations": {
+        "crop_to_vertical": ["instagram", "tiktok", "pinterest"],
+        "crop_to_square": ["instagram", "linkedin", "facebook"],
+        "keep_landscape": ["youtube", "twitter", "linkedin"]
+      },
+      "caption_adaptations": {
+        "long_form": ["youtube", "linkedin", "facebook"],
+        "medium_form": ["instagram", "pinterest"],
+        "short_form": ["twitter", "tiktok"]
+      }
+    }
+  },
+  "watermark_settings": {
+    "instagram": {
+      "position": "bottom_right",
+      "opacity": 0.7,
+      "style": "simple_text"
+    },
+    "tiktok": {
+      "position": "bottom_right",
+      "opacity": 0.6,
+      "style": "simple_text"
+    },
+    "youtube": {
+      "position": "bottom_left",
+      "opacity": 0.8,
+      "style": "logo_text"
+    },
+    "twitter": {
+      "position": "bottom_right",
+      "opacity": 0.5,
+      "style": "minimal"
+    },
+    "linkedin": {
+      "position": "bottom_right",
+      "opacity": 0.9,
+      "style": "professional"
+    },
+    "pinterest": {
+      "position": "bottom_center",
+      "opacity": 0.8,
+      "style": "branded"
+    },
+    "facebook": {
+      "position": "bottom_right",
+      "opacity": 0.7,
+      "style": "simple_text"
+    }
+  }
+}

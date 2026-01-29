@@ -1,0 +1,134 @@
+{
+  "hook_formulas": [
+    {
+      "name": "Confession Hook",
+      "formula": "I need to admit something...",
+      "variations": [
+        "I need to admit something...",
+        "Can I be honest with you?",
+        "Here's something I've never shared...",
+        "I used to think... but now I know...",
+        "I'm going to say what we're all thinking..."
+      ],
+      "best_for": ["confessions", "vulnerable_moments", "relatability"],
+      "tone": "honest, vulnerable"
+    },
+    {
+      "name": "Problem Agitation",
+      "formula": "Are you tired of [problem]?",
+      "variations": [
+        "Are you exhausted from constantly...",
+        "Does it feel like you're always...",
+        "I'm so tired of people saying...",
+        "Why does everyone assume...",
+        "Can we talk about how hard it is to..."
+      ],
+      "best_for": ["tips", "solutions", "community_building"],
+      "tone": "empathetic, understanding"
+    },
+    {
+      "name": "Story Opener",
+      "formula": "Something happened yesterday that...",
+      "variations": [
+        "Something happened yesterday that made me realize...",
+        "Last week, I witnessed something that changed my perspective...",
+        "A conversation I had today reminded me...",
+        "I saw something that broke my heart...",
+        "There was a moment when I realized..."
+      ],
+      "best_for": ["stories", "lessons", "insights"],
+      "tone": "narrative, engaging"
+    },
+    {
+      "name": "Gentle Question",
+      "formula": "What if [gentle_challenge]?",
+      "variations": [
+        "What if we looked at this differently?",
+        "What if I told you it doesn't have to be this hard?",
+        "What if there was a simpler way?",
+        "What if we gave ourselves permission to...",
+        "What if we stopped believing that..."
+      ],
+      "best_for": ["perspective_shifts", "gentle_advice"],
+      "tone": "thoughtful, questioning"
+    },
+    {
+      "name": "Permission Grant",
+      "formula": "You have permission to [action]",
+      "variations": [
+        "You have permission to rest today",
+        "It's okay to ask for help",
+        "You're allowed to prioritize yourself",
+        "You don't have to be perfect",
+        "You can say no to things that drain you"
+      ],
+      "best_for": ["validation", "self_care", "boundaries"],
+      "tone": "permissive, nurturing"
+    },
+    {
+      "name": "Quick Tip Intro",
+      "formula": "Here's a [time] tip that [benefit]",
+      "variations": [
+        "Here's a 2-minute tip that changed everything",
+        "Quick tip that will save your sanity",
+        "Here's what I wish someone had told me",
+        "One small change that made a big difference",
+        "This simple trick will help you..."
+      ],
+      "best_for": ["tips", "quick_wins", "practical_advice"],
+      "tone": "helpful, actionable"
+    },
+    {
+      "name": "Statistic Shock",
+      "formula": "[X]% of caregivers experience [issue]",
+      "variations": [
+        "Did you know that 78% of caregivers...",
+        "Here's a statistic that will shock you:",
+        "The research shows something surprising:",
+        "New data reveals what we've suspected:",
+        "Studies confirm what caregivers already know:"
+      ],
+      "best_for": ["data_posts", "awareness", "validation"],
+      "tone": "informative, validating"
+    },
+    {
+      "name": "Pattern Interrupt",
+      "formula": "Stop [common_action]. Try this instead:",
+      "variations": [
+        "Stop apologizing for needing help. Try this instead:",
+        "Stop saying 'I'm fine.' Here's what to say:",
+        "Stop overwhelming yourself. Do this:",
+        "Stop ignoring the signs. Here's what they mean:",
+        "Stop putting yourself last. Start here:"
+      ],
+      "best_for": ["behavior_change", "alternatives", "reframes"],
+      "tone": "direct, helpful"
+    },
+    {
+      "name": "Community Connect",
+      "formula": "To everyone who [shared_experience]:",
+      "variations": [
+        "To everyone who feels overwhelmed today:",
+        "To those who are caregiving in silence:",
+        "For everyone juggling multiple responsibilities:",
+        "To the ones who feel like they're not doing enough:",
+        "For those who need to hear this today:"
+      ],
+      "best_for": ["community_posts", "validation", "inclusion"],
+      "tone": "inclusive, understanding"
+    },
+    {
+      "name": "Lesson Learned",
+      "formula": "I learned [lesson] the hard way",
+      "variations": [
+        "I learned this lesson the hard way so you don't have to",
+        "Here's what 5 years of caregiving taught me:",
+        "The biggest lesson I've learned:",
+        "If I could go back and tell myself one thing:",
+        "What I wish I'd known from the beginning:"
+      ],
+      "best_for": ["wisdom_sharing", "experience", "mentoring"],
+      "tone": "wise, experienced"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "template_name": "Unexpected Help",
+  "category": "story",
+  "duration": "30-45s",
+  "emotional_tone": "hope",
+  
+  "thumbnail_layout": {
+    "background": "hope_secondary",
+    "text_placement": "surprise_reveal",
+    "font": "display_medium",
+    "text_color": "hope_text",
+    "overlay_opacity": 0.75,
+    "visual_style": "helping_hands_surprise",
+    "badge": "SURPRISE"
+  },
+
+  "intro_animation": {
+    "style": "pleasant_surprise",
+    "duration": "2s",
+    "elements": [
+      "surprise_text_bloom",
+      "warm_surprise_light"
+    ],
+    "sound": "gentle_surprise_chime"
+  },
+
+  "text_placement": {
+    "setup": {
+      "position": "upper_left",
+      "font": "body_regular",
+      "size": "medium",
+      "animation": "story_establish",
+      "timing": "0-10s"
+    },
+    "challenge": {
+      "position": "center_left",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "concern_build",
+      "timing": "10-18s"
+    },
+    "surprise": {
+      "position": "center",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "delightful_surprise",
+      "timing": "18-30s"
+    },
+    "gratitude": {
+      "position": "lower_right",
+      "font": "accent_medium",
+      "size": "small",
+      "animation": "warm_appreciation",
+      "timing": "30-40s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#87CEEB",
+    "secondary": "#6BB3A0",
+    "accent": "#FFE4B5",
+    "background": "pleasant_surprise_gradient",
+    "text": "#2F4F4F"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "pleasant_discovery",
+    "duration": "1s",
+    "easing": "ease_out_back"
+  },
+
+  "outro_cta": {
+    "style": "hope_grateful",
+    "message": "Help comes in many forms 💕",
+    "duration": "5s",
+    "background": "hope_background",
+    "action": "appreciate_helpers"
+  },
+
+  "content_guidelines": {
+    "opening": "I wasn't expecting this...",
+    "structure": "challenging_situation -> unexpected_help_arrives -> grateful_reflection",
+    "tone": "surprised, grateful, heartwarming",
+    "length": "3-4 appreciative sentences"
+  }
+}

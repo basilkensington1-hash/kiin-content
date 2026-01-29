@@ -42,6 +42,7 @@ from datetime import datetime
 sys.path.append(str(Path(__file__).parent))
 from voice_manager import VoiceManager
 from music_mixer import MusicMixer
+from effects import KiinEffectsLibrary
 
 # Video configuration
 VIDEO_WIDTH = 1080
@@ -105,6 +106,9 @@ class ChaosGeneratorV2:
         # Load enhanced scenarios
         with open(self.config_path, 'r') as f:
             self.data = json.load(f)
+        
+        # Initialize professional effects library
+        self.effects = KiinEffectsLibrary(VIDEO_WIDTH, VIDEO_HEIGHT, FPS)
         
         # Create temp directory for assets
         self.temp_dir = Path(tempfile.mkdtemp(prefix='chaos_gen_v2_'))

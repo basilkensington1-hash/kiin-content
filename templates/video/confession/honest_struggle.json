@@ -1,0 +1,77 @@
+{
+  "template_name": "Honest Struggle",
+  "category": "confession",
+  "duration": "20-45s",
+  "emotional_tone": "hope",
+  
+  "thumbnail_layout": {
+    "background": "hope_primary",
+    "text_placement": "offset_left",
+    "font": "display_regular",
+    "text_color": "hope_text",
+    "overlay_opacity": 0.6,
+    "visual_style": "thoughtful_moment"
+  },
+
+  "intro_animation": {
+    "style": "gentle_slide_up",
+    "duration": "2s",
+    "elements": [
+      "text_emerge_from_bottom",
+      "soft_light_reveal"
+    ],
+    "sound": "gentle_chime"
+  },
+
+  "text_placement": {
+    "primary_text": {
+      "position": "center_left",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "slide_in_left",
+      "timing": "0-12s"
+    },
+    "revelation_text": {
+      "position": "center_right",
+      "font": "body_medium",
+      "size": "medium",
+      "animation": "gentle_appear",
+      "timing": "12-20s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#6BB3A0",
+    "secondary": "#87CEEB",
+    "accent": "#FFE4B5",
+    "background": "soft_gradient_cool",
+    "text": "#2F4F4F"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Regular",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Regular"
+  },
+
+  "transition_style": {
+    "type": "gentle_zoom",
+    "duration": "1s",
+    "easing": "ease_out"
+  },
+
+  "outro_cta": {
+    "style": "hopeful_standard",
+    "message": "Small steps forward ✨",
+    "duration": "4s",
+    "background": "hope_background",
+    "action": "save_for_encouragement"
+  },
+
+  "content_guidelines": {
+    "opening": "Here's what I'm learning...",
+    "structure": "struggle_acknowledgment -> learning_process -> hope_forward",
+    "tone": "honest, growing, optimistic",
+    "length": "3-4 sentences"
+  }
+}

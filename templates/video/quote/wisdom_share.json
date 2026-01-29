@@ -1,0 +1,85 @@
+{
+  "template_name": "Wisdom Share",
+  "category": "quote",
+  "duration": "15-20s",
+  "emotional_tone": "calm",
+  
+  "thumbnail_layout": {
+    "background": "calm_secondary",
+    "text_placement": "wisdom_elegant",
+    "font": "display_regular",
+    "text_color": "calm_text",
+    "overlay_opacity": 0.8,
+    "visual_style": "thoughtful_contemplation",
+    "badge": "WISDOM"
+  },
+
+  "intro_animation": {
+    "style": "wisdom_reveal",
+    "duration": "2.5s",
+    "elements": [
+      "thoughtful_text_unfold",
+      "wise_light_gather"
+    ],
+    "sound": "contemplative_wisdom_tone"
+  },
+
+  "text_placement": {
+    "attribution": {
+      "position": "upper_right",
+      "font": "accent_light",
+      "size": "small",
+      "animation": "gentle_appear",
+      "timing": "0-2s"
+    },
+    "quote": {
+      "position": "center",
+      "font": "display_regular",
+      "size": "large",
+      "animation": "wisdom_unfold",
+      "timing": "2-15s"
+    },
+    "reflection": {
+      "position": "lower_center",
+      "font": "body_light",
+      "size": "small",
+      "animation": "thoughtful_pause",
+      "timing": "15-18s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#B0C4DE",
+    "secondary": "#E6E6FA",
+    "accent": "#F0F8FF",
+    "background": "wisdom_contemplation_gradient",
+    "text": "#4682B4"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Regular",
+    "body": "Source Sans Pro Light",
+    "accent": "Inter Light"
+  },
+
+  "transition_style": {
+    "type": "thoughtful_pause",
+    "duration": "1.5s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "calm_wisdom",
+    "message": "Worth reflecting on 💭",
+    "duration": "3s",
+    "background": "calm_background",
+    "action": "pause_and_reflect"
+  },
+
+  "content_guidelines": {
+    "opening": "Something worth sharing:",
+    "structure": "meaningful_quote -> brief_context_or_reflection",
+    "tone": "thoughtful, wise, reflective",
+    "length": "Meaningful quote + short personal reflection"
+  }
+}

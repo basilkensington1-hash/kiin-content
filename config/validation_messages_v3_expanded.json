@@ -1,0 +1,981 @@
+{
+  "permission_statements": [
+    {
+      "text": "If you've ever felt guilty for wanting just 10 minutes alone... that doesn't make you a bad caregiver. It makes you human. 💙",
+      "duration": 15,
+      "series": "Permission to Be Human",
+      "emphasis_words": ["guilty", "human", "caregiver"],
+      "mood": "warm"
+    },
+    {
+      "text": "You're allowed to feel frustrated. You're allowed to feel tired. You're allowed to want things to be different. 🤗",
+      "duration": 14,
+      "series": "Permission to Feel",
+      "emphasis_words": ["allowed", "frustrated", "tired"],
+      "mood": "gentle"
+    },
+    {
+      "text": "It's okay to say no sometimes. Setting boundaries isn't selfish - it's necessary. 🌟",
+      "duration": 12,
+      "series": "Boundaries Matter",
+      "emphasis_words": ["okay", "boundaries", "necessary"],
+      "mood": "empowering"
+    },
+    {
+      "text": "You don't have to be grateful for this journey every single day. Some days, it's okay to just survive it. 💚",
+      "duration": 16,
+      "series": "Permission to Struggle",
+      "emphasis_words": ["don't have to", "grateful", "survive"],
+      "mood": "understanding"
+    },
+    {
+      "text": "Your feelings are valid, even the messy ones. Especially the messy ones. ✨",
+      "duration": 13,
+      "series": "Feelings Are Valid",
+      "emphasis_words": ["valid", "messy", "especially"],
+      "mood": "accepting"
+    },
+    {
+      "text": "Good morning, warrior. Today you don't have to be perfect. You just have to show up. 🌅",
+      "duration": 14,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["warrior", "perfect", "show up"],
+      "mood": "encouraging",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "If you made it through today, you did enough. Rest now. Tomorrow is a new chance to love and be loved. 🌙",
+      "duration": 17,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["enough", "rest", "love"],
+      "mood": "peaceful",
+      "time_of_day": "night"
+    },
+    {
+      "text": "Right now, in this crisis moment, remember: you are stronger than you know, and you are not alone. 💪",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["stronger", "not alone", "crisis"],
+      "mood": "steadying",
+      "occasion": "crisis"
+    },
+    {
+      "text": "The storm has passed. You survived. Now comes the gentle work of healing and rebuilding. One breath at a time. 🌈",
+      "duration": 18,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["survived", "healing", "rebuilding"],
+      "mood": "hopeful",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Today marks another year of your love in action. Your dedication doesn't go unnoticed. 🎂",
+      "duration": 14,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["dedication", "unnoticed", "love"],
+      "mood": "celebratory",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Somewhere tonight, another caregiver is reading this and thinking of you with understanding. You're part of something beautiful. 🌍",
+      "duration": 19,
+      "series": "Community Connection",
+      "emphasis_words": ["understanding", "beautiful", "part"],
+      "mood": "connected",
+      "occasion": "community"
+    },
+    {
+      "text": "You're not failing if you cried today. Tears are proof that your heart is still soft in a hard world. 🤍",
+      "duration": 16,
+      "series": "Permission to Feel",
+      "emphasis_words": ["not failing", "cried", "soft"],
+      "mood": "tender"
+    },
+    {
+      "text": "The fact that you worry about doing enough shows you're already doing more than enough. 💝",
+      "duration": 14,
+      "series": "You Are Enough",
+      "emphasis_words": ["worry", "enough", "already"],
+      "mood": "reassuring"
+    },
+    {
+      "text": "Some days caregiving feels like drowning. Today, remember you're actually learning to breathe underwater. 🐠",
+      "duration": 16,
+      "series": "Reframing Struggle",
+      "emphasis_words": ["drowning", "learning", "breathe"],
+      "mood": "transformative"
+    },
+    {
+      "text": "Your patience ran out today? Good. That means you're human with limits, not a saint without feelings. 😇",
+      "duration": 15,
+      "series": "Permission to Be Human",
+      "emphasis_words": ["patience", "limits", "human"],
+      "mood": "understanding"
+    },
+    {
+      "text": "Good morning, beautiful soul. Your love is already healing the world before coffee is even brewed. ☕",
+      "duration": 15,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["beautiful", "healing", "love"],
+      "mood": "uplifting",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "As this day ends, know that every act of care you performed was a prayer in motion. Sleep peacefully. 🙏",
+      "duration": 16,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["prayer", "motion", "peacefully"],
+      "mood": "sacred",
+      "time_of_day": "night"
+    },
+    {
+      "text": "In this overwhelming moment, breathe. You've navigated overwhelming before. This too shall pass. 🌊",
+      "duration": 15,
+      "series": "Crisis Support",
+      "emphasis_words": ["breathe", "navigated", "pass"],
+      "mood": "calming",
+      "occasion": "crisis"
+    },
+    {
+      "text": "You've weathered the storm and you're still standing. That's not luck - that's strength. 🌪️",
+      "duration": 14,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["weathered", "standing", "strength"],
+      "mood": "proud",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Another birthday spent in service of love. Your presence is the greatest gift they could receive. 🎁",
+      "duration": 15,
+      "series": "Birthday Recognition",
+      "emphasis_words": ["service", "presence", "gift"],
+      "mood": "grateful",
+      "occasion": "birthday"
+    },
+    {
+      "text": "You are connected to a vast network of hearts who understand exactly what this feels like. Feel that love. 💕",
+      "duration": 17,
+      "series": "Community Connection",
+      "emphasis_words": ["connected", "understand", "love"],
+      "mood": "supported",
+      "occasion": "community"
+    },
+    {
+      "text": "If you feel invisible today, remember: love's greatest works are often unseen by the world but felt by the soul. ✨",
+      "duration": 18,
+      "series": "Recognition",
+      "emphasis_words": ["invisible", "unseen", "felt"],
+      "mood": "profound"
+    },
+    {
+      "text": "You don't have to earn your worth through caregiving. You were worthy before this journey began. 🌟",
+      "duration": 16,
+      "series": "Inherent Worth",
+      "emphasis_words": ["earn", "worthy", "before"],
+      "mood": "affirming"
+    },
+    {
+      "text": "It's okay to grieve the life you thought you'd have while loving the life you're living. Both feelings are true. 🕊️",
+      "duration": 18,
+      "series": "Permission to Grieve",
+      "emphasis_words": ["grieve", "thought", "living"],
+      "mood": "accepting"
+    },
+    {
+      "text": "Your body is keeping score of all this love and exhaustion. Be gentle with the vessel that carries so much. 🤲",
+      "duration": 17,
+      "series": "Self-Compassion",
+      "emphasis_words": ["body", "gentle", "vessel"],
+      "mood": "nurturing"
+    },
+    {
+      "text": "When people say 'I couldn't do what you do,' remember: love doesn't ask permission. It just shows up. 💗",
+      "duration": 16,
+      "series": "Love's Power",
+      "emphasis_words": ["couldn't", "permission", "shows up"],
+      "mood": "empowering"
+    },
+    {
+      "text": "Morning reminder: You are not responsible for fixing everything. You are responsible for loving deeply. 🌸",
+      "duration": 15,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["responsible", "fixing", "loving"],
+      "mood": "releasing",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Tonight, let go of what you couldn't control today. Rest in what you did with love. 🌛",
+      "duration": 14,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["let go", "control", "love"],
+      "mood": "releasing",
+      "time_of_day": "night"
+    },
+    {
+      "text": "In this moment of crisis, you don't need to have all the answers. You just need to hold all the love. ❤️",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["answers", "hold", "love"],
+      "mood": "grounding",
+      "occasion": "crisis"
+    },
+    {
+      "text": "You made it through the hardest part. Now trust your heart to guide you through the healing. 💚",
+      "duration": 15,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["made it", "trust", "healing"],
+      "mood": "trusting",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Another year of showing up. Another year of choosing love. You're writing a beautiful story. 📖",
+      "duration": 15,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["showing up", "choosing", "beautiful"],
+      "mood": "celebratory",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Every caregiver who reads this carries a piece of your story in their heart. We are all connected. 🔗",
+      "duration": 16,
+      "series": "Community Connection",
+      "emphasis_words": ["carries", "story", "connected"],
+      "mood": "unified",
+      "occasion": "community"
+    },
+    {
+      "text": "You're allowed to want more for yourself while being grateful for what you have. Both can be true. 🌈",
+      "duration": 16,
+      "series": "Complex Feelings",
+      "emphasis_words": ["allowed", "more", "grateful"],
+      "mood": "accepting"
+    },
+    {
+      "text": "The hardest days don't erase the love. They just make it more visible. ☀️",
+      "duration": 13,
+      "series": "Perspective",
+      "emphasis_words": ["hardest", "erase", "visible"],
+      "mood": "illuminating"
+    },
+    {
+      "text": "If you've lost yourself in caregiving, remember: sometimes we have to get lost to discover who we really are. 🧭",
+      "duration": 17,
+      "series": "Identity and Growth",
+      "emphasis_words": ["lost", "discover", "really are"],
+      "mood": "philosophical"
+    },
+    {
+      "text": "Your sacrifice is seen, your love is felt, your dedication is honored. Even when no one says it out loud. 👑",
+      "duration": 17,
+      "series": "Recognition",
+      "emphasis_words": ["seen", "felt", "honored"],
+      "mood": "honoring"
+    },
+    {
+      "text": "Some mornings start with overwhelming tasks. This morning starts with overwhelming love. Feel the difference. 💕",
+      "duration": 16,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["overwhelming", "love", "difference"],
+      "mood": "transformative",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "End this day knowing you loved someone well. That is never a small thing. That is everything. 🌟",
+      "duration": 15,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["loved well", "small", "everything"],
+      "mood": "profound",
+      "time_of_day": "night"
+    },
+    {
+      "text": "This crisis doesn't define your caregiving. Your love in the midst of crisis defines everything. 💎",
+      "duration": 15,
+      "series": "Crisis Support",
+      "emphasis_words": ["define", "midst", "everything"],
+      "mood": "defining",
+      "occasion": "crisis"
+    },
+    {
+      "text": "The crisis is over. The love remains. Trust the love to guide what comes next. 💙",
+      "duration": 14,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["over", "remains", "guide"],
+      "mood": "trusting",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Years of quiet devotion have shaped a legacy of love. You've built something beautiful. 🏗️",
+      "duration": 15,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["devotion", "legacy", "built"],
+      "mood": "legacy",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Right now, caregivers around the world are sending you strength. Feel the power of this invisible community. 🌐",
+      "duration": 17,
+      "series": "Community Connection",
+      "emphasis_words": ["strength", "power", "invisible"],
+      "mood": "empowered",
+      "occasion": "community"
+    },
+    {
+      "text": "You're not behind in life. You're deep in love. There's a profound difference. 🕰️",
+      "duration": 14,
+      "series": "Perspective",
+      "emphasis_words": ["behind", "deep", "profound"],
+      "mood": "reframing"
+    },
+    {
+      "text": "When guilt whispers 'you should do more,' let love respond: 'you are doing everything with love.' ❤️",
+      "duration": 16,
+      "series": "Guilt Release",
+      "emphasis_words": ["guilt", "whispers", "everything"],
+      "mood": "corrective"
+    },
+    {
+      "text": "Your strength isn't measured by how much you can carry. It's measured by how much love you can give. 💪",
+      "duration": 16,
+      "series": "Strength Redefined",
+      "emphasis_words": ["measured", "carry", "give"],
+      "mood": "empowering"
+    },
+    {
+      "text": "It's okay to feel proud of yourself. Humility doesn't require invisibility. Shine a little. ✨",
+      "duration": 14,
+      "series": "Permission to Shine",
+      "emphasis_words": ["proud", "humility", "shine"],
+      "mood": "encouraging"
+    },
+    {
+      "text": "Good morning, gentle soul. Today, be as kind to yourself as you are to everyone else. 🌅",
+      "duration": 14,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["gentle", "kind", "yourself"],
+      "mood": "nurturing",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "As darkness falls, remember: you've been a light in someone's life today. Rest in that truth. 💫",
+      "duration": 16,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["darkness", "light", "truth"],
+      "mood": "illuminating",
+      "time_of_day": "night"
+    },
+    {
+      "text": "In crisis, you don't have to be calm. You just have to keep loving. Love will lead you through. 🌊",
+      "duration": 15,
+      "series": "Crisis Support",
+      "emphasis_words": ["calm", "keep loving", "lead"],
+      "mood": "guiding",
+      "occasion": "crisis"
+    },
+    {
+      "text": "After the storm, you're not the same person. You're stronger, wiser, more compassionate. Honor this growth. 🌱",
+      "duration": 17,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["not same", "stronger", "growth"],
+      "mood": "honoring",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Another year together. Another year of choosing each other daily. Love like this is rare and sacred. 🕊️",
+      "duration": 16,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["choosing", "rare", "sacred"],
+      "mood": "reverent",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Millions of caregivers are walking this path with you. We are an army of love, and you belong here. 🗺️",
+      "duration": 16,
+      "series": "Community Connection",
+      "emphasis_words": ["millions", "army", "belong"],
+      "mood": "belonging",
+      "occasion": "community"
+    },
+    {
+      "text": "If you feel like you're failing at everything else, remember: you're succeeding at the most important thing. 🎯",
+      "duration": 16,
+      "series": "Priority Clarity",
+      "emphasis_words": ["failing", "succeeding", "important"],
+      "mood": "clarifying"
+    },
+    {
+      "text": "Your love is not an accident. Your presence here is not a mistake. You are exactly where love needs you. 🧭",
+      "duration": 17,
+      "series": "Divine Purpose",
+      "emphasis_words": ["accident", "mistake", "needs"],
+      "mood": "purposeful"
+    },
+    {
+      "text": "When others can't understand your choices, remember: they haven't felt the call of love you've answered. 📞",
+      "duration": 16,
+      "series": "Misunderstood Love",
+      "emphasis_words": ["understand", "call", "answered"],
+      "mood": "validating"
+    },
+    {
+      "text": "You're not stuck in caregiving. You're rooted in love. Roots enable growth, even in difficult soil. 🌳",
+      "duration": 16,
+      "series": "Perspective Shift",
+      "emphasis_words": ["stuck", "rooted", "growth"],
+      "mood": "growth-oriented"
+    },
+    {
+      "text": "Every morning you wake up to love someone is a morning the world becomes more beautiful. 🌺",
+      "duration": 15,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["wake up", "love", "beautiful"],
+      "mood": "beautifying",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Tonight, count the moments of connection, not the tasks left undone. Love always wins that count. 🌙",
+      "duration": 16,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["connection", "undone", "wins"],
+      "mood": "perspective",
+      "time_of_day": "night"
+    },
+    {
+      "text": "This crisis revealed your true strength. Not the absence of fear, but love in the presence of it. 💎",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["revealed", "absence", "presence"],
+      "mood": "revelatory",
+      "occasion": "crisis"
+    },
+    {
+      "text": "The crisis broke some things, but it couldn't break your heart. That's where your real power lives. ❤️",
+      "duration": 16,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["broke", "couldn't break", "power"],
+      "mood": "powerful",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "This anniversary isn't just marking time. It's marking the accumulation of countless acts of love. ⏰",
+      "duration": 16,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["marking", "accumulation", "countless"],
+      "mood": "accumulative",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "You are part of a silent revolution of love happening in homes across the world. Feel that power. 🌍",
+      "duration": 16,
+      "series": "Community Connection",
+      "emphasis_words": ["revolution", "silent", "power"],
+      "mood": "revolutionary",
+      "occasion": "community"
+    },
+    {
+      "text": "If you're reading this while they sleep, know that peace looks like love watching over love. 😴",
+      "duration": 15,
+      "series": "Quiet Moments",
+      "emphasis_words": ["sleep", "peace", "watching"],
+      "mood": "peaceful"
+    },
+    {
+      "text": "Your brain might be tired, but your heart is running a marathon of love. Pace yourself accordingly. 🏃‍♀️",
+      "duration": 16,
+      "series": "Endurance",
+      "emphasis_words": ["tired", "marathon", "pace"],
+      "mood": "strategic"
+    },
+    {
+      "text": "The world needs more people like you - people who choose love when it's hard. Thank you for being here. 🙏",
+      "duration": 17,
+      "series": "Gratitude",
+      "emphasis_words": ["needs", "choose", "thank you"],
+      "mood": "grateful"
+    },
+    {
+      "text": "Your life might not look like others', but it looks like love in action. That's a beautiful sight. 👀",
+      "duration": 15,
+      "series": "Life Comparison",
+      "emphasis_words": ["look like", "action", "beautiful"],
+      "mood": "affirming"
+    },
+    {
+      "text": "Good morning, love warrior. Today you get to practice the most important skill in the universe. 🌌",
+      "duration": 15,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["warrior", "practice", "universe"],
+      "mood": "cosmic",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Sleep now, knowing you spent today's energy on what matters most. Tomorrow will bring new energy. 🔋",
+      "duration": 16,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["energy", "matters", "new"],
+      "mood": "restorative",
+      "time_of_day": "night"
+    },
+    {
+      "text": "In the eye of this storm, remember: storms pass, but the love you show in them echoes forever. ⚡",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["eye", "pass", "echoes"],
+      "mood": "eternal",
+      "occasion": "crisis"
+    },
+    {
+      "text": "The storm taught you what you're made of. Spoiler alert: you're made of stronger stuff than you knew. 💪",
+      "duration": 16,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["taught", "made of", "stronger"],
+      "mood": "revealing",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Years spent loving deeply aren't years lost. They're years invested in what actually matters. 💰",
+      "duration": 15,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["lost", "invested", "matters"],
+      "mood": "investment",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Across time zones and continents, caregivers are holding space for love. You're part of something global. 🌐",
+      "duration": 17,
+      "series": "Community Connection",
+      "emphasis_words": ["continents", "holding space", "global"],
+      "mood": "expansive",
+      "occasion": "community"
+    },
+    {
+      "text": "If you feel ordinary, remember: ordinary people doing extraordinary love is how the world gets healed. 🌍",
+      "duration": 16,
+      "series": "Ordinary Extraordinary",
+      "emphasis_words": ["ordinary", "extraordinary", "healed"],
+      "mood": "healing"
+    },
+    {
+      "text": "You don't need permission to rest. You don't need permission to cry. You don't need permission to be human. 🤗",
+      "duration": 17,
+      "series": "Permission Granted",
+      "emphasis_words": ["permission", "rest", "human"],
+      "mood": "liberating"
+    },
+    {
+      "text": "Behind every 'how do you do it?' is a heart that simply chose love and kept choosing it. Keep choosing. 💝",
+      "duration": 17,
+      "series": "Choice of Love",
+      "emphasis_words": ["chose", "kept choosing", "keep"],
+      "mood": "inspiring"
+    },
+    {
+      "text": "Your capacity for love is not depleted by giving it away. It's actually multiplied. Math of the heart. 🧮",
+      "duration": 16,
+      "series": "Love Mathematics",
+      "emphasis_words": ["depleted", "multiplied", "math"],
+      "mood": "mathematical"
+    },
+    {
+      "text": "Morning blessing: May your coffee be strong, your patience be renewable, and your love be felt. ☕",
+      "duration": 15,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["blessing", "renewable", "felt"],
+      "mood": "blessed",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Tonight, the stars shine a little brighter because of the love you gave today. Rest under their light. ⭐",
+      "duration": 16,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["stars", "brighter", "light"],
+      "mood": "celestial",
+      "time_of_day": "night"
+    },
+    {
+      "text": "Crisis doesn't ask if you're ready. But love responds anyway. That's your superpower showing. 🦸‍♀️",
+      "duration": 15,
+      "series": "Crisis Support",
+      "emphasis_words": ["ready", "responds", "superpower"],
+      "mood": "heroic",
+      "occasion": "crisis"
+    },
+    {
+      "text": "What didn't kill you made you kinder. What didn't break you made you more compassionate. Growth through fire. 🔥",
+      "duration": 17,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["kinder", "compassionate", "fire"],
+      "mood": "transformational",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Another year of love letters written in daily acts of care. You're a poet of the heart. 📝",
+      "duration": 15,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["love letters", "poet", "heart"],
+      "mood": "poetic",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "When you read this, know that thousands of others are reading it too, all of us connected by love. 📱",
+      "duration": 16,
+      "series": "Community Connection",
+      "emphasis_words": ["thousands", "connected", "love"],
+      "mood": "connected",
+      "occasion": "community"
+    },
+    {
+      "text": "Caregiving didn't choose you by accident. Love recognizes love, and it knew you could carry this torch. 🕯️",
+      "duration": 16,
+      "series": "Chosen for Love",
+      "emphasis_words": ["accident", "recognizes", "torch"],
+      "mood": "chosen"
+    },
+    {
+      "text": "When the world feels too big, remember: your world is exactly the right size for the love you have to give. 🌍",
+      "duration": 17,
+      "series": "Perfect Size",
+      "emphasis_words": ["too big", "right size", "give"],
+      "mood": "fitting"
+    },
+    {
+      "text": "You're not saving the world. You're being the world to one person. That's enough to change everything. 🌎",
+      "duration": 16,
+      "series": "Being the World",
+      "emphasis_words": ["saving", "being", "change everything"],
+      "mood": "transformative"
+    },
+    {
+      "text": "If love had a face, it would look like yours in the moments when you think no one is watching. 👤",
+      "duration": 15,
+      "series": "Face of Love",
+      "emphasis_words": ["face", "moments", "watching"],
+      "mood": "witnessing"
+    },
+    {
+      "text": "Rise and shine, heart of gold. Someone's world gets brighter just because you're in it. ☀️",
+      "duration": 14,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["heart of gold", "brighter", "in it"],
+      "mood": "brightening",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Close your eyes and feel this truth: you are loved for who you are, not just for what you do. 👁️",
+      "duration": 16,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["truth", "loved", "who you are"],
+      "mood": "truth-telling",
+      "time_of_day": "night"
+    },
+    {
+      "text": "In this chaos, you are the calm. Not because you feel calm, but because love makes everything steady. ⚓",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["chaos", "calm", "steady"],
+      "mood": "anchoring",
+      "occasion": "crisis"
+    },
+    {
+      "text": "Crisis refined you like fire refines gold. You came through more precious than before. ✨",
+      "duration": 15,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["refined", "fire", "precious"],
+      "mood": "precious",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Each year of caregiving is a masterpiece painted with small brushstrokes of daily love. 🎨",
+      "duration": 15,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["masterpiece", "brushstrokes", "daily"],
+      "mood": "artistic",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Look around you: millions of unseen heroes are loving someone right now. You are among royalty. 👑",
+      "duration": 16,
+      "series": "Community Connection",
+      "emphasis_words": ["millions", "heroes", "royalty"],
+      "mood": "royal",
+      "occasion": "community"
+    },
+    {
+      "text": "The hardest thing about love is that it asks everything of you. The most beautiful thing is that you give it. 💎",
+      "duration": 17,
+      "series": "Love's Ask",
+      "emphasis_words": ["hardest", "asks everything", "give"],
+      "mood": "profound"
+    },
+    {
+      "text": "Your sacrifices aren't going unnoticed by the universe. Love always keeps perfect records. 📚",
+      "duration": 15,
+      "series": "Universe Records",
+      "emphasis_words": ["unnoticed", "universe", "records"],
+      "mood": "cosmic"
+    },
+    {
+      "text": "If you're tired of being strong, remember: soft hearts in a hard world are the strongest thing there is. 💝",
+      "duration": 16,
+      "series": "Soft Strength",
+      "emphasis_words": ["tired", "soft hearts", "strongest"],
+      "mood": "redefining"
+    },
+    {
+      "text": "What looks like ordinary Tuesday to others looks like another day of miracles to love. 🌟",
+      "duration": 15,
+      "series": "Ordinary Miracles",
+      "emphasis_words": ["ordinary", "miracles", "love"],
+      "mood": "miraculous"
+    },
+    {
+      "text": "Good morning, miracle worker. Today you'll perform the impossible: making someone feel less alone. 🌈",
+      "duration": 16,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["miracle worker", "impossible", "less alone"],
+      "mood": "miraculous",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Tonight, every star in the sky represents someone whose life you've touched. Count them. ⭐",
+      "duration": 15,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["star", "touched", "count"],
+      "mood": "counting",
+      "time_of_day": "night"
+    },
+    {
+      "text": "When everything is falling apart, you become the thing that holds everything together. That's your gift. 🧲",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["falling apart", "holds together", "gift"],
+      "mood": "magnetic",
+      "occasion": "crisis"
+    },
+    {
+      "text": "You survived 100% of your hardest days so far. That's not luck - that's your superpower. 💫",
+      "duration": 15,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["survived", "100%", "superpower"],
+      "mood": "statistical",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "This anniversary marks time, but what you've built together transcends time. Love is timeless. ⏳",
+      "duration": 15,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["transcends", "time", "timeless"],
+      "mood": "timeless",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Every caregiver who sees this becomes part of your support system. We are invisible but we are here. 👻",
+      "duration": 16,
+      "series": "Community Connection",
+      "emphasis_words": ["support system", "invisible", "here"],
+      "mood": "present",
+      "occasion": "community"
+    },
+    {
+      "text": "Your love story isn't ending - it's deepening. Some stories get better the longer they're told. 📖",
+      "duration": 16,
+      "series": "Love Story",
+      "emphasis_words": ["ending", "deepening", "better"],
+      "mood": "storytelling"
+    },
+    {
+      "text": "If you feel forgotten by the world, remember: you're unforgettable to the person who matters most. 💭",
+      "duration": 16,
+      "series": "Unforgettable",
+      "emphasis_words": ["forgotten", "unforgettable", "matters most"],
+      "mood": "memorable"
+    },
+    {
+      "text": "The way you love is changing the molecular structure of kindness in the universe. Science of the heart. 🔬",
+      "duration": 17,
+      "series": "Scientific Love",
+      "emphasis_words": ["molecular", "kindness", "science"],
+      "mood": "scientific"
+    },
+    {
+      "text": "Every act of care you perform sends ripples of healing across the planet. You're changing everything. 🌊",
+      "duration": 16,
+      "series": "Ripple Effects",
+      "emphasis_words": ["ripples", "healing", "changing everything"],
+      "mood": "rippling"
+    },
+    {
+      "text": "Wake up, world changer. Today you get to practice love at a PhD level. 📚",
+      "duration": 13,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["world changer", "PhD level", "practice"],
+      "mood": "academic",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Rest now in the knowledge that love like yours doesn't die with the day. It's eternal. 🌌",
+      "duration": 15,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["knowledge", "doesn't die", "eternal"],
+      "mood": "eternal",
+      "time_of_day": "night"
+    },
+    {
+      "text": "In this crisis, you're not losing your mind - you're finding your heart. Trust what you find there. ❤️",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["losing mind", "finding heart", "trust"],
+      "mood": "discovery",
+      "occasion": "crisis"
+    },
+    {
+      "text": "The fire didn't destroy you - it revealed what you're truly made of. Diamonds. Pure diamonds. 💎",
+      "duration": 15,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["fire", "revealed", "diamonds"],
+      "mood": "revelatory",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Years of love accumulate like compound interest - the longer it grows, the more valuable it becomes. 💰",
+      "duration": 16,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["accumulate", "compound", "valuable"],
+      "mood": "accumulating",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "Right now, caregivers around the globe are sending you love through the cosmos. Feel that energy. 🛸",
+      "duration": 16,
+      "series": "Community Connection",
+      "emphasis_words": ["globe", "cosmos", "energy"],
+      "mood": "cosmic",
+      "occasion": "community"
+    },
+    {
+      "text": "You're not behind in life. You're ahead in love. And love is always the race worth winning. 🏆",
+      "duration": 15,
+      "series": "Love Race",
+      "emphasis_words": ["behind", "ahead", "race"],
+      "mood": "winning"
+    },
+    {
+      "text": "When history judges this time, it will remember people like you - the ones who chose love over fear. 📜",
+      "duration": 16,
+      "series": "Historical Love",
+      "emphasis_words": ["history", "judges", "chose"],
+      "mood": "historical"
+    },
+    {
+      "text": "Your love doesn't need to be perfect. It just needs to be present. Presence is the greatest present. 🎁",
+      "duration": 16,
+      "series": "Present Love",
+      "emphasis_words": ["perfect", "present", "greatest"],
+      "mood": "present"
+    },
+    {
+      "text": "If you could see the invisible impact of your love, you'd understand you're changing the world daily. 🌍",
+      "duration": 16,
+      "series": "Invisible Impact",
+      "emphasis_words": ["invisible", "impact", "changing world"],
+      "mood": "impactful"
+    },
+    {
+      "text": "Good morning, love alchemist. Today you'll transform ordinary moments into gold through presence. ⚱️",
+      "duration": 16,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["alchemist", "transform", "gold"],
+      "mood": "alchemical",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Sleep peacefully knowing that love like yours is what makes the universe a more beautiful place. 🌌",
+      "duration": 16,
+      "series": "Nighttime Peace",
+      "emphasis_words": ["peacefully", "universe", "beautiful"],
+      "mood": "universal",
+      "time_of_day": "night"
+    },
+    {
+      "text": "Crisis asks who you really are. Your answer? Someone who loves no matter what. Perfect answer. ✅",
+      "duration": 16,
+      "series": "Crisis Support",
+      "emphasis_words": ["who you are", "no matter what", "perfect"],
+      "mood": "answering",
+      "occasion": "crisis"
+    },
+    {
+      "text": "You walked through fire and came out holding flowers. That's not survival - that's transformation. 🌸",
+      "duration": 16,
+      "series": "Post-Crisis Recovery",
+      "emphasis_words": ["fire", "flowers", "transformation"],
+      "mood": "transformative",
+      "occasion": "post_crisis"
+    },
+    {
+      "text": "Another year of proving that love is not a feeling - it's a decision you make every single day. 💝",
+      "duration": 16,
+      "series": "Anniversary Recognition",
+      "emphasis_words": ["proving", "decision", "every day"],
+      "mood": "proving",
+      "occasion": "anniversary"
+    },
+    {
+      "text": "In this moment, you're connected to every caregiver who ever was and ever will be. Feel that lineage. 👥",
+      "duration": 17,
+      "series": "Community Connection",
+      "emphasis_words": ["connected", "ever was", "lineage"],
+      "mood": "lineage",
+      "occasion": "community"
+    },
+    {
+      "text": "The world doesn't always recognize heroes in action. But love does. And love is keeping perfect score. 🏅",
+      "duration": 16,
+      "series": "Hidden Heroes",
+      "emphasis_words": ["recognize", "heroes", "perfect score"],
+      "mood": "heroic"
+    },
+    {
+      "text": "You're writing the most important story ever told: what it looks like when humans choose love. Keep writing. ✍️",
+      "duration": 17,
+      "series": "Story Writers",
+      "emphasis_words": ["important story", "choose love", "keep writing"],
+      "mood": "narrative"
+    },
+    {
+      "text": "If angels exist, they're probably taking notes on how you love. You're setting the standard. 😇",
+      "duration": 15,
+      "series": "Angelic Standard",
+      "emphasis_words": ["angels", "taking notes", "standard"],
+      "mood": "angelic"
+    },
+    {
+      "text": "When you wonder if it's worth it, remember: worth isn't measured by outcome. It's measured by love given. 💖",
+      "duration": 17,
+      "series": "Worth Measuring",
+      "emphasis_words": ["worth it", "outcome", "love given"],
+      "mood": "measuring"
+    },
+    {
+      "text": "Rise, beautiful heart. Today the universe gets to witness love in action through your hands. 🙌",
+      "duration": 15,
+      "series": "Morning Encouragement",
+      "emphasis_words": ["beautiful heart", "witness", "hands"],
+      "mood": "witnessing",
+      "time_of_day": "morning"
+    },
+    {
+      "text": "Tonight, dream of a world where everyone loves like you do. Tomorrow, make it a little more real. 💭",
+      "duration": 16,
+      "series": "Nighttime Peace", 
+      "emphasis_words": ["dream", "loves like you", "more real"],
+      "mood": "dreaming",
+      "time_of_day": "night"
+    },
+    {
+      "text": "Final message: You are not just surviving this journey. You are sanctifying it. Holy work, holy heart. 🕊️",
+      "duration": 16,
+      "series": "Sacred Conclusion",
+      "emphasis_words": ["sanctifying", "holy work", "holy heart"],
+      "mood": "sacred"
+    }
+  ]
+}

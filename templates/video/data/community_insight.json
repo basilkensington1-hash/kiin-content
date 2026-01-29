@@ -1,0 +1,85 @@
+{
+  "template_name": "Community Insight",
+  "category": "data",
+  "duration": "25-35s",
+  "emotional_tone": "hope",
+  
+  "thumbnail_layout": {
+    "background": "hope_secondary",
+    "text_placement": "community_connected",
+    "font": "display_regular",
+    "text_color": "hope_text",
+    "overlay_opacity": 0.75,
+    "visual_style": "connected_community",
+    "badge": "COMMUNITY"
+  },
+
+  "intro_animation": {
+    "style": "community_gather",
+    "duration": "2.5s",
+    "elements": [
+      "community_dots_connect",
+      "unified_hope_light"
+    ],
+    "sound": "community_harmony_tone"
+  },
+
+  "text_placement": {
+    "community_context": {
+      "position": "upper_center",
+      "font": "body_regular",
+      "size": "small",
+      "animation": "community_gather",
+      "timing": "0-5s"
+    },
+    "shared_statistic": {
+      "position": "center",
+      "font": "display_regular",
+      "size": "large",
+      "animation": "shared_reveal",
+      "timing": "5-18s"
+    },
+    "unity_message": {
+      "position": "lower_center",
+      "font": "accent_medium",
+      "size": "medium",
+      "animation": "hopeful_unity",
+      "timing": "18-30s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#87CEEB",
+    "secondary": "#6BB3A0",
+    "accent": "#FFE4B5",
+    "background": "community_connection_gradient",
+    "text": "#2F4F4F"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Regular",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "community_flow",
+    "duration": "1.5s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "hope_community",
+    "message": "We're in this together 🤝",
+    "duration": "5s",
+    "background": "hope_background",
+    "action": "join_the_community"
+  },
+
+  "content_guidelines": {
+    "opening": "Our community research shows:",
+    "structure": "community_context -> shared_experience_data -> unity_strength",
+    "tone": "inclusive, hopeful, connecting",
+    "length": "Community statistic + unifying message"
+  }
+}

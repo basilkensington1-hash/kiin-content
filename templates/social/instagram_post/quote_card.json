@@ -1,0 +1,64 @@
+{
+  "template_name": "Quote Card",
+  "platform": "instagram_post",
+  "aspect_ratio": "1:1",
+  "dimensions": "1080x1080",
+  "emotional_tone": "comfort",
+  
+  "layout": {
+    "background": {
+      "type": "gradient",
+      "colors": ["#FDF9F5", "#F5DEB3"],
+      "direction": "diagonal"
+    },
+    "main_quote": {
+      "position": "center",
+      "font": "Poppins Medium",
+      "size": "42px",
+      "color": "#8B4513",
+      "alignment": "center",
+      "max_lines": 4,
+      "line_height": 1.2
+    },
+    "attribution": {
+      "position": "bottom_center",
+      "font": "Inter Light",
+      "size": "16px",
+      "color": "#8B4513",
+      "opacity": 0.8
+    },
+    "brand_element": {
+      "position": "bottom_right",
+      "type": "watermark",
+      "opacity": 0.3,
+      "size": "80px"
+    }
+  },
+  
+  "design_elements": {
+    "quote_marks": {
+      "style": "decorative",
+      "color": "#DEB887",
+      "size": "large",
+      "position": "corner_accents"
+    },
+    "border": {
+      "type": "subtle_frame",
+      "color": "#D2B48C",
+      "width": "2px",
+      "style": "rounded"
+    }
+  },
+  
+  "content_guidelines": {
+    "quote_length": "25-40 words maximum",
+    "tone": "inspiring, comforting, relatable",
+    "hashtag_placement": "in_caption_not_image",
+    "attribution_required": true
+  },
+  
+  "caption_template": {
+    "structure": "context_intro -> quote_meaning -> engagement_question -> hashtags",
+    "hashtags": ["#CaregiverWisdom", "#QuoteOfTheDay", "#CareCoordination", "#Kiin", "#SelfCareReminder"]
+  }
+}

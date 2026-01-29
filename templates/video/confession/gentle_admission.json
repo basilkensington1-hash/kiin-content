@@ -1,0 +1,77 @@
+{
+  "template_name": "Gentle Admission",
+  "category": "confession",
+  "duration": "15-30s",
+  "emotional_tone": "comfort",
+  
+  "thumbnail_layout": {
+    "background": "comfort_primary",
+    "text_placement": "center_lower_third",
+    "font": "display_bold",
+    "text_color": "comfort_text",
+    "overlay_opacity": 0.7,
+    "visual_style": "close_up_face_gentle_expression"
+  },
+
+  "intro_animation": {
+    "style": "soft_fade_in",
+    "duration": "1.5s",
+    "elements": [
+      "gentle_text_reveal",
+      "warm_color_wash"
+    ],
+    "sound": "soft_ambient_tone"
+  },
+
+  "text_placement": {
+    "primary_text": {
+      "position": "center",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "gentle_type_on",
+      "timing": "0-8s"
+    },
+    "supporting_text": {
+      "position": "lower_third",
+      "font": "body_regular",
+      "size": "medium",
+      "animation": "fade_in",
+      "timing": "8-15s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#DEB887",
+    "secondary": "#D2B48C",
+    "accent": "#F5DEB3",
+    "background": "soft_gradient_warm",
+    "text": "#8B4513"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "crossfade",
+    "duration": "0.8s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "warm_minimal",
+    "message": "You're not alone ♡",
+    "duration": "3s",
+    "background": "comfort_background",
+    "action": "follow_for_support"
+  },
+
+  "content_guidelines": {
+    "opening": "I need to admit something...",
+    "structure": "personal_vulnerability -> relatability -> gentle_encouragement",
+    "tone": "honest, warm, non-judgmental",
+    "length": "2-3 short sentences max"
+  }
+}

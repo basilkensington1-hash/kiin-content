@@ -1,0 +1,85 @@
+{
+  "template_name": "Weekend Reset",
+  "category": "tips",
+  "duration": "25-35s",
+  "emotional_tone": "hope",
+  
+  "thumbnail_layout": {
+    "background": "hope_accent",
+    "text_placement": "fresh_start_layout",
+    "font": "display_medium",
+    "text_color": "hope_text",
+    "overlay_opacity": 0.75,
+    "visual_style": "fresh_morning_light",
+    "badge": "FRESH START"
+  },
+
+  "intro_animation": {
+    "style": "fresh_dawn_reveal",
+    "duration": "2s",
+    "elements": [
+      "sunrise_text_reveal",
+      "fresh_light_sweep"
+    ],
+    "sound": "gentle_morning_chime"
+  },
+
+  "text_placement": {
+    "weekend_greeting": {
+      "position": "upper_center",
+      "font": "accent_medium",
+      "size": "small",
+      "animation": "morning_hello",
+      "timing": "0-3s"
+    },
+    "reset_action": {
+      "position": "center",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "fresh_reveal",
+      "timing": "3-20s"
+    },
+    "motivation": {
+      "position": "lower_center",
+      "font": "body_medium",
+      "size": "small",
+      "animation": "hopeful_emerge",
+      "timing": "20-30s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#6BB3A0",
+    "secondary": "#87CEEB",
+    "accent": "#FFE4B5",
+    "background": "fresh_morning_gradient",
+    "text": "#2F4F4F"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Medium",
+    "accent": "Inter Medium"
+  },
+
+  "transition_style": {
+    "type": "fresh_slide",
+    "duration": "1s",
+    "easing": "ease_out_circ"
+  },
+
+  "outro_cta": {
+    "style": "hope_motivational",
+    "message": "Fresh start ahead! ✨",
+    "duration": "4s",
+    "background": "hope_background",
+    "action": "plan_your_reset"
+  },
+
+  "content_guidelines": {
+    "opening": "Weekend reset idea:",
+    "structure": "weekend_opportunity -> simple_reset_action -> hopeful_outcome",
+    "tone": "refreshing, motivating, achievable",
+    "length": "2-3 energizing sentences"
+  }
+}

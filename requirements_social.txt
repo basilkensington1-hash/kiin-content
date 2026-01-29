@@ -1,0 +1,67 @@
+# Kiin Content Factory - Social Media Integration Requirements
+
+# Core HTTP and API libraries
+requests>=2.31.0
+urllib3>=2.0.7
+
+# Image and video processing
+Pillow>=10.0.1
+opencv-python>=4.8.1.78
+numpy>=1.24.3
+
+# Time zone handling
+pytz>=2023.3
+
+# Database
+sqlite3  # Built into Python, but listed for clarity
+
+# Audio/Video processing (optional, requires system ffmpeg)
+# ffmpeg-python>=0.2.0
+
+# Encryption and security
+cryptography>=41.0.7
+
+# Development and testing
+pytest>=7.4.3
+pytest-cov>=4.1.0
+black>=23.10.1
+flake8>=6.1.0
+mypy>=1.7.1
+
+# Logging and monitoring
+structlog>=23.2.0
+
+# Configuration and environment
+python-dotenv>=1.0.0
+
+# HTTP server for webhooks (optional)
+flask>=3.0.0
+gunicorn>=21.2.0
+
+# Task scheduling (optional)
+schedule>=1.2.0
+celery>=5.3.4
+
+# Data validation
+pydantic>=2.5.0
+
+# Async support (optional)
+aiohttp>=3.9.1
+asyncio  # Built into Python
+
+# Social media specific libraries (optional alternatives)
+# instagrapi>=2.0.0  # Unofficial Instagram API
+# tiktokapi>=6.0.0   # Unofficial TikTok API
+# tweepy>=4.14.0     # Twitter API wrapper
+
+# Analytics and metrics
+pandas>=2.1.3
+matplotlib>=3.8.2
+
+# Testing with real APIs (use with caution)
+responses>=0.24.1
+httpx>=0.25.2
+
+# Code quality
+bandit>=1.7.5  # Security linting
+safety>=2.3.5  # Dependency vulnerability checking

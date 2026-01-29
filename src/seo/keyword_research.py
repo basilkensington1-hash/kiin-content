@@ -8,7 +8,6 @@ Includes search volume estimation, difficulty scoring, and keyword generation.
 
 import json
 import re
-import requests
 from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass
 from enum import Enum

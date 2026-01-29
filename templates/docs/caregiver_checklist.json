@@ -1,0 +1,128 @@
+{
+  "template_name": "Caregiver Resource Checklist",
+  "document_type": "PDF_checklist",
+  "format": "letter_size",
+  "emotional_tone": "calm",
+  
+  "layout": {
+    "page_size": "8.5x11 inches",
+    "margins": "1 inch all sides",
+    "header": {
+      "height": "1.5 inches",
+      "background": "#F8FAFB",
+      "logo_placement": "left",
+      "title_placement": "center"
+    },
+    "body": {
+      "columns": 1,
+      "font": "Source Sans Pro Regular",
+      "size": "11pt",
+      "line_height": "1.4"
+    },
+    "footer": {
+      "height": "0.5 inches",
+      "content": "kiin.app | Care coordination made easier"
+    }
+  },
+  
+  "color_scheme": {
+    "primary": "#4A90B8",
+    "secondary": "#6BB3A0",
+    "accent": "#F4A460",
+    "background": "#FFFFFF",
+    "text": "#2C3E50",
+    "checkbox": "#B0C4DE"
+  },
+  
+  "content_structure": {
+    "title": {
+      "text": "Caregiver Resource Checklist",
+      "font": "Poppins Bold",
+      "size": "24pt",
+      "color": "#4A90B8"
+    },
+    "subtitle": {
+      "text": "Essential tools and resources for your caregiving journey",
+      "font": "Source Sans Pro Regular",
+      "size": "14pt",
+      "color": "#6BB3A0"
+    },
+    "sections": [
+      {
+        "title": "Emergency Preparedness",
+        "items": [
+          "Emergency contact list (family, doctors, neighbors)",
+          "Medical information summary",
+          "Insurance cards and policy numbers",
+          "List of current medications",
+          "Power of attorney documents",
+          "Living will and advance directives",
+          "Emergency fund or financial access plan"
+        ]
+      },
+      {
+        "title": "Daily Care Coordination",
+        "items": [
+          "Medication schedule and tracking system",
+          "Doctor appointment calendar",
+          "Care team contact information",
+          "Daily routine checklist",
+          "Meal planning and dietary restrictions",
+          "Transportation arrangements",
+          "Home safety assessment completed"
+        ]
+      },
+      {
+        "title": "Support Network",
+        "items": [
+          "Family communication plan",
+          "Professional caregiving services (if needed)",
+          "Respite care options identified",
+          "Support group connections",
+          "Community resources list",
+          "Technology tools for coordination",
+          "Regular check-ins with support network"
+        ]
+      },
+      {
+        "title": "Self-Care for Caregivers",
+        "items": [
+          "Personal support system",
+          "Regular health check-ups scheduled",
+          "Stress management strategies",
+          "Time for personal interests/hobbies",
+          "Financial planning for caregiving costs",
+          "Legal consultation (if needed)",
+          "Mental health resources identified"
+        ]
+      }
+    ]
+  },
+  
+  "design_elements": {
+    "checkboxes": {
+      "style": "rounded_squares",
+      "color": "#B0C4DE",
+      "size": "12pt"
+    },
+    "section_headers": {
+      "background": "#F8FAFB",
+      "border_left": "4px solid #4A90B8",
+      "padding": "8pt",
+      "font": "Poppins Medium"
+    },
+    "icons": {
+      "emergency": "shield",
+      "daily_care": "calendar",
+      "support": "people",
+      "self_care": "heart"
+    }
+  },
+  
+  "usage_guidelines": {
+    "customization": "Replace placeholder items with specific needs",
+    "distribution": "Print or share digitally with care teams",
+    "updates": "Review and update quarterly",
+    "accessibility": "Ensure large print version available if needed"
+  }
+}

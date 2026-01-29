@@ -1,0 +1,77 @@
+{
+  "template_name": "Midnight Thoughts",
+  "category": "confession",
+  "duration": "25-35s",
+  "emotional_tone": "calm",
+  
+  "thumbnail_layout": {
+    "background": "calm_primary",
+    "text_placement": "upper_third",
+    "font": "display_light",
+    "text_color": "calm_text",
+    "overlay_opacity": 0.5,
+    "visual_style": "quiet_nighttime_scene"
+  },
+
+  "intro_animation": {
+    "style": "soft_glow_appear",
+    "duration": "2.5s",
+    "elements": [
+      "gentle_text_glow",
+      "ambient_light_shift"
+    ],
+    "sound": "soft_night_ambient"
+  },
+
+  "text_placement": {
+    "primary_text": {
+      "position": "center",
+      "font": "display_light",
+      "size": "medium",
+      "animation": "gentle_glow_in",
+      "timing": "0-15s"
+    },
+    "reflection_text": {
+      "position": "lower_center",
+      "font": "body_light",
+      "size": "small",
+      "animation": "soft_fade_in",
+      "timing": "15-25s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#B0C4DE",
+    "secondary": "#E6E6FA",
+    "accent": "#F0F8FF",
+    "background": "gentle_night_gradient",
+    "text": "#4682B4"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Light",
+    "body": "Source Sans Pro Light",
+    "accent": "Inter Light"
+  },
+
+  "transition_style": {
+    "type": "gentle_breathe",
+    "duration": "1.2s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "calm_minimal",
+    "message": "Rest easy tonight 🌙",
+    "duration": "3.5s",
+    "background": "calm_background",
+    "action": "save_for_peace"
+  },
+
+  "content_guidelines": {
+    "opening": "Late night thoughts...",
+    "structure": "quiet_admission -> gentle_reflection -> peaceful_acceptance",
+    "tone": "quiet, contemplative, soothing",
+    "length": "2-3 thoughtful sentences"
+  }
+}

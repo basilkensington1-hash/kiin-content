@@ -1,0 +1,541 @@
+{
+  "version": "1.0",
+  "description": "Sound Effects Catalog for Kiin Content Factory - Professional SFX management",
+  "updated": "2025-01-29T00:00:00Z",
+  
+  "categories": {
+    "notification": {
+      "description": "Sound effects for notifications and alerts in chaos content",
+      "purpose": "Draw attention to important moments without startling",
+      "usage_contexts": ["chaos_stories", "urgent_moments", "attention_grabbing", "alerts", "reminders"],
+      "characteristics": ["brief", "clear", "non-startling", "attention-getting", "purposeful"],
+      
+      "subcategories": {
+        "gentle": {
+          "description": "Soft, non-intrusive notifications",
+          "examples": ["gentle_chime.wav", "soft_bell.wav", "subtle_ding.wav", "warm_tone.wav"],
+          "emotional_context": ["calm", "supportive", "gentle"],
+          "volume_range": [0.3, 0.5],
+          "duration_range": [0.3, 0.8]
+        },
+        "urgent": {
+          "description": "More attention-getting but not harsh",
+          "examples": ["notification_pop.wav", "alert_soft.wav", "attention_tone.wav"],
+          "emotional_context": ["urgent", "important", "alerting"],
+          "volume_range": [0.4, 0.7],
+          "duration_range": [0.2, 0.6]
+        },
+        "subtle": {
+          "description": "Very quiet notifications for sensitive content",
+          "examples": ["whisper_chime.wav", "barely_there_ding.wav", "soft_notification.wav"],
+          "emotional_context": ["intimate", "gentle", "minimal"],
+          "volume_range": [0.2, 0.4],
+          "duration_range": [0.4, 1.0]
+        }
+      },
+      
+      "technical_specs": {
+        "frequency_range": [800, 4000],
+        "preferred_waveforms": ["sine", "triangle", "soft_square"],
+        "avoid": ["harsh_sawtooth", "noise", "sudden_attacks"],
+        "envelope": "quick_attack_gentle_decay"
+      },
+      
+      "usage_guidelines": {
+        "frequency": "Sparingly - only for important moments",
+        "timing": "Sync with visual elements or key information",
+        "volume": "Clear but not overpowering speech",
+        "placement": "Before or during information reveal"
+      }
+    },
+    
+    "transition": {
+      "description": "Smooth transition sounds between content segments",
+      "purpose": "Create seamless flow between different sections",
+      "usage_contexts": ["section_changes", "topic_shifts", "scene_transitions", "flow_enhancement"],
+      "characteristics": ["smooth", "flowing", "non-jarring", "bridging", "seamless"],
+      
+      "subcategories": {
+        "whoosh": {
+          "description": "Air movement sounds for smooth transitions",
+          "examples": ["whoosh_soft.wav", "swoosh_gentle.wav", "wind_transition.wav", "air_flow.wav"],
+          "emotional_context": ["flowing", "natural", "smooth"],
+          "volume_range": [0.25, 0.5],
+          "duration_range": [0.8, 2.0]
+        },
+        "page_turn": {
+          "description": "Gentle page or book sounds for content transitions",
+          "examples": ["page_turn.wav", "book_close.wav", "paper_rustle.wav"],
+          "emotional_context": ["educational", "storytelling", "gentle"],
+          "volume_range": [0.2, 0.4],
+          "duration_range": [0.5, 1.5]
+        },
+        "musical": {
+          "description": "Musical transition elements",
+          "examples": ["chord_transition.wav", "musical_bridge.wav", "harp_gliss.wav"],
+          "emotional_context": ["elegant", "smooth", "musical"],
+          "volume_range": [0.3, 0.6],
+          "duration_range": [1.0, 3.0]
+        }
+      },
+      
+      "technical_specs": {
+        "frequency_range": [200, 8000],
+        "stereo_movement": "left_to_right or center_spread",
+        "envelope": "smooth_attack_and_decay",
+        "avoid": ["abrupt_starts", "harsh_endings", "frequency_spikes"]
+      },
+      
+      "usage_guidelines": {
+        "frequency": "Between major sections of content",
+        "timing": "Bridge content segments smoothly",
+        "volume": "Subtle, supporting the flow",
+        "placement": "Between speech segments or during natural pauses"
+      }
+    },
+    
+    "emotional_accent": {
+      "description": "Subtle sounds to enhance emotional moments",
+      "purpose": "Enhance emotional impact without overwhelming",
+      "usage_contexts": ["touching_moments", "realizations", "emotional_peaks", "tender_moments"],
+      "characteristics": ["subtle", "emotional", "enhancing", "supportive", "felt_not_heard"],
+      
+      "subcategories": {
+        "touching": {
+          "description": "Warm, heart-touching emotional accents",
+          "examples": ["heart_warm.wav", "touching_chord.wav", "gentle_swell.wav", "warm_embrace.wav"],
+          "emotional_context": ["touching", "warm", "loving", "comforting"],
+          "volume_range": [0.15, 0.3],
+          "duration_range": [1.0, 4.0]
+        },
+        "hopeful": {
+          "description": "Uplifting emotional accents",
+          "examples": ["hopeful_rise.wav", "light_dawn.wav", "gentle_lift.wav", "rising_warmth.wav"],
+          "emotional_context": ["hopeful", "uplifting", "inspiring", "encouraging"],
+          "volume_range": [0.2, 0.4],
+          "duration_range": [1.5, 3.0]
+        },
+        "contemplative": {
+          "description": "Thoughtful, reflective emotional support",
+          "examples": ["contemplative_pad.wav", "reflective_tone.wav", "thoughtful_space.wav"],
+          "emotional_context": ["contemplative", "reflective", "thoughtful", "peaceful"],
+          "volume_range": [0.1, 0.25],
+          "duration_range": [2.0, 5.0]
+        }
+      },
+      
+      "technical_specs": {
+        "frequency_range": [150, 2000],
+        "harmonic_content": "rich_but_not_complex",
+        "envelope": "very_slow_attack_long_decay",
+        "avoid": ["sharp_transients", "high_frequencies", "percussive_elements"]
+      },
+      
+      "usage_guidelines": {
+        "frequency": "At peak emotional moments only",
+        "timing": "At emotional peak, not before",
+        "volume": "Barely audible, felt more than heard",
+        "placement": "Under speech during emotional content"
+      }
+    },
+    
+    "text_reveal": {
+      "description": "Sounds for text appearing on screen",
+      "purpose": "Enhance text animations and information presentation",
+      "usage_contexts": ["text_animation", "quote_reveals", "tip_presentation", "information_display"],
+      "characteristics": ["crisp", "informative", "engaging", "supportive", "clear"],
+      
+      "subcategories": {
+        "typewriter": {
+          "description": "Mechanical typing sounds",
+          "examples": ["typewriter_click.wav", "key_tap.wav", "typing_sequence.wav"],
+          "emotional_context": ["nostalgic", "mechanical", "deliberate"],
+          "volume_range": [0.3, 0.5],
+          "duration_range": [0.1, 0.3]
+        },
+        "digital": {
+          "description": "Modern digital interface sounds",
+          "examples": ["digital_beep.wav", "text_pop.wav", "interface_sound.wav", "modern_click.wav"],
+          "emotional_context": ["modern", "clean", "technological"],
+          "volume_range": [0.25, 0.45],
+          "duration_range": [0.1, 0.4]
+        },
+        "organic": {
+          "description": "Natural, gentle text reveal sounds",
+          "examples": ["gentle_chime.wav", "soft_pop.wav", "warm_reveal.wav", "organic_click.wav"],
+          "emotional_context": ["natural", "warm", "gentle", "organic"],
+          "volume_range": [0.2, 0.4],
+          "duration_range": [0.2, 0.6]
+        }
+      },
+      
+      "technical_specs": {
+        "frequency_range": [400, 6000],
+        "attack_time": "very_fast",
+        "decay_time": "quick_but_not_abrupt",
+        "avoid": ["muddy_low_end", "harsh_highs", "long_tails"]
+      },
+      
+      "usage_guidelines": {
+        "frequency": "For important text/quotes",
+        "timing": "Sync with text animation",
+        "volume": "Clear but brief",
+        "placement": "Exactly with text appearance"
+      }
+    },
+    
+    "ambient": {
+      "description": "Background ambience and room tone",
+      "purpose": "Fill silence and create atmospheric continuity",
+      "usage_contexts": ["background_fill", "atmosphere", "continuity", "environment"],
+      "characteristics": ["subtle", "continuous", "non-distracting", "atmospheric", "unobtrusive"],
+      
+      "subcategories": {
+        "room_tone": {
+          "description": "Neutral room ambience",
+          "examples": ["room_tone_warm.wav", "indoor_ambience.wav", "quiet_space.wav"],
+          "emotional_context": ["neutral", "indoor", "intimate"],
+          "volume_range": [0.05, 0.15],
+          "duration_range": [10.0, 120.0]
+        },
+        "nature_soft": {
+          "description": "Gentle nature sounds",
+          "examples": ["gentle_birds.wav", "soft_wind.wav", "distant_nature.wav", "peaceful_outdoor.wav"],
+          "emotional_context": ["peaceful", "natural", "calming"],
+          "volume_range": [0.08, 0.2],
+          "duration_range": [30.0, 300.0]
+        },
+        "warm_space": {
+          "description": "Warm, comforting ambient spaces",
+          "examples": ["cozy_home.wav", "warm_interior.wav", "comfortable_space.wav"],
+          "emotional_context": ["warm", "comfortable", "homey"],
+          "volume_range": [0.06, 0.18],
+          "duration_range": [20.0, 180.0]
+        }
+      },
+      
+      "technical_specs": {
+        "frequency_range": [50, 8000],
+        "dynamic_variation": "minimal_but_natural",
+        "loop_points": "seamless",
+        "avoid": ["prominent_elements", "rhythmic_patterns", "attention_grabbing_sounds"]
+      },
+      
+      "usage_guidelines": {
+        "frequency": "Throughout, very subtly",
+        "timing": "Continuous, seamless loops",
+        "volume": "Almost inaudible, just filling silence",
+        "placement": "Underneath all other content"
+      }
+    }
+  },
+  
+  "content_type_mappings": {
+    "validation": {
+      "preferred_categories": ["emotional_accent", "ambient"],
+      "avoid_categories": ["notification"],
+      "emotional_tone": "touching",
+      "specific_recommendations": {
+        "emotional_accent": ["touching", "contemplative"],
+        "ambient": ["warm_space", "room_tone"],
+        "transition": ["musical", "gentle"]
+      },
+      "volume_scaling": 0.7
+    },
+    
+    "confessions": {
+      "preferred_categories": ["emotional_accent", "ambient", "transition"],
+      "avoid_categories": ["notification"],
+      "emotional_tone": "intimate",
+      "specific_recommendations": {
+        "emotional_accent": ["contemplative", "touching"],
+        "ambient": ["room_tone", "warm_space"],
+        "transition": ["musical", "page_turn"]
+      },
+      "volume_scaling": 0.6
+    },
+    
+    "tips": {
+      "preferred_categories": ["text_reveal", "transition", "ambient"],
+      "avoid_categories": ["emotional_accent"],
+      "emotional_tone": "informative",
+      "specific_recommendations": {
+        "text_reveal": ["digital", "organic"],
+        "transition": ["whoosh", "page_turn"],
+        "ambient": ["room_tone"],
+        "notification": ["gentle", "subtle"]
+      },
+      "volume_scaling": 0.8
+    },
+    
+    "sandwich_gen": {
+      "preferred_categories": ["text_reveal", "transition", "notification"],
+      "avoid_categories": [],
+      "emotional_tone": "energetic",
+      "specific_recommendations": {
+        "text_reveal": ["digital", "typewriter"],
+        "transition": ["whoosh", "musical"],
+        "notification": ["urgent", "gentle"],
+        "emotional_accent": ["hopeful"]
+      },
+      "volume_scaling": 1.0
+    },
+    
+    "chaos": {
+      "preferred_categories": ["notification", "transition", "text_reveal"],
+      "avoid_categories": [],
+      "emotional_tone": "dramatic",
+      "specific_recommendations": {
+        "notification": ["urgent", "gentle"],
+        "transition": ["whoosh", "musical"],
+        "text_reveal": ["digital", "typewriter"],
+        "emotional_accent": ["contemplative", "hopeful"]
+      },
+      "volume_scaling": 0.9
+    }
+  },
+  
+  "usage_guidelines": {
+    "frequency_recommendations": {
+      "notification": {
+        "description": "Sparingly - only for important moments",
+        "max_per_minute": 2,
+        "spacing_minimum": 15,
+        "context": "Use to highlight key information or transitions"
+      },
+      "transition": {
+        "description": "Between major sections",
+        "max_per_minute": 1,
+        "spacing_minimum": 30,
+        "context": "Use to smooth section changes"
+      },
+      "emotional_accent": {
+        "description": "At peak emotional moments",
+        "max_per_minute": 1,
+        "spacing_minimum": 45,
+        "context": "Use at climax of emotional content"
+      },
+      "text_reveal": {
+        "description": "For important text/quotes",
+        "max_per_minute": 4,
+        "spacing_minimum": 8,
+        "context": "Use with key quotes or information"
+      },
+      "ambient": {
+        "description": "Throughout, continuously",
+        "max_per_minute": "continuous",
+        "spacing_minimum": 0,
+        "context": "Background atmosphere"
+      }
+    },
+    
+    "volume_mixing_guidelines": {
+      "notification": {
+        "relative_to_speech": "30-50% of speech level",
+        "eq_recommendations": ["high_pass_200hz", "presence_boost_2khz"],
+        "compression": "light_limiting_only",
+        "stereo_placement": "center"
+      },
+      "transition": {
+        "relative_to_speech": "20-40% of speech level",
+        "eq_recommendations": ["high_pass_100hz", "gentle_high_shelf"],
+        "compression": "none_to_light",
+        "stereo_placement": "wide_or_moving"
+      },
+      "emotional_accent": {
+        "relative_to_speech": "10-25% of speech level",
+        "eq_recommendations": ["low_pass_2khz", "warm_low_mid_boost"],
+        "compression": "gentle_compression",
+        "stereo_placement": "wide_background"
+      },
+      "text_reveal": {
+        "relative_to_speech": "25-45% of speech level",
+        "eq_recommendations": ["high_pass_300hz", "clarity_boost_3khz"],
+        "compression": "quick_limiting",
+        "stereo_placement": "center_focused"
+      },
+      "ambient": {
+        "relative_to_speech": "5-15% of speech level",
+        "eq_recommendations": ["high_pass_200hz", "gentle_high_cut_6khz"],
+        "compression": "gentle_expansion",
+        "stereo_placement": "wide_background"
+      }
+    },
+    
+    "timing_guidelines": {
+      "notification": {
+        "placement": "Sync with visual elements or information reveals",
+        "lead_time": "0-100ms before visual",
+        "avoid": "During emotional speech moments"
+      },
+      "transition": {
+        "placement": "In gaps between speech segments",
+        "lead_time": "Start 200ms before speech ends",
+        "avoid": "Over ongoing speech"
+      },
+      "emotional_accent": {
+        "placement": "At emotional peak, not before",
+        "lead_time": "Start during emotional buildup",
+        "avoid": "Telegraphing the emotional moment"
+      },
+      "text_reveal": {
+        "placement": "Exactly with text animation",
+        "lead_time": "0ms - perfect sync required",
+        "avoid": "Before text appears"
+      },
+      "ambient": {
+        "placement": "Continuous throughout",
+        "lead_time": "Start with content beginning",
+        "avoid": "Any gaps or interruptions"
+      }
+    }
+  },
+  
+  "quality_standards": {
+    "audio_requirements": {
+      "format": "WAV preferred, MP3 acceptable",
+      "sample_rate": "44100 Hz minimum",
+      "bit_depth": "16-bit minimum, 24-bit preferred",
+      "channels": "Mono preferred for SFX, stereo for ambient",
+      "file_size": "Under 5MB for individual effects",
+      "normalization": "Normalized but not over-compressed",
+      "peak_levels": "Below -6dB to prevent clipping",
+      "noise_floor": "Below -50dB"
+    },
+    
+    "content_requirements": {
+      "fade_requirements": {
+        "notification": "Quick fade-in (10-50ms), natural decay",
+        "transition": "Smooth fade-in and fade-out (100-500ms)",
+        "emotional_accent": "Gradual fade-in (500ms+), long fade-out (1s+)",
+        "text_reveal": "Quick fade-in (5-20ms), quick fade-out (50-200ms)",
+        "ambient": "Seamless loops, no audible breaks"
+      },
+      "frequency_content": {
+        "no_sub_bass": "Avoid content below 40Hz",
+        "controlled_low_end": "Minimal content 40-100Hz unless needed",
+        "clear_midrange": "Clean, purposeful midrange content",
+        "pleasant_highs": "Smooth high frequencies, no harshness"
+      },
+      "dynamic_characteristics": {
+        "consistent_levels": "Consistent perceived volume within category",
+        "appropriate_dynamics": "Natural dynamics appropriate to sound type",
+        "no_sudden_spikes": "No unexpected volume jumps",
+        "smooth_envelopes": "Natural attack and decay characteristics"
+      }
+    },
+    
+    "metadata_requirements": {
+      "descriptive_naming": "Clear, descriptive filenames",
+      "category_tagging": "Proper category and subcategory tags",
+      "emotional_tagging": "Appropriate emotional context tags",
+      "technical_specs": "Duration, tempo, key (if applicable)",
+      "usage_notes": "Recommended usage contexts",
+      "license_info": "Clear licensing and attribution information"
+    }
+  },
+  
+  "file_organization": {
+    "directory_structure": {
+      "base_path": "assets/sfx/",
+      "category_structure": {
+        "notification": "assets/sfx/notification/",
+        "transition": "assets/sfx/transition/",
+        "emotional_accent": "assets/sfx/emotional_accent/",
+        "text_reveal": "assets/sfx/text_reveal/",
+        "ambient": "assets/sfx/ambient/"
+      },
+      "subcategory_structure": {
+        "notification": ["gentle/", "urgent/", "subtle/"],
+        "transition": ["whoosh/", "page_turn/", "musical/"],
+        "emotional_accent": ["touching/", "hopeful/", "contemplative/"],
+        "text_reveal": ["typewriter/", "digital/", "organic/"],
+        "ambient": ["room_tone/", "nature_soft/", "warm_space/"]
+      }
+    },
+    
+    "naming_conventions": {
+      "format": "{category}_{subcategory}_{descriptive_name}_{duration}ms_{source}.{ext}",
+      "examples": [
+        "notification_gentle_soft_bell_800ms_generated.wav",
+        "transition_whoosh_air_flow_1200ms_recorded.wav",
+        "emotional_accent_touching_warm_heart_3000ms_synthesized.wav",
+        "text_reveal_digital_modern_pop_250ms_library.wav",
+        "ambient_room_tone_warm_space_60000ms_recorded.wav"
+      ],
+      "guidelines": [
+        "Use lowercase with underscores",
+        "Include duration in milliseconds",
+        "Note source (generated, recorded, library, etc.)",
+        "Keep descriptive names clear and searchable"
+      ]
+    },
+    
+    "metadata_files": {
+      "sfx_database": "sfx_metadata.json",
+      "category_readmes": "README.md in each category folder",
+      "usage_examples": "usage_examples.json",
+      "license_tracking": "licenses_and_attributions.json"
+    }
+  },
+  
+  "procedural_generation": {
+    "when_to_generate": {
+      "no_suitable_file": "When library lacks appropriate SFX",
+      "custom_requirements": "For specific duration or characteristics",
+      "rapid_prototyping": "During content development",
+      "fallback_option": "When preferred files unavailable"
+    },
+    
+    "generation_parameters": {
+      "notification_sounds": {
+        "base_frequencies": [800, 1000, 1200, 1500],
+        "waveforms": ["sine", "triangle", "soft_square"],
+        "envelope_shapes": ["quick_attack_gentle_decay", "bell_curve", "exponential_decay"],
+        "harmonic_content": ["fundamental_only", "simple_harmonics", "rich_but_controlled"]
+      },
+      "transition_sounds": {
+        "base_types": ["whoosh", "sweep", "fade"],
+        "frequency_sweeps": ["high_to_low", "low_to_high", "band_pass_sweep"],
+        "noise_types": ["white", "pink", "brown"],
+        "envelope_shapes": ["linear", "exponential", "s_curve"]
+      },
+      "emotional_accents": {
+        "chord_types": ["major_triad", "minor_triad", "sus2", "sus4"],
+        "voice_leading": ["smooth", "ascending", "descending"],
+        "timbres": ["soft_pad", "warm_strings", "gentle_piano"],
+        "envelope_shapes": ["slow_attack_long_decay", "breathing", "swelling"]
+      }
+    },
+    
+    "quality_control": {
+      "automatic_normalization": "Normalize to category standards",
+      "fade_application": "Apply appropriate fades automatically",
+      "frequency_filtering": "Apply category-specific EQ",
+      "duration_validation": "Ensure duration meets requirements"
+    }
+  },
+  
+  "testing_and_validation": {
+    "quality_testing": {
+      "technical_validation": "Check audio specs and quality",
+      "contextual_testing": "Test in actual content context",
+      "emotional_appropriateness": "Verify emotional impact",
+      "mix_compatibility": "Ensure good mixing with speech/music"
+    },
+    
+    "user_testing": {
+      "A_B_testing": "Test different SFX options",
+      "emotional_response": "Measure emotional impact",
+      "distraction_testing": "Ensure SFX don't distract from content",
+      "accessibility_testing": "Test with different hearing abilities"
+    },
+    
+    "iteration_process": {
+      "collect_feedback": "Gather usage feedback",
+      "analyze_effectiveness": "Measure SFX effectiveness",
+      "refine_library": "Improve based on learnings",
+      "update_guidelines": "Refine usage guidelines"
+    }
+  }
+}

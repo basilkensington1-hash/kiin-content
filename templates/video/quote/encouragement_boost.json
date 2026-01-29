@@ -1,0 +1,78 @@
+{
+  "template_name": "Encouragement Boost",
+  "category": "quote",
+  "duration": "8-12s",
+  "emotional_tone": "energy",
+  
+  "thumbnail_layout": {
+    "background": "energy_secondary",
+    "text_placement": "bold_encouraging",
+    "font": "display_bold",
+    "text_color": "energy_text",
+    "overlay_opacity": 0.85,
+    "visual_style": "uplifting_burst",
+    "badge": "BOOST"
+  },
+
+  "intro_animation": {
+    "style": "energetic_boost",
+    "duration": "1s",
+    "elements": [
+      "encouraging_text_burst",
+      "uplifting_energy_wave"
+    ],
+    "sound": "uplifting_boost_chime"
+  },
+
+  "text_placement": {
+    "encouragement": {
+      "position": "center",
+      "font": "display_bold",
+      "size": "extra_large",
+      "animation": "energetic_appear",
+      "timing": "0-8s"
+    },
+    "emoji_accent": {
+      "position": "corner_accent",
+      "font": "accent_bold",
+      "size": "large",
+      "animation": "playful_bounce",
+      "timing": "8-10s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#FFB347",
+    "secondary": "#FF7F50",
+    "accent": "#FFFF99",
+    "background": "encouraging_burst_gradient",
+    "text": "#CD5C5C"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Bold",
+    "body": "Source Sans Pro Bold",
+    "accent": "Inter Bold"
+  },
+
+  "transition_style": {
+    "type": "energetic_burst",
+    "duration": "0.5s",
+    "easing": "ease_out_back"
+  },
+
+  "outro_cta": {
+    "style": "energy_motivational",
+    "message": "You've got this! 💪",
+    "duration": "2s",
+    "background": "energy_background",
+    "action": "feel_the_boost"
+  },
+
+  "content_guidelines": {
+    "opening": "Quick reminder:",
+    "structure": "powerful_encouraging_statement -> energy_boost",
+    "tone": "upbeat, motivating, confident",
+    "length": "1 powerful, encouraging statement"
+  }
+}

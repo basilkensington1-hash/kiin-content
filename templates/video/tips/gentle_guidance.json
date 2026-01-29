@@ -1,0 +1,85 @@
+{
+  "template_name": "Gentle Guidance",
+  "category": "tips",
+  "duration": "25-40s",
+  "emotional_tone": "comfort",
+  
+  "thumbnail_layout": {
+    "background": "comfort_primary",
+    "text_placement": "soft_center",
+    "font": "display_medium",
+    "text_color": "comfort_text",
+    "overlay_opacity": 0.7,
+    "visual_style": "nurturing_hands",
+    "badge": "GENTLE REMINDER"
+  },
+
+  "intro_animation": {
+    "style": "soft_bloom",
+    "duration": "2.5s",
+    "elements": [
+      "gentle_text_bloom",
+      "warm_light_spread"
+    ],
+    "sound": "soft_nurturing_tone"
+  },
+
+  "text_placement": {
+    "context": {
+      "position": "upper_third",
+      "font": "body_regular",
+      "size": "small",
+      "animation": "gentle_fade_in",
+      "timing": "0-5s"
+    },
+    "main_guidance": {
+      "position": "center",
+      "font": "display_medium",
+      "size": "large",
+      "animation": "soft_appear",
+      "timing": "5-25s"
+    },
+    "encouragement": {
+      "position": "lower_third",
+      "font": "body_light",
+      "size": "small",
+      "animation": "warm_glow_in",
+      "timing": "25-35s"
+    }
+  },
+
+  "color_scheme": {
+    "primary": "#DEB887",
+    "secondary": "#D2B48C",
+    "accent": "#F5DEB3",
+    "background": "nurturing_soft_gradient",
+    "text": "#8B4513"
+  },
+
+  "font_pairings": {
+    "headline": "Poppins Medium",
+    "body": "Source Sans Pro Regular",
+    "accent": "Inter Light"
+  },
+
+  "transition_style": {
+    "type": "soft_dissolve",
+    "duration": "1.5s",
+    "easing": "ease_in_out"
+  },
+
+  "outro_cta": {
+    "style": "comfort_gentle",
+    "message": "Be kind to yourself 💛",
+    "duration": "4s",
+    "background": "comfort_background",
+    "action": "remember_this"
+  },
+
+  "content_guidelines": {
+    "opening": "A gentle reminder...",
+    "structure": "understanding_context -> gentle_suggestion -> loving_encouragement",
+    "tone": "nurturing, patient, understanding",
+    "length": "2-3 compassionate sentences"
+  }
+}
