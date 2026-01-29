@@ -353,7 +353,15 @@ def run_automation(job_id: str, automation: Automation, extra_args: List[str] = 
         running_jobs[job_id]['ended_at'] = datetime.now().isoformat()
         return
     
-    cmd = [sys.executable, str(script_path)]
+    # Use the venv python and set PYTHONPATH to include src
+    venv_python = PROJECT_ROOT / "dashboard" / "venv" / "bin" / "python"
+    if not venv_python.exists():
+        venv_python = sys.executable
+    
+    env = os.environ.copy()
+    env['PYTHONPATH'] = str(PROJECT_ROOT / "src") + ":" + env.get('PYTHONPATH', '')
+    
+    cmd = [str(venv_python), str(script_path)]
     if extra_args:
         cmd.extend(extra_args)
     
@@ -367,7 +375,8 @@ def run_automation(job_id: str, automation: Automation, extra_args: List[str] = 
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
-            bufsize=1
+            bufsize=1,
+            env=env
         )
         
         running_jobs[job_id]['pid'] = process.pid

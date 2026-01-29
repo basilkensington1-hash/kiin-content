@@ -17,6 +17,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional, Any
 
+# Add src directory to path for imports
+src_dir = Path(__file__).parent
+if str(src_dir) not in sys.path:
+    sys.path.insert(0, str(src_dir))
+
 import asyncio
 import edge_tts
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
@@ -24,16 +29,16 @@ import numpy as np
 
 # Import our enhanced modules
 try:
-    from .voice_manager import VoiceManager
-    from .music_mixer import MusicMixer
-    from .brand_utils import KiinBrand
-    from .effects import KiinEffectsLibrary
-except ImportError:
-    # Fallback for running as script
     from voice_manager import VoiceManager
     from music_mixer import MusicMixer
     from brand_utils import KiinBrand
     from effects import KiinEffectsLibrary
+except ImportError as e:
+    print(f"Warning: Could not import some modules: {e}")
+    VoiceManager = None
+    MusicMixer = None
+    KiinBrand = None
+    KiinEffectsLibrary = None
 
 
 class EnhancedValidationGenerator:
